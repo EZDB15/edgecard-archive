@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Nothing licensed or raw ever belongs here (SOP-4 ENG-6):
+# no Brisnet PP/chart files, no vendor figure dumps.
+*.DRF
+*.drf
+*.dat
+data/
+raw/

@@ -1,0 +1,54 @@
+name: timestamp
+
+# Proof-of-existence for the public record. On every push, OpenTimestamps
+# stamps the append-only ledger and each new card bundle, commits the .ots
+# proofs back, and (later) they upgrade to Bitcoin attestations. This is the
+# blockchain layer of the three-part timestamp (X hash pre-lock -> git commit
+# -> OpenTimestamps). The bot commit carries [skip-ots] so it never re-triggers.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: timestamp
+  cancel-in-progress: false
+
+jobs:
+  ots:
+    if: ${{ !contains(github.event.head_commit.message, '[skip-ots]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install OpenTimestamps client
+        run: pip install opentimestamps-client
+      - name: Stamp ledger + unstamped card bundles
+        run: |
+          set -u
+          # The ledger changes with every card -> always re-stamp it.
+          if [ -s ledger.jsonl ]; then
+            rm -f ledger.jsonl.ots
+            ots stamp ledger.jsonl || echo "ledger stamp failed (calendar down?) — non-fatal"
+          fi
+          # Stamp any card/meta json that has no proof yet (never re-stamp).
+          for f in cards/*/card.json cards/*/meta.json; do
+            [ -e "$f" ] || continue
+            [ -f "$f.ots" ] || ots stamp "$f" || echo "stamp $f failed — non-fatal"
+          done
+      - name: Commit proofs
+        run: |
+          git config user.name "edgecard-timestamps"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.ots'
+          if git diff --cached --quiet; then
+            echo "No new timestamp proofs."
+          else
+            git commit -m "OpenTimestamps proofs [skip-ots]"
+            git push
+          fi
