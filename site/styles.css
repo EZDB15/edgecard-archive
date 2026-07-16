@@ -10,22 +10,9 @@
   --display:"Abril",Georgia,"Times New Roman",serif;
   --serif:"Bask",Georgia,"Times New Roman",serif;
   --mono:"Cour",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{
-  --bg:#14120B; --surface:#1E1B12; --ink:#EFE7D4; --muted:#A0967E;
-  --line:#332F26; --rule:#4A4437; --accent:#F0585F; --loss:#F0585F; --win:#54BE78;
-  --flag:#F2B518; --flag-fill:#F2B518; --flag-wash:rgba(242,181,24,0.12);
-}}
-:root[data-theme="dark"]{
-  --bg:#14120B; --surface:#1E1B12; --ink:#EFE7D4; --muted:#A0967E;
-  --line:#332F26; --rule:#4A4437; --accent:#F0585F; --loss:#F0585F; --win:#54BE78;
-  --flag:#F2B518; --flag-fill:#F2B518; --flag-wash:rgba(242,181,24,0.12);
-}
-:root[data-theme="light"]{
-  --bg:#FCF9F0; --surface:#FFFDF6; --ink:#17130C; --muted:#6A6152;
-  --line:#E7E0CE; --rule:#CDC3AC; --accent:#C41320; --loss:#C41320; --win:#157A40;
-  --flag:#916A00; --flag-fill:#F2B518; --flag-wash:#FCEFC6;
-}
+/* Committed to the printed-broadsheet look: bright paper only, no dark theme. */
 
 *{box-sizing:border-box;}
 html{-webkit-text-size-adjust:100%;}
