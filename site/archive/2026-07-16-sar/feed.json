@@ -1,0 +1,106 @@
+{
+  "product": "Edge Card",
+  "track": "SAR",
+  "track_name": "Saratoga",
+  "date": "2026-07-16",
+  "model_version": "v0-heuristic-1.1+cfg.c8795908@code.02e4715c",
+  "generated_ts_utc": "2026-07-16T07:50:31+00:00",
+  "first_post_et": "1:10 PM ET",
+  "n_races": 9,
+  "n_flags": 3,
+  "n_passes": 6,
+  "url": "https://edgecardhq.com/archive/2026-07-16-sar/",
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "flags": [
+    {
+      "race": 2,
+      "program": "4",
+      "horse": "IRISH GOODBYE",
+      "model_win_pct": 28,
+      "fair_odds": "5/2",
+      "fair_odds_decimal": 3.62,
+      "play_at": "7/2",
+      "play_at_decimal": 4.52,
+      "edge_pts": 5.3,
+      "reason": "Ranks #1 in our power figure blend; model 28% vs 22% morning-line implied (+5.3 pts)",
+      "surface": "dirt",
+      "distance": "1 mile",
+      "race_type": "Md Sp Wt",
+      "exotics": {
+        "flag_win_pct": 28,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "4-2",
+          "prob_pct": 8.2,
+          "fair_payoff": 24.33
+        },
+        "key_over_top": {
+          "combo": "4 / 2,6,7",
+          "prob_pct": 17.3,
+          "fair_payoff": 11.59
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 6,
+      "program": "7",
+      "horse": "JADORLINIJA",
+      "model_win_pct": 15,
+      "fair_odds": "11/2",
+      "fair_odds_decimal": 6.72,
+      "play_at": "15/2",
+      "play_at_decimal": 8.4,
+      "edge_pts": 3.8,
+      "reason": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 15% vs 11% morning-line implied (+3.8 pts)",
+      "surface": "dirt",
+      "distance": "1 1/8 miles",
+      "race_type": "Md Sp Wt",
+      "exotics": {
+        "flag_win_pct": 15,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "7-4",
+          "prob_pct": 3.8,
+          "fair_payoff": 53.27
+        },
+        "key_over_top": {
+          "combo": "7 / 4,6,5",
+          "prob_pct": 8.6,
+          "fair_payoff": 23.24
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 7,
+      "program": "2",
+      "horse": "ENGLISH LAW",
+      "model_win_pct": 18,
+      "fair_odds": "9/2",
+      "fair_odds_decimal": 5.71,
+      "play_at": "6/1",
+      "play_at_decimal": 7.13,
+      "edge_pts": 5.1,
+      "reason": "Ranks #1 in our power figure blend; model 18% vs 12% morning-line implied (+5.1 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Clm 35000n2l",
+      "exotics": {
+        "flag_win_pct": 18,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "2-13",
+          "prob_pct": 3.3,
+          "fair_payoff": 60.32
+        },
+        "key_over_top": {
+          "combo": "2 / 13,7,6",
+          "prob_pct": 9.2,
+          "fair_payoff": 21.82
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    }
+  ]
+}
