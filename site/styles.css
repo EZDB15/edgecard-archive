@@ -233,6 +233,29 @@ td.num{text-align:right;}
   letter-spacing:0.06em;text-transform:uppercase;}
 .tile .v{font-family:var(--mono);font-weight:700;font-size:27px;font-variant-numeric:tabular-nums;}
 
+/* ---- proof surfaces: closing-line scoreboard + calibration + provenance ---- */
+table.clv{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:13px;min-width:520px;}
+table.clv th,table.clv td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap;}
+table.clv th{color:var(--muted);font-size:11px;letter-spacing:0.05em;text-transform:uppercase;border-bottom:2px solid var(--rule);}
+table.clv th.own{border-bottom:2px solid var(--flag);}
+table.clv td.own{color:var(--ink);font-weight:700;}
+.hold-yes{color:var(--win);font-weight:700;}
+.hold-no{color:var(--accent);font-weight:700;}
+.calib{border:1px solid var(--line);margin:14px 0;}
+.calib-row{display:flex;align-items:center;gap:12px;padding:7px 12px;border-bottom:1px solid var(--line);}
+.calib-row:last-child{border-bottom:0;}
+.calib-row.empty{opacity:0.45;}
+.calib-row .cl{font-family:var(--mono);font-size:12px;color:var(--muted);flex:none;width:64px;text-align:right;}
+.calib-row .cbar{flex:1 1 auto;min-width:80px;max-width:260px;}
+.calib-row .tk{display:block;height:7px;background:var(--flag-wash);margin:3px 0;}
+.calib-row .pred{display:block;height:7px;background:var(--muted);}
+.calib-row .obs{display:block;height:7px;background:var(--flag-fill);}
+.calib-row .cn{font-family:var(--mono);font-size:12px;color:var(--ink);flex:none;}
+.calib-key{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin:6px 0 0;}
+.calib-key .sw{display:inline-block;width:16px;height:7px;margin:0 5px 0 14px;vertical-align:middle;}
+.calib-key .sw.pred{background:var(--muted);} .calib-key .sw.obs{background:var(--flag-fill);}
+.passes .row code{font-family:var(--mono);font-size:12px;color:var(--muted);}
+
 /* ---- legal pages ---- */
 .legal h1{margin-bottom:0.1em;}
 .legal h2{font-size:18px;}
