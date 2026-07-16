@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAR · Thu Jul 16 — 9 races, 3 flags, 6 passes</title>
+<style>:root{
+  --bg:#FCF9F0; --surface:#FFFDF6; --ink:#17130C; --muted:#6A6152;
+  --line:#E7E0CE; --rule:#CDC3AC; --accent:#C41320; --win:#157A40; --loss:#C41320;
+  --flag:#916A00; --flag-fill:#F2B518; --flag-wash:#FCEFC6;
+  --display:"Abril",Georgia,"Times New Roman",serif;
+  --serif:"Bask",Georgia,"Times New Roman",serif;
+  --mono:"Cour",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+/* Committed to the printed-broadsheet look: bright paper only, no dark theme. */
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums;}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;}
+a:hover{border-bottom-color:currentColor;}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.inner{max-width:1180px;margin:0 auto;padding:0 28px;}
+
+/* ---- full-bleed newspaper nameplate ---- */
+.masthead{background:var(--surface);border-bottom:4px solid var(--accent);}
+.masthead .dateline{font-family:var(--mono);font-size:11px;letter-spacing:0.16em;
+  text-transform:uppercase;color:var(--muted);text-align:center;padding:9px 28px 8px;
+  border-bottom:1px solid var(--rule);}
+.nameplate{text-align:center;padding:18px 0 6px;}
+.nameplate .name{font-family:var(--display);font-size:clamp(38px,4vw+16px,70px);
+  line-height:0.98;letter-spacing:0.01em;color:var(--ink);}
+.nameplate .name a{color:var(--ink);border:0;}
+.nameplate .amber{width:118px;height:5px;background:var(--flag-fill);margin:10px auto 0;border-radius:1px;}
+.nameplate .tag{font-family:var(--mono);font-size:12px;letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--muted);margin-top:10px;}
+.mastnav{border-top:1px solid var(--rule);}
+.mastnav-in{display:flex;justify-content:center;gap:28px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:12.5px;letter-spacing:0.13em;text-transform:uppercase;padding:11px 28px;}
+.mastnav a{color:var(--muted);border:0;}
+.mastnav a.on{color:var(--ink);border-bottom:2px solid var(--accent);padding-bottom:2px;}
+
+/* ---- generic full-bleed section ---- */
+.section{padding:36px 0;border-bottom:1px solid var(--line);}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:12px;}
+h1,h2,h3{text-wrap:balance;}
+h1.thesis{font-family:var(--serif);font-weight:700;font-size:clamp(27px,1.4rem+2vw,40px);
+  line-height:1.12;margin:0 0 14px;}
+.lede{font-size:19px;color:var(--muted);margin:0 0 22px;max-width:44ch;}
+.lede b{color:var(--ink);font-weight:700;}
+h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;}
+.sec-head{border-bottom:2px solid var(--rule);padding-bottom:8px;margin-bottom:20px;
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;}
+.sec-head .k{font-family:var(--mono);font-size:12px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.sec-note{font-size:15.5px;color:var(--muted);max-width:66ch;}
+.section > .inner > p{max-width:66ch;margin:0 0 12px;}
+
+/* ---- responsive grids ---- */
+.grid-hero{display:grid;grid-template-columns:1.1fr 0.9fr;gap:44px;align-items:start;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start;}
+@media(max-width:820px){.grid-hero,.grid-2{grid-template-columns:1fr;gap:26px;}}
+
+/* ---- flag block: the atomic unit ---- */
+.flag{border:1px solid var(--rule);border-top:4px solid var(--flag-fill);
+  background:var(--surface);border-radius:0;padding:16px 18px 18px;margin:14px 0;}
+.flag .top{display:flex;justify-content:space-between;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:12px;letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:9px;margin-bottom:11px;}
+.chip-flag{background:var(--flag-fill);color:#17130C;font-family:var(--mono);font-weight:700;
+  letter-spacing:0.09em;padding:3px 10px;border-radius:2px;}
+.chip-sample{border:1px dashed var(--rule);color:var(--muted);font-family:var(--mono);
+  padding:2px 8px;border-radius:2px;}
+.flag .horse{font-family:var(--serif);font-weight:700;font-size:23px;margin:2px 0 13px;}
+.flag .horse .pgm{font-family:var(--mono);font-weight:700;font-size:16px;color:var(--flag);
+  border:1px solid var(--flag);border-radius:2px;padding:1px 8px;margin-right:10px;vertical-align:2px;}
+.triad{display:flex;gap:30px;margin:6px 0 14px;}
+.triad .k{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.triad .v{font-family:var(--mono);font-weight:700;font-size:25px;line-height:1.15;color:var(--ink);}
+.triad .v .sm{font-size:13px;font-weight:400;color:var(--muted);}
+.bar{margin:4px 0 2px;}
+.bar .track{position:relative;height:15px;background:var(--bg);border:1px solid var(--line);border-radius:2px;}
+.bar .span{position:absolute;top:0;bottom:0;background:var(--flag-fill);opacity:0.6;}
+.bar .tick{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink);}
+.bar .tick.board{background:var(--muted);}
+.bar .lbls{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10.5px;
+  letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);margin-top:6px;}
+.playat{font-family:var(--mono);font-weight:700;font-size:15px;color:var(--flag);
+  letter-spacing:0.02em;border-top:1px solid var(--line);padding-top:11px;margin-top:13px;}
+.flag .why{font-size:14px;color:var(--muted);margin:9px 0 0;}
+.prov{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:0.03em;
+  margin-top:9px;text-transform:uppercase;}
+
+/* ---- record: promises + ledger + stat band ---- */
+.promises{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px;}
+@media(max-width:820px){.promises{grid-template-columns:1fr;gap:6px;}}
+.promise{font-family:var(--mono);font-size:12.5px;color:var(--ink);
+  border-left:3px solid var(--flag-fill);padding:2px 0 2px 12px;}
+.ledwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.ledger{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:13px;min-width:640px;}
+.ledger th{font-size:11px;letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);
+  text-align:left;padding:7px 10px;border-bottom:2px solid var(--rule);white-space:nowrap;}
+.ledger th.own{border-bottom:2px solid var(--flag);}
+.ledger td{padding:11px 10px;border-bottom:1px solid var(--line);color:var(--line);}
+.book-open{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:12px;letter-spacing:0.03em;}
+.statband{border:1px solid var(--rule);background:var(--surface);padding:18px 20px;margin-top:22px;}
+.statband .cap{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.stats{display:flex;gap:40px;flex-wrap:wrap;margin:14px 0 8px;}
+.stat .v{font-family:var(--mono);font-weight:700;font-size:33px;line-height:1;color:var(--ink);
+  font-variant-numeric:tabular-nums;}
+.stat .v .u{font-size:16px;color:var(--muted);}
+.stat .v.win{color:var(--win);} .stat .v.loss{color:var(--loss);}
+.stat .l{font-family:var(--mono);font-size:11px;letter-spacing:0.07em;
+  text-transform:uppercase;color:var(--muted);margin-top:8px;}
+
+/* ---- triage header + passes list ---- */
+.triage{display:flex;border:1px solid var(--rule);margin:12px 0 16px;}
+.triage div{flex:1;padding:16px;text-align:center;}
+.triage .flags{border-right:1px solid var(--rule);background:var(--flag-wash);}
+.triage .n{font-family:var(--mono);font-weight:700;font-size:33px;line-height:1;}
+.triage .flags .n{color:var(--flag);}
+.triage .pass .n{color:var(--muted);}
+.triage .lab{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);margin-top:8px;}
+.passes{border:1px solid var(--line);}
+.passes .row{display:flex;gap:12px;font-family:var(--mono);font-size:13px;color:var(--muted);
+  padding:10px 14px;border-bottom:1px solid var(--line);}
+.passes .row:last-child{border-bottom:0;}
+.passes .row .r{color:var(--ink);min-width:34px;font-weight:700;}
+
+/* ---- runner field table (inside a flag) ---- */
+.scroll,.rtwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+table.rt{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:14px;min-width:420px;}
+table.rt th{font-size:11px;letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);
+  text-align:right;padding:7px 10px;border-bottom:2px solid var(--rule);white-space:nowrap;}
+table.rt th.l{text-align:left;}
+table.rt th.own{border-bottom:2px solid var(--flag);}
+table.rt td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;}
+table.rt td.l{text-align:left;font-family:var(--serif);font-size:15px;white-space:normal;}
+table.rt td.pgm{color:var(--muted);}
+table.rt td.model{color:var(--ink);font-weight:700;}
+table.rt td.dim{color:var(--muted);}
+table.rt tr.flagged{background:var(--flag-wash);}
+table.rt tr.flagged td.pgm{box-shadow:inset 3px 0 0 var(--accent);color:var(--flag);}
+.flagmark{color:var(--flag);font-size:11px;}
+details.field{margin-top:12px;}
+details.field > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.field[open] > summary{margin-bottom:8px;}
+
+/* ---- meta / methodology / notices ---- */
+.meta{font-family:var(--mono);color:var(--muted);font-size:12.5px;letter-spacing:0.02em;margin:2px 0;}
+.meta code{color:var(--flag);}
+blockquote.method{background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--flag-fill);margin:14px 0;padding:12px 16px;font-size:15.5px;color:var(--ink);}
+.notice{color:var(--muted);font-size:14px;margin:8px 0;max-width:66ch;}
+/* The daily write-up block (email + card). */
+.read{border-top:2px solid var(--rule);border-bottom:1px solid var(--line);padding:14px 0 8px;margin:18px 0;}
+.read h2{margin:0 0 8px;border:0;padding:0;}
+.read p{max-width:70ch;margin:0 0 12px;}
+h1{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.12;margin:0.1em 0 0.2em;}
+h2{font-family:var(--serif);font-weight:700;font-size:23px;margin:1.3em 0 0.4em;
+  border-bottom:1px solid var(--rule);padding-bottom:5px;}
+h3{font-family:var(--serif);font-weight:700;font-size:19px;margin:1.1em 0 0.3em;}
+table{border-collapse:collapse;}
+.section table.data,table.record{width:100%;border-collapse:collapse;font-family:var(--mono);
+  font-size:13px;min-width:460px;}
+table.record th,table.record td,.section table.data th,.section table.data td{
+  text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap;}
+table.record th,.section table.data th{color:var(--muted);font-size:11px;
+  letter-spacing:0.05em;text-transform:uppercase;border-bottom:2px solid var(--rule);}
+td.num{text-align:right;}
+.win{color:var(--win);} .loss{color:var(--loss);}
+.tiles{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0;}
+.tile{background:var(--surface);border:1px solid var(--rule);padding:12px 16px;flex:1 1 130px;}
+.tile .k{font-family:var(--mono);color:var(--muted);font-size:11px;
+  letter-spacing:0.06em;text-transform:uppercase;}
+.tile .v{font-family:var(--mono);font-weight:700;font-size:27px;font-variant-numeric:tabular-nums;}
+
+/* ---- legal pages ---- */
+.legal h1{margin-bottom:0.1em;}
+.legal h2{font-size:18px;}
+.legal p,.legal li{max-width:74ch;font-size:15px;}
+.legal ul{padding-left:20px;} .legal li{margin:4px 0;}
+
+/* ---- subscribe block (common.SUBSCRIBE_BLOCK) ---- */
+.subscribe{background:var(--surface);border:1px solid var(--rule);
+  border-left:4px solid var(--flag-fill);padding:16px 18px;margin:20px 0;}
+.subscribe .sub-h{font-family:var(--serif);font-weight:700;font-size:18px;margin-bottom:10px;}
+.subscribe .sub-row{display:flex;gap:8px;flex-wrap:wrap;max-width:440px;}
+.subscribe input[type=email]{flex:1 1 200px;background:var(--bg);color:var(--ink);
+  border:1px solid var(--rule);border-radius:2px;padding:11px 12px;font-family:var(--mono);font-size:14px;}
+.subscribe button{background:var(--ink);color:var(--bg);border:0;border-radius:2px;
+  padding:11px 18px;font-family:var(--serif);font-weight:700;font-size:15px;cursor:pointer;}
+.subscribe .sub-fine{font-family:var(--mono);color:var(--muted);font-size:11px;
+  letter-spacing:0.04em;text-transform:uppercase;margin-top:10px;}
+
+/* ---- footer ---- */
+footer.disc{background:var(--surface);border-top:4px solid var(--accent);
+  margin-top:40px;padding:22px 0 30px;color:var(--muted);}
+footer.disc .inner{padding-top:0;}
+footer.disc nav{font-family:var(--mono);font-size:11.5px;letter-spacing:0.07em;
+  text-transform:uppercase;display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px;}
+footer.disc nav a{color:var(--muted);border:0;}
+footer.disc nav a:hover{color:var(--ink);}
+footer.disc p{font-family:var(--mono);font-size:11px;line-height:1.7;color:var(--muted);
+  max-width:96ch;margin:6px 0;}
+
+/* ---- age gate ---- */
+.agegate{position:fixed;inset:0;z-index:999;background:rgba(20,18,11,0.55);
+  display:flex;align-items:center;justify-content:center;padding:20px;
+  -webkit-backdrop-filter:none;}
+.agegate[hidden]{display:none;}
+.agegate-box{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--accent);
+  max-width:420px;padding:24px;text-align:center;}
+.agegate-box strong{font-family:var(--display);font-size:26px;letter-spacing:0.01em;}
+.agegate-box p{font-size:14.5px;color:var(--ink);}
+.agegate-actions{display:flex;gap:12px;justify-content:center;align-items:center;
+  margin:16px 0 8px;flex-wrap:wrap;}
+.agegate-actions button{background:var(--ink);color:var(--bg);border:0;border-radius:2px;
+  padding:11px 18px;font-family:var(--serif);font-weight:700;font-size:15px;cursor:pointer;}
+.agegate-actions .leave{color:var(--muted);}
+.agegate-fine{font-family:var(--mono);color:var(--muted);font-size:11px;
+  letter-spacing:0.03em;text-transform:uppercase;margin:10px 0 0;}
+
+/* ---- email-only narrow wrapper (self-contained card + email inherit tokens) ---- */
+.wrap{max-width:640px;margin:0 auto;padding:16px 18px 48px;}
+header.site{border-bottom:1px solid var(--rule);margin-bottom:16px;}
+header.site nav a{font-family:var(--mono);font-size:12px;letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--muted);margin-right:14px;}
+.pick{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--flag-fill);
+  padding:11px 14px;margin:10px 0;}
+.pick .hd{font-family:var(--serif);font-weight:700;font-size:16px;}
+.pick .play{font-family:var(--mono);color:var(--flag);font-weight:700;}
+.tag{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;
+  letter-spacing:0.06em;padding:2px 8px;border-radius:2px;vertical-align:middle;}
+.tag.bet{background:var(--flag-fill);color:#17130C;}
+.tag.pass{background:transparent;color:var(--muted);border:1px solid var(--rule);}
+.race{margin:14px 0;}
+.race .rl{font-family:var(--mono);color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:0.05em;}
+.pace{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin:4px 0 8px;text-transform:uppercase;letter-spacing:0.04em;}
+tr.flagged td{background:var(--flag-wash);}
+
+@media(max-width:520px){.inner{padding:0 18px;}.triad{gap:20px;}.stats{gap:22px;}}
+</style></head><body><div class='wrap'>
+<h1>EDGE CARD — SAR, Thu Jul 16, 2026</h1>
+<p class="meta">Card hashed and public at 10:12 AM ET: <a href="https://edgecardhq.com/archive/2026-07-16-sar/">card</a> · <a href="https://x.com/edgecardHQ">X post</a> · SHA-256 <code>970405a28133…</code></p>
+<p class="notice">Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.</p>
+<div class="read"><h2>Today's read</h2>
+<p>Opening card of the Saratoga meet for us, and the model came back selective: three flags across nine races, six passes. That&#x27;s the shape you&#x27;ll see most days — we only put a number down when it&#x27;s far enough off the board to matter.</p>
+<p>The cleanest one is Race 2, Irish Goodbye. It&#x27;s a maiden sprint on the dirt, an even-pace setup, and our number makes the horse 28% where the morning line implies 22%. Fair is 5/2; we won&#x27;t take less than 7/2. The other two are pace plays. Race 6 has three speed types likely to press each other, so we flagged Jadorlinija — a closer that profiles to inherit the mess, a longer shot at 6/1, take 15/2 or better. Race 7 is the extreme version: five early types on the turf, a front end that could fold, and English Law tops our number at 18% against a 12% morning line. Play it at 6/1 or up; shorter than that and the setup isn&#x27;t worth it.</p>
+<p>It&#x27;s a clear morning at the Spa — 60 and calm, a bit of smoke haze, and dry, so no off-track worry. Two of our three flags live or die on the pace: whether those contested front ends actually collapse. If they don&#x27;t, we&#x27;re wrong, and it&#x27;ll be in the record either way.</p>
+<p>We passed the other six on purpose. Races 4 and 9 are wide, evenly-matched turf fields where the model can&#x27;t separate anyone worth a bet; Race 5 is a sixteen-horse maiden of mostly first-timers, which is guesswork dressed up as a race. No bet is a position. First card of the meet, empty archive, every call timestamped before post — we&#x27;ll see how it runs.</p>
+</div>
+<h2>Yesterday in one line</h2>
+<p class="notice">First published card of the meet — the record starts today. Every card is hashed before post and archived, wins and losses alike: https://github.com/EZDB15/edgecard-archive</p>
+<h2>SAR · first post 1:10 PM ET</h2>
+<div class="race">
+<h3>R1 · JKsrMmNnv75k · turf, 19.0f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops FAMOUS FIGURE at 26%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R2 · Md Sp Wt · dirt, 8.0f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag bet">BET</span> Even pace</div>
+<div>Flag: <strong>IRISH GOODBYE</strong> — p 28% · fair odds 5/2 · ML 5/2</div>
+<div class="play">Play at 7/2 or better. Below that, no bet.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 28% vs 22% morning-line implied (+5.3 pts).</div>
+</div>
+<div class="race">
+<h3>R3 · OClm 16000 · dirt, 7.0f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops TIZMARKUS at 23%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R4 · Md 100000 · turf, 8.0f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops STREAM IT at 14%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R5 · Md Sp Wt · turf, 5.5f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops ALL STAR LEIGH at 12%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R6 · Md Sp Wt · dirt, 9.0f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag bet">BET</span> Contested pace likely (3 early-speed types)</div>
+<div>Flag: <strong>JADORLINIJA</strong> — p 15% · fair odds 11/2 · ML 6/1</div>
+<div class="play">Play at 15/2 or better. Below that, no bet.</div>
+<div>WHY: Ranks #2 in our power figure blend; closer in a contested-pace setup; model 15% vs 11% morning-line implied (+3.8 pts).</div>
+</div>
+<div class="race">
+<h3>R7 · Clm 35000n2l · turf, 8.5f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag bet">BET</span> Contested pace likely (5 early-speed types)</div>
+<div>Flag: <strong>ENGLISH LAW</strong> — p 18% · fair odds 9/2 · ML 7/2</div>
+<div class="play">Play at 6/1 or better. Below that, no bet.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 18% vs 12% morning-line implied (+5.1 pts).</div>
+</div>
+<div class="race">
+<h3>R8 · OClm 75000 · dirt, 8.0f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops PALACIOS at 21%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R9 · Md 50000 · turf, 8.5f</h3><div class="rl">takeout: win 16% / exacta 18.5%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops ROASTED REDS at 13%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<p class="meta">Today's numbers are <code>v0-heuristic-1.1+cfg.c8795908@code.02e4715c</code> — <a href="https://edgecardhq.com/methodology">methodology</a>. Full archive, every card, losses included: <a href="https://github.com/EZDB15/edgecard-archive">archive</a>.</p>
+<footer class="disc"><p>Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.</p><p>Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.</p>
+<p><a href="https://buttondown.com/della_bitta/unsubscribe">Unsubscribe</a></p></footer>
+</div></body></html>

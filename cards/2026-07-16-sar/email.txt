@@ -1,0 +1,68 @@
+SUBJECT: SAR · Thu Jul 16 — 9 races, 3 flags, 6 passes
+
+EDGE CARD — SAR, Thu Jul 16, 2026
+Card hashed and public at 10:12 AM ET: https://edgecardhq.com/archive/2026-07-16-sar/ · https://x.com/edgecardHQ
+Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
+
+TODAY'S READ
+Opening card of the Saratoga meet for us, and the model came back selective: three flags across nine races, six passes. That's the shape you'll see most days — we only put a number down when it's far enough off the board to matter.
+
+The cleanest one is Race 2, Irish Goodbye. It's a maiden sprint on the dirt, an even-pace setup, and our number makes the horse 28% where the morning line implies 22%. Fair is 5/2; we won't take less than 7/2. The other two are pace plays. Race 6 has three speed types likely to press each other, so we flagged Jadorlinija — a closer that profiles to inherit the mess, a longer shot at 6/1, take 15/2 or better. Race 7 is the extreme version: five early types on the turf, a front end that could fold, and English Law tops our number at 18% against a 12% morning line. Play it at 6/1 or up; shorter than that and the setup isn't worth it.
+
+It's a clear morning at the Spa — 60 and calm, a bit of smoke haze, and dry, so no off-track worry. Two of our three flags live or die on the pace: whether those contested front ends actually collapse. If they don't, we're wrong, and it'll be in the record either way.
+
+We passed the other six on purpose. Races 4 and 9 are wide, evenly-matched turf fields where the model can't separate anyone worth a bet; Race 5 is a sixteen-horse maiden of mostly first-timers, which is guesswork dressed up as a race. No bet is a position. First card of the meet, empty archive, every call timestamped before post — we'll see how it runs.
+
+YESTERDAY IN ONE LINE
+First published card of the meet — the record starts today. Every card is hashed before post and archived, wins and losses alike: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · JKsrMmNnv75k · turf, 19.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops FAMOUS FIGURE at 26%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: IRISH GOODBYE — p 28% · fair odds 5/2 · ML 5/2
+  Play at 7/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 28% vs 22% morning-line implied (+5.3 pts).
+
+R3 · OClm 16000 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops TIZMARKUS at 23%; the morning line already prices the race. Pass is a position.
+
+R4 · Md 100000 · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops STREAM IT at 14%; the morning line already prices the race. Pass is a position.
+
+R5 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ALL STAR LEIGH at 12%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: JADORLINIJA — p 15% · fair odds 11/2 · ML 6/1
+  Play at 15/2 or better. Below that, no bet.
+  WHY: Ranks #2 in our power figure blend; closer in a contested-pace setup; model 15% vs 11% morning-line implied (+3.8 pts).
+
+R7 · Clm 35000n2l · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: ENGLISH LAW — p 18% · fair odds 9/2 · ML 7/2
+  Play at 6/1 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 18% vs 12% morning-line implied (+5.1 pts).
+
+R8 · OClm 75000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops PALACIOS at 21%; the morning line already prices the race. Pass is a position.
+
+R9 · Md 50000 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ROASTED REDS at 13%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.1+cfg.c8795908@code.02e4715c — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

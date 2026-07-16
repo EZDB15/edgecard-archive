@@ -159,6 +159,10 @@ details.field[open] > summary{margin-bottom:8px;}
 blockquote.method{background:var(--surface);border:1px solid var(--line);
   border-left:3px solid var(--flag-fill);margin:14px 0;padding:12px 16px;font-size:15.5px;color:var(--ink);}
 .notice{color:var(--muted);font-size:14px;margin:8px 0;max-width:66ch;}
+/* The daily write-up block (email + card). */
+.read{border-top:2px solid var(--rule);border-bottom:1px solid var(--line);padding:14px 0 8px;margin:18px 0;}
+.read h2{margin:0 0 8px;border:0;padding:0;}
+.read p{max-width:70ch;margin:0 0 12px;}
 h1{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.12;margin:0.1em 0 0.2em;}
 h2{font-family:var(--serif);font-weight:700;font-size:23px;margin:1.3em 0 0.4em;
   border-bottom:1px solid var(--rule);padding-bottom:5px;}
