@@ -1,0 +1,74 @@
+SUBJECT: SAR · Fri Jul 17 — 10 races, 4 flags, 6 passes
+
+EDGE CARD — SAR, Fri Jul 17, 2026
+Card hashed and public at 10:12 AM ET: https://edgecardhq.com/archive/2026-07-17-sar/ · https://x.com/edgecardHQ
+Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
+
+TODAY'S READ
+Saratoga hands us a turf day — all four flags come on the grass. The one the model likes best is Race 8, Ice Chocolat, a route on the turf we make a 19% shot where the board has it nearer 10. Fair is 4/1; only a bet if you can still get 9/2 or better.
+
+Race 5 is close behind. Boston's Phinest, a 5 1/2-furlong turf sprint, reads 16% against a market that's shrugged it off — the widest gap on the card, but it's a longshot, so 6/1 or leave it. Beijing takes the Race 1 turf sprint and Deep Satin the Race 9 mile; Deep Satin is the price play at 15/2, a horse the model sees a few points higher than the crowd.
+
+Six passes across ten. Most of the card our number and the board's sat close enough that there was nothing to bet, so we didn't — and everything we did flag came on the turf.
+
+Every call is timestamped before post and goes in the public book, win or lose. Prices move; take one only if you can still get the number.
+
+YESTERDAY IN ONE LINE
+1-2 · flat-$2 +0.30 · drift +6.4% · meet to date 1-2 · flat-$2 +0.30 · drift +6.4% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: BEIJING — p 22% · fair odds 7/2 · ML 4/1
+  Play at 4/1 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 21% vs 16% morning-line implied (+5.9 pts).
+
+R2 · Md 100000 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops DISCOTHEQUE at 22%; the morning line already prices the race. Pass is a position.
+
+R3 · Clm 62500 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops TWENTY FOUR MAMBA at 18%; the morning line already prices the race. Pass is a position.
+
+R4 · Md Sp Wt · dirt, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops R KAN'T MISS at 20%; the morning line already prices the race. Pass is a position.
+
+R5 · OClm 45000n2x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: BOSTON'S PHINEST — p 16% · fair odds 5/1 · ML 5/1
+  Play at 6/1 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 16% vs 7% morning-line implied (+8.9 pts).
+
+R6 · OClm 80000n2x · turf, 11.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GEORGIA MAGIC at 10%; the morning line already prices the race. Pass is a position.
+
+R7 · Clm 20000n2l · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops MIRAGE at 25%; the morning line already prices the race. Pass is a position.
+
+R8 · Clm 40000 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: ICE CHOCOLAT — p 19% · fair odds 4/1 · ML 7/2
+  Play at 9/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 19% vs 10% morning-line implied (+9.2 pts).
+
+R9 · DeLaRoseL150k · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: DEEP SATIN — p 13% · fair odds 13/2 · ML 5/1
+  Play at 15/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 13% vs 8% morning-line implied (+5.3 pts).
+
+R10 · Clm 20000n2l · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops DONNA ROMANO at 21%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.2+cfg.b00cb21f@code.958a2d2e — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

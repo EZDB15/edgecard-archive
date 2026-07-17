@@ -1,0 +1,136 @@
+{
+  "product": "Edge Card",
+  "track": "SAR",
+  "track_name": "Saratoga",
+  "date": "2026-07-17",
+  "model_version": "v0-heuristic-1.2+cfg.b00cb21f@code.958a2d2e",
+  "generated_ts_utc": "2026-07-17T16:31:20+00:00",
+  "first_post_et": "1:10 PM ET",
+  "n_races": 10,
+  "n_flags": 4,
+  "n_passes": 6,
+  "url": "https://edgecardhq.com/archive/2026-07-17-sar/",
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "flags": [
+    {
+      "race": 1,
+      "program": "3",
+      "horse": "BEIJING",
+      "model_win_pct": 22,
+      "fair_odds": "7/2",
+      "fair_odds_decimal": 4.65,
+      "play_at": "4/1",
+      "play_at_decimal": 5.12,
+      "edge_pts": 5.9,
+      "reason": "Ranks #1 in our power figure blend; model 21% vs 16% morning-line implied (+5.9 pts)",
+      "surface": "turf",
+      "distance": "5 1/2 furlongs",
+      "race_type": "Md Sp Wt",
+      "exotics": {
+        "flag_win_pct": 22,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "3-2",
+          "prob_pct": 7.4,
+          "fair_payoff": 27.11
+        },
+        "key_over_top": {
+          "combo": "3 / 2,6,5",
+          "prob_pct": 16.1,
+          "fair_payoff": 12.41
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 5,
+      "program": "1",
+      "horse": "BOSTON'S PHINEST",
+      "model_win_pct": 16,
+      "fair_odds": "5/1",
+      "fair_odds_decimal": 6.2,
+      "play_at": "6/1",
+      "play_at_decimal": 6.82,
+      "edge_pts": 8.9,
+      "reason": "Ranks #1 in our power figure blend; model 16% vs 7% morning-line implied (+8.9 pts)",
+      "surface": "turf",
+      "distance": "5 1/2 furlongs",
+      "race_type": "OClm 45000n2x",
+      "exotics": {
+        "flag_win_pct": 16,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "1-9",
+          "prob_pct": 2.6,
+          "fair_payoff": 76.07
+        },
+        "key_over_top": {
+          "combo": "1 / 9,10,5",
+          "prob_pct": 6.5,
+          "fair_payoff": 30.6
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 8,
+      "program": "2",
+      "horse": "ICE CHOCOLAT",
+      "model_win_pct": 19,
+      "fair_odds": "4/1",
+      "fair_odds_decimal": 5.23,
+      "play_at": "9/2",
+      "play_at_decimal": 5.75,
+      "edge_pts": 9.2,
+      "reason": "Ranks #1 in our power figure blend; model 19% vs 10% morning-line implied (+9.2 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Clm 40000",
+      "exotics": {
+        "flag_win_pct": 19,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "2-4",
+          "prob_pct": 3.0,
+          "fair_payoff": 66.1
+        },
+        "key_over_top": {
+          "combo": "2 / 4,10,12",
+          "prob_pct": 8.4,
+          "fair_payoff": 23.81
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 9,
+      "program": "9",
+      "horse": "DEEP SATIN",
+      "model_win_pct": 13,
+      "fair_odds": "13/2",
+      "fair_odds_decimal": 7.51,
+      "play_at": "15/2",
+      "play_at_decimal": 8.27,
+      "edge_pts": 5.3,
+      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 13% vs 8% morning-line implied (+5.3 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "DeLaRoseL150k",
+      "exotics": {
+        "flag_win_pct": 13,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "9-4",
+          "prob_pct": 2.3,
+          "fair_payoff": 88.8
+        },
+        "key_over_top": {
+          "combo": "9 / 4,7,3",
+          "prob_pct": 5.6,
+          "fair_payoff": 35.51
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    }
+  ]
+}

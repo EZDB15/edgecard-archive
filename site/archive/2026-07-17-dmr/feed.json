@@ -1,0 +1,136 @@
+{
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-07-17",
+  "model_version": "v0-heuristic-1.2+cfg.b00cb21f@code.958a2d2e",
+  "generated_ts_utc": "2026-07-17T16:31:30+00:00",
+  "first_post_et": "2:00 PM PT",
+  "n_races": 10,
+  "n_flags": 4,
+  "n_passes": 6,
+  "url": "https://edgecardhq.com/archive/2026-07-17-dmr/",
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "flags": [
+    {
+      "race": 2,
+      "program": "3",
+      "horse": "VICTORIOUS DREAM",
+      "model_win_pct": 24,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 4.17,
+      "play_at": "7/2",
+      "play_at_decimal": 4.59,
+      "edge_pts": 12.4,
+      "reason": "Ranks #1 in our power figure blend; model 24% vs 12% morning-line implied (+12.4 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "OClm 80000n1x",
+      "exotics": {
+        "flag_win_pct": 24,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "3-2",
+          "prob_pct": 8.3,
+          "fair_payoff": 24.16
+        },
+        "key_over_top": {
+          "combo": "3 / 2,4,1",
+          "prob_pct": 17.3,
+          "fair_payoff": 11.54
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 3,
+      "program": "1",
+      "horse": "CHARLIE'S CLOCK",
+      "model_win_pct": 32,
+      "fair_odds": "2/1",
+      "fair_odds_decimal": 3.08,
+      "play_at": "5/2",
+      "play_at_decimal": 3.39,
+      "edge_pts": 5.5,
+      "reason": "Ranks #1 in our power figure blend; model 32% vs 27% morning-line implied (+5.5 pts)",
+      "surface": "dirt",
+      "distance": "5 1/2 furlongs",
+      "race_type": "Moc 150000",
+      "exotics": {
+        "flag_win_pct": 32,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "1-6",
+          "prob_pct": 9.6,
+          "fair_payoff": 20.73
+        },
+        "key_over_top": {
+          "combo": "1 / 6,4,3",
+          "prob_pct": 23.9,
+          "fair_payoff": 8.36
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 4,
+      "program": "1",
+      "horse": "CODE DUELLO",
+      "model_win_pct": 24,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 4.17,
+      "play_at": "7/2",
+      "play_at_decimal": 4.58,
+      "edge_pts": 6.1,
+      "reason": "Ranks #1 in our power figure blend; model 24% vs 18% morning-line implied (+6.1 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "Clm 40000",
+      "exotics": {
+        "flag_win_pct": 24,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "1-4",
+          "prob_pct": 4.4,
+          "fair_payoff": 45.49
+        },
+        "key_over_top": {
+          "combo": "1 / 4,8,5",
+          "prob_pct": 12.4,
+          "fair_payoff": 16.17
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 8,
+      "program": "2",
+      "horse": "SECURED FREEDOM",
+      "model_win_pct": 11,
+      "fair_odds": "8/1",
+      "fair_odds_decimal": 8.77,
+      "play_at": "9/1",
+      "play_at_decimal": 9.65,
+      "edge_pts": 5.4,
+      "reason": "Ranks #1 in our power figure blend; model 11% vs 6% morning-line implied (+5.4 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "OceansidHL150k",
+      "exotics": {
+        "flag_win_pct": 11,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "2-6",
+          "prob_pct": 1.8,
+          "fair_payoff": 108.55
+        },
+        "key_over_top": {
+          "combo": "2 / 6,12,5",
+          "prob_pct": 5.0,
+          "fair_payoff": 40.01
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    }
+  ]
+}

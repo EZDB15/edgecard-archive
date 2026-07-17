@@ -1,0 +1,74 @@
+SUBJECT: DMR · Fri Jul 17 — 10 races, 4 flags, 6 passes
+
+EDGE CARD — DMR, Fri Jul 17, 2026
+Card hashed and public at 10:12 AM ET: https://edgecardhq.com/archive/2026-07-17-dmr/ · https://x.com/edgecardHQ
+Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
+
+TODAY'S READ
+Del Mar opens, and the card the model likes best is the Race 2 turf route. It makes Victorious Dream a 24% shot where the morning line has him nearer 12 — the widest gap anywhere on the card, and he tops our power-rating blend, so it isn't the morning line doing the talking. Fair is 3/1; only a bet if the board still holds 7/2 or better when the gate opens.
+
+The other three are quieter. Charlie's Clock in Race 3 is the most likely winner we flag, at 32% in a dirt sprint, but the board already respects him, so the room is thin — 5/2 or better or leave it. Code Duello takes the Race 4 turf sprint and Secured Freedom the Race 8 mile; Secured Freedom is the price play at 9/1, a longshot the model reads a few points higher than the crowd does.
+
+Six races we're passing. That's the norm, not a light day — the model only speaks up when its number is far enough off the board to matter, and today it flagged four and stayed quiet on the rest.
+
+First card of the Del Mar run. Every call is timestamped before post and going into the public book, win or lose. Prices move; only take one if you can still get the number.
+
+YESTERDAY IN ONE LINE
+1-2 · flat-$2 +0.30 · drift +6.4% · meet to date 1-2 · flat-$2 +0.30 · drift +6.4% → full results: https://github.com/EZDB15/edgecard-archive
+
+— DMR · first post 2:00 PM PT —
+
+R1 · Clm 16000 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops HARD TO FIGURE at 24%; the morning line already prices the race. Pass is a position.
+
+R2 · OClm 80000n1x · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  BET
+  Flag: VICTORIOUS DREAM — p 24% · fair odds 3/1 · ML 6/1
+  Play at 7/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 24% vs 12% morning-line implied (+12.4 pts).
+
+R3 · Moc 150000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  BET
+  Flag: CHARLIE'S CLOCK — p 32% · fair odds 2/1 · ML 2/1
+  Play at 5/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 32% vs 27% morning-line implied (+5.5 pts).
+
+R4 · Clm 40000 · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  BET
+  Flag: CODE DUELLO — p 24% · fair odds 3/1 · ML 7/2
+  Play at 7/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 24% vs 18% morning-line implied (+6.1 pts).
+
+R5 · Md Sp Wt · dirt, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops LOOKS LIKE N ANGEL at 18%; the morning line already prices the race. Pass is a position.
+
+R6 · OClm 100000n2x · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops FIRST PEACE at 19%; the morning line already prices the race. Pass is a position.
+
+R7 · Clm 25000n2l · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops REDIAL at 15%; the morning line already prices the race. Pass is a position.
+
+R8 · OceansidHL150k · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  BET
+  Flag: SECURED FREEDOM — p 11% · fair odds 8/1 · ML 12/1
+  Play at 9/1 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 11% vs 6% morning-line implied (+5.4 pts).
+
+R9 · OClm 20000n1x · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops FRANK BULLITT at 17%; the morning line already prices the race. Pass is a position.
+
+R10 · Md Sp Wt · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ULYSSES ROSE at 22%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.2+cfg.b00cb21f@code.958a2d2e — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
