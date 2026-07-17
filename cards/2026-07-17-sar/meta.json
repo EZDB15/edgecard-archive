@@ -12,5 +12,13 @@
   "subscribe_url": "https://buttondown.com/della_bitta",
   "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
   "x_handle": "@edgecardHQ",
-  "subject": "SAR · Fri Jul 17 — 10 races, 4 flags, 6 passes"
+  "subject": "SAR · Fri Jul 17 — 10 races, 4 flags, 6 passes",
+  "weather": {
+    "short": "Sunny",
+    "temp": 84,
+    "temp_unit": "F",
+    "wind": "6 mph",
+    "precip_pct": 1,
+    "wet": false
+  }
 }
