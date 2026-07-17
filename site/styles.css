@@ -256,6 +256,13 @@ table.clv td.own{color:var(--ink);font-weight:700;}
 .calib-key .sw.pred{background:var(--muted);} .calib-key .sw.obs{background:var(--flag-fill);}
 .passes .row code{font-family:var(--mono);font-size:12px;color:var(--muted);}
 
+/* ---- track tabs (Today: flip between the day's meets) ---- */
+.tracktabs{display:flex;gap:0;flex-wrap:wrap;border-bottom:2px solid var(--rule);margin:0 0 20px;}
+.tracktabs .tt{font-family:var(--mono);font-size:13px;letter-spacing:0.07em;text-transform:uppercase;
+  padding:9px 18px 8px;color:var(--muted);border:0;border-bottom:3px solid transparent;margin-bottom:-2px;}
+.tracktabs a.tt:hover{color:var(--ink);}
+.tracktabs .tt.on{color:var(--ink);font-weight:700;border-bottom-color:var(--flag);}
+
 /* ---- legal pages ---- */
 .legal h1{margin-bottom:0.1em;}
 .legal h2{font-size:18px;}
