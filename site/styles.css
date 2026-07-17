@@ -203,6 +203,15 @@ details.field{margin-top:12px;}
 details.field > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
   text-transform:uppercase;color:var(--muted);cursor:pointer;}
 details.field[open] > summary{margin-bottom:8px;}
+/* ---- the model's read (deep per-pick explanation) ---- */
+details.deep{margin:6px 0 2px;border-top:1px solid var(--line);padding-top:10px;}
+details.deep > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--flag);font-weight:700;cursor:pointer;}
+details.deep[open] > summary{margin-bottom:10px;}
+details.deep p{font-size:14px;color:var(--ink);max-width:64ch;margin:0 0 9px;line-height:1.55;}
+details.deep p b{font-family:var(--serif);}
+details.deep .deep-caveat{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);
+  padding-top:8px;margin-top:2px;}
 
 /* ---- meta / methodology / notices ---- */
 .meta{font-family:var(--mono);color:var(--muted);font-size:12.5px;letter-spacing:0.02em;margin:2px 0;}
