@@ -1,0 +1,30 @@
+{
+  "sha256": "452a707b645298a88c84fc1af7a9c045671ab827537c7c73a21f17abf6e99ef7",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 75,
+    "temp_unit": "F",
+    "wind": "5 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": {
+    "3": "A longer-priced flag to open the Del Mar card. We give Zip Me Up about a 19% chance in the five-furlong turf dash \u2014 not the likeliest winner we'll name today, but the board has him out past where our number sits, and that gap is where a payout actually lives. He's our top figure in a full sprint, four of them gunning early.\n\nFair is 9/2; the price to demand is 5/1 or better, and we'd skip it underneath. In a five-eighths turf blast the trip matters as much as the figure \u2014 one bad step from the gate and the race is gone \u2014 so this is a swing, not a stand. One unit at the number, no regret if the speed sorts out against him.",
+    "6": "The shape here is what stands out. It's a maiden dirt sprint, and nobody in it has shown reliable early speed \u2014 no confirmed front-runner in the field. In a five-furlong dash that's a real edge for a horse who can break and go, because whoever grabs the lead in a race with no natural speed often gets to set it cheaply. Net Par is our top figure at 28%, and this is the kind of setup that rewards the best of a soft-pace group.\n\nFair 5/2, take 3/1 or better. Maidens are maidens \u2014 a first-time starter can wake up and green trips happen, and there's no long form to lean on. But the pace picture is doing our pick a favor, and at a fair price that's worth the play.",
+    "7": "A route on the Del Mar turf, and the pace reads clean. Only one horse in here really wants the front, so we're not expecting a duel \u2014 which usually means the race gets run on the leader's terms instead of blowing apart early. Centrodelantero is our top figure at 22%, a step clear of what the board is offering.\n\nFair is 7/2, play 4/1 or better. A mile-and-a-sixteenth on grass off a light profile means class and finish decide it, not raw speed, and that's the part our figures like. Moderate edge, honest price \u2014 a straightforward unit if the number's there.",
+    "11": "We close Del Mar on our second-biggest overlay of the day. Koekkoek is a maiden going a flat mile on the turf, and we make him a 27% chance where the board has him more than 3/1 longer than that \u2014 nearly eleven points of edge, behind only our Saratoga route flag. Top figure, even pace, a trip that lets a genuine horse settle and finish.\n\nFair 5/2, and take 3/1 or better. The honest caveat: it's a maiden route, so the form is thin and one bad beginning can end it before the stretch. But an eleven-point gap gives you room to be a little wrong and still come out ahead. A unit at the price, and let the closing number be the closing number."
+  },
+  "publish_time_et": "1:10 PM ET",
+  "scratches_as_of_et": "1:10 PM ET",
+  "first_post_et": "2:00 PM PT",
+  "site_card_url": "https://edgecardhq.com/archive/2026-07-18-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Sat Jul 18 \u2014 11 races, 4 flags, 7 passes"
+}
