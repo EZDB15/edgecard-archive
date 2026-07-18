@@ -1,0 +1,80 @@
+SUBJECT: SAR · Sat Jul 18 — 12 races, 4 flags, 8 passes
+
+EDGE CARD — SAR, Sat Jul 18, 2026
+Card hashed and public at 1:03 PM ET: https://edgecardhq.com/archive/2026-07-18-sar/ · https://x.com/edgecardHQ
+Scratches as of 1:03 PM ET. Late scratches void at scoring; the card is never edited.
+
+TODAY'S READ
+Today is the first card scored on our updated model. Last week's numbers taught us something: on horses with a soft morning line, our fair prices were landing too close to the board to matter. So we leaned the model harder on our own figures and lighter on the opening line. We disclosed the change on the methodology page before this card locked, and the archive from last week stays exactly as it was scored — we don't rewrite history to make it look smarter.
+
+Four flags at Saratoga. The one to circle is Jack and Jim in the eleventh, a mile-and-a-sixteenth on the turf where our number sits fourteen points clear of the board — the widest gap on either card today. The most confident is Cy Fair in the eighth, a Grade 3 where we make him better than a third to win.
+
+We're 3-7 on the meet so far, up a little over a unit at flat stakes. A losing hit rate that still turns a small profit is exactly what a value approach looks like early — you're paid on the price, not the count. The record page shows every pick, and the closing-line scoreboard shows how many of our flags the market bet down before post. Both are the honest scoreboard, not the flattering one.
+
+YESTERDAY IN ONE LINE
+1-2 · flat-$2 +0.40 · drift +44.3% · meet to date 3-7 · flat-$2 +1.10 · drift +28.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops POWERLINE at 30%; the morning line already prices the race. Pass is a position.
+
+R2 · Clm 30000 · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SPOILER at 19%; the morning line already prices the race. Pass is a position.
+
+R3 · Alw 40000s · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops THE TOY CANNON at 15%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 80000n2x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: SHAPE NOTE — p 24% · fair odds 3/1 · ML 7/2
+  Play at 7/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 24% vs 15% morning-line implied (+9.3 pts).
+
+R5 · Diana-G1 · turf, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops KATHYNMARISSA at 31%; the morning line already prices the race. Pass is a position.
+
+R6 · Alw 120000n1x · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops TAB AT ZANZIBAR at 16%; the morning line already prices the race. Pass is a position.
+
+R7 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops EFFUSIVE at 22%; the morning line already prices the race. Pass is a position.
+
+R8 · CrntnCp-G3 · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: CY FAIR — p 38% · fair odds 8/5 · ML 3/5
+  Play at 9/5 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 38% vs 31% morning-line implied (+7.4 pts).
+
+R9 · Md Sp Wt · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CRITERIA at 16%; the morning line already prices the race. Pass is a position.
+
+R10 · OClm 45000n2x · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ANNEXPERIENCE at 27%; the morning line already prices the race. Pass is a position.
+
+R11 · OClm 45000n2x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: JACK AND JIM — p 30% · fair odds 5/2 · ML 3/1
+  Play at 5/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 30% vs 16% morning-line implied (+14.4 pts).
+
+R12 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: APERITIF — p 25% · fair odds 3/1 · ML 7/2
+  Play at 7/2 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 25% vs 17% morning-line implied (+7.5 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.3+cfg.95968fd4@code.caf2d974 — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
