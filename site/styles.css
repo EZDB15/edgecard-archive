@@ -117,7 +117,19 @@ h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;}
 .edge2 .val{width:74px;flex:none;text-align:right;color:var(--ink);}
 .edge2 .val .pts{color:var(--flag);font-weight:700;}
 .playat{font-family:var(--mono);font-weight:700;font-size:15px;color:var(--flag);
-  letter-spacing:0.02em;margin:0 0 12px;}
+  letter-spacing:0.02em;margin:0 0 10px;}
+.durab{font-size:12.5px;color:var(--muted);margin:0 0 12px;max-width:62ch;line-height:1.5;}
+.durab .dtag{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.05em;padding:2px 7px;border:1px solid var(--line);border-radius:2px;
+  margin-right:7px;white-space:nowrap;}
+.durab.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
+.durab.d-gone .dtag{color:var(--muted);}
+.durab.d-watch .dtag{color:var(--ink);}
+.clv .call{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.03em;white-space:nowrap;}
+.clv .call.c-hold{color:var(--flag);}
+.clv .call.c-gone{color:var(--muted);}
+.clv .call.c-watch{color:var(--ink);}
 .flag .why{font-size:14px;color:var(--muted);margin:0 0 10px;max-width:62ch;}
 .why .pchip{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:0.05em;
   color:var(--muted);border:1px solid var(--line);border-radius:2px;padding:1px 6px;margin-left:5px;
@@ -203,6 +215,14 @@ details.field{margin-top:12px;}
 details.field > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
   text-transform:uppercase;color:var(--muted);cursor:pointer;}
 details.field[open] > summary{margin-bottom:8px;}
+details.exotics{margin-top:10px;}
+details.exotics > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.exotics[open] > summary{margin-bottom:8px;}
+details.exotics .meta{max-width:60ch;margin:0 0 8px;}
+table.rt.ex{min-width:320px;}
+table.rt.ex td{text-align:right;}
+table.rt.ex td.l,table.rt.ex th.l{text-align:left;}
 /* ---- the model's read (deep per-pick explanation) ---- */
 details.deep{margin:6px 0 2px;border-top:1px solid var(--line);padding-top:10px;}
 details.deep > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
