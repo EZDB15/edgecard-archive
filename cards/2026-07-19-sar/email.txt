@@ -1,0 +1,72 @@
+SUBJECT: SAR · Sun Jul 19 — 10 races, 4 flags, 6 passes
+
+EDGE CARD — SAR, Sun Jul 19, 2026
+Card hashed and public at 11:52 AM ET: https://edgecardhq.com/archive/2026-07-19-sar/ · https://x.com/edgecardHQ
+Scratches as of 11:52 AM ET. Late scratches void at scoring; the card is never edited.
+
+TODAY'S READ
+Today's card is the first on our updated model. Two changes. The model now factors trainer form — how well a horse's barn does in this exact kind of spot — as a small input; and we fixed a flaw in how we build the fair line, where horses entered only for a wet track or as also-eligibles were left in the field and quietly inflating some prices. They're out now. Both were disclosed on the methodology page before this card locked, and nothing in the archive gets re-scored.
+
+Four flags at Saratoga, and they share a trait worth naming: every one is a longer-priced horse the crowd tends to leave alone — which is exactly the kind of price that's still there when you can actually bet it, not one the late money eats by post. The one to circle is Hot Gossip in the fourth, a one-mile dirt runner our number puts twelve points clear of the board — the widest gap on either card today.
+
+We're 3-7 on the meet, up a little over a unit at flat stakes. A losing hit rate with a winning ledger is what betting overlays looks like early — you're paid on the price, not the count. Every pick and every closing price is on the record page, and now the hold/shorten call next to each one, so you can watch us prove right or wrong in public.
+
+YESTERDAY IN ONE LINE
+1-2 · flat-$2 +0.40 · drift +44.3% · meet to date 3-7 · flat-$2 +1.10 · drift +28.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Clm 20000n3l · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: AMERICAN GRANT — p 14% · fair odds 6/1 · ML 12/1
+  Play at 7/1 or better. Below that, no bet.
+  WHY: Ranks #2 in our power figure blend; model 14% vs 6% morning-line implied (+7.8 pts).
+
+R2 · Md 50000 · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: EMERGENCY NINE — p 17% · fair odds 5/1 · ML 8/1
+  Play at 11/2 or better. Below that, no bet.
+  WHY: Ranks #2 in our power figure blend; model 17% vs 9% morning-line implied (+8.0 pts).
+
+R3 · Md 20000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BARGAIN PURCHASE at 18%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 75000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: HOT GOSSIP — p 21% · fair odds 7/2 · ML 8/1
+  Play at 4/1 or better. Below that, no bet.
+  WHY: Ranks #1 in our power figure blend; model 21% vs 9% morning-line implied (+12.5 pts).
+
+R5 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  BET
+  Flag: PELICAN PRIDE — p 16% · fair odds 11/2 · ML 8/1
+  Play at 6/1 or better. Below that, no bet.
+  WHY: Ranks #2 in our power figure blend; model 16% vs 9% morning-line implied (+7.1 pts).
+
+R6 · Md Sp Wt · dirt, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BRAUMS RUN at 21%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 80000n2x · turf, 11.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops VRONTI at 22%; the morning line already prices the race. Pass is a position.
+
+R8 · Alw 120000n1x · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GEORGIA MAGIC at 26%; the morning line already prices the race. Pass is a position.
+
+R9 · QuikCall-G3 · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CY FAIR at 33%; the morning line already prices the race. Pass is a position.
+
+R10 · Clm 35000n2l · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ARTISTIC SUCCESS at 26%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.14a5af5d — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

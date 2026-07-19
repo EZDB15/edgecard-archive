@@ -1,0 +1,160 @@
+{
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-07-19",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.14a5af5d",
+  "generated_ts_utc": "2026-07-19T15:53:15+00:00",
+  "first_post_et": "2:00 PM PT",
+  "n_races": 11,
+  "n_flags": 4,
+  "n_passes": 7,
+  "url": "https://edgecardhq.com/archive/2026-07-19-dmr/",
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "flags": [
+    {
+      "race": 1,
+      "program": "7",
+      "horse": "FREDDY FIVE FOUR",
+      "model_win_pct": 15,
+      "fair_odds": "6/1",
+      "fair_odds_decimal": 6.78,
+      "play_at": "13/2",
+      "play_at_decimal": 7.46,
+      "edge_pts": 5.8,
+      "reason": "Ranks #2 in our power figure blend; model 15% vs 9% morning-line implied (+5.8 pts)",
+      "surface": "dirt",
+      "distance": "5 1/2 furlongs",
+      "race_type": "Md 50000",
+      "durability": {
+        "cls": "hold",
+        "label": "Likely holds",
+        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 15,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "7-4",
+          "prob_pct": 4.7,
+          "fair_payoff": 42.91
+        },
+        "key_over_top": {
+          "combo": "7 / 4,5,2",
+          "prob_pct": 9.7,
+          "fair_payoff": 20.55
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 3,
+      "program": "6",
+      "horse": "MOTORIOUS",
+      "model_win_pct": 38,
+      "fair_odds": "8/5",
+      "fair_odds_decimal": 2.62,
+      "play_at": "9/5",
+      "play_at_decimal": 2.89,
+      "edge_pts": 11.4,
+      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 38% vs 27% morning-line implied (+11.4 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "OClm 100000b",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 38,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "6-4",
+          "prob_pct": 11.1,
+          "fair_payoff": 17.95
+        },
+        "key_over_top": {
+          "combo": "6 / 4,2,7",
+          "prob_pct": 26.7,
+          "fair_payoff": 7.49
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 7,
+      "program": "2",
+      "horse": "FAIR QUESTION",
+      "model_win_pct": 15,
+      "fair_odds": "6/1",
+      "fair_odds_decimal": 6.88,
+      "play_at": "13/2",
+      "play_at_decimal": 7.56,
+      "edge_pts": 5.9,
+      "reason": "Ranks #1 in our power figure blend; model 15% vs 9% morning-line implied (+5.9 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "hold",
+        "label": "Likely holds",
+        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 15,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "2-10",
+          "prob_pct": 3.0,
+          "fair_payoff": 66.41
+        },
+        "key_over_top": {
+          "combo": "2 / 10,4,6",
+          "prob_pct": 7.6,
+          "fair_payoff": 26.35
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 11,
+      "program": "6",
+      "horse": "ZALAMO",
+      "model_win_pct": 21,
+      "fair_odds": "7/2",
+      "fair_odds_decimal": 4.7,
+      "play_at": "4/1",
+      "play_at_decimal": 5.17,
+      "edge_pts": 10.1,
+      "reason": "Ranks #1 in our power figure blend; model 21% vs 11% morning-line implied (+10.1 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Clm 25000",
+      "durability": {
+        "cls": "watch",
+        "label": "Toss-up",
+        "basis": "A mid board price — it can hold or get bet down. Watch the board near post; the play stands only if it is still at or above the play-at at the close.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 21,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "6-5",
+          "prob_pct": 3.6,
+          "fair_payoff": 55.08
+        },
+        "key_over_top": {
+          "combo": "6 / 5,9,10",
+          "prob_pct": 9.4,
+          "fair_payoff": 21.31
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    }
+  ]
+}

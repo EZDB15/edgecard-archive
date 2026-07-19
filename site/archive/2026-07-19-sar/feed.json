@@ -1,0 +1,160 @@
+{
+  "product": "Edge Card",
+  "track": "SAR",
+  "track_name": "Saratoga",
+  "date": "2026-07-19",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.14a5af5d",
+  "generated_ts_utc": "2026-07-19T15:52:58+00:00",
+  "first_post_et": "1:10 PM ET",
+  "n_races": 10,
+  "n_flags": 4,
+  "n_passes": 6,
+  "url": "https://edgecardhq.com/archive/2026-07-19-sar/",
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "flags": [
+    {
+      "race": 1,
+      "program": "4",
+      "horse": "AMERICAN GRANT",
+      "model_win_pct": 14,
+      "fair_odds": "6/1",
+      "fair_odds_decimal": 7.21,
+      "play_at": "7/1",
+      "play_at_decimal": 7.93,
+      "edge_pts": 7.8,
+      "reason": "Ranks #2 in our power figure blend; model 14% vs 6% morning-line implied (+7.8 pts)",
+      "surface": "dirt",
+      "distance": "1 1/8 miles",
+      "race_type": "Clm 20000n3l",
+      "durability": {
+        "cls": "hold",
+        "label": "Likely holds",
+        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 14,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "4-7",
+          "prob_pct": 3.9,
+          "fair_payoff": 51.79
+        },
+        "key_over_top": {
+          "combo": "4 / 7,6,3",
+          "prob_pct": 9.2,
+          "fair_payoff": 21.83
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 2,
+      "program": "2",
+      "horse": "EMERGENCY NINE",
+      "model_win_pct": 17,
+      "fair_odds": "5/1",
+      "fair_odds_decimal": 5.99,
+      "play_at": "11/2",
+      "play_at_decimal": 6.59,
+      "edge_pts": 8.0,
+      "reason": "Ranks #2 in our power figure blend; model 17% vs 9% morning-line implied (+8.0 pts)",
+      "surface": "turf",
+      "distance": "5 1/2 furlongs",
+      "race_type": "Md 50000",
+      "durability": {
+        "cls": "hold",
+        "label": "Likely holds",
+        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 17,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "2-12",
+          "prob_pct": 4.1,
+          "fair_payoff": 48.56
+        },
+        "key_over_top": {
+          "combo": "2 / 12,10,5",
+          "prob_pct": 9.5,
+          "fair_payoff": 21.03
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 4,
+      "program": "5",
+      "horse": "HOT GOSSIP",
+      "model_win_pct": 21,
+      "fair_odds": "7/2",
+      "fair_odds_decimal": 4.72,
+      "play_at": "4/1",
+      "play_at_decimal": 5.19,
+      "edge_pts": 12.5,
+      "reason": "Ranks #1 in our power figure blend; model 21% vs 9% morning-line implied (+12.5 pts)",
+      "surface": "dirt",
+      "distance": "1 mile",
+      "race_type": "OClm 75000",
+      "durability": {
+        "cls": "hold",
+        "label": "Likely holds",
+        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 21,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "5-2",
+          "prob_pct": 4.9,
+          "fair_payoff": 40.84
+        },
+        "key_over_top": {
+          "combo": "5 / 2,8,4",
+          "prob_pct": 13.0,
+          "fair_payoff": 15.35
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    },
+    {
+      "race": 5,
+      "program": "12",
+      "horse": "PELICAN PRIDE",
+      "model_win_pct": 16,
+      "fair_odds": "11/2",
+      "fair_odds_decimal": 6.34,
+      "play_at": "6/1",
+      "play_at_decimal": 6.97,
+      "edge_pts": 7.0,
+      "reason": "Ranks #2 in our power figure blend; model 16% vs 9% morning-line implied (+7.1 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "hold",
+        "label": "Likely holds",
+        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "version": "d0"
+      },
+      "exotics": {
+        "flag_win_pct": 16,
+        "base": 2.0,
+        "top_exacta": {
+          "combo": "12-1",
+          "prob_pct": 4.1,
+          "fair_payoff": 48.59
+        },
+        "key_over_top": {
+          "combo": "12 / 1,3,7",
+          "prob_pct": 8.9,
+          "fair_payoff": 22.45
+        },
+        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+      }
+    }
+  ]
+}

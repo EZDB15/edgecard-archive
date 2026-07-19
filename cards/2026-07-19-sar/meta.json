@@ -1,0 +1,30 @@
+{
+  "sha256": "a989d8e7773e6e837e171d752095f93aa70522b4e1f3627f96dad8f493e92486",
+  "weather": {
+    "short": "Sunny",
+    "temp": 79,
+    "temp_unit": "F",
+    "wind": "10 mph",
+    "precip_pct": 0,
+    "wet": false
+  },
+  "pick_notes": {
+    "1": "A price play to start Saratoga. We give American Grant about a 14% chance in the mile-and-an-eighth dirt claimer \u2014 not the likeliest winner, but the board has it longer than we do, and an eight-point gap on a route horse this price is where a payout lives. Second on our figures, near enough the top that the odds look generous.\n\nFair is 6/1; the number to demand is 7/1 or better. It's a long price the crowd tends to leave alone, so it should still be there at post \u2014 a swing, one unit, no chasing it short.",
+    "2": "A closer with the pace on its side. Emergency Nine is a maiden in the five-and-a-half turf, and the race sets up contested \u2014 three early types who'll be busy with each other \u2014 while this one runs late. We raised its number for that shape. Our 17% sits eight points over the board.\n\nFair 5/1, play 11/2 or better. It's a long enough price that the money should leave it alone into post, so the value ought to survive. The risk is the plain one for a closer: if the speed doesn't cook and someone steals an easy lead, it's running for second. A unit at the price.",
+    "4": "The widest gap on either card today, and the one to circle. We make Hot Gossip a 21% chance in the one-mile dirt allowance-claimer \u2014 twelve and a half points clear of the board \u2014 and it's clean: tops our figures, even pace, nothing loose on the lead to complicate it. When our number is this far off the market on a horse we rate best in the race, that's the whole reason to be here.\n\nFair 7/2, play 4/1 or better. And the durability read likes it \u2014 a price the crowd tends to leave alone, so it should still be live at post. Our best number of the day.",
+    "5": "A longshot to close our Saratoga card. We give Pelican Pride about a 16% chance in the mile-and-a-sixteenth turf maiden, a seven-point edge on a horse the board has written longer. It sits second on our figures, close enough to the top that the price reads generous.\n\nFair 11/2, play 6/1 or better. A maiden route, so the form is thin and a green trip is the real risk \u2014 but it's a long price that should hold to post, so a unit at the number is worth the swing."
+  },
+  "publish_time_et": "11:52 AM ET",
+  "scratches_as_of_et": "11:52 AM ET",
+  "first_post_et": "1:10 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-07-19-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Sun Jul 19 \u2014 10 races, 4 flags, 6 passes"
+}

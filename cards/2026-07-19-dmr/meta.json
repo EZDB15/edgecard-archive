@@ -1,0 +1,30 @@
+{
+  "sha256": "4c9c5e8e4aef0d3ab99fd607a5499924eb02948aa7c5af9762732e61c6344333",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 75,
+    "temp_unit": "F",
+    "wind": "0 to 10 mph",
+    "precip_pct": 3,
+    "wet": false
+  },
+  "pick_notes": {
+    "1": "A quiet longshot to open Del Mar. We make Freddy Five Four about a 15% chance in the five-and-a-half maiden claimer, and the board has it out past that \u2014 a six-point gap on a horse the crowd isn't paying much attention to. It sits second on our figures, close enough to the top that the price reads a step generous.\n\nFair is 6/1; take 13/2 or better. This is the kind of long price the late money tends to leave alone, so unlike a short favorite it may actually still be there at post. But it's a maiden claimer \u2014 keep it to a unit, no heartbreak if it comes up short.",
+    "3": "The most confident number on our Del Mar card, and there's a wrinkle. We make Motorious a 38% chance in the five-furlong turf sprint \u2014 comfortably the likeliest winner we flag today \u2014 and the shape helps: four early-speed types up front, and this one comes from off it, so we pushed its figure up for the pace it gets to run at.\n\nThe catch is the price. Fair is 8/5, and a horse this live at a number this short gets bet down \u2014 our read is the value is likely gone by post, so the discipline is the whole game here. Take 9/5 or better and pass if it's shorter, which it may well be. A quality play at a fair number, not at any number.",
+    "7": "A speed angle we're a little cautious on. Fair Question tops our figures in the five-furlong turf maiden, but it wants the lead and it's not alone \u2014 four in here have early speed, so we docked its number for the fight up front. Even docked, our 15% clears the board by six points.\n\nFair 6/1, play 13/2 or better. The long price is the saving grace: it's not a horse the crowd will hammer, so the number should hold to post even if the pace gets messy. One unit, eyes open on the speed duel.",
+    "11": "Our widest gap on the Del Mar card. We make Zalamo a 21% shot in the mile-and-a-sixteenth turf claimer, ten points clear of where the board has it, and it tops our figures with an honest even-pace setup \u2014 nobody loose on the lead to steal it.\n\nFair 7/2, play 4/1 or better. This one's a toss-up on price: at a 6/1 morning line it could hold, or the money could find it and bring it in. Watch the board near post \u2014 it's a play only if it's still 4/1 or better when you get there."
+  },
+  "publish_time_et": "11:53 AM ET",
+  "scratches_as_of_et": "11:53 AM ET",
+  "first_post_et": "2:00 PM PT",
+  "site_card_url": "https://edgecardhq.com/archive/2026-07-19-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Sun Jul 19 \u2014 11 races, 4 flags, 7 passes"
+}
