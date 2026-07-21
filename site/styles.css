@@ -267,6 +267,16 @@ table.rt.ex td.l,table.rt.ex th.l{text-align:left;}
 .extag.t-anchor{color:var(--flag);border-color:var(--flag-fill);}
 .extag.t-value{color:var(--ink);}
 .extag.t-longshot{color:var(--muted);border-style:dashed;}
+/* ---- whole-card multi-race tickets (Pick 4 / Pick 5) ---- */
+.mseq{margin:0 0 18px;}
+.mseq-h{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--ink);font-weight:700;margin:0 0 6px;}
+table.rt.mr{min-width:360px;}
+table.rt.mr td{text-align:right;}
+table.rt.mr td.l,table.rt.mr th.l{text-align:left;}
+table.rt.mr tr.mlegs td{text-align:left;font-family:var(--mono);font-size:12px;color:var(--muted);
+  padding-top:2px;padding-bottom:10px;white-space:normal;}
+.mr-note{max-width:64ch;margin-top:4px;}
 /* ---- the model's read (deep per-pick explanation) ---- */
 details.deep{margin:6px 0 2px;border-top:1px solid var(--line);padding-top:10px;}
 details.deep > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;

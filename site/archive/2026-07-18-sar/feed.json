@@ -621,5 +621,219 @@
       ],
       "edge_pts": 7.5
     }
+  ],
+  "multi_race": [
+    {
+      "type": "multi_race",
+      "wager_type": "P4",
+      "label": "Late Pick 4 (R9–R12)",
+      "build": "conviction",
+      "races": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "legs": [
+        {
+          "race": 9,
+          "covered": [
+            "1"
+          ],
+          "mass_pct": 15.7
+        },
+        {
+          "race": 10,
+          "covered": [
+            "3"
+          ],
+          "mass_pct": 26.8
+        },
+        {
+          "race": 11,
+          "covered": [
+            "8"
+          ],
+          "mass_pct": 30.2
+        },
+        {
+          "race": 12,
+          "covered": [
+            "2"
+          ],
+          "mass_pct": 24.8
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 1,
+      "cost_usd": 0.5,
+      "hit_pct": 0.31,
+      "fair_return_usd": 158.98,
+      "fair_return_after_takeout_usd": 127.18
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P4",
+      "label": "Late Pick 4 (R9–R12)",
+      "build": "coverage",
+      "races": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "legs": [
+        {
+          "race": 9,
+          "covered": [
+            "1",
+            "5"
+          ],
+          "mass_pct": 29.1
+        },
+        {
+          "race": 10,
+          "covered": [
+            "3",
+            "8"
+          ],
+          "mass_pct": 43.3
+        },
+        {
+          "race": 11,
+          "covered": [
+            "8"
+          ],
+          "mass_pct": 30.2
+        },
+        {
+          "race": 12,
+          "covered": [
+            "2"
+          ],
+          "mass_pct": 24.8
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 4,
+      "cost_usd": 2.0,
+      "hit_pct": 0.94,
+      "fair_return_usd": 212.02,
+      "fair_return_after_takeout_usd": 169.62
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P5",
+      "label": "Late Pick 5 (R8–R12)",
+      "build": "conviction",
+      "races": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "legs": [
+        {
+          "race": 8,
+          "covered": [
+            "2"
+          ],
+          "mass_pct": 38.3
+        },
+        {
+          "race": 9,
+          "covered": [
+            "1"
+          ],
+          "mass_pct": 15.7
+        },
+        {
+          "race": 10,
+          "covered": [
+            "3"
+          ],
+          "mass_pct": 26.8
+        },
+        {
+          "race": 11,
+          "covered": [
+            "8"
+          ],
+          "mass_pct": 30.2
+        },
+        {
+          "race": 12,
+          "covered": [
+            "2"
+          ],
+          "mass_pct": 24.8
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 1,
+      "cost_usd": 0.5,
+      "hit_pct": 0.12,
+      "fair_return_usd": 414.76,
+      "fair_return_after_takeout_usd": 331.81
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P5",
+      "label": "Late Pick 5 (R8–R12)",
+      "build": "coverage",
+      "races": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "legs": [
+        {
+          "race": 8,
+          "covered": [
+            "2"
+          ],
+          "mass_pct": 38.3
+        },
+        {
+          "race": 9,
+          "covered": [
+            "1",
+            "5"
+          ],
+          "mass_pct": 29.1
+        },
+        {
+          "race": 10,
+          "covered": [
+            "3",
+            "8"
+          ],
+          "mass_pct": 43.3
+        },
+        {
+          "race": 11,
+          "covered": [
+            "8"
+          ],
+          "mass_pct": 30.2
+        },
+        {
+          "race": 12,
+          "covered": [
+            "2"
+          ],
+          "mass_pct": 24.8
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 4,
+      "cost_usd": 2.0,
+      "hit_pct": 0.36,
+      "fair_return_usd": 553.15,
+      "fair_return_after_takeout_usd": 442.52
+    }
   ]
 }
