@@ -394,5 +394,232 @@
       "fair_return_after_takeout_usd": 10.68,
       "tag": "longshot"
     }
+  ],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "chalk",
+      "top": {
+        "program": "4",
+        "name": "POWERLINE",
+        "win_pct": 30,
+        "fair": "5/2",
+        "fair_decimal": 3.33,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 0.0
+    },
+    {
+      "race": 2,
+      "tier": "scramble",
+      "top": {
+        "program": "4",
+        "name": "SPOILER",
+        "win_pct": 19,
+        "fair": "9/2",
+        "fair_decimal": 5.4,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "4",
+        "1",
+        "5",
+        "3"
+      ],
+      "edge_pts": -0.9
+    },
+    {
+      "race": 3,
+      "tier": "scramble",
+      "top": {
+        "program": "6",
+        "name": "THE TOY CANNON",
+        "win_pct": 15,
+        "fair": "11/2",
+        "fair_decimal": 6.59,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "6",
+        "4",
+        "1",
+        "8"
+      ],
+      "edge_pts": -4.5
+    },
+    {
+      "race": 4,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "SHAPE NOTE",
+        "win_pct": 24,
+        "fair": "3/1",
+        "fair_decimal": 4.17,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 24% vs 15% morning-line implied (+9.3 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 9.3
+    },
+    {
+      "race": 5,
+      "tier": "lean",
+      "top": {
+        "program": "3",
+        "name": "KATHYNMARISSA",
+        "win_pct": 31,
+        "fair": "2/1",
+        "fair_decimal": 3.21,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": 5.1
+    },
+    {
+      "race": 6,
+      "tier": "scramble",
+      "top": {
+        "program": "1",
+        "name": "TAB AT ZANZIBAR",
+        "win_pct": 16,
+        "fair": "5/1",
+        "fair_decimal": 6.21,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "1",
+        "5",
+        "6",
+        "8"
+      ],
+      "edge_pts": 0.4
+    },
+    {
+      "race": 7,
+      "tier": "chalk",
+      "top": {
+        "program": "1",
+        "name": "EFFUSIVE",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.47,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 0.0
+    },
+    {
+      "race": 8,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "CY FAIR",
+        "win_pct": 38,
+        "fair": "8/5",
+        "fair_decimal": 2.61,
+        "board": "3/5",
+        "board_decimal": 1.6
+      },
+      "read": "Ranks #1 in our power figure blend; model 38% vs 31% morning-line implied (+7.4 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 7.4
+    },
+    {
+      "race": 9,
+      "tier": "lean",
+      "top": {
+        "program": "1",
+        "name": "CRITERIA",
+        "win_pct": 16,
+        "fair": "11/2",
+        "fair_decimal": 6.37,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 2.6
+    },
+    {
+      "race": 10,
+      "tier": "chalk",
+      "top": {
+        "program": "3",
+        "name": "ANNEXPERIENCE",
+        "win_pct": 27,
+        "fair": "5/2",
+        "fair_decimal": 3.74,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": -3.5
+    },
+    {
+      "race": 11,
+      "tier": "play",
+      "top": {
+        "program": "8",
+        "name": "JACK AND JIM",
+        "win_pct": 30,
+        "fair": "5/2",
+        "fair_decimal": 3.31,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 30% vs 16% morning-line implied (+14.4 pts)",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 14.4
+    },
+    {
+      "race": 12,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "APERITIF",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 4.04,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 25% vs 17% morning-line implied (+7.5 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 7.5
+    }
   ]
 }

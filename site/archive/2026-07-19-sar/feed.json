@@ -432,5 +432,190 @@
       "fair_return_after_takeout_usd": 23.9,
       "tag": "longshot"
     }
+  ],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "AMERICAN GRANT",
+        "win_pct": 14,
+        "fair": "6/1",
+        "fair_decimal": 7.21,
+        "board": "12/1",
+        "board_decimal": 13.0
+      },
+      "read": "Ranks #2 in our power figure blend; model 14% vs 6% morning-line implied (+7.8 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 7.8
+    },
+    {
+      "race": 2,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "EMERGENCY NINE",
+        "win_pct": 17,
+        "fair": "5/1",
+        "fair_decimal": 5.99,
+        "board": "8/1",
+        "board_decimal": 9.0
+      },
+      "read": "Ranks #2 in our power figure blend; model 17% vs 9% morning-line implied (+8.0 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 8.0
+    },
+    {
+      "race": 3,
+      "tier": "scramble",
+      "top": {
+        "program": "1",
+        "name": "BARGAIN PURCHASE",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.69,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "1",
+        "8",
+        "5",
+        "10"
+      ],
+      "edge_pts": -1.9
+    },
+    {
+      "race": 4,
+      "tier": "play",
+      "top": {
+        "program": "5",
+        "name": "HOT GOSSIP",
+        "win_pct": 21,
+        "fair": "7/2",
+        "fair_decimal": 4.72,
+        "board": "8/1",
+        "board_decimal": 9.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 21% vs 9% morning-line implied (+12.5 pts)",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 12.5
+    },
+    {
+      "race": 5,
+      "tier": "play",
+      "top": {
+        "program": "12",
+        "name": "PELICAN PRIDE",
+        "win_pct": 16,
+        "fair": "11/2",
+        "fair_decimal": 6.34,
+        "board": "8/1",
+        "board_decimal": 9.0
+      },
+      "read": "Ranks #2 in our power figure blend; model 16% vs 9% morning-line implied (+7.1 pts)",
+      "coverage_set": [
+        "12"
+      ],
+      "edge_pts": 7.0
+    },
+    {
+      "race": 6,
+      "tier": "lean",
+      "top": {
+        "program": "6",
+        "name": "BRAUMS RUN",
+        "win_pct": 21,
+        "fair": "4/1",
+        "fair_decimal": 4.84,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 4.9
+    },
+    {
+      "race": 7,
+      "tier": "chalk",
+      "top": {
+        "program": "7",
+        "name": "VRONTI",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.57,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": -0.4
+    },
+    {
+      "race": 8,
+      "tier": "lean",
+      "top": {
+        "program": "1",
+        "name": "GEORGIA MAGIC",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.92,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 6.0
+    },
+    {
+      "race": 9,
+      "tier": "lean",
+      "top": {
+        "program": "8",
+        "name": "CY FAIR",
+        "win_pct": 33,
+        "fair": "2/1",
+        "fair_decimal": 3.03,
+        "board": "9/5",
+        "board_decimal": 2.8
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 5.2
+    },
+    {
+      "race": 10,
+      "tier": "lean",
+      "top": {
+        "program": "5",
+        "name": "ARTISTIC SUCCESS",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.87,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 3.6
+    }
   ]
 }

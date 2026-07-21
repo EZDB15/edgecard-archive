@@ -306,5 +306,178 @@
       "fair_return_after_takeout_usd": 30.66,
       "tag": "longshot"
     }
+  ],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "chalk",
+      "top": {
+        "program": "6",
+        "name": "FAMOUS FIGURE",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.81,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 0.0
+    },
+    {
+      "race": 2,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "IRISH GOODBYE",
+        "win_pct": 28,
+        "fair": "5/2",
+        "fair_decimal": 3.62,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 28% vs 22% morning-line implied (+5.3 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 5.3
+    },
+    {
+      "race": 3,
+      "tier": "chalk",
+      "top": {
+        "program": "5",
+        "name": "TIZMARKUS",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.44,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 0.2
+    },
+    {
+      "race": 4,
+      "tier": "scramble",
+      "top": {
+        "program": "10",
+        "name": "STREAM IT",
+        "win_pct": 14,
+        "fair": "6/1",
+        "fair_decimal": 7.02,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "10",
+        "1",
+        "9",
+        "11"
+      ],
+      "edge_pts": -4.3
+    },
+    {
+      "race": 5,
+      "tier": "scramble",
+      "top": {
+        "program": "3",
+        "name": "ALL STAR LEIGH",
+        "win_pct": 12,
+        "fair": "15/2",
+        "fair_decimal": 8.44,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "edge_pts": 0.0
+    },
+    {
+      "race": 6,
+      "tier": "play",
+      "top": {
+        "program": "7",
+        "name": "JADORLINIJA",
+        "win_pct": 15,
+        "fair": "11/2",
+        "fair_decimal": 6.72,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 15% vs 11% morning-line implied (+3.8 pts)",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 3.8
+    },
+    {
+      "race": 7,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "ENGLISH LAW",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.71,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 18% vs 12% morning-line implied (+5.1 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 5.1
+    },
+    {
+      "race": 8,
+      "tier": "chalk",
+      "top": {
+        "program": "7",
+        "name": "PALACIOS",
+        "win_pct": 21,
+        "fair": "7/2",
+        "fair_decimal": 4.73,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": -1.2
+    },
+    {
+      "race": 9,
+      "tier": "scramble",
+      "top": {
+        "program": "6",
+        "name": "ROASTED REDS",
+        "win_pct": 13,
+        "fair": "13/2",
+        "fair_decimal": 7.53,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "6",
+        "12",
+        "1",
+        "13"
+      ],
+      "edge_pts": -1.5
+    }
   ]
 }

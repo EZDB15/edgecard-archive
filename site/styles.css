@@ -209,6 +209,27 @@ details.howto dd{margin:2px 0 0;color:var(--muted);font-size:13.5px;max-width:64
 .passes .row .mp{color:var(--ink);flex:none;}
 .passes .row .bd{color:var(--muted);flex:none;}
 
+/* ---- whole-card reads (every race: analysis, not a play) ---- */
+.reads{border:1px solid var(--line);}
+.rd{border-bottom:1px solid var(--line);padding:11px 14px;}
+.rd:last-child{border-bottom:0;}
+.rd-top{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;
+  flex-wrap:wrap;}
+.rd-top .r{color:var(--ink);font-weight:700;flex:none;width:26px;}
+.rd-top .hn{font-family:var(--serif);color:var(--ink);flex:1 1 auto;font-size:15px;}
+.rd-top .mp{color:var(--ink);flex:none;font-variant-numeric:tabular-nums;}
+.rd-top .fair{color:var(--muted);flex:none;}
+.rd-top .bd{color:var(--muted);flex:none;}
+.rtier{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;padding:1px 6px;border-radius:2px;border:1px solid var(--line);flex:none;}
+.rtier.t-lean{color:var(--flag);border-color:var(--flag-fill);}
+.rtier.t-chalk{color:var(--muted);}
+.rtier.t-scramble{color:var(--muted);border-style:dashed;}
+.rtier.t-off{color:var(--muted);border:0;padding-left:0;}
+.rd-read{font-family:var(--serif);font-size:14px;color:var(--muted);margin:6px 0 0;max-width:66ch;}
+.rd.off .hn{color:var(--muted);font-style:italic;}
+.rd .field{margin-top:9px;}
+
 /* ---- runner field table (inside a flag) ---- */
 .scroll,.rtwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
 table.rt{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:14px;min-width:420px;}

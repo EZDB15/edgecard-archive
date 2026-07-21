@@ -394,5 +394,211 @@
       "fair_return_after_takeout_usd": 12.92,
       "tag": "longshot"
     }
+  ],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "chalk",
+      "top": {
+        "program": "3",
+        "name": "COMEDY TOWN",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.91,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": -1.4
+    },
+    {
+      "race": 2,
+      "tier": "scramble",
+      "top": {
+        "program": "6",
+        "name": "THIRSTY CAITLIN",
+        "win_pct": 17,
+        "fair": "5/1",
+        "fair_decimal": 5.82,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "6",
+        "1",
+        "9",
+        "10"
+      ],
+      "edge_pts": -2.8
+    },
+    {
+      "race": 3,
+      "tier": "play",
+      "top": {
+        "program": "7",
+        "name": "ZIP ME UP",
+        "win_pct": 19,
+        "fair": "9/2",
+        "fair_decimal": 5.34,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 19% vs 10% morning-line implied (+8.2 pts)",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 8.2
+    },
+    {
+      "race": 4,
+      "tier": "scramble",
+      "top": {
+        "program": "9",
+        "name": "QUATTRO PASSI",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.54,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "9",
+        "5",
+        "6",
+        "11"
+      ],
+      "edge_pts": 0.0
+    },
+    {
+      "race": 5,
+      "tier": "lean",
+      "top": {
+        "program": "4",
+        "name": "KID DYNASTY",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.4,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 2.7
+    },
+    {
+      "race": 6,
+      "tier": "play",
+      "top": {
+        "program": "9",
+        "name": "NET PAR",
+        "win_pct": 28,
+        "fair": "5/2",
+        "fair_decimal": 3.52,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 28% vs 23% morning-line implied (+5.6 pts)",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": 5.6
+    },
+    {
+      "race": 7,
+      "tier": "play",
+      "top": {
+        "program": "6",
+        "name": "CENTRODELANTERO",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.58,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 22% vs 16% morning-line implied (+6.0 pts)",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 6.0
+    },
+    {
+      "race": 8,
+      "tier": "lean",
+      "top": {
+        "program": "5",
+        "name": "JOURNALISM",
+        "win_pct": 46,
+        "fair": "6/5",
+        "fair_decimal": 2.18,
+        "board": "1/1",
+        "board_decimal": 2.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 5.6
+    },
+    {
+      "race": 9,
+      "tier": "lean",
+      "top": {
+        "program": "1",
+        "name": "RAIDING PARTY",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.45,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 2.5
+    },
+    {
+      "race": 10,
+      "tier": "lean",
+      "top": {
+        "program": "1",
+        "name": "VITRUVIAN MAN",
+        "win_pct": 16,
+        "fair": "11/2",
+        "fair_decimal": 6.33,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 4.4
+    },
+    {
+      "race": 11,
+      "tier": "play",
+      "top": {
+        "program": "6",
+        "name": "KOEKKOEK",
+        "win_pct": 27,
+        "fair": "5/2",
+        "fair_decimal": 3.74,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 27% vs 16% morning-line implied (+10.9 pts)",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 10.9
+    }
   ]
 }

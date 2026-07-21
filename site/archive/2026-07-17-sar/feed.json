@@ -394,5 +394,196 @@
       "fair_return_after_takeout_usd": 31.42,
       "tag": "longshot"
     }
+  ],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "play",
+      "top": {
+        "program": "3",
+        "name": "BEIJING",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.65,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 21% vs 16% morning-line implied (+5.9 pts)",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": 5.9
+    },
+    {
+      "race": 2,
+      "tier": "lean",
+      "top": {
+        "program": "3",
+        "name": "DISCOTHEQUE",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.52,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": 2.7
+    },
+    {
+      "race": 3,
+      "tier": "scramble",
+      "top": {
+        "program": "8",
+        "name": "TWENTY FOUR MAMBA",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.49,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "8",
+        "3",
+        "4",
+        "1"
+      ],
+      "edge_pts": -1.4
+    },
+    {
+      "race": 4,
+      "tier": "scramble",
+      "top": {
+        "program": "6",
+        "name": "R KAN'T MISS",
+        "win_pct": 20,
+        "fair": "4/1",
+        "fair_decimal": 5.1,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "6",
+        "5",
+        "8",
+        "9"
+      ],
+      "edge_pts": 0.0
+    },
+    {
+      "race": 5,
+      "tier": "play",
+      "top": {
+        "program": "1",
+        "name": "BOSTON'S PHINEST",
+        "win_pct": 16,
+        "fair": "5/1",
+        "fair_decimal": 6.2,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 16% vs 7% morning-line implied (+8.9 pts)",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 8.9
+    },
+    {
+      "race": 6,
+      "tier": "scramble",
+      "top": {
+        "program": "16",
+        "name": "GEORGIA MAGIC",
+        "win_pct": 10,
+        "fair": "9/1",
+        "fair_decimal": 10.38,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "16",
+        "15",
+        "13",
+        "2"
+      ],
+      "edge_pts": -0.3
+    },
+    {
+      "race": 7,
+      "tier": "chalk",
+      "top": {
+        "program": "9",
+        "name": "MIRAGE",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 4.02,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": -0.8
+    },
+    {
+      "race": 8,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "ICE CHOCOLAT",
+        "win_pct": 19,
+        "fair": "4/1",
+        "fair_decimal": 5.23,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 19% vs 10% morning-line implied (+9.2 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 9.2
+    },
+    {
+      "race": 9,
+      "tier": "play",
+      "top": {
+        "program": "9",
+        "name": "DEEP SATIN",
+        "win_pct": 13,
+        "fair": "13/2",
+        "fair_decimal": 7.51,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 13% vs 8% morning-line implied (+5.3 pts)",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": 5.3
+    },
+    {
+      "race": 10,
+      "tier": "chalk",
+      "top": {
+        "program": "2",
+        "name": "DONNA ROMANO",
+        "win_pct": 21,
+        "fair": "7/2",
+        "fair_decimal": 4.7,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": -4.6
+    }
   ]
 }
