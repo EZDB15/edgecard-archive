@@ -11,6 +11,7 @@
   "n_passes": 6,
   "url": "https://edgecardhq.com/archive/2026-07-17-sar/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": null,
   "flags": [
     {
       "race": 1,
@@ -32,20 +33,72 @@
         "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
         "version": "d0"
       },
+      "bet": {
+        "track": "SAR",
+        "race": 1,
+        "program": "3",
+        "wager_type": "WIN",
+        "suggested_stake_usd": 2.0,
+        "min_odds": "4/1",
+        "min_odds_decimal": 5.12,
+        "instruction": "Bet BEIJING to win at 4/1 or better"
+      },
       "exotics": {
-        "flag_win_pct": 22,
-        "base": 2.0,
-        "top_exacta": {
-          "combo": "3-2",
-          "prob_pct": 7.4,
-          "fair_payoff": 27.11
-        },
-        "key_over_top": {
-          "combo": "3 / 2,6,5",
-          "prob_pct": 16.1,
-          "fair_payoff": 12.41
-        },
-        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+        "flag_program": "3",
+        "takeout_pct": 20,
+        "tickets": [
+          {
+            "type": "exacta",
+            "wager_type": "EX",
+            "label": "Key exacta",
+            "structure": "3 / 2,6",
+            "programs": {
+              "first": [
+                "3"
+              ],
+              "second": [
+                "2",
+                "6"
+              ]
+            },
+            "base_usd": 1.0,
+            "combos": 2,
+            "cost_usd": 2.0,
+            "hit_pct": 11.8,
+            "fair_return_usd": 17.02,
+            "fair_return_after_takeout_usd": 13.62,
+            "tag": "value"
+          },
+          {
+            "type": "trifecta",
+            "wager_type": "TR",
+            "label": "Keyed trifecta",
+            "structure": "3 / 2,6 / 2,6,5,7",
+            "programs": {
+              "first": [
+                "3"
+              ],
+              "second": [
+                "2",
+                "6"
+              ],
+              "third": [
+                "2",
+                "6",
+                "5",
+                "7"
+              ]
+            },
+            "base_usd": 0.5,
+            "combos": 6,
+            "cost_usd": 3.0,
+            "hit_pct": 9.6,
+            "fair_return_usd": 31.22,
+            "fair_return_after_takeout_usd": 24.98,
+            "tag": "value"
+          }
+        ],
+        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
       }
     },
     {
@@ -68,20 +121,72 @@
         "basis": "A mid board price — it can hold or get bet down. Watch the board near post; the play stands only if it is still at or above the play-at at the close.",
         "version": "d0"
       },
+      "bet": {
+        "track": "SAR",
+        "race": 5,
+        "program": "1",
+        "wager_type": "WIN",
+        "suggested_stake_usd": 2.0,
+        "min_odds": "6/1",
+        "min_odds_decimal": 6.82,
+        "instruction": "Bet BOSTON'S PHINEST to win at 6/1 or better"
+      },
       "exotics": {
-        "flag_win_pct": 16,
-        "base": 2.0,
-        "top_exacta": {
-          "combo": "1-9",
-          "prob_pct": 2.6,
-          "fair_payoff": 76.07
-        },
-        "key_over_top": {
-          "combo": "1 / 9,10,5",
-          "prob_pct": 6.5,
-          "fair_payoff": 30.6
-        },
-        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+        "flag_program": "1",
+        "takeout_pct": 20,
+        "tickets": [
+          {
+            "type": "exacta",
+            "wager_type": "EX",
+            "label": "Key exacta",
+            "structure": "1 / 9,10",
+            "programs": {
+              "first": [
+                "1"
+              ],
+              "second": [
+                "9",
+                "10"
+              ]
+            },
+            "base_usd": 1.0,
+            "combos": 2,
+            "cost_usd": 2.0,
+            "hit_pct": 4.8,
+            "fair_return_usd": 41.8,
+            "fair_return_after_takeout_usd": 33.44,
+            "tag": "longshot"
+          },
+          {
+            "type": "trifecta",
+            "wager_type": "TR",
+            "label": "Keyed trifecta",
+            "structure": "1 / 9,10 / 9,10,5,6",
+            "programs": {
+              "first": [
+                "1"
+              ],
+              "second": [
+                "9",
+                "10"
+              ],
+              "third": [
+                "9",
+                "10",
+                "5",
+                "6"
+              ]
+            },
+            "base_usd": 0.5,
+            "combos": 6,
+            "cost_usd": 3.0,
+            "hit_pct": 2.0,
+            "fair_return_usd": 147.09,
+            "fair_return_after_takeout_usd": 117.67,
+            "tag": "longshot"
+          }
+        ],
+        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
       }
     },
     {
@@ -104,20 +209,72 @@
         "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
         "version": "d0"
       },
+      "bet": {
+        "track": "SAR",
+        "race": 8,
+        "program": "2",
+        "wager_type": "WIN",
+        "suggested_stake_usd": 2.0,
+        "min_odds": "9/2",
+        "min_odds_decimal": 5.75,
+        "instruction": "Bet ICE CHOCOLAT to win at 9/2 or better"
+      },
       "exotics": {
-        "flag_win_pct": 19,
-        "base": 2.0,
-        "top_exacta": {
-          "combo": "2-4",
-          "prob_pct": 3.0,
-          "fair_payoff": 66.1
-        },
-        "key_over_top": {
-          "combo": "2 / 4,10,12",
-          "prob_pct": 8.4,
-          "fair_payoff": 23.81
-        },
-        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+        "flag_program": "2",
+        "takeout_pct": 20,
+        "tickets": [
+          {
+            "type": "exacta",
+            "wager_type": "EX",
+            "label": "Key exacta",
+            "structure": "2 / 4,10",
+            "programs": {
+              "first": [
+                "2"
+              ],
+              "second": [
+                "4",
+                "10"
+              ]
+            },
+            "base_usd": 1.0,
+            "combos": 2,
+            "cost_usd": 2.0,
+            "hit_pct": 5.8,
+            "fair_return_usd": 34.43,
+            "fair_return_after_takeout_usd": 27.54,
+            "tag": "longshot"
+          },
+          {
+            "type": "trifecta",
+            "wager_type": "TR",
+            "label": "Keyed trifecta",
+            "structure": "2 / 4,10 / 4,10,12,3",
+            "programs": {
+              "first": [
+                "2"
+              ],
+              "second": [
+                "4",
+                "10"
+              ],
+              "third": [
+                "4",
+                "10",
+                "12",
+                "3"
+              ]
+            },
+            "base_usd": 0.5,
+            "combos": 6,
+            "cost_usd": 3.0,
+            "hit_pct": 2.6,
+            "fair_return_usd": 114.78,
+            "fair_return_after_takeout_usd": 91.82,
+            "tag": "longshot"
+          }
+        ],
+        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
       }
     },
     {
@@ -140,21 +297,102 @@
         "basis": "A mid board price — it can hold or get bet down. Watch the board near post; the play stands only if it is still at or above the play-at at the close.",
         "version": "d0"
       },
+      "bet": {
+        "track": "SAR",
+        "race": 9,
+        "program": "9",
+        "wager_type": "WIN",
+        "suggested_stake_usd": 2.0,
+        "min_odds": "15/2",
+        "min_odds_decimal": 8.27,
+        "instruction": "Bet DEEP SATIN to win at 15/2 or better"
+      },
       "exotics": {
-        "flag_win_pct": 13,
-        "base": 2.0,
-        "top_exacta": {
-          "combo": "9-4",
-          "prob_pct": 2.3,
-          "fair_payoff": 88.8
-        },
-        "key_over_top": {
-          "combo": "9 / 4,7,3",
-          "prob_pct": 5.6,
-          "fair_payoff": 35.51
-        },
-        "note": "model-fair, no takeout - an overlay is when the board's probable pays more"
+        "flag_program": "9",
+        "takeout_pct": 20,
+        "tickets": [
+          {
+            "type": "exacta",
+            "wager_type": "EX",
+            "label": "Key exacta",
+            "structure": "9 / 4,7",
+            "programs": {
+              "first": [
+                "9"
+              ],
+              "second": [
+                "4",
+                "7"
+              ]
+            },
+            "base_usd": 1.0,
+            "combos": 2,
+            "cost_usd": 2.0,
+            "hit_pct": 4.0,
+            "fair_return_usd": 50.63,
+            "fair_return_after_takeout_usd": 40.5,
+            "tag": "longshot"
+          },
+          {
+            "type": "trifecta",
+            "wager_type": "TR",
+            "label": "Keyed trifecta",
+            "structure": "9 / 4,7 / 4,7,3,13",
+            "programs": {
+              "first": [
+                "9"
+              ],
+              "second": [
+                "4",
+                "7"
+              ],
+              "third": [
+                "4",
+                "7",
+                "3",
+                "13"
+              ]
+            },
+            "base_usd": 0.5,
+            "combos": 6,
+            "cost_usd": 3.0,
+            "hit_pct": 1.8,
+            "fair_return_usd": 165.35,
+            "fair_return_after_takeout_usd": 132.28,
+            "tag": "longshot"
+          }
+        ],
+        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
       }
+    }
+  ],
+  "parlays": [
+    {
+      "type": "daily_double",
+      "wager_type": "DD",
+      "label": "Edge Daily Double",
+      "structure": "R8 #2 / R9 #9",
+      "programs": {
+        "races": [
+          8,
+          9
+        ],
+        "legs": [
+          [
+            "2"
+          ],
+          [
+            "9"
+          ]
+        ]
+      },
+      "base_usd": 1.0,
+      "combos": 1,
+      "cost_usd": 1.0,
+      "hit_pct": 2.5,
+      "fair_return_usd": 39.27,
+      "fair_return_after_takeout_usd": 31.42,
+      "tag": "longshot"
     }
   ]
 }
