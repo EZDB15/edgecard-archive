@@ -18,8 +18,8 @@
     "edge_pts": 12.5,
     "durability": {
       "cls": "hold",
-      "label": "Likely holds",
-      "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+      "label": "Price should hold",
+      "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
@@ -63,8 +63,8 @@
       "race_type": "Clm 20000n3l",
       "durability": {
         "cls": "hold",
-        "label": "Likely holds",
-        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -85,11 +85,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 7.93,
-        "min_odds_fractional": "7/1",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 7.21,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #4 — take 7/1 or better."
+        "instruction": "Bet $2 on #4 to win — paid at the closing price (our fair 6/1)."
       },
       "exotics": {
         "flag_program": "4",
@@ -239,8 +238,8 @@
       "race_type": "Md 50000",
       "durability": {
         "cls": "hold",
-        "label": "Likely holds",
-        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -261,11 +260,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 6.59,
-        "min_odds_fractional": "11/2",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 5.99,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #2 — take 11/2 or better."
+        "instruction": "Bet $2 on #2 to win — paid at the closing price (our fair 5/1)."
       },
       "exotics": {
         "flag_program": "2",
@@ -415,8 +413,8 @@
       "race_type": "OClm 75000",
       "durability": {
         "cls": "hold",
-        "label": "Likely holds",
-        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -437,11 +435,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 5.19,
-        "min_odds_fractional": "4/1",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 4.72,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #5 — take 4/1 or better."
+        "instruction": "Bet $2 on #5 to win — paid at the closing price (our fair 7/2)."
       },
       "exotics": {
         "flag_program": "5",
@@ -591,8 +588,8 @@
       "race_type": "Md Sp Wt",
       "durability": {
         "cls": "hold",
-        "label": "Likely holds",
-        "basis": "A long board price the late money tends to leave alone. In our closing-line record so far, the flags priced this long are the ones that stayed at or above the play-at into post.",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -613,11 +610,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 6.97,
-        "min_odds_fractional": "6/1",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 6.34,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #12 — take 6/1 or better."
+        "instruction": "Bet $2 on #12 to win — paid at the closing price (our fair 11/2)."
       },
       "exotics": {
         "flag_program": "12",

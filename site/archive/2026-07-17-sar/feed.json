@@ -19,7 +19,7 @@
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
@@ -45,7 +45,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -66,11 +66,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 5.12,
-        "min_odds_fractional": "4/1",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 4.65,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #3 — take 4/1 or better."
+        "instruction": "Bet $2 on #3 to win — paid at the closing price (our fair 7/2)."
       },
       "exotics": {
         "flag_program": "3",
@@ -220,8 +219,8 @@
       "race_type": "OClm 45000n2x",
       "durability": {
         "cls": "watch",
-        "label": "Toss-up",
-        "basis": "A mid board price — it can hold or get bet down. Watch the board near post; the play stands only if it is still at or above the play-at at the close.",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -242,11 +241,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 6.82,
-        "min_odds_fractional": "6/1",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 6.2,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #1 — take 6/1 or better."
+        "instruction": "Bet $2 on #1 to win — paid at the closing price (our fair 5/1)."
       },
       "exotics": {
         "flag_program": "1",
@@ -397,7 +395,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -418,11 +416,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 5.75,
-        "min_odds_fractional": "9/2",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 5.23,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #2 — take 9/2 or better."
+        "instruction": "Bet $2 on #2 to win — paid at the closing price (our fair 4/1)."
       },
       "exotics": {
         "flag_program": "2",
@@ -572,8 +569,8 @@
       "race_type": "DeLaRoseL150k",
       "durability": {
         "cls": "watch",
-        "label": "Toss-up",
-        "basis": "A mid board price — it can hold or get bet down. Watch the board near post; the play stands only if it is still at or above the play-at at the close.",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -594,11 +591,10 @@
             ]
           }
         ],
-        "min_odds_decimal": 8.27,
-        "min_odds_fractional": "15/2",
+        "min_odds_decimal": null,
         "fair_odds_decimal": 7.51,
         "fair_return_usd": null,
-        "instruction": "Bet $2 to win on #9 — take 15/2 or better."
+        "instruction": "Bet $2 on #9 to win — paid at the closing price (our fair 13/2)."
       },
       "exotics": {
         "flag_program": "9",
