@@ -163,6 +163,21 @@ h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;}
 .card-col{max-width:720px;margin:0 auto;}
 .cardcap{font-family:var(--serif);font-size:17px;color:var(--ink);margin:2px 0 6px;}
 .cardcap b{font-weight:700;}
+/* ---- Edge of the Day (the rule-chosen anchor play, top of card) ---- */
+.eotd{margin:10px 0 18px;padding:15px 18px 15px;background:var(--flag-wash);
+  border:1px solid var(--flag-fill);border-left:4px solid var(--flag-fill);}
+.eotd-lab{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--flag);margin-bottom:9px;}
+.eotd-horse{display:flex;align-items:center;gap:11px;font-family:var(--serif);font-size:24px;
+  font-weight:700;color:var(--ink);line-height:1.05;}
+.eotd-loc{font-family:var(--mono);font-size:12px;letter-spacing:0.03em;color:var(--muted);
+  text-transform:uppercase;margin:5px 0 12px;}
+.eotd-nums{display:flex;flex-wrap:wrap;gap:8px 26px;margin-bottom:12px;}
+.eotd-nums .c{display:flex;flex-direction:column;line-height:1.15;}
+.eotd-nums .c b{font-family:var(--mono);font-weight:700;font-size:22px;color:var(--ink);}
+.eotd-nums .c i{font-family:var(--serif);font-style:italic;font-size:11px;color:var(--muted);}
+.eotd-nums .c.play b{color:var(--flag);}
+.eotd-why{font-size:14px;color:var(--ink);max-width:64ch;line-height:1.5;}
 /* ---- public-record proof strip (top-of-card credibility) ---- */
 .proofstrip{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 24px;
   margin:2px 0 16px;padding:11px 14px;background:var(--surface);

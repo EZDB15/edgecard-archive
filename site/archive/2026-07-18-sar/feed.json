@@ -9,6 +9,21 @@
   "n_races": 12,
   "n_flags": 4,
   "n_passes": 8,
+  "edge_of_day": {
+    "race": 11,
+    "program": "8",
+    "horse": "JACK AND JIM",
+    "model_win_pct": 30,
+    "play_at": "5/2",
+    "edge_pts": 14.4,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
   "url": "https://edgecardhq.com/archive/2026-07-18-sar/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
   "record": null,

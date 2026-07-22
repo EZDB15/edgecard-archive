@@ -9,6 +9,21 @@
   "n_races": 10,
   "n_flags": 4,
   "n_passes": 6,
+  "edge_of_day": {
+    "race": 2,
+    "program": "3",
+    "horse": "VICTORIOUS DREAM",
+    "model_win_pct": 24,
+    "play_at": "7/2",
+    "edge_pts": 12.4,
+    "durability": {
+      "cls": "watch",
+      "label": "Toss-up",
+      "basis": "A mid board price — it can hold or get bet down. Watch the board near post; the play stands only if it is still at or above the play-at at the close.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
   "url": "https://edgecardhq.com/archive/2026-07-17-dmr/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
   "record": null,

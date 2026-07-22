@@ -9,6 +9,21 @@
   "n_races": 11,
   "n_flags": 4,
   "n_passes": 7,
+  "edge_of_day": {
+    "race": 11,
+    "program": "6",
+    "horse": "KOEKKOEK",
+    "model_win_pct": 27,
+    "play_at": "3/1",
+    "edge_pts": 10.9,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
   "url": "https://edgecardhq.com/archive/2026-07-18-dmr/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
   "record": null,

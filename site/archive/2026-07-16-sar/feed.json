@@ -9,6 +9,21 @@
   "n_races": 9,
   "n_flags": 3,
   "n_passes": 6,
+  "edge_of_day": {
+    "race": 2,
+    "program": "4",
+    "horse": "IRISH GOODBYE",
+    "model_win_pct": 28,
+    "play_at": "7/2",
+    "edge_pts": 5.3,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price the late money bets down. Nearly every flag this short in our record closed below the play-at, so unless the board is still long near post this is usually a pass — you are paid the closing price, not the early one.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
   "url": "https://edgecardhq.com/archive/2026-07-16-sar/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
   "record": null,
