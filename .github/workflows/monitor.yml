@@ -1,0 +1,84 @@
+name: Feed monitor
+
+# Never miss a deadline: after each track's lock time, an always-on cloud check
+# confirms the partner-facing feed + card page are live, current, and well-formed.
+# On any failure it opens an issue (which emails the repo owner) and the run goes
+# red. Runs independently of any laptop or local tooling.
+#
+# Deadlines (meets run in summer -> EDT/PDT):
+#   Saratoga  locks 10:30 AM ET  -> check 10:45 ET  = 14:45 UTC
+#   Del Mar   locks 10:30 AM PT  -> check 10:45 PT  = 17:45 UTC
+# (Scheduled workflows can run a few minutes late; the 15-minute cushion absorbs it.)
+
+on:
+  schedule:
+    - cron: "45 14 * * *"   # 10:45 ET — just after the Saratoga lock
+    - cron: "45 17 * * *"   # 10:45 PT — just after the Del Mar lock
+  workflow_dispatch:
+    inputs:
+      tracks:
+        description: "Comma-separated tracks to check"
+        default: "SAR,DMR"
+      date:
+        description: "YYYY-MM-DD (blank = today, UTC)"
+        default: ""
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Determine tracks + date
+        id: cfg
+        shell: bash
+        run: |
+          case "${{ github.event.schedule }}" in
+            "45 14 * * *") TRACKS=SAR ;;
+            "45 17 * * *") TRACKS=DMR ;;
+            *) TRACKS="${{ github.event.inputs.tracks }}"; TRACKS="${TRACKS:-SAR,DMR}" ;;
+          esac
+          DATE="${{ github.event.inputs.date }}"; DATE="${DATE:-$(date -u +%F)}"
+          echo "tracks=$TRACKS" >> "$GITHUB_OUTPUT"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Checking $TRACKS for $DATE"
+
+      - name: Run monitor
+        id: mon
+        shell: bash
+        run: |
+          set +e
+          python scripts/monitor.py --date "${{ steps.cfg.outputs.date }}" --tracks "${{ steps.cfg.outputs.tracks }}" > monitor.out 2>&1
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat monitor.out
+          cat monitor.out >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open an issue on failure
+        if: steps.mon.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          {
+            echo "The morning feed monitor found a problem for **${{ steps.cfg.outputs.tracks }}** on **${{ steps.cfg.outputs.date }}**."
+            echo ""
+            echo '```'
+            cat monitor.out
+            echo '```'
+            echo ""
+            echo "If that track races today, build + deploy the card now. If it is dark today, close this issue."
+          } > issue.md
+          gh issue create \
+            --title "[monitor] feed check FAILED — ${{ steps.cfg.outputs.date }} (${{ steps.cfg.outputs.tracks }})" \
+            --body-file issue.md
+
+      - name: Reflect failure in the run status
+        if: steps.mon.outputs.code != '0'
+        run: exit 1
