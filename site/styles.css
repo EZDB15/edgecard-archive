@@ -177,6 +177,13 @@ h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;}
 .proofstrip .pf-see{font-family:var(--mono);font-size:10px;letter-spacing:0.04em;
   text-transform:uppercase;color:var(--flag);margin-left:auto;align-self:center;}
 @media(max-width:520px){.proofstrip{gap:12px 20px;}.proofstrip .pf-see{margin-left:0;}}
+/* ---- honesty panel (lose-most-flags + CLV translation + last miss) ---- */
+.honesty{margin:0 0 18px;padding:12px 15px;border:1px solid var(--line);
+  border-left:3px solid var(--rule);background:var(--surface);}
+.honesty .hn-item{font-size:14px;color:var(--ink);margin:0 0 9px;max-width:66ch;line-height:1.5;}
+.honesty .hn-item:last-child{margin-bottom:0;}
+.honesty .hn-item b{font-weight:700;}
+.honesty .hn-item.miss{font-family:var(--mono);font-size:12.5px;color:var(--muted);}
 .dateline-card{font-family:var(--mono);font-size:12px;letter-spacing:0.03em;color:var(--muted);
   text-transform:uppercase;margin:0 0 12px;}
 details.howto,details.made{margin:0 0 16px;border-top:1px solid var(--line);
