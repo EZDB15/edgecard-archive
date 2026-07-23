@@ -1,0 +1,25 @@
+{
+  "sha256": "834825237f6814531db09e433f93e92e71f2afd39be0ffa6c6ab543380ba37af",
+  "weather": {
+    "short": "Mostly Clear",
+    "temp": 53,
+    "temp_unit": "F",
+    "wind": "1 mph",
+    "precip_pct": 0,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "4:15 AM ET",
+  "scratches_as_of_et": "4:00 AM ET",
+  "first_post_et": "1:10 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-07-23-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Thu Jul 23 \u2014 9 races, 4 flags, 6 passes"
+}

@@ -26,26 +26,7 @@
   },
   "url": "https://edgecardhq.com/archive/2026-07-19-dmr/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "7-8",
-    "wins": 7,
-    "losses": 8,
-    "graded": 15,
-    "units": 11.0,
-    "roi_pct": 36.7,
-    "closing_held_n": 1,
-    "closing_graded_n": 15,
-    "closing_held_pct": 7,
-    "last_miss": {
-      "date": "2026-07-18",
-      "track": "DMR",
-      "race": 7,
-      "name": "CENTRODELANTERO",
-      "board_decimal": 5.0,
-      "closing_decimal": 2.6
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 1,
