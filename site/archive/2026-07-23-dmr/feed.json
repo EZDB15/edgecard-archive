@@ -33,16 +33,16 @@
     "graded": 22,
     "units": 1.72,
     "roi_pct": 3.9,
-    "closing_held_n": 1,
-    "closing_graded_n": 16,
-    "closing_held_pct": 6,
+    "closing_held_n": 2,
+    "closing_graded_n": 22,
+    "closing_held_pct": 9,
     "last_miss": {
-      "date": "2026-07-18",
+      "date": "2026-07-23",
       "track": "DMR",
-      "race": 7,
-      "name": "CENTRODELANTERO",
-      "board_decimal": 5.0,
-      "closing_decimal": 2.6
+      "race": 8,
+      "name": "SUNTORY TIME",
+      "board_decimal": 7.0,
+      "closing_decimal": 6.5
     },
     "has_data": true
   },
