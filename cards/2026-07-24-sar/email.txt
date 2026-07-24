@@ -1,0 +1,65 @@
+SUBJECT: SAR · Fri Jul 24 — 10 races, 4 flags, 6 passes
+
+EDGE CARD — SAR, Fri Jul 24, 2026
+Card hashed and public at 10:12 AM ET: https://edgecardhq.com/archive/2026-07-24-sar/ · https://x.com/edgecardHQ
+Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+1-3 · flat-$2 -3.28 · drift +23.7% · meet to date 8-14 · flat-$2 +1.72 · drift +35.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md 20000 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops TWO BY TWO BY TWO at 32%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops JUST PEACHY at 21%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 55000n1x · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: KRISSYS STAR — p 13% · fair odds 13/2 · ML 12/1
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 13% vs 6% morning-line implied (+6.9 pts).
+
+R4 · Clm 20000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GLEN AIRY at 25%; the morning line already prices the race. Pass is a position.
+
+R5 · Clm 20000n2l · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SWAGING at 17%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops QUARTZ MOUNTAIN at 18%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 45000n2x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: MOMMY'S TURN — p 28% · fair odds 5/2 · ML 3/1
+  Bet #8 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 28% vs 20% morning-line implied (+8.4 pts).
+
+R8 · Shuvee-G2 · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SCOTTISH LASSIE at 28%; the morning line already prices the race. Pass is a position.
+
+R9 · RVioletteB200k · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: SPIRIT OF NEW YORK — p 26% · fair odds 3/1 · ML 6/1
+  Bet #1 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 26% vs 11% morning-line implied (+14.9 pts).
+
+R10 · Md Sp Wt · turf, 12.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: WAR AND MAJESTY — p 22% · fair odds 7/2 · ML 6/1
+  Bet #9 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; projects as the lone early speed; model 21% vs 11% morning-line implied (+10.2 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.1dcfb1b1 — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

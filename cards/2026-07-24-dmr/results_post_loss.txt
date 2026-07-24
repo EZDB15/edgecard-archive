@@ -1,0 +1,13 @@
+DMR — Fri Jul 24, 2026-07-24: losing day. Here's the full accounting.
+
+Picks published (hash 7a988efd1ee5…, 10:12 AM ET): 4
+Record                                        : [W]–[L]
+Flat $2 on every pick                         : [+/−]$[X.XX]
+Market drift vs ML (our fair odds vs closing) : [+/−X.X%]
+Meet to date                                  : [W]–[L] · [+/−$X.XX] · drift [+/−X.X%]
+
+What the model got wrong, specifically:
+• [FILL: the flag, fair odds, finish; one factual line]
+What we're watching:
+[FILL: one calibration note, or 'nothing changes — the archive continues'. If a threshold moves it goes on the methodology page with a timestamp.]
+Archive, every card hashed before post: https://github.com/EZDB15/edgecard-archive. Tomorrow's card by 5:00 PM ET.

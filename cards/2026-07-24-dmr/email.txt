@@ -1,0 +1,55 @@
+SUBJECT: DMR · Fri Jul 24 — 8 races, 4 flags, 5 passes
+
+EDGE CARD — DMR, Fri Jul 24, 2026
+Card hashed and public at 10:12 AM ET: https://edgecardhq.com/archive/2026-07-24-dmr/ · https://x.com/edgecardHQ
+Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+1-3 · flat-$2 -3.28 · drift +23.7% · meet to date 8-14 · flat-$2 +1.72 · drift +35.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— DMR · first post 5:00 PM ET —
+
+R1 · Md 50000 · dirt, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops WINSOR GEORGE at 19%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops FIRST OR LAST at 17%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 50000 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CRAZY CAMI at 21%; the morning line already prices the race. Pass is a position.
+
+R4 · Clm 40000 · turf, 9.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: LORD BULLINGDON — p 26% · fair odds 3/1 · ML 3/1
+  Bet #6 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 26% vs 20% morning-line implied (+5.7 pts).
+
+R5 · Md 12500 · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops TIGHT DALLY at 16%; the morning line already prices the race. Pass is a position.
+
+R6 · OClm 100000n2x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: BAD UNCLE BARRY — p 21% · fair odds 4/1 · ML 5/1
+  Bet #6 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 21% vs 13% morning-line implied (+7.4 pts).
+
+R7 · FleetTrtB150k · dirt, 7.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MOHAVEN at 25%; the morning line already prices the race. Pass is a position.
+
+R8 · Md Sp Wt · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: FLASH OF LIGHTNING — p 29% · fair odds 5/2 · ML 7/2
+  Bet #9 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 29% vs 18% morning-line implied (+10.8 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.f93be1a6 — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

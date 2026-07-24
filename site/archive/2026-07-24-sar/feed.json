@@ -2,414 +2,83 @@
   "product": "Edge Card",
   "track": "SAR",
   "track_name": "Saratoga",
-  "date": "2026-07-23",
-  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.107bc986",
-  "generated_ts_utc": "2026-07-23T08:17:29+00:00",
+  "date": "2026-07-24",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.1dcfb1b1",
+  "generated_ts_utc": "2026-07-24T06:18:22+00:00",
   "first_post_et": "1:10 PM ET",
-  "n_races": 9,
+  "n_races": 10,
   "n_flags": 4,
   "n_passes": 6,
   "edge_of_day": {
-    "race": 7,
-    "program": "5",
-    "horse": "CELTIC DAWN",
-    "model_win_pct": 32,
-    "play_at": "5/2",
-    "edge_pts": 9.6,
+    "race": 9,
+    "program": "1",
+    "horse": "SPIRIT OF NEW YORK",
+    "model_win_pct": 26,
+    "play_at": "3/1",
+    "edge_pts": 14.9,
     "durability": {
-      "cls": "gone",
-      "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "cls": "watch",
+      "label": "Price may move",
+      "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
   },
-  "url": "https://edgecardhq.com/archive/2026-07-23-sar/",
+  "url": "https://edgecardhq.com/archive/2026-07-24-sar/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": null,
+  "record": {
+    "record": "8-14",
+    "wins": 8,
+    "losses": 14,
+    "graded": 22,
+    "units": 1.72,
+    "roi_pct": 3.9,
+    "closing_held_n": 2,
+    "closing_graded_n": 22,
+    "closing_held_pct": 9,
+    "last_miss": {
+      "date": "2026-07-23",
+      "track": "DMR",
+      "race": 8,
+      "name": "SUNTORY TIME",
+      "board_decimal": 7.0,
+      "closing_decimal": 6.5
+    },
+    "has_data": true
+  },
   "flags": [
     {
-      "race": 1,
-      "program": "3",
-      "horse": "BOUNDING ALONG",
-      "model_win_pct": 26,
-      "fair_odds": "3/1",
-      "fair_odds_decimal": 3.86,
-      "play_at": "3/1",
-      "play_at_decimal": 4.25,
-      "edge_pts": 8.4,
-      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 26% vs 18% morning-line implied (+8.4 pts)",
-      "surface": "dirt",
-      "distance": "7 furlongs",
-      "race_type": "Md 35000",
-      "durability": {
-        "cls": "gone",
-        "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
-      },
-      "bet": {
-        "pool": "WIN",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          1
-        ],
-        "base_usd": 2.0,
-        "cost_usd": 2.0,
-        "legs": [
-          {
-            "race": 1,
-            "role": "win",
-            "programs": [
-              "3"
-            ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": 3.86,
-        "fair_return_usd": null,
-        "instruction": "Bet $2 on #3 to win — paid at the closing price (our fair 3/1)."
-      },
-      "exotics": {
-        "flag_program": "3",
-        "takeout_pct": 20,
-        "tickets": [
-          {
-            "type": "exacta",
-            "wager_type": "EX",
-            "label": "Key exacta",
-            "structure": "3 / 2,9",
-            "programs": {
-              "first": [
-                "3"
-              ],
-              "second": [
-                "2",
-                "9"
-              ]
-            },
-            "base_usd": 1.0,
-            "combos": 2,
-            "cost_usd": 2.0,
-            "hit_pct": 13.4,
-            "fair_return_usd": 14.97,
-            "fair_return_after_takeout_usd": 11.98,
-            "tag": "value",
-            "bet": {
-              "pool": "EXA",
-              "track": "SAR",
-              "date": "2026-07-23",
-              "races": [
-                1
-              ],
-              "structure": "key",
-              "base_usd": 1.0,
-              "cost_usd": 2.0,
-              "legs": [
-                {
-                  "race": 1,
-                  "role": "first",
-                  "programs": [
-                    "3"
-                  ]
-                },
-                {
-                  "race": 1,
-                  "role": "second",
-                  "programs": [
-                    "2",
-                    "9"
-                  ]
-                }
-              ],
-              "min_odds_decimal": null,
-              "fair_odds_decimal": null,
-              "fair_return_usd": 14.97,
-              "instruction": "Key exacta, $1.00 base: #3 / #2, #9 ($2.00)."
-            }
-          },
-          {
-            "type": "trifecta",
-            "wager_type": "TR",
-            "label": "Keyed trifecta",
-            "structure": "3 / 2,9 / 2,9,6,5",
-            "programs": {
-              "first": [
-                "3"
-              ],
-              "second": [
-                "2",
-                "9"
-              ],
-              "third": [
-                "2",
-                "9",
-                "6",
-                "5"
-              ]
-            },
-            "base_usd": 0.5,
-            "combos": 6,
-            "cost_usd": 3.0,
-            "hit_pct": 9.8,
-            "fair_return_usd": 30.59,
-            "fair_return_after_takeout_usd": 24.47,
-            "tag": "value",
-            "bet": {
-              "pool": "TRI",
-              "track": "SAR",
-              "date": "2026-07-23",
-              "races": [
-                1
-              ],
-              "structure": "key",
-              "base_usd": 0.5,
-              "cost_usd": 3.0,
-              "legs": [
-                {
-                  "race": 1,
-                  "role": "first",
-                  "programs": [
-                    "3"
-                  ]
-                },
-                {
-                  "race": 1,
-                  "role": "second",
-                  "programs": [
-                    "2",
-                    "9"
-                  ]
-                },
-                {
-                  "race": 1,
-                  "role": "third",
-                  "programs": [
-                    "2",
-                    "9",
-                    "6",
-                    "5"
-                  ]
-                }
-              ],
-              "min_odds_decimal": null,
-              "fair_odds_decimal": null,
-              "fair_return_usd": 30.59,
-              "instruction": "Keyed trifecta, $0.50 base: #3 / #2, #9 / #2, #9, #6, #5 ($3.00)."
-            }
-          }
-        ],
-        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
-      }
-    },
-    {
-      "race": 4,
-      "program": "2",
-      "horse": "SPIRIT OF ST LOUIS",
-      "model_win_pct": 33,
-      "fair_odds": "2/1",
-      "fair_odds_decimal": 2.99,
-      "play_at": "5/2",
-      "play_at_decimal": 3.29,
-      "edge_pts": 7.3,
-      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 33% vs 26% morning-line implied (+7.3 pts)",
-      "surface": "turf",
-      "distance": "1 1/8 miles",
-      "race_type": "OClm 110000b",
-      "durability": {
-        "cls": "gone",
-        "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
-      },
-      "bet": {
-        "pool": "WIN",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          4
-        ],
-        "base_usd": 2.0,
-        "cost_usd": 2.0,
-        "legs": [
-          {
-            "race": 4,
-            "role": "win",
-            "programs": [
-              "2"
-            ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": 2.99,
-        "fair_return_usd": null,
-        "instruction": "Bet $2 on #2 to win — paid at the closing price (our fair 2/1)."
-      },
-      "exotics": {
-        "flag_program": "2",
-        "takeout_pct": 20,
-        "tickets": [
-          {
-            "type": "exacta",
-            "wager_type": "EX",
-            "label": "Key exacta",
-            "structure": "2 / 5,7",
-            "programs": {
-              "first": [
-                "2"
-              ],
-              "second": [
-                "5",
-                "7"
-              ]
-            },
-            "base_usd": 1.0,
-            "combos": 2,
-            "cost_usd": 2.0,
-            "hit_pct": 19.3,
-            "fair_return_usd": 10.34,
-            "fair_return_after_takeout_usd": 8.27,
-            "tag": "value",
-            "bet": {
-              "pool": "EXA",
-              "track": "SAR",
-              "date": "2026-07-23",
-              "races": [
-                4
-              ],
-              "structure": "key",
-              "base_usd": 1.0,
-              "cost_usd": 2.0,
-              "legs": [
-                {
-                  "race": 4,
-                  "role": "first",
-                  "programs": [
-                    "2"
-                  ]
-                },
-                {
-                  "race": 4,
-                  "role": "second",
-                  "programs": [
-                    "5",
-                    "7"
-                  ]
-                }
-              ],
-              "min_odds_decimal": null,
-              "fair_odds_decimal": null,
-              "fair_return_usd": 10.34,
-              "instruction": "Key exacta, $1.00 base: #2 / #5, #7 ($2.00)."
-            }
-          },
-          {
-            "type": "trifecta",
-            "wager_type": "TR",
-            "label": "Keyed trifecta",
-            "structure": "2 / 5,7 / 5,7,1,6",
-            "programs": {
-              "first": [
-                "2"
-              ],
-              "second": [
-                "5",
-                "7"
-              ],
-              "third": [
-                "5",
-                "7",
-                "1",
-                "6"
-              ]
-            },
-            "base_usd": 0.5,
-            "combos": 6,
-            "cost_usd": 3.0,
-            "hit_pct": 13.6,
-            "fair_return_usd": 22.02,
-            "fair_return_after_takeout_usd": 17.62,
-            "tag": "value",
-            "bet": {
-              "pool": "TRI",
-              "track": "SAR",
-              "date": "2026-07-23",
-              "races": [
-                4
-              ],
-              "structure": "key",
-              "base_usd": 0.5,
-              "cost_usd": 3.0,
-              "legs": [
-                {
-                  "race": 4,
-                  "role": "first",
-                  "programs": [
-                    "2"
-                  ]
-                },
-                {
-                  "race": 4,
-                  "role": "second",
-                  "programs": [
-                    "5",
-                    "7"
-                  ]
-                },
-                {
-                  "race": 4,
-                  "role": "third",
-                  "programs": [
-                    "5",
-                    "7",
-                    "1",
-                    "6"
-                  ]
-                }
-              ],
-              "min_odds_decimal": null,
-              "fair_odds_decimal": null,
-              "fair_return_usd": 22.02,
-              "instruction": "Keyed trifecta, $0.50 base: #2 / #5, #7 / #5, #7, #1, #6 ($3.00)."
-            }
-          }
-        ],
-        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
-      }
-    },
-    {
-      "race": 4,
+      "race": 3,
       "program": "5",
-      "horse": "SALAMIS",
-      "model_win_pct": 29,
-      "fair_odds": "5/2",
-      "fair_odds_decimal": 3.46,
-      "play_at": "3/1",
-      "play_at_decimal": 3.81,
-      "edge_pts": 6.5,
-      "reason": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 29% vs 22% morning-line implied (+6.5 pts)",
-      "surface": "turf",
-      "distance": "1 1/8 miles",
-      "race_type": "OClm 110000b",
+      "horse": "KRISSYS STAR",
+      "model_win_pct": 13,
+      "fair_odds": "13/2",
+      "fair_odds_decimal": 7.75,
+      "play_at": "15/2",
+      "play_at_decimal": 8.52,
+      "edge_pts": 6.9,
+      "reason": "Ranks #1 in our power figure blend; model 13% vs 6% morning-line implied (+6.9 pts)",
+      "surface": "dirt",
+      "distance": "1 mile",
+      "race_type": "OClm 55000n1x",
       "durability": {
-        "cls": "gone",
-        "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "cls": "hold",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
         "pool": "WIN",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          4
+          3
         ],
         "base_usd": 2.0,
         "cost_usd": 2.0,
         "legs": [
           {
-            "race": 4,
+            "race": 3,
             "role": "win",
             "programs": [
               "5"
@@ -417,9 +86,9 @@
           }
         ],
         "min_odds_decimal": null,
-        "fair_odds_decimal": 3.46,
+        "fair_odds_decimal": 7.75,
         "fair_return_usd": null,
-        "instruction": "Bet $2 on #5 to win — paid at the closing price (our fair 5/2)."
+        "instruction": "Bet $2 on #5 to win — paid at the closing price (our fair 13/2)."
       },
       "exotics": {
         "flag_program": "5",
@@ -429,124 +98,124 @@
             "type": "exacta",
             "wager_type": "EX",
             "label": "Key exacta",
-            "structure": "5 / 2,7",
+            "structure": "5 / 6,3",
             "programs": {
               "first": [
                 "5"
               ],
               "second": [
-                "2",
-                "7"
+                "6",
+                "3"
               ]
             },
             "base_usd": 1.0,
             "combos": 2,
             "cost_usd": 2.0,
-            "hit_pct": 17.5,
-            "fair_return_usd": 11.44,
-            "fair_return_after_takeout_usd": 9.15,
-            "tag": "value",
+            "hit_pct": 5.2,
+            "fair_return_usd": 38.21,
+            "fair_return_after_takeout_usd": 30.57,
+            "tag": "longshot",
             "bet": {
               "pool": "EXA",
               "track": "SAR",
-              "date": "2026-07-23",
+              "date": "2026-07-24",
               "races": [
-                4
+                3
               ],
               "structure": "key",
               "base_usd": 1.0,
               "cost_usd": 2.0,
               "legs": [
                 {
-                  "race": 4,
+                  "race": 3,
                   "role": "first",
                   "programs": [
                     "5"
                   ]
                 },
                 {
-                  "race": 4,
+                  "race": 3,
                   "role": "second",
                   "programs": [
-                    "2",
-                    "7"
+                    "6",
+                    "3"
                   ]
                 }
               ],
               "min_odds_decimal": null,
               "fair_odds_decimal": null,
-              "fair_return_usd": 11.44,
-              "instruction": "Key exacta, $1.00 base: #5 / #2, #7 ($2.00)."
+              "fair_return_usd": 38.21,
+              "instruction": "Key exacta, $1.00 base: #5 / #6, #3 ($2.00)."
             }
           },
           {
             "type": "trifecta",
             "wager_type": "TR",
             "label": "Keyed trifecta",
-            "structure": "5 / 2,7 / 2,7,1,6",
+            "structure": "5 / 6,3 / 6,3,8,1",
             "programs": {
               "first": [
                 "5"
               ],
               "second": [
-                "2",
-                "7"
+                "6",
+                "3"
               ],
               "third": [
-                "2",
-                "7",
-                "1",
-                "6"
+                "6",
+                "3",
+                "8",
+                "1"
               ]
             },
             "base_usd": 0.5,
             "combos": 6,
             "cost_usd": 3.0,
-            "hit_pct": 12.3,
-            "fair_return_usd": 24.34,
-            "fair_return_after_takeout_usd": 19.47,
-            "tag": "value",
+            "hit_pct": 2.8,
+            "fair_return_usd": 107.5,
+            "fair_return_after_takeout_usd": 86.0,
+            "tag": "longshot",
             "bet": {
               "pool": "TRI",
               "track": "SAR",
-              "date": "2026-07-23",
+              "date": "2026-07-24",
               "races": [
-                4
+                3
               ],
               "structure": "key",
               "base_usd": 0.5,
               "cost_usd": 3.0,
               "legs": [
                 {
-                  "race": 4,
+                  "race": 3,
                   "role": "first",
                   "programs": [
                     "5"
                   ]
                 },
                 {
-                  "race": 4,
+                  "race": 3,
                   "role": "second",
                   "programs": [
-                    "2",
-                    "7"
+                    "6",
+                    "3"
                   ]
                 },
                 {
-                  "race": 4,
+                  "race": 3,
                   "role": "third",
                   "programs": [
-                    "2",
-                    "7",
-                    "1",
-                    "6"
+                    "6",
+                    "3",
+                    "8",
+                    "1"
                   ]
                 }
               ],
               "min_odds_decimal": null,
               "fair_odds_decimal": null,
-              "fair_return_usd": 24.34,
-              "instruction": "Keyed trifecta, $0.50 base: #5 / #2, #7 / #2, #7, #1, #6 ($3.00)."
+              "fair_return_usd": 107.5,
+              "instruction": "Keyed trifecta, $0.50 base: #5 / #6, #3 / #6, #3, #8, #1 ($3.00)."
             }
           }
         ],
@@ -555,18 +224,18 @@
     },
     {
       "race": 7,
-      "program": "5",
-      "horse": "CELTIC DAWN",
-      "model_win_pct": 32,
-      "fair_odds": "2/1",
-      "fair_odds_decimal": 3.12,
-      "play_at": "5/2",
-      "play_at_decimal": 3.44,
-      "edge_pts": 9.6,
-      "reason": "Ranks #1 in our power figure blend; model 32% vs 22% morning-line implied (+9.6 pts)",
+      "program": "8",
+      "horse": "MOMMY'S TURN",
+      "model_win_pct": 28,
+      "fair_odds": "5/2",
+      "fair_odds_decimal": 3.56,
+      "play_at": "3/1",
+      "play_at_decimal": 3.92,
+      "edge_pts": 8.4,
+      "reason": "Ranks #1 in our power figure blend; model 28% vs 20% morning-line implied (+8.4 pts)",
       "surface": "turf",
       "distance": "1 1/16 miles",
-      "race_type": "SuziOCainB200k",
+      "race_type": "OClm 45000n2x",
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
@@ -576,7 +245,7 @@
       "bet": {
         "pool": "WIN",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
           7
         ],
@@ -587,44 +256,44 @@
             "race": 7,
             "role": "win",
             "programs": [
-              "5"
+              "8"
             ]
           }
         ],
         "min_odds_decimal": null,
-        "fair_odds_decimal": 3.12,
+        "fair_odds_decimal": 3.56,
         "fair_return_usd": null,
-        "instruction": "Bet $2 on #5 to win — paid at the closing price (our fair 2/1)."
+        "instruction": "Bet $2 on #8 to win — paid at the closing price (our fair 5/2)."
       },
       "exotics": {
-        "flag_program": "5",
+        "flag_program": "8",
         "takeout_pct": 20,
         "tickets": [
           {
             "type": "exacta",
             "wager_type": "EX",
             "label": "Key exacta",
-            "structure": "5 / 3,6",
+            "structure": "8 / 4,5",
             "programs": {
               "first": [
-                "5"
+                "8"
               ],
               "second": [
-                "3",
-                "6"
+                "4",
+                "5"
               ]
             },
             "base_usd": 1.0,
             "combos": 2,
             "cost_usd": 2.0,
-            "hit_pct": 16.8,
-            "fair_return_usd": 11.88,
-            "fair_return_after_takeout_usd": 9.5,
+            "hit_pct": 14.9,
+            "fair_return_usd": 13.43,
+            "fair_return_after_takeout_usd": 10.74,
             "tag": "value",
             "bet": {
               "pool": "EXA",
               "track": "SAR",
-              "date": "2026-07-23",
+              "date": "2026-07-24",
               "races": [
                 7
               ],
@@ -636,55 +305,55 @@
                   "race": 7,
                   "role": "first",
                   "programs": [
-                    "5"
+                    "8"
                   ]
                 },
                 {
                   "race": 7,
                   "role": "second",
                   "programs": [
-                    "3",
-                    "6"
+                    "4",
+                    "5"
                   ]
                 }
               ],
               "min_odds_decimal": null,
               "fair_odds_decimal": null,
-              "fair_return_usd": 11.88,
-              "instruction": "Key exacta, $1.00 base: #5 / #3, #6 ($2.00)."
+              "fair_return_usd": 13.43,
+              "instruction": "Key exacta, $1.00 base: #8 / #4, #5 ($2.00)."
             }
           },
           {
             "type": "trifecta",
             "wager_type": "TR",
             "label": "Keyed trifecta",
-            "structure": "5 / 3,6 / 3,6,8,4",
+            "structure": "8 / 4,5 / 4,5,1,2",
             "programs": {
               "first": [
-                "5"
+                "8"
               ],
               "second": [
-                "3",
-                "6"
+                "4",
+                "5"
               ],
               "third": [
-                "3",
-                "6",
-                "8",
-                "4"
+                "4",
+                "5",
+                "1",
+                "2"
               ]
             },
             "base_usd": 0.5,
             "combos": 6,
             "cost_usd": 3.0,
-            "hit_pct": 11.7,
-            "fair_return_usd": 25.74,
-            "fair_return_after_takeout_usd": 20.59,
+            "hit_pct": 10.6,
+            "fair_return_usd": 28.33,
+            "fair_return_after_takeout_usd": 22.66,
             "tag": "value",
             "bet": {
               "pool": "TRI",
               "track": "SAR",
-              "date": "2026-07-23",
+              "date": "2026-07-24",
               "races": [
                 7
               ],
@@ -696,32 +365,382 @@
                   "race": 7,
                   "role": "first",
                   "programs": [
-                    "5"
+                    "8"
                   ]
                 },
                 {
                   "race": 7,
                   "role": "second",
                   "programs": [
-                    "3",
-                    "6"
+                    "4",
+                    "5"
                   ]
                 },
                 {
                   "race": 7,
                   "role": "third",
                   "programs": [
-                    "3",
-                    "6",
-                    "8",
-                    "4"
+                    "4",
+                    "5",
+                    "1",
+                    "2"
                   ]
                 }
               ],
               "min_odds_decimal": null,
               "fair_odds_decimal": null,
-              "fair_return_usd": 25.74,
-              "instruction": "Keyed trifecta, $0.50 base: #5 / #3, #6 / #3, #6, #8, #4 ($3.00)."
+              "fair_return_usd": 28.33,
+              "instruction": "Keyed trifecta, $0.50 base: #8 / #4, #5 / #4, #5, #1, #2 ($3.00)."
+            }
+          }
+        ],
+        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
+      }
+    },
+    {
+      "race": 9,
+      "program": "1",
+      "horse": "SPIRIT OF NEW YORK",
+      "model_win_pct": 26,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 3.82,
+      "play_at": "3/1",
+      "play_at_decimal": 4.21,
+      "edge_pts": 14.9,
+      "reason": "Ranks #1 in our power figure blend; model 26% vs 11% morning-line implied (+14.9 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "RVioletteB200k",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          9
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 9,
+            "role": "win",
+            "programs": [
+              "1"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": 3.82,
+        "fair_return_usd": null,
+        "instruction": "Bet $2 on #1 to win — paid at the closing price (our fair 3/1)."
+      },
+      "exotics": {
+        "flag_program": "1",
+        "takeout_pct": 20,
+        "tickets": [
+          {
+            "type": "exacta",
+            "wager_type": "EX",
+            "label": "Key exacta",
+            "structure": "1 / 6,2",
+            "programs": {
+              "first": [
+                "1"
+              ],
+              "second": [
+                "6",
+                "2"
+              ]
+            },
+            "base_usd": 1.0,
+            "combos": 2,
+            "cost_usd": 2.0,
+            "hit_pct": 13.4,
+            "fair_return_usd": 14.89,
+            "fair_return_after_takeout_usd": 11.91,
+            "tag": "value",
+            "bet": {
+              "pool": "EXA",
+              "track": "SAR",
+              "date": "2026-07-24",
+              "races": [
+                9
+              ],
+              "structure": "key",
+              "base_usd": 1.0,
+              "cost_usd": 2.0,
+              "legs": [
+                {
+                  "race": 9,
+                  "role": "first",
+                  "programs": [
+                    "1"
+                  ]
+                },
+                {
+                  "race": 9,
+                  "role": "second",
+                  "programs": [
+                    "6",
+                    "2"
+                  ]
+                }
+              ],
+              "min_odds_decimal": null,
+              "fair_odds_decimal": null,
+              "fair_return_usd": 14.89,
+              "instruction": "Key exacta, $1.00 base: #1 / #6, #2 ($2.00)."
+            }
+          },
+          {
+            "type": "trifecta",
+            "wager_type": "TR",
+            "label": "Keyed trifecta",
+            "structure": "1 / 6,2 / 6,2,7,3",
+            "programs": {
+              "first": [
+                "1"
+              ],
+              "second": [
+                "6",
+                "2"
+              ],
+              "third": [
+                "6",
+                "2",
+                "7",
+                "3"
+              ]
+            },
+            "base_usd": 0.5,
+            "combos": 6,
+            "cost_usd": 3.0,
+            "hit_pct": 10.0,
+            "fair_return_usd": 30.03,
+            "fair_return_after_takeout_usd": 24.02,
+            "tag": "value",
+            "bet": {
+              "pool": "TRI",
+              "track": "SAR",
+              "date": "2026-07-24",
+              "races": [
+                9
+              ],
+              "structure": "key",
+              "base_usd": 0.5,
+              "cost_usd": 3.0,
+              "legs": [
+                {
+                  "race": 9,
+                  "role": "first",
+                  "programs": [
+                    "1"
+                  ]
+                },
+                {
+                  "race": 9,
+                  "role": "second",
+                  "programs": [
+                    "6",
+                    "2"
+                  ]
+                },
+                {
+                  "race": 9,
+                  "role": "third",
+                  "programs": [
+                    "6",
+                    "2",
+                    "7",
+                    "3"
+                  ]
+                }
+              ],
+              "min_odds_decimal": null,
+              "fair_odds_decimal": null,
+              "fair_return_usd": 30.03,
+              "instruction": "Keyed trifecta, $0.50 base: #1 / #6, #2 / #6, #2, #7, #3 ($3.00)."
+            }
+          }
+        ],
+        "note": "Model-fair reference prices, not a +EV call. Exotics take ~20% off the top, so a pool is an overlay only when the tote's probable pays more than the fair return."
+      }
+    },
+    {
+      "race": 10,
+      "program": "9",
+      "horse": "WAR AND MAJESTY",
+      "model_win_pct": 22,
+      "fair_odds": "7/2",
+      "fair_odds_decimal": 4.65,
+      "play_at": "4/1",
+      "play_at_decimal": 5.12,
+      "edge_pts": 10.2,
+      "reason": "Ranks #1 in our power figure blend; projects as the lone early speed; model 21% vs 11% morning-line implied (+10.2 pts)",
+      "surface": "turf",
+      "distance": "1 1/2 miles",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          10
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 10,
+            "role": "win",
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": 4.65,
+        "fair_return_usd": null,
+        "instruction": "Bet $2 on #9 to win — paid at the closing price (our fair 7/2)."
+      },
+      "exotics": {
+        "flag_program": "9",
+        "takeout_pct": 20,
+        "tickets": [
+          {
+            "type": "exacta",
+            "wager_type": "EX",
+            "label": "Key exacta",
+            "structure": "9 / 4,1",
+            "programs": {
+              "first": [
+                "9"
+              ],
+              "second": [
+                "4",
+                "1"
+              ]
+            },
+            "base_usd": 1.0,
+            "combos": 2,
+            "cost_usd": 2.0,
+            "hit_pct": 8.0,
+            "fair_return_usd": 25.02,
+            "fair_return_after_takeout_usd": 20.02,
+            "tag": "longshot",
+            "bet": {
+              "pool": "EXA",
+              "track": "SAR",
+              "date": "2026-07-24",
+              "races": [
+                10
+              ],
+              "structure": "key",
+              "base_usd": 1.0,
+              "cost_usd": 2.0,
+              "legs": [
+                {
+                  "race": 10,
+                  "role": "first",
+                  "programs": [
+                    "9"
+                  ]
+                },
+                {
+                  "race": 10,
+                  "role": "second",
+                  "programs": [
+                    "4",
+                    "1"
+                  ]
+                }
+              ],
+              "min_odds_decimal": null,
+              "fair_odds_decimal": null,
+              "fair_return_usd": 25.02,
+              "instruction": "Key exacta, $1.00 base: #9 / #4, #1 ($2.00)."
+            }
+          },
+          {
+            "type": "trifecta",
+            "wager_type": "TR",
+            "label": "Keyed trifecta",
+            "structure": "9 / 4,1 / 4,1,5,2",
+            "programs": {
+              "first": [
+                "9"
+              ],
+              "second": [
+                "4",
+                "1"
+              ],
+              "third": [
+                "4",
+                "1",
+                "5",
+                "2"
+              ]
+            },
+            "base_usd": 0.5,
+            "combos": 6,
+            "cost_usd": 3.0,
+            "hit_pct": 4.8,
+            "fair_return_usd": 62.79,
+            "fair_return_after_takeout_usd": 50.23,
+            "tag": "longshot",
+            "bet": {
+              "pool": "TRI",
+              "track": "SAR",
+              "date": "2026-07-24",
+              "races": [
+                10
+              ],
+              "structure": "key",
+              "base_usd": 0.5,
+              "cost_usd": 3.0,
+              "legs": [
+                {
+                  "race": 10,
+                  "role": "first",
+                  "programs": [
+                    "9"
+                  ]
+                },
+                {
+                  "race": 10,
+                  "role": "second",
+                  "programs": [
+                    "4",
+                    "1"
+                  ]
+                },
+                {
+                  "race": 10,
+                  "role": "third",
+                  "programs": [
+                    "4",
+                    "1",
+                    "5",
+                    "2"
+                  ]
+                }
+              ],
+              "min_odds_decimal": null,
+              "fair_odds_decimal": null,
+              "fair_return_usd": 62.79,
+              "instruction": "Keyed trifecta, $0.50 base: #9 / #4, #1 / #4, #1, #5, #2 ($3.00)."
             }
           }
         ],
@@ -729,1464 +748,1505 @@
       }
     }
   ],
-  "parlays": [],
+  "parlays": [
+    {
+      "type": "daily_double",
+      "wager_type": "DD",
+      "label": "Edge Daily Double",
+      "structure": "R9 #1 / R10 #9",
+      "programs": {
+        "races": [
+          9,
+          10
+        ],
+        "legs": [
+          [
+            "1"
+          ],
+          [
+            "9"
+          ]
+        ]
+      },
+      "base_usd": 1.0,
+      "combos": 1,
+      "cost_usd": 1.0,
+      "hit_pct": 5.6,
+      "fair_return_usd": 17.79,
+      "fair_return_after_takeout_usd": 14.23,
+      "tag": "longshot",
+      "bet": {
+        "pool": "DBL",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          9,
+          10
+        ],
+        "structure": "single",
+        "base_usd": 1.0,
+        "cost_usd": 1.0,
+        "legs": [
+          {
+            "race": 9,
+            "role": null,
+            "programs": [
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": null,
+        "fair_return_usd": 17.79,
+        "instruction": "Edge Daily Double: R9 #1 · R10 #9 ($1.00)."
+      }
+    }
+  ],
   "card_reads": [
     {
       "race": 1,
-      "tier": "play",
+      "tier": "lean",
       "top": {
-        "program": "3",
-        "name": "BOUNDING ALONG",
-        "win_pct": 26,
-        "fair": "3/1",
-        "fair_decimal": 3.86,
-        "board": "7/2",
-        "board_decimal": 4.5
+        "program": "7",
+        "name": "TWO BY TWO BY TWO",
+        "win_pct": 32,
+        "fair": "2/1",
+        "fair_decimal": 3.12,
+        "board": "9/5",
+        "board_decimal": 2.8
       },
-      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 26% vs 18% morning-line implied (+8.4 pts)",
+      "read": "Our top-rated horse. A small edge, under our bet line.",
       "coverage_set": [
-        "3"
+        "7"
       ],
-      "edge_pts": 8.4
+      "edge_pts": 4.2
     },
     {
       "race": 2,
-      "tier": "lean",
+      "tier": "chalk",
       "top": {
-        "program": "5",
-        "name": "BLAST FURNACE",
-        "win_pct": 22,
+        "program": "7",
+        "name": "JUST PEACHY",
+        "win_pct": 21,
         "fair": "7/2",
-        "fair_decimal": 4.62,
-        "board": "3/1",
-        "board_decimal": 4.0
+        "fair_decimal": 4.75,
+        "board": "5/2",
+        "board_decimal": 3.5
       },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
-        "5"
+        "7"
       ],
-      "edge_pts": 2.1
+      "edge_pts": -1.3
     },
     {
       "race": 3,
-      "tier": "scramble",
-      "top": {
-        "program": "3",
-        "name": "NORWICH",
-        "win_pct": 14,
-        "fair": "6/1",
-        "fair_decimal": 6.93,
-        "board": "5/2",
-        "board_decimal": 3.5
-      },
-      "read": "Wide-open heat; no separation we'd trust.",
-      "coverage_set": [
-        "3",
-        "1",
-        "5",
-        "9"
-      ],
-      "edge_pts": -8.1
-    },
-    {
-      "race": 4,
       "tier": "play",
       "top": {
         "program": "5",
-        "name": "SALAMIS",
-        "win_pct": 29,
-        "fair": "5/2",
-        "fair_decimal": 3.46,
-        "board": "5/2",
-        "board_decimal": 3.5
+        "name": "KRISSYS STAR",
+        "win_pct": 13,
+        "fair": "13/2",
+        "fair_decimal": 7.75,
+        "board": "12/1",
+        "board_decimal": 13.0
       },
-      "read": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 29% vs 22% morning-line implied (+6.5 pts)",
+      "read": "Ranks #1 in our power figure blend; model 13% vs 6% morning-line implied (+6.9 pts)",
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 6.5
+      "edge_pts": 6.9
     },
     {
-      "race": 5,
-      "tier": "lean",
-      "top": {
-        "program": "9",
-        "name": "SIDE QUEST",
-        "win_pct": 25,
-        "fair": "3/1",
-        "fair_decimal": 3.99,
-        "board": "3/1",
-        "board_decimal": 4.0
-      },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
-      "coverage_set": [
-        "9"
-      ],
-      "edge_pts": 5.6
-    },
-    {
-      "race": 6,
+      "race": 4,
       "tier": "chalk",
       "top": {
         "program": "1",
-        "name": "ANCIENT WORLD",
-        "win_pct": 22,
-        "fair": "7/2",
-        "fair_decimal": 4.51,
-        "board": "8/5",
-        "board_decimal": 2.6
+        "name": "GLEN AIRY",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 4.04,
+        "board": "2/1",
+        "board_decimal": 3.0
       },
       "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "1"
       ],
-      "edge_pts": -8.1
+      "edge_pts": -1.2
+    },
+    {
+      "race": 5,
+      "tier": "scramble",
+      "top": {
+        "program": "10",
+        "name": "SWAGING",
+        "win_pct": 17,
+        "fair": "9/2",
+        "fair_decimal": 5.73,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "10",
+        "11",
+        "1",
+        "5"
+      ],
+      "edge_pts": 0.1
+    },
+    {
+      "race": 6,
+      "tier": "chalk",
+      "top": {
+        "program": "4",
+        "name": "QUARTZ MOUNTAIN",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.54,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 0.7
     },
     {
       "race": 7,
       "tier": "play",
       "top": {
-        "program": "5",
-        "name": "CELTIC DAWN",
-        "win_pct": 32,
-        "fair": "2/1",
-        "fair_decimal": 3.12,
-        "board": "5/2",
-        "board_decimal": 3.5
+        "program": "8",
+        "name": "MOMMY'S TURN",
+        "win_pct": 28,
+        "fair": "5/2",
+        "fair_decimal": 3.56,
+        "board": "3/1",
+        "board_decimal": 4.0
       },
-      "read": "Ranks #1 in our power figure blend; model 32% vs 22% morning-line implied (+9.6 pts)",
+      "read": "Ranks #1 in our power figure blend; model 28% vs 20% morning-line implied (+8.4 pts)",
       "coverage_set": [
-        "5"
+        "8"
       ],
-      "edge_pts": 9.6
+      "edge_pts": 8.4
     },
     {
       "race": 8,
-      "tier": "scramble",
+      "tier": "chalk",
       "top": {
-        "program": "2",
-        "name": "SENZA PAROLE",
-        "win_pct": 18,
-        "fair": "9/2",
-        "fair_decimal": 5.51,
-        "board": "5/2",
-        "board_decimal": 3.5
+        "program": "4",
+        "name": "SCOTTISH LASSIE",
+        "win_pct": 28,
+        "fair": "5/2",
+        "fair_decimal": 3.54,
+        "board": "9/5",
+        "board_decimal": 2.8
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
-        "2",
-        "1",
-        "4",
-        "6"
+        "4"
       ],
-      "edge_pts": -4.2
+      "edge_pts": 0.3
     },
     {
       "race": 9,
-      "tier": "lean",
+      "tier": "play",
       "top": {
-        "program": "3",
-        "name": "MIDTOWN MISCHIEF",
+        "program": "1",
+        "name": "SPIRIT OF NEW YORK",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.82,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 26% vs 11% morning-line implied (+14.9 pts)",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 14.9
+    },
+    {
+      "race": 10,
+      "tier": "play",
+      "top": {
+        "program": "9",
+        "name": "WAR AND MAJESTY",
         "win_pct": 22,
         "fair": "7/2",
-        "fair_decimal": 4.49,
-        "board": "7/2",
-        "board_decimal": 4.5
+        "fair_decimal": 4.65,
+        "board": "6/1",
+        "board_decimal": 7.0
       },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "read": "Ranks #1 in our power figure blend; projects as the lone early speed; model 21% vs 11% morning-line implied (+10.2 pts)",
       "coverage_set": [
-        "3"
+        "9"
       ],
-      "edge_pts": 5.1
+      "edge_pts": 10.2
     }
   ],
   "multi_race": [
     {
       "type": "multi_race",
       "wager_type": "P4",
-      "label": "Late Pick 4 (R6–R9)",
+      "label": "Late Pick 4 (R7–R10)",
       "build": "conviction",
       "races": [
-        6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "legs": [
         {
-          "race": 6,
-          "covered": [
-            "1"
-          ],
-          "mass_pct": 22.2
-        },
-        {
           "race": 7,
           "covered": [
-            "5"
+            "8"
           ],
-          "mass_pct": 32.0
+          "mass_pct": 28.1
         },
         {
           "race": 8,
           "covered": [
-            "2",
-            "1"
+            "4"
           ],
-          "mass_pct": 36.0
+          "mass_pct": 28.2
         },
         {
           "race": 9,
           "covered": [
-            "3"
+            "1"
           ],
-          "mass_pct": 22.3
+          "mass_pct": 26.2
+        },
+        {
+          "race": 10,
+          "covered": [
+            "9"
+          ],
+          "mass_pct": 21.5
         }
       ],
       "base_usd": 0.5,
-      "combos": 2,
-      "cost_usd": 1.0,
-      "hit_pct": 0.57,
-      "fair_return_usd": 175.83,
-      "fair_return_after_takeout_usd": 140.66,
+      "combos": 1,
+      "cost_usd": 0.5,
+      "hit_pct": 0.45,
+      "fair_return_usd": 112.19,
+      "fair_return_after_takeout_usd": 89.75,
       "bet": {
         "pool": "P4",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          6,
           7,
           8,
-          9
+          9,
+          10
         ],
         "structure": "conviction",
         "base_usd": 0.5,
-        "cost_usd": 1.0,
+        "cost_usd": 0.5,
         "legs": [
-          {
-            "race": 6,
-            "role": null,
-            "programs": [
-              "1"
-            ]
-          },
           {
             "race": 7,
             "role": null,
             "programs": [
-              "5"
+              "8"
             ]
           },
           {
             "race": 8,
             "role": null,
             "programs": [
-              "2",
-              "1"
+              "4"
             ]
           },
           {
             "race": 9,
             "role": null,
             "programs": [
-              "3"
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
             ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 175.83,
-        "instruction": "Late Pick 4 (R6–R9) (conviction): R6 #1 · R7 #5 · R8 #2, #1 · R9 #3 ($1.00)."
+        "fair_return_usd": 112.19,
+        "instruction": "Late Pick 4 (R7–R10) (conviction): R7 #8 · R8 #4 · R9 #1 · R10 #9 ($0.50)."
       }
     },
     {
       "type": "multi_race",
       "wager_type": "P4",
-      "label": "Late Pick 4 (R6–R9)",
+      "label": "Late Pick 4 (R7–R10)",
       "build": "coverage",
       "races": [
-        6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "legs": [
         {
-          "race": 6,
-          "covered": [
-            "1",
-            "10"
-          ],
-          "mass_pct": 34.2
-        },
-        {
           "race": 7,
           "covered": [
-            "5"
+            "8"
           ],
-          "mass_pct": 32.0
+          "mass_pct": 28.1
         },
         {
           "race": 8,
           "covered": [
-            "2",
-            "1",
             "4",
-            "6"
+            "3"
           ],
-          "mass_pct": 62.9
+          "mass_pct": 53.1
         },
         {
           "race": 9,
           "covered": [
-            "3",
-            "7"
+            "1"
           ],
-          "mass_pct": 38.0
+          "mass_pct": 26.2
+        },
+        {
+          "race": 10,
+          "covered": [
+            "9"
+          ],
+          "mass_pct": 21.5
         }
       ],
       "base_usd": 0.5,
-      "combos": 16,
-      "cost_usd": 8.0,
-      "hit_pct": 2.61,
-      "fair_return_usd": 305.94,
-      "fair_return_after_takeout_usd": 244.75,
+      "combos": 2,
+      "cost_usd": 1.0,
+      "hit_pct": 0.84,
+      "fair_return_usd": 119.37,
+      "fair_return_after_takeout_usd": 95.5,
       "bet": {
         "pool": "P4",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          6,
           7,
           8,
-          9
+          9,
+          10
         ],
         "structure": "coverage",
         "base_usd": 0.5,
-        "cost_usd": 8.0,
+        "cost_usd": 1.0,
         "legs": [
-          {
-            "race": 6,
-            "role": null,
-            "programs": [
-              "1",
-              "10"
-            ]
-          },
           {
             "race": 7,
             "role": null,
             "programs": [
-              "5"
+              "8"
             ]
           },
           {
             "race": 8,
             "role": null,
             "programs": [
-              "2",
-              "1",
               "4",
-              "6"
+              "3"
             ]
           },
           {
             "race": 9,
             "role": null,
             "programs": [
-              "3",
-              "7"
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
             ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 305.94,
-        "instruction": "Late Pick 4 (R6–R9) (coverage): R6 #1, #10 · R7 #5 · R8 #2, #1, #4, #6 · R9 #3, #7 ($8.00)."
+        "fair_return_usd": 119.37,
+        "instruction": "Late Pick 4 (R7–R10) (coverage): R7 #8 · R8 #4, #3 · R9 #1 · R10 #9 ($1.00)."
       }
     },
     {
       "type": "multi_race",
       "wager_type": "P5",
-      "label": "Late Pick 5 (R5–R9)",
+      "label": "Late Pick 5 (R6–R10)",
       "build": "conviction",
       "races": [
-        5,
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "legs": [
         {
-          "race": 5,
-          "covered": [
-            "9"
-          ],
-          "mass_pct": 25.1
-        },
-        {
           "race": 6,
           "covered": [
-            "1"
+            "4"
           ],
-          "mass_pct": 22.2
+          "mass_pct": 18.1
         },
         {
           "race": 7,
           "covered": [
-            "5"
+            "8"
           ],
-          "mass_pct": 32.0
+          "mass_pct": 28.1
         },
         {
           "race": 8,
           "covered": [
-            "2",
-            "1"
+            "4"
           ],
-          "mass_pct": 36.0
+          "mass_pct": 28.2
         },
         {
           "race": 9,
           "covered": [
+            "1"
+          ],
+          "mass_pct": 26.2
+        },
+        {
+          "race": 10,
+          "covered": [
+            "9"
+          ],
+          "mass_pct": 21.5
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 1,
+      "cost_usd": 0.5,
+      "hit_pct": 0.08,
+      "fair_return_usd": 621.55,
+      "fair_return_after_takeout_usd": 497.24,
+      "bet": {
+        "pool": "P5",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "structure": "conviction",
+        "base_usd": 0.5,
+        "cost_usd": 0.5,
+        "legs": [
+          {
+            "race": 6,
+            "role": null,
+            "programs": [
+              "4"
+            ]
+          },
+          {
+            "race": 7,
+            "role": null,
+            "programs": [
+              "8"
+            ]
+          },
+          {
+            "race": 8,
+            "role": null,
+            "programs": [
+              "4"
+            ]
+          },
+          {
+            "race": 9,
+            "role": null,
+            "programs": [
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": null,
+        "fair_return_usd": 621.55,
+        "instruction": "Late Pick 5 (R6–R10) (conviction): R6 #4 · R7 #8 · R8 #4 · R9 #1 · R10 #9 ($0.50)."
+      }
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P5",
+      "label": "Late Pick 5 (R6–R10)",
+      "build": "coverage",
+      "races": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "legs": [
+        {
+          "race": 6,
+          "covered": [
+            "4",
+            "8"
+          ],
+          "mass_pct": 31.3
+        },
+        {
+          "race": 7,
+          "covered": [
+            "8"
+          ],
+          "mass_pct": 28.1
+        },
+        {
+          "race": 8,
+          "covered": [
+            "4",
             "3"
           ],
-          "mass_pct": 22.3
+          "mass_pct": 53.1
+        },
+        {
+          "race": 9,
+          "covered": [
+            "1"
+          ],
+          "mass_pct": 26.2
+        },
+        {
+          "race": 10,
+          "covered": [
+            "9"
+          ],
+          "mass_pct": 21.5
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 4,
+      "cost_usd": 2.0,
+      "hit_pct": 0.26,
+      "fair_return_usd": 762.53,
+      "fair_return_after_takeout_usd": 610.02,
+      "bet": {
+        "pool": "P5",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "structure": "coverage",
+        "base_usd": 0.5,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 6,
+            "role": null,
+            "programs": [
+              "4",
+              "8"
+            ]
+          },
+          {
+            "race": 7,
+            "role": null,
+            "programs": [
+              "8"
+            ]
+          },
+          {
+            "race": 8,
+            "role": null,
+            "programs": [
+              "4",
+              "3"
+            ]
+          },
+          {
+            "race": 9,
+            "role": null,
+            "programs": [
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": null,
+        "fair_return_usd": 762.53,
+        "instruction": "Late Pick 5 (R6–R10) (coverage): R6 #4, #8 · R7 #8 · R8 #4, #3 · R9 #1 · R10 #9 ($2.00)."
+      }
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P5",
+      "label": "Early Pick 5 (R1–R5)",
+      "build": "conviction",
+      "races": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legs": [
+        {
+          "race": 1,
+          "covered": [
+            "7"
+          ],
+          "mass_pct": 32.0
+        },
+        {
+          "race": 2,
+          "covered": [
+            "7"
+          ],
+          "mass_pct": 21.0
+        },
+        {
+          "race": 3,
+          "covered": [
+            "5"
+          ],
+          "mass_pct": 12.9
+        },
+        {
+          "race": 4,
+          "covered": [
+            "1"
+          ],
+          "mass_pct": 24.8
+        },
+        {
+          "race": 5,
+          "covered": [
+            "10",
+            "11"
+          ],
+          "mass_pct": 32.1
         }
       ],
       "base_usd": 0.5,
       "combos": 2,
       "cost_usd": 1.0,
-      "hit_pct": 0.14,
-      "fair_return_usd": 701.08,
-      "fair_return_after_takeout_usd": 560.86,
+      "hit_pct": 0.07,
+      "fair_return_usd": 1444.94,
+      "fair_return_after_takeout_usd": 1155.95,
       "bet": {
         "pool": "P5",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          5,
-          6,
-          7,
-          8,
-          9
+          1,
+          2,
+          3,
+          4,
+          5
         ],
         "structure": "conviction",
         "base_usd": 0.5,
         "cost_usd": 1.0,
         "legs": [
           {
-            "race": 5,
+            "race": 1,
             "role": null,
             "programs": [
-              "9"
+              "7"
             ]
           },
           {
-            "race": 6,
+            "race": 2,
             "role": null,
             "programs": [
-              "1"
+              "7"
             ]
           },
           {
-            "race": 7,
+            "race": 3,
             "role": null,
             "programs": [
               "5"
             ]
           },
           {
-            "race": 8,
+            "race": 4,
             "role": null,
             "programs": [
-              "2",
               "1"
             ]
           },
           {
-            "race": 9,
+            "race": 5,
             "role": null,
             "programs": [
-              "3"
+              "10",
+              "11"
             ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 701.08,
-        "instruction": "Late Pick 5 (R5–R9) (conviction): R5 #9 · R6 #1 · R7 #5 · R8 #2, #1 · R9 #3 ($1.00)."
+        "fair_return_usd": 1444.94,
+        "instruction": "Early Pick 5 (R1–R5) (conviction): R1 #7 · R2 #7 · R3 #5 · R4 #1 · R5 #10, #11 ($1.00)."
       }
     },
     {
       "type": "multi_race",
       "wager_type": "P5",
-      "label": "Late Pick 5 (R5–R9)",
+      "label": "Early Pick 5 (R1–R5)",
       "build": "coverage",
       "races": [
-        5,
-        6,
-        7,
-        8,
-        9
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "legs": [
         {
-          "race": 5,
+          "race": 1,
           "covered": [
-            "9",
-            "4"
+            "7",
+            "8"
           ],
-          "mass_pct": 43.2
+          "mass_pct": 47.6
         },
         {
-          "race": 6,
+          "race": 2,
           "covered": [
-            "1",
-            "10"
+            "7",
+            "5"
           ],
-          "mass_pct": 34.2
+          "mass_pct": 41.2
         },
         {
-          "race": 7,
+          "race": 3,
           "covered": [
             "5"
           ],
-          "mass_pct": 32.0
+          "mass_pct": 12.9
         },
         {
-          "race": 8,
+          "race": 4,
           "covered": [
-            "2",
             "1",
-            "4",
-            "6"
-          ],
-          "mass_pct": 62.9
-        },
-        {
-          "race": 9,
-          "covered": [
-            "3",
             "7"
           ],
-          "mass_pct": 38.0
+          "mass_pct": 41.7
+        },
+        {
+          "race": 5,
+          "covered": [
+            "10",
+            "11",
+            "1",
+            "5"
+          ],
+          "mass_pct": 55.4
         }
       ],
       "base_usd": 0.5,
       "combos": 32,
       "cost_usd": 16.0,
-      "hit_pct": 1.13,
-      "fair_return_usd": 1417.06,
-      "fair_return_after_takeout_usd": 1133.65,
+      "hit_pct": 0.58,
+      "fair_return_usd": 2739.35,
+      "fair_return_after_takeout_usd": 2191.48,
       "bet": {
         "pool": "P5",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          5,
-          6,
-          7,
-          8,
-          9
+          1,
+          2,
+          3,
+          4,
+          5
         ],
         "structure": "coverage",
         "base_usd": 0.5,
         "cost_usd": 16.0,
         "legs": [
           {
-            "race": 5,
+            "race": 1,
             "role": null,
             "programs": [
-              "9",
-              "4"
+              "7",
+              "8"
             ]
           },
           {
-            "race": 6,
+            "race": 2,
             "role": null,
             "programs": [
-              "1",
-              "10"
+              "7",
+              "5"
             ]
           },
           {
-            "race": 7,
+            "race": 3,
             "role": null,
             "programs": [
               "5"
             ]
           },
           {
-            "race": 8,
+            "race": 4,
             "role": null,
             "programs": [
-              "2",
               "1",
-              "4",
-              "6"
-            ]
-          },
-          {
-            "race": 9,
-            "role": null,
-            "programs": [
-              "3",
               "7"
             ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": null,
-        "fair_return_usd": 1417.06,
-        "instruction": "Late Pick 5 (R5–R9) (coverage): R5 #9, #4 · R6 #1, #10 · R7 #5 · R8 #2, #1, #4, #6 · R9 #3, #7 ($16.00)."
-      }
-    },
-    {
-      "type": "multi_race",
-      "wager_type": "P5",
-      "label": "Early Pick 5 (R1–R5)",
-      "build": "conviction",
-      "races": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "legs": [
-        {
-          "race": 1,
-          "covered": [
-            "3"
-          ],
-          "mass_pct": 25.9
-        },
-        {
-          "race": 2,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 21.6
-        },
-        {
-          "race": 3,
-          "covered": [
-            "3",
-            "1"
-          ],
-          "mass_pct": 28.7
-        },
-        {
-          "race": 4,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 28.9
-        },
-        {
-          "race": 5,
-          "covered": [
-            "9"
-          ],
-          "mass_pct": 25.1
-        }
-      ],
-      "base_usd": 0.5,
-      "combos": 2,
-      "cost_usd": 1.0,
-      "hit_pct": 0.12,
-      "fair_return_usd": 858.69,
-      "fair_return_after_takeout_usd": 686.95,
-      "bet": {
-        "pool": "P5",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "structure": "conviction",
-        "base_usd": 0.5,
-        "cost_usd": 1.0,
-        "legs": [
-          {
-            "race": 1,
-            "role": null,
-            "programs": [
-              "3"
-            ]
-          },
-          {
-            "race": 2,
-            "role": null,
-            "programs": [
-              "5"
-            ]
-          },
-          {
-            "race": 3,
-            "role": null,
-            "programs": [
-              "3",
-              "1"
-            ]
-          },
-          {
-            "race": 4,
-            "role": null,
-            "programs": [
-              "5"
-            ]
           },
           {
             "race": 5,
             "role": null,
             "programs": [
-              "9"
-            ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": null,
-        "fair_return_usd": 858.69,
-        "instruction": "Early Pick 5 (R1–R5) (conviction): R1 #3 · R2 #5 · R3 #3, #1 · R4 #5 · R5 #9 ($1.00)."
-      }
-    },
-    {
-      "type": "multi_race",
-      "wager_type": "P5",
-      "label": "Early Pick 5 (R1–R5)",
-      "build": "coverage",
-      "races": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "legs": [
-        {
-          "race": 1,
-          "covered": [
-            "3"
-          ],
-          "mass_pct": 25.9
-        },
-        {
-          "race": 2,
-          "covered": [
-            "5",
-            "2"
-          ],
-          "mass_pct": 36.8
-        },
-        {
-          "race": 3,
-          "covered": [
-            "3",
-            "1",
-            "5",
-            "9"
-          ],
-          "mass_pct": 53.4
-        },
-        {
-          "race": 4,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 28.9
-        },
-        {
-          "race": 5,
-          "covered": [
-            "9",
-            "4"
-          ],
-          "mass_pct": 43.2
-        }
-      ],
-      "base_usd": 0.5,
-      "combos": 16,
-      "cost_usd": 8.0,
-      "hit_pct": 0.63,
-      "fair_return_usd": 1260.37,
-      "fair_return_after_takeout_usd": 1008.3,
-      "bet": {
-        "pool": "P5",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "structure": "coverage",
-        "base_usd": 0.5,
-        "cost_usd": 8.0,
-        "legs": [
-          {
-            "race": 1,
-            "role": null,
-            "programs": [
-              "3"
-            ]
-          },
-          {
-            "race": 2,
-            "role": null,
-            "programs": [
-              "5",
-              "2"
-            ]
-          },
-          {
-            "race": 3,
-            "role": null,
-            "programs": [
-              "3",
+              "10",
+              "11",
               "1",
-              "5",
-              "9"
-            ]
-          },
-          {
-            "race": 4,
-            "role": null,
-            "programs": [
               "5"
-            ]
-          },
-          {
-            "race": 5,
-            "role": null,
-            "programs": [
-              "9",
-              "4"
             ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 1260.37,
-        "instruction": "Early Pick 5 (R1–R5) (coverage): R1 #3 · R2 #5, #2 · R3 #3, #1, #5, #9 · R4 #5 · R5 #9, #4 ($8.00)."
+        "fair_return_usd": 2739.35,
+        "instruction": "Early Pick 5 (R1–R5) (coverage): R1 #7, #8 · R2 #7, #5 · R3 #5 · R4 #1, #7 · R5 #10, #11, #1, #5 ($16.00)."
       }
     },
     {
       "type": "multi_race",
       "wager_type": "P6",
-      "label": "Pick 6 (R4–R9)",
+      "label": "Pick 6 (R5–R10)",
       "build": "conviction",
       "races": [
-        4,
         5,
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "legs": [
         {
-          "race": 4,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 28.9
-        },
-        {
           "race": 5,
           "covered": [
-            "9"
+            "10",
+            "11"
           ],
-          "mass_pct": 25.1
+          "mass_pct": 32.1
         },
         {
           "race": 6,
           "covered": [
-            "1"
+            "4"
           ],
-          "mass_pct": 22.2
+          "mass_pct": 18.1
         },
         {
           "race": 7,
           "covered": [
-            "5"
+            "8"
           ],
-          "mass_pct": 32.0
+          "mass_pct": 28.1
         },
         {
           "race": 8,
           "covered": [
-            "2",
-            "1"
+            "4"
           ],
-          "mass_pct": 36.0
+          "mass_pct": 28.2
         },
         {
           "race": 9,
           "covered": [
-            "3"
+            "1"
           ],
-          "mass_pct": 22.3
+          "mass_pct": 26.2
+        },
+        {
+          "race": 10,
+          "covered": [
+            "9"
+          ],
+          "mass_pct": 21.5
         }
       ],
       "base_usd": 0.2,
       "combos": 2,
       "cost_usd": 0.4,
-      "hit_pct": 0.04,
-      "fair_return_usd": 970.68,
-      "fair_return_after_takeout_usd": 776.54,
+      "hit_pct": 0.03,
+      "fair_return_usd": 1546.63,
+      "fair_return_after_takeout_usd": 1237.3,
       "bet": {
         "pool": "P6",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          4,
           5,
           6,
           7,
           8,
-          9
+          9,
+          10
         ],
         "structure": "conviction",
         "base_usd": 0.2,
         "cost_usd": 0.4,
         "legs": [
           {
-            "race": 4,
-            "role": null,
-            "programs": [
-              "5"
-            ]
-          },
-          {
             "race": 5,
             "role": null,
             "programs": [
-              "9"
+              "10",
+              "11"
             ]
           },
           {
             "race": 6,
             "role": null,
             "programs": [
-              "1"
+              "4"
             ]
           },
           {
             "race": 7,
             "role": null,
             "programs": [
-              "5"
+              "8"
             ]
           },
           {
             "race": 8,
             "role": null,
             "programs": [
-              "2",
-              "1"
+              "4"
             ]
           },
           {
             "race": 9,
             "role": null,
             "programs": [
-              "3"
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
             ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 970.68,
-        "instruction": "Pick 6 (R4–R9) (conviction): R4 #5 · R5 #9 · R6 #1 · R7 #5 · R8 #2, #1 · R9 #3 ($0.40)."
+        "fair_return_usd": 1546.63,
+        "instruction": "Pick 6 (R5–R10) (conviction): R5 #10, #11 · R6 #4 · R7 #8 · R8 #4 · R9 #1 · R10 #9 ($0.40)."
       }
     },
     {
       "type": "multi_race",
       "wager_type": "P6",
-      "label": "Pick 6 (R4–R9)",
+      "label": "Pick 6 (R5–R10)",
       "build": "coverage",
       "races": [
-        4,
         5,
         6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "legs": [
+        {
+          "race": 5,
+          "covered": [
+            "10",
+            "11",
+            "1",
+            "5"
+          ],
+          "mass_pct": 55.4
+        },
+        {
+          "race": 6,
+          "covered": [
+            "4",
+            "8"
+          ],
+          "mass_pct": 31.3
+        },
+        {
+          "race": 7,
+          "covered": [
+            "8"
+          ],
+          "mass_pct": 28.1
+        },
+        {
+          "race": 8,
+          "covered": [
+            "4",
+            "3"
+          ],
+          "mass_pct": 53.1
+        },
+        {
+          "race": 9,
+          "covered": [
+            "1"
+          ],
+          "mass_pct": 26.2
+        },
+        {
+          "race": 10,
+          "covered": [
+            "9"
+          ],
+          "mass_pct": 21.5
+        }
+      ],
+      "base_usd": 0.2,
+      "combos": 16,
+      "cost_usd": 3.2,
+      "hit_pct": 0.15,
+      "fair_return_usd": 2203.83,
+      "fair_return_after_takeout_usd": 1763.06,
+      "bet": {
+        "pool": "P6",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "structure": "coverage",
+        "base_usd": 0.2,
+        "cost_usd": 3.2,
+        "legs": [
+          {
+            "race": 5,
+            "role": null,
+            "programs": [
+              "10",
+              "11",
+              "1",
+              "5"
+            ]
+          },
+          {
+            "race": 6,
+            "role": null,
+            "programs": [
+              "4",
+              "8"
+            ]
+          },
+          {
+            "race": 7,
+            "role": null,
+            "programs": [
+              "8"
+            ]
+          },
+          {
+            "race": 8,
+            "role": null,
+            "programs": [
+              "4",
+              "3"
+            ]
+          },
+          {
+            "race": 9,
+            "role": null,
+            "programs": [
+              "1"
+            ]
+          },
+          {
+            "race": 10,
+            "role": null,
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": null,
+        "fair_return_usd": 2203.83,
+        "instruction": "Pick 6 (R5–R10) (coverage): R5 #10, #11, #1, #5 · R6 #4, #8 · R7 #8 · R8 #4, #3 · R9 #1 · R10 #9 ($3.20)."
+      }
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P3",
+      "label": "Rolling Pick 3 (R1–R3)",
+      "build": "conviction",
+      "races": [
+        1,
+        2,
+        3
+      ],
+      "legs": [
+        {
+          "race": 1,
+          "covered": [
+            "7"
+          ],
+          "mass_pct": 32.0
+        },
+        {
+          "race": 2,
+          "covered": [
+            "7"
+          ],
+          "mass_pct": 21.0
+        },
+        {
+          "race": 3,
+          "covered": [
+            "5"
+          ],
+          "mass_pct": 12.9
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 1,
+      "cost_usd": 0.5,
+      "hit_pct": 0.87,
+      "fair_return_usd": 57.49,
+      "fair_return_after_takeout_usd": 45.99,
+      "bet": {
+        "pool": "P3",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          1,
+          2,
+          3
+        ],
+        "structure": "conviction",
+        "base_usd": 0.5,
+        "cost_usd": 0.5,
+        "legs": [
+          {
+            "race": 1,
+            "role": null,
+            "programs": [
+              "7"
+            ]
+          },
+          {
+            "race": 2,
+            "role": null,
+            "programs": [
+              "7"
+            ]
+          },
+          {
+            "race": 3,
+            "role": null,
+            "programs": [
+              "5"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": null,
+        "fair_return_usd": 57.49,
+        "instruction": "Rolling Pick 3 (R1–R3) (conviction): R1 #7 · R2 #7 · R3 #5 ($0.50)."
+      }
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P3",
+      "label": "Rolling Pick 3 (R1–R3)",
+      "build": "coverage",
+      "races": [
+        1,
+        2,
+        3
+      ],
+      "legs": [
+        {
+          "race": 1,
+          "covered": [
+            "7",
+            "8"
+          ],
+          "mass_pct": 47.6
+        },
+        {
+          "race": 2,
+          "covered": [
+            "7",
+            "5"
+          ],
+          "mass_pct": 41.2
+        },
+        {
+          "race": 3,
+          "covered": [
+            "5"
+          ],
+          "mass_pct": 12.9
+        }
+      ],
+      "base_usd": 0.5,
+      "combos": 4,
+      "cost_usd": 2.0,
+      "hit_pct": 2.53,
+      "fair_return_usd": 79.09,
+      "fair_return_after_takeout_usd": 63.27,
+      "bet": {
+        "pool": "P3",
+        "track": "SAR",
+        "date": "2026-07-24",
+        "races": [
+          1,
+          2,
+          3
+        ],
+        "structure": "coverage",
+        "base_usd": 0.5,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 1,
+            "role": null,
+            "programs": [
+              "7",
+              "8"
+            ]
+          },
+          {
+            "race": 2,
+            "role": null,
+            "programs": [
+              "7",
+              "5"
+            ]
+          },
+          {
+            "race": 3,
+            "role": null,
+            "programs": [
+              "5"
+            ]
+          }
+        ],
+        "min_odds_decimal": null,
+        "fair_odds_decimal": null,
+        "fair_return_usd": 79.09,
+        "instruction": "Rolling Pick 3 (R1–R3) (coverage): R1 #7, #8 · R2 #7, #5 · R3 #5 ($2.00)."
+      }
+    },
+    {
+      "type": "multi_race",
+      "wager_type": "P3",
+      "label": "Rolling Pick 3 (R7–R9)",
+      "build": "conviction",
+      "races": [
         7,
         8,
         9
       ],
       "legs": [
         {
-          "race": 4,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 28.9
-        },
-        {
-          "race": 5,
-          "covered": [
-            "9",
-            "4"
-          ],
-          "mass_pct": 43.2
-        },
-        {
-          "race": 6,
-          "covered": [
-            "1",
-            "10"
-          ],
-          "mass_pct": 34.2
-        },
-        {
           "race": 7,
           "covered": [
-            "5"
+            "8"
           ],
-          "mass_pct": 32.0
+          "mass_pct": 28.1
         },
         {
           "race": 8,
           "covered": [
-            "2",
-            "1",
-            "4",
-            "6"
+            "4"
           ],
-          "mass_pct": 62.9
+          "mass_pct": 28.2
         },
         {
           "race": 9,
           "covered": [
-            "3",
-            "7"
+            "1"
           ],
-          "mass_pct": 38.0
+          "mass_pct": 26.2
         }
       ],
-      "base_usd": 0.2,
-      "combos": 32,
-      "cost_usd": 6.4,
-      "hit_pct": 0.33,
-      "fair_return_usd": 1962.01,
-      "fair_return_after_takeout_usd": 1569.61,
+      "base_usd": 0.5,
+      "combos": 1,
+      "cost_usd": 0.5,
+      "hit_pct": 2.07,
+      "fair_return_usd": 24.12,
+      "fair_return_after_takeout_usd": 19.3,
       "bet": {
-        "pool": "P6",
+        "pool": "P3",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          4,
-          5,
-          6,
           7,
           8,
           9
         ],
-        "structure": "coverage",
-        "base_usd": 0.2,
-        "cost_usd": 6.4,
+        "structure": "conviction",
+        "base_usd": 0.5,
+        "cost_usd": 0.5,
         "legs": [
-          {
-            "race": 4,
-            "role": null,
-            "programs": [
-              "5"
-            ]
-          },
-          {
-            "race": 5,
-            "role": null,
-            "programs": [
-              "9",
-              "4"
-            ]
-          },
-          {
-            "race": 6,
-            "role": null,
-            "programs": [
-              "1",
-              "10"
-            ]
-          },
           {
             "race": 7,
             "role": null,
             "programs": [
-              "5"
+              "8"
             ]
           },
           {
             "race": 8,
             "role": null,
             "programs": [
-              "2",
-              "1",
-              "4",
-              "6"
+              "4"
             ]
           },
           {
             "race": 9,
             "role": null,
             "programs": [
-              "3",
-              "7"
-            ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": null,
-        "fair_return_usd": 1962.01,
-        "instruction": "Pick 6 (R4–R9) (coverage): R4 #5 · R5 #9, #4 · R6 #1, #10 · R7 #5 · R8 #2, #1, #4, #6 · R9 #3, #7 ($6.40)."
-      }
-    },
-    {
-      "type": "multi_race",
-      "wager_type": "P3",
-      "label": "Rolling Pick 3 (R1–R3)",
-      "build": "conviction",
-      "races": [
-        1,
-        2,
-        3
-      ],
-      "legs": [
-        {
-          "race": 1,
-          "covered": [
-            "3"
-          ],
-          "mass_pct": 25.9
-        },
-        {
-          "race": 2,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 21.6
-        },
-        {
-          "race": 3,
-          "covered": [
-            "3",
-            "1"
-          ],
-          "mass_pct": 28.7
-        }
-      ],
-      "base_usd": 0.5,
-      "combos": 2,
-      "cost_usd": 1.0,
-      "hit_pct": 1.61,
-      "fair_return_usd": 62.22,
-      "fair_return_after_takeout_usd": 49.78,
-      "bet": {
-        "pool": "P3",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          1,
-          2,
-          3
-        ],
-        "structure": "conviction",
-        "base_usd": 0.5,
-        "cost_usd": 1.0,
-        "legs": [
-          {
-            "race": 1,
-            "role": null,
-            "programs": [
-              "3"
-            ]
-          },
-          {
-            "race": 2,
-            "role": null,
-            "programs": [
-              "5"
-            ]
-          },
-          {
-            "race": 3,
-            "role": null,
-            "programs": [
-              "3",
               "1"
             ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 62.22,
-        "instruction": "Rolling Pick 3 (R1–R3) (conviction): R1 #3 · R2 #5 · R3 #3, #1 ($1.00)."
+        "fair_return_usd": 24.12,
+        "instruction": "Rolling Pick 3 (R7–R9) (conviction): R7 #8 · R8 #4 · R9 #1 ($0.50)."
       }
     },
     {
       "type": "multi_race",
       "wager_type": "P3",
-      "label": "Rolling Pick 3 (R1–R3)",
+      "label": "Rolling Pick 3 (R7–R9)",
       "build": "coverage",
       "races": [
-        1,
-        2,
-        3
+        7,
+        8,
+        9
       ],
       "legs": [
         {
-          "race": 1,
+          "race": 7,
           "covered": [
+            "8"
+          ],
+          "mass_pct": 28.1
+        },
+        {
+          "race": 8,
+          "covered": [
+            "4",
             "3"
           ],
-          "mass_pct": 25.9
+          "mass_pct": 53.1
         },
         {
-          "race": 2,
+          "race": 9,
           "covered": [
-            "5",
-            "2"
-          ],
-          "mass_pct": 36.8
-        },
-        {
-          "race": 3,
-          "covered": [
-            "3",
-            "1",
-            "5",
-            "9"
-          ],
-          "mass_pct": 53.4
-        }
-      ],
-      "base_usd": 0.5,
-      "combos": 8,
-      "cost_usd": 4.0,
-      "hit_pct": 5.09,
-      "fair_return_usd": 78.61,
-      "fair_return_after_takeout_usd": 62.89,
-      "bet": {
-        "pool": "P3",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          1,
-          2,
-          3
-        ],
-        "structure": "coverage",
-        "base_usd": 0.5,
-        "cost_usd": 4.0,
-        "legs": [
-          {
-            "race": 1,
-            "role": null,
-            "programs": [
-              "3"
-            ]
-          },
-          {
-            "race": 2,
-            "role": null,
-            "programs": [
-              "5",
-              "2"
-            ]
-          },
-          {
-            "race": 3,
-            "role": null,
-            "programs": [
-              "3",
-              "1",
-              "5",
-              "9"
-            ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": null,
-        "fair_return_usd": 78.61,
-        "instruction": "Rolling Pick 3 (R1–R3) (coverage): R1 #3 · R2 #5, #2 · R3 #3, #1, #5, #9 ($4.00)."
-      }
-    },
-    {
-      "type": "multi_race",
-      "wager_type": "P3",
-      "label": "Rolling Pick 3 (R2–R4)",
-      "build": "conviction",
-      "races": [
-        2,
-        3,
-        4
-      ],
-      "legs": [
-        {
-          "race": 2,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 21.6
-        },
-        {
-          "race": 3,
-          "covered": [
-            "3",
             "1"
           ],
-          "mass_pct": 28.7
-        },
-        {
-          "race": 4,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 28.9
+          "mass_pct": 26.2
         }
       ],
       "base_usd": 0.5,
       "combos": 2,
       "cost_usd": 1.0,
-      "hit_pct": 1.79,
-      "fair_return_usd": 55.78,
-      "fair_return_after_takeout_usd": 44.62,
+      "hit_pct": 3.9,
+      "fair_return_usd": 25.67,
+      "fair_return_after_takeout_usd": 20.54,
       "bet": {
         "pool": "P3",
         "track": "SAR",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "races": [
-          2,
-          3,
-          4
+          7,
+          8,
+          9
         ],
-        "structure": "conviction",
+        "structure": "coverage",
         "base_usd": 0.5,
         "cost_usd": 1.0,
         "legs": [
           {
-            "race": 2,
+            "race": 7,
             "role": null,
             "programs": [
-              "5"
+              "8"
             ]
           },
           {
-            "race": 3,
+            "race": 8,
             "role": null,
             "programs": [
-              "3",
+              "4",
+              "3"
+            ]
+          },
+          {
+            "race": 9,
+            "role": null,
+            "programs": [
               "1"
             ]
-          },
-          {
-            "race": 4,
-            "role": null,
-            "programs": [
-              "5"
-            ]
           }
         ],
         "min_odds_decimal": null,
         "fair_odds_decimal": null,
-        "fair_return_usd": 55.78,
-        "instruction": "Rolling Pick 3 (R2–R4) (conviction): R2 #5 · R3 #3, #1 · R4 #5 ($1.00)."
-      }
-    },
-    {
-      "type": "multi_race",
-      "wager_type": "P3",
-      "label": "Rolling Pick 3 (R2–R4)",
-      "build": "coverage",
-      "races": [
-        2,
-        3,
-        4
-      ],
-      "legs": [
-        {
-          "race": 2,
-          "covered": [
-            "5",
-            "2"
-          ],
-          "mass_pct": 36.8
-        },
-        {
-          "race": 3,
-          "covered": [
-            "3",
-            "1",
-            "5",
-            "9"
-          ],
-          "mass_pct": 53.4
-        },
-        {
-          "race": 4,
-          "covered": [
-            "5"
-          ],
-          "mass_pct": 28.9
-        }
-      ],
-      "base_usd": 0.5,
-      "combos": 8,
-      "cost_usd": 4.0,
-      "hit_pct": 5.68,
-      "fair_return_usd": 70.48,
-      "fair_return_after_takeout_usd": 56.38,
-      "bet": {
-        "pool": "P3",
-        "track": "SAR",
-        "date": "2026-07-23",
-        "races": [
-          2,
-          3,
-          4
-        ],
-        "structure": "coverage",
-        "base_usd": 0.5,
-        "cost_usd": 4.0,
-        "legs": [
-          {
-            "race": 2,
-            "role": null,
-            "programs": [
-              "5",
-              "2"
-            ]
-          },
-          {
-            "race": 3,
-            "role": null,
-            "programs": [
-              "3",
-              "1",
-              "5",
-              "9"
-            ]
-          },
-          {
-            "race": 4,
-            "role": null,
-            "programs": [
-              "5"
-            ]
-          }
-        ],
-        "min_odds_decimal": null,
-        "fair_odds_decimal": null,
-        "fair_return_usd": 70.48,
-        "instruction": "Rolling Pick 3 (R2–R4) (coverage): R2 #5, #2 · R3 #3, #1, #5, #9 · R4 #5 ($4.00)."
+        "fair_return_usd": 25.67,
+        "instruction": "Rolling Pick 3 (R7–R9) (coverage): R7 #8 · R8 #4, #3 · R9 #1 ($1.00)."
       }
     }
   ]

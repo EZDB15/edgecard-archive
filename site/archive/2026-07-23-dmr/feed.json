@@ -26,26 +26,7 @@
   },
   "url": "https://edgecardhq.com/archive/2026-07-23-dmr/",
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "8-14",
-    "wins": 8,
-    "losses": 14,
-    "graded": 22,
-    "units": 1.72,
-    "roi_pct": 3.9,
-    "closing_held_n": 2,
-    "closing_graded_n": 22,
-    "closing_held_pct": 9,
-    "last_miss": {
-      "date": "2026-07-23",
-      "track": "DMR",
-      "race": 8,
-      "name": "SUNTORY TIME",
-      "board_decimal": 7.0,
-      "closing_decimal": 6.5
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 2,

@@ -1,0 +1,25 @@
+{
+  "sha256": "7a988efd1ee58c4dcf8e62d143b56b51fde5dcc87320c33667410d4e6887ca0e",
+  "weather": {
+    "short": "Partly Cloudy then Patchy Fog",
+    "temp": 70,
+    "temp_unit": "F",
+    "wind": "0 to 5 mph",
+    "precip_pct": 1,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "10:12 AM ET",
+  "scratches_as_of_et": "10:00 AM ET",
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-07-24-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Fri Jul 24 \u2014 8 races, 4 flags, 5 passes"
+}

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DMR · Fri Jul 24 — 8 races, 4 flags, 5 passes</title>
+<style>:root{
+  --bg:#F5EFE1; --surface:#FBF8F1; --ink:#1A1712; --muted:#645C4E;
+  --line:#D7D0C0; --rule:#B7AE9B; --accent:#8B2635; --win:#15683B; --loss:#8B2635;
+  --flag:#7A5E00; --flag-fill:#E7B23A; --flag-wash:#F5E7BF;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --mono:"Plex",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+/* Committed to the printed-broadsheet look: bright paper only, no dark theme. */
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums;}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;}
+a:hover{border-bottom-color:currentColor;}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.inner{max-width:1180px;margin:0 auto;padding:0 28px;}
+
+/* ---- full-bleed newspaper nameplate ---- */
+.masthead{background:var(--surface);border-bottom:4px solid var(--accent);}
+.masthead .dateline{font-family:var(--mono);font-size:11px;letter-spacing:0.16em;
+  text-transform:uppercase;color:var(--muted);text-align:center;padding:9px 28px 8px;
+  border-bottom:1px solid var(--rule);}
+.nameplate{text-align:center;padding:18px 0 6px;}
+.nameplate .name{font-family:var(--display);font-weight:700;font-size:clamp(38px,4vw+16px,70px);
+  line-height:0.98;letter-spacing:0.01em;color:var(--ink);}
+.nameplate .name a{color:var(--ink);border:0;}
+.nameplate .amber{width:118px;height:5px;background:var(--flag-fill);margin:10px auto 0;border-radius:1px;}
+.nameplate .tag{font-family:var(--mono);font-size:12px;letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--muted);margin-top:10px;}
+.mastnav{border-top:1px solid var(--rule);}
+.mastnav-in{display:flex;justify-content:center;gap:28px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:12.5px;letter-spacing:0.13em;text-transform:uppercase;padding:11px 28px;}
+.mastnav a{color:var(--muted);border:0;}
+.mastnav a.on{color:var(--ink);border-bottom:2px solid var(--accent);padding-bottom:2px;}
+
+/* ---- generic full-bleed section ---- */
+.section{padding:36px 0;border-bottom:1px solid var(--line);}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:12px;}
+h1,h2,h3{text-wrap:balance;}
+h1.thesis{font-family:var(--serif);font-weight:700;font-size:clamp(27px,1.4rem+2vw,40px);
+  line-height:1.12;margin:0 0 14px;}
+.lede{font-size:19px;color:var(--muted);margin:0 0 22px;max-width:44ch;}
+.lede b{color:var(--ink);font-weight:700;}
+h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;}
+.sec-head{border-bottom:2px solid var(--rule);padding-bottom:8px;margin-bottom:20px;
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;}
+.sec-head .k{font-family:var(--mono);font-size:12px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.sec-note{font-size:15.5px;color:var(--muted);max-width:66ch;}
+.section > .inner > p{max-width:66ch;margin:0 0 12px;}
+
+/* ---- responsive grids ---- */
+.grid-hero{display:grid;grid-template-columns:1.1fr 0.9fr;gap:44px;align-items:start;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start;}
+@media(max-width:820px){.grid-hero,.grid-2{grid-template-columns:1fr;gap:26px;}}
+
+/* ---- saddle-cloth program badge (NA Jockey Club / Thoroughbred colors) ---- */
+.pgm{--sc:#7E8288;--scink:#fff;--scbrd:transparent;
+  display:inline-flex;align-items:center;justify-content:center;
+  width:1.6em;height:1.6em;border-radius:2px;background:var(--sc);color:var(--scink);
+  border:1px solid var(--scbrd);box-shadow:inset 0 0 0 1px rgba(0,0,0,.14);
+  font-family:var(--mono);font-weight:700;line-height:1;font-variant-numeric:tabular-nums;
+  vertical-align:middle;flex:none;}
+.pgm sup{font-size:0.62em;margin-left:1px;}
+.p1{--sc:#C41320;--scink:#fff} .p2{--sc:#FCFCFA;--scink:#17130C;--scbrd:#17130C}
+.p3{--sc:#15468C;--scink:#fff} .p4{--sc:#FFD400;--scink:#17130C}
+.p5{--sc:#0F7A33;--scink:#fff} .p6{--sc:#17130C;--scink:#fff}
+.p7{--sc:#E4631C;--scink:#17130C} .p8{--sc:#EE6FA8;--scink:#17130C}
+.p9{--sc:#1FB3BD;--scink:#17130C} .p10{--sc:#5A2D82;--scink:#fff}
+.p11{--sc:#7E8288;--scink:#fff;box-shadow:inset 0 0 0 1px rgba(196,19,32,.5)}
+.p12{--sc:#9CC63B;--scink:#17130C} .p13{--sc:#6B4A2B;--scink:#fff}
+.p14{--sc:#6E1F2E;--scink:#fff}
+.pgm.scr{--sc:#D8D5CC;--scink:#8a8578;text-decoration:line-through}
+
+/* ---- flag block (one signal: the amber top rule; no internal hairlines) ---- */
+.flag{border:1px solid var(--rule);border-top:3px solid var(--flag-fill);
+  background:var(--surface);border-radius:0;padding:16px 18px 18px;margin:0 0 24px;}
+.flag .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  font-family:var(--mono);font-size:12px;letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:14px;flex-wrap:wrap;}
+.flag .top .rmeta{flex:1 1 auto;}
+.chip-flag{background:var(--flag-fill);color:#17130C;font-family:var(--mono);font-weight:700;
+  letter-spacing:0.09em;padding:3px 10px;border-radius:2px;flex:none;}
+.chip-sample{border:1px dashed var(--rule);color:var(--muted);font-family:var(--mono);
+  padding:2px 8px;border-radius:2px;}
+.surf-t{border-bottom:2px solid var(--win);padding-bottom:1px;}
+.surf-d{border-bottom:2px solid #C9A96A;padding-bottom:1px;}
+.flag .horse{font-family:var(--serif);font-weight:700;font-size:23px;margin:2px 0 13px;
+  display:flex;align-items:center;gap:11px;}
+.flag .horse .pgm{width:34px;height:34px;font-size:16px;}
+.triad{display:grid;grid-template-columns:repeat(3,minmax(0,max-content));gap:2px 30px;
+  justify-content:start;margin:2px 0 13px;}
+.triad .k{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.triad .v{font-family:var(--mono);font-weight:700;font-size:25px;line-height:1.25;color:var(--ink);}
+.triad .s{font-family:var(--serif);font-style:italic;font-size:12px;color:var(--muted);}
+.thesis{font-size:15px;color:var(--ink);margin:0 0 14px;max-width:62ch;}
+.thesis b{font-family:var(--mono);font-weight:700;}
+/* two-bar edge chart: gray = the market, amber overhang = our edge */
+.edge2{margin:2px 0 14px;max-width:430px;}
+.edge2 .row{display:flex;align-items:center;gap:10px;margin:4px 0;font-family:var(--mono);
+  font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:var(--muted);}
+.edge2 .lab{width:78px;flex:none;}
+.edge2 .track{position:relative;flex:1;height:12px;background:var(--bg);border:1px solid var(--line);}
+.edge2 .fill{position:absolute;left:0;top:0;bottom:0;background:var(--muted);}
+.edge2 .over{position:absolute;top:0;bottom:0;background:var(--flag-fill);}
+.edge2 .val{width:74px;flex:none;text-align:right;color:var(--ink);}
+.edge2 .val .pts{color:var(--flag);font-weight:700;}
+.playat{font-family:var(--mono);font-weight:700;font-size:15px;color:var(--flag);
+  letter-spacing:0.02em;margin:0 0 10px;}
+.durab{font-size:12.5px;color:var(--muted);margin:0 0 12px;max-width:62ch;line-height:1.5;}
+.durab .dtag{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.05em;padding:2px 7px;border:1px solid var(--line);border-radius:2px;
+  margin-right:7px;white-space:nowrap;}
+.durab.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
+.durab.d-gone .dtag{color:var(--muted);}
+.durab.d-watch .dtag{color:var(--ink);}
+.clv .call{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.03em;white-space:nowrap;}
+.clv .call.c-hold{color:var(--flag);}
+.clv .call.c-gone{color:var(--muted);}
+.clv .call.c-watch{color:var(--ink);}
+.flag .why{font-size:14px;color:var(--muted);margin:0 0 10px;max-width:62ch;}
+.why .pchip{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:0.05em;
+  color:var(--muted);border:1px solid var(--line);border-radius:2px;padding:1px 6px;margin-left:5px;
+  white-space:nowrap;}
+.prov{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:0.03em;
+  text-transform:uppercase;}
+
+/* ---- record: promises + ledger + stat band ---- */
+.promises{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px;}
+@media(max-width:820px){.promises{grid-template-columns:1fr;gap:6px;}}
+.promise{font-family:var(--mono);font-size:12.5px;color:var(--ink);
+  border-left:3px solid var(--flag-fill);padding:2px 0 2px 12px;}
+.ledwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.ledger{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:13px;min-width:640px;}
+.ledger th{font-size:11px;letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);
+  text-align:left;padding:7px 10px;border-bottom:2px solid var(--rule);white-space:nowrap;}
+.ledger th.own{border-bottom:2px solid var(--flag);}
+.ledger td{padding:11px 10px;border-bottom:1px solid var(--line);color:var(--line);}
+.book-open{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:12px;letter-spacing:0.03em;}
+.statband{border:1px solid var(--rule);background:var(--surface);padding:18px 20px;margin-top:22px;}
+.statband .cap{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.stats{display:flex;gap:40px;flex-wrap:wrap;margin:14px 0 8px;}
+.stat .v{font-family:var(--mono);font-weight:700;font-size:33px;line-height:1;color:var(--ink);
+  font-variant-numeric:tabular-nums;}
+.stat .v .u{font-size:16px;color:var(--muted);}
+.stat .v.win{color:var(--win);} .stat .v.loss{color:var(--loss);}
+.stat .l{font-family:var(--mono);font-size:11px;letter-spacing:0.07em;
+  text-transform:uppercase;color:var(--muted);margin-top:8px;}
+
+/* ---- card layout + caption + how-to + credit ---- */
+.card-col{max-width:720px;margin:0 auto;}
+.cardcap{font-family:var(--serif);font-size:17px;color:var(--ink);margin:2px 0 6px;}
+.cardcap b{font-weight:700;}
+/* ---- Edge of the Day (the rule-chosen anchor play, top of card) ---- */
+.eotd{margin:10px 0 18px;padding:15px 18px 15px;background:var(--flag-wash);
+  border:1px solid var(--flag-fill);border-left:4px solid var(--flag-fill);}
+.eotd-lab{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--flag);margin-bottom:9px;}
+.eotd-horse{display:flex;align-items:center;gap:11px;font-family:var(--serif);font-size:24px;
+  font-weight:700;color:var(--ink);line-height:1.05;}
+.eotd-loc{font-family:var(--mono);font-size:12px;letter-spacing:0.03em;color:var(--muted);
+  text-transform:uppercase;margin:5px 0 12px;}
+.eotd-nums{display:flex;flex-wrap:wrap;gap:8px 26px;margin-bottom:12px;}
+.eotd-nums .c{display:flex;flex-direction:column;line-height:1.15;}
+.eotd-nums .c b{font-family:var(--mono);font-weight:700;font-size:22px;color:var(--ink);}
+.eotd-nums .c i{font-family:var(--serif);font-style:italic;font-size:11px;color:var(--muted);}
+.eotd-nums .c.play b{color:var(--flag);}
+.eotd-why{font-size:14px;color:var(--ink);max-width:64ch;line-height:1.5;}
+/* ---- view toggle: plays-only vs full card (mobile-first) ---- */
+html.ec-actionable .adv{display:none!important;}
+.vtoggle{display:inline-block;margin:2px 0 15px;font-family:var(--mono);font-size:11px;
+  font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--flag);
+  background:transparent;border:1px solid var(--flag-fill);border-radius:2px;padding:6px 13px;
+  cursor:pointer;}
+.vtoggle:hover{background:var(--flag-wash);}
+.vtoggle .v-a{display:none;}
+html.ec-actionable .vtoggle .v-a{display:inline;}
+html.ec-actionable .vtoggle .v-f{display:none;}
+/* ---- public-record proof strip (top-of-card credibility) ---- */
+.proofstrip{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 24px;
+  margin:2px 0 16px;padding:11px 14px;background:var(--surface);
+  border:1px solid var(--line);border-left:3px solid var(--flag-fill);
+  color:var(--ink);text-decoration:none;}
+.proofstrip:hover{border-color:var(--rule);}
+.proofstrip .pf-lab{font-family:var(--mono);font-size:11px;letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);align-self:center;}
+.proofstrip .pf-cell{display:flex;flex-direction:column;line-height:1.15;}
+.proofstrip .pf-cell b{font-family:var(--mono);font-weight:700;font-size:19px;color:var(--ink);}
+.proofstrip .pf-cell i{font-family:var(--serif);font-style:italic;font-size:11px;color:var(--muted);}
+.proofstrip .pf-see{font-family:var(--mono);font-size:10px;letter-spacing:0.04em;
+  text-transform:uppercase;color:var(--flag);margin-left:auto;align-self:center;}
+@media(max-width:520px){.proofstrip{gap:12px 20px;}.proofstrip .pf-see{margin-left:0;}}
+/* ---- honesty panel (lose-most-flags + CLV translation + last miss) ---- */
+.honesty{margin:0 0 18px;padding:12px 15px;border:1px solid var(--line);
+  border-left:3px solid var(--rule);background:var(--surface);}
+.honesty .hn-item{font-size:14px;color:var(--ink);margin:0 0 9px;max-width:66ch;line-height:1.5;}
+.honesty .hn-item:last-child{margin-bottom:0;}
+.honesty .hn-item b{font-weight:700;}
+.honesty .hn-item.miss{font-family:var(--mono);font-size:12.5px;color:var(--muted);}
+.dateline-card{font-family:var(--mono);font-size:12px;letter-spacing:0.03em;color:var(--muted);
+  text-transform:uppercase;margin:0 0 12px;}
+details.howto,details.made{margin:0 0 16px;border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);padding:8px 0;}
+details.howto > summary,details.made > summary{font-family:var(--mono);font-size:12px;
+  letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.howto[open] > summary,details.made[open] > summary{margin-bottom:10px;}
+details.made p,details.made .meta{font-size:12.5px;color:var(--muted);max-width:64ch;margin:0 0 8px;}
+details.howto dl{margin:0;}
+details.howto dt{font-family:var(--mono);text-transform:uppercase;letter-spacing:0.04em;
+  font-size:11px;color:var(--ink);margin-top:9px;}
+details.howto dd{margin:2px 0 0;color:var(--muted);font-size:13.5px;max-width:64ch;}
+.credit{font-family:var(--mono);font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--muted);margin:0;}
+.credit b{color:var(--ink);font-weight:700;}
+.sec-head-lite{border-bottom:2px solid var(--rule);padding-bottom:7px;margin:24px 0 16px;
+  font-family:var(--serif);font-weight:700;font-size:20px;display:flex;justify-content:space-between;
+  align-items:baseline;gap:12px;flex-wrap:wrap;}
+.sec-head-lite .k{font-family:var(--mono);font-size:12px;letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--muted);font-weight:400;}
+
+/* ---- passes ledger ---- */
+.passes{border:1px solid var(--line);}
+.passes .row{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;
+  color:var(--muted);padding:9px 14px;border-bottom:1px solid var(--line);}
+.passes .row:last-child{border-bottom:0;}
+.passes .row .r{color:var(--ink);font-weight:700;flex:none;width:28px;}
+.passes .row .pgm{font-size:12px;}
+.passes .row .hn{font-family:var(--serif);color:var(--ink);flex:1 1 auto;}
+.passes .row .mp{color:var(--ink);flex:none;}
+.passes .row .bd{color:var(--muted);flex:none;}
+
+/* ---- whole-card reads (every race: analysis, not a play) ---- */
+.reads{border:1px solid var(--line);}
+.rd{border-bottom:1px solid var(--line);padding:11px 14px;}
+.rd:last-child{border-bottom:0;}
+.rd-top{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;
+  flex-wrap:wrap;}
+.rd-top .r{color:var(--ink);font-weight:700;flex:none;width:26px;}
+.rd-top .hn{font-family:var(--serif);color:var(--ink);flex:1 1 auto;font-size:15px;}
+.rd-top .mp{color:var(--ink);flex:none;font-variant-numeric:tabular-nums;}
+.rd-top .fair{color:var(--muted);flex:none;}
+.rd-top .bd{color:var(--muted);flex:none;}
+.rtier{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;padding:1px 6px;border-radius:2px;border:1px solid var(--line);flex:none;}
+.rtier.t-lean{color:var(--flag);border-color:var(--flag-fill);}
+.rtier.t-chalk{color:var(--muted);}
+.rtier.t-scramble{color:var(--muted);border-style:dashed;}
+.rtier.t-off{color:var(--muted);border:0;padding-left:0;}
+.rd-read{font-family:var(--serif);font-size:14px;color:var(--muted);margin:6px 0 0;max-width:66ch;}
+.rd.off .hn{color:var(--muted);font-style:italic;}
+.rd .field{margin-top:9px;}
+
+/* ---- runner field table (inside a flag) ---- */
+.scroll,.rtwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+table.rt{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:14px;min-width:420px;}
+table.rt th{font-size:11px;letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);
+  text-align:right;padding:7px 10px;border-bottom:2px solid var(--rule);white-space:nowrap;
+  vertical-align:middle;}
+table.rt th.l{text-align:left;}
+table.rt th.own{border-bottom:2px solid var(--flag);}
+table.rt td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;
+  vertical-align:middle;}
+table.rt td.l{text-align:left;font-family:var(--serif);font-size:15px;white-space:normal;
+  width:100%;}
+table.rt th.own,table.rt td.model,table.rt td.dim,table.rt td.fair{width:1%;}
+table.rt td.pgm{padding-left:10px;width:1%;}
+table.rt td.model{color:var(--ink);font-weight:700;}
+table.rt td.dim{color:var(--muted);}
+table.rt tr.flagged{background:var(--flag-wash);}
+.flagmark{color:var(--flag);font-size:11px;}
+@media(max-width:439px){table.rt th.fair,table.rt td.fair{display:none;}}
+details.field{margin-top:12px;}
+details.field > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.field[open] > summary{margin-bottom:8px;}
+details.exotics{margin-top:10px;}
+details.exotics > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.exotics[open] > summary{margin-bottom:8px;}
+details.exotics .meta{max-width:60ch;margin:0 0 8px;}
+table.rt.ex{min-width:320px;}
+table.rt.ex td{text-align:right;}
+table.rt.ex td.l,table.rt.ex th.l{text-align:left;}
+.extag{display:inline-block;font-family:var(--mono);font-size:10px;text-transform:uppercase;
+  letter-spacing:0.05em;padding:0 5px;border:1px solid var(--line);border-radius:2px;
+  margin-left:5px;vertical-align:middle;color:var(--muted);}
+.extag.t-anchor{color:var(--flag);border-color:var(--flag-fill);}
+.extag.t-value{color:var(--ink);}
+.extag.t-longshot{color:var(--muted);border-style:dashed;}
+/* ---- whole-card multi-race tickets (Pick 4 / Pick 5) ---- */
+.mseq{margin:0 0 18px;}
+.mseq-h{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--ink);font-weight:700;margin:0 0 6px;}
+table.rt.mr{min-width:360px;}
+table.rt.mr td{text-align:right;}
+table.rt.mr td.l,table.rt.mr th.l{text-align:left;}
+table.rt.mr tr.mlegs td{text-align:left;font-family:var(--mono);font-size:12px;color:var(--muted);
+  padding-top:2px;padding-bottom:10px;white-space:normal;}
+.mr-note{max-width:64ch;margin-top:4px;}
+/* ---- the model's read (deep per-pick explanation) ---- */
+details.deep{margin:6px 0 2px;border-top:1px solid var(--line);padding-top:10px;}
+details.deep > summary{font-family:var(--mono);font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--flag);font-weight:700;cursor:pointer;}
+details.deep[open] > summary{margin-bottom:10px;}
+details.deep p{font-size:14px;color:var(--ink);max-width:64ch;margin:0 0 9px;line-height:1.55;}
+details.deep p b{font-family:var(--serif);}
+details.deep .deep-caveat{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);
+  padding-top:8px;margin-top:2px;}
+/* ---- race-day weather strip (NWS forecast) ---- */
+.wx{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;font-family:var(--mono);font-size:12.5px;
+  color:var(--muted);background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--flag-fill);padding:8px 12px;margin:0 0 16px;}
+.wx .wx-lbl{color:var(--ink);font-weight:700;text-transform:uppercase;letter-spacing:0.05em;font-size:11px;}
+.wx .wx-body{flex:1 1 auto;}
+.wx .wx-src{opacity:0.7;font-size:10px;text-transform:uppercase;letter-spacing:0.06em;}
+
+/* ---- meta / methodology / notices ---- */
+.meta{font-family:var(--mono);color:var(--muted);font-size:12.5px;letter-spacing:0.02em;margin:2px 0;}
+.meta code{color:var(--flag);}
+blockquote.method{background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--flag-fill);margin:14px 0;padding:12px 16px;font-size:15.5px;color:var(--ink);}
+.notice{color:var(--muted);font-size:14px;margin:8px 0;max-width:66ch;}
+/* The daily write-up block (email + card). */
+.read{border-top:2px solid var(--rule);border-bottom:1px solid var(--line);padding:14px 0 8px;margin:18px 0;}
+.read h2{margin:0 0 8px;border:0;padding:0;}
+.read p{max-width:70ch;margin:0 0 12px;}
+h1{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.12;margin:0.1em 0 0.2em;}
+h2{font-family:var(--serif);font-weight:700;font-size:23px;margin:1.3em 0 0.4em;
+  border-bottom:1px solid var(--rule);padding-bottom:5px;}
+h3{font-family:var(--serif);font-weight:700;font-size:19px;margin:1.1em 0 0.3em;}
+table{border-collapse:collapse;}
+.section table.data,table.record{width:100%;border-collapse:collapse;font-family:var(--mono);
+  font-size:13px;min-width:460px;}
+table.record th,table.record td,.section table.data th,.section table.data td{
+  text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap;}
+table.record th,.section table.data th{color:var(--muted);font-size:11px;
+  letter-spacing:0.05em;text-transform:uppercase;border-bottom:2px solid var(--rule);}
+td.num{text-align:right;}
+.win{color:var(--win);} .loss{color:var(--loss);}
+.tiles{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0;}
+.tile{background:var(--surface);border:1px solid var(--rule);padding:12px 16px;flex:1 1 130px;}
+.tile .k{font-family:var(--mono);color:var(--muted);font-size:11px;
+  letter-spacing:0.06em;text-transform:uppercase;}
+.tile .v{font-family:var(--mono);font-weight:700;font-size:27px;font-variant-numeric:tabular-nums;}
+
+/* ---- proof surfaces: closing-line scoreboard + calibration + provenance ---- */
+table.clv{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:13px;min-width:520px;}
+table.clv th,table.clv td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap;}
+table.clv th{color:var(--muted);font-size:11px;letter-spacing:0.05em;text-transform:uppercase;border-bottom:2px solid var(--rule);}
+table.clv th.own{border-bottom:2px solid var(--flag);}
+table.clv td.own{color:var(--ink);font-weight:700;}
+.hold-yes{color:var(--win);font-weight:700;}
+.hold-no{color:var(--accent);font-weight:700;}
+.calib{border:1px solid var(--line);margin:14px 0;}
+.calib-row{display:flex;align-items:center;gap:12px;padding:7px 12px;border-bottom:1px solid var(--line);}
+.calib-row:last-child{border-bottom:0;}
+.calib-row.empty{opacity:0.45;}
+.calib-row .cl{font-family:var(--mono);font-size:12px;color:var(--muted);flex:none;width:64px;text-align:right;}
+.calib-row .cbar{flex:1 1 auto;min-width:80px;max-width:260px;}
+.calib-row .tk{display:block;height:7px;background:var(--flag-wash);margin:3px 0;}
+.calib-row .pred{display:block;height:7px;background:var(--muted);}
+.calib-row .obs{display:block;height:7px;background:var(--flag-fill);}
+.calib-row .cn{font-family:var(--mono);font-size:12px;color:var(--ink);flex:none;}
+.calib-key{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin:6px 0 0;}
+.calib-key .sw{display:inline-block;width:16px;height:7px;margin:0 5px 0 14px;vertical-align:middle;}
+.calib-key .sw.pred{background:var(--muted);} .calib-key .sw.obs{background:var(--flag-fill);}
+.passes .row code{font-family:var(--mono);font-size:12px;color:var(--muted);}
+
+/* ---- track tabs (Today: flip between the day's meets) ---- */
+.tracktabs{display:flex;gap:0;flex-wrap:wrap;border-bottom:2px solid var(--rule);margin:0 0 20px;}
+.tracktabs .tt{font-family:var(--mono);font-size:13px;letter-spacing:0.07em;text-transform:uppercase;
+  padding:9px 18px 8px;color:var(--muted);border:0;border-bottom:3px solid transparent;margin-bottom:-2px;}
+.tracktabs a.tt:hover{color:var(--ink);}
+.tracktabs .tt.on{color:var(--ink);font-weight:700;border-bottom-color:var(--flag);}
+
+/* ---- legal pages ---- */
+.legal h1{margin-bottom:0.1em;}
+.legal h2{font-size:18px;}
+.legal p,.legal li{max-width:74ch;font-size:15px;}
+.legal ul{padding-left:20px;} .legal li{margin:4px 0;}
+
+/* ---- subscribe block (common.SUBSCRIBE_BLOCK) ---- */
+.subscribe{background:var(--surface);border:1px solid var(--rule);
+  border-left:4px solid var(--flag-fill);padding:16px 18px;margin:20px 0;}
+.subscribe .sub-h{font-family:var(--serif);font-weight:700;font-size:18px;margin-bottom:10px;}
+.subscribe .sub-row{display:flex;gap:8px;flex-wrap:wrap;max-width:440px;}
+.subscribe input[type=email]{flex:1 1 200px;background:var(--bg);color:var(--ink);
+  border:1px solid var(--rule);border-radius:2px;padding:11px 12px;font-family:var(--mono);font-size:14px;}
+.subscribe button{background:var(--ink);color:var(--bg);border:0;border-radius:2px;
+  padding:11px 18px;font-family:var(--serif);font-weight:700;font-size:15px;cursor:pointer;}
+.subscribe .sub-fine{font-family:var(--mono);color:var(--muted);font-size:11px;
+  letter-spacing:0.04em;text-transform:uppercase;margin-top:10px;}
+
+/* ---- footer ---- */
+footer.disc{background:var(--surface);border-top:4px solid var(--accent);
+  margin-top:40px;padding:22px 0 30px;color:var(--muted);}
+footer.disc .inner{padding-top:0;}
+footer.disc nav{font-family:var(--mono);font-size:11.5px;letter-spacing:0.07em;
+  text-transform:uppercase;display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px;}
+footer.disc nav a{color:var(--muted);border:0;}
+footer.disc nav a:hover{color:var(--ink);}
+footer.disc p{font-family:var(--mono);font-size:11px;line-height:1.7;color:var(--muted);
+  max-width:96ch;margin:6px 0;}
+
+/* ---- age gate ---- */
+.agegate{position:fixed;inset:0;z-index:999;background:rgba(20,18,11,0.55);
+  display:flex;align-items:center;justify-content:center;padding:20px;
+  -webkit-backdrop-filter:none;}
+.agegate[hidden]{display:none;}
+.agegate-box{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--accent);
+  max-width:420px;padding:24px;text-align:center;}
+.agegate-box strong{font-family:var(--display);font-weight:700;font-size:26px;letter-spacing:0.01em;}
+.agegate-box p{font-size:14.5px;color:var(--ink);}
+.agegate-actions{display:flex;gap:12px;justify-content:center;align-items:center;
+  margin:16px 0 8px;flex-wrap:wrap;}
+.agegate-actions button{background:var(--ink);color:var(--bg);border:0;border-radius:2px;
+  padding:11px 18px;font-family:var(--serif);font-weight:700;font-size:15px;cursor:pointer;}
+.agegate-actions .leave{color:var(--muted);}
+.agegate-fine{font-family:var(--mono);color:var(--muted);font-size:11px;
+  letter-spacing:0.03em;text-transform:uppercase;margin:10px 0 0;}
+
+/* ---- email-only narrow wrapper (self-contained card + email inherit tokens) ---- */
+.wrap{max-width:640px;margin:0 auto;padding:16px 18px 48px;}
+header.site{border-bottom:1px solid var(--rule);margin-bottom:16px;}
+header.site nav a{font-family:var(--mono);font-size:12px;letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--muted);margin-right:14px;}
+.pick{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--flag-fill);
+  padding:11px 14px;margin:10px 0;}
+.pick .hd{font-family:var(--serif);font-weight:700;font-size:16px;}
+.pick .play{font-family:var(--mono);color:var(--flag);font-weight:700;}
+.tag{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;
+  letter-spacing:0.06em;padding:2px 8px;border-radius:2px;vertical-align:middle;}
+.tag.bet{background:var(--flag-fill);color:#17130C;}
+.tag.pass{background:transparent;color:var(--muted);border:1px solid var(--rule);}
+.race{margin:14px 0;}
+.race .rl{font-family:var(--mono);color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:0.05em;}
+.pace{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin:4px 0 8px;text-transform:uppercase;letter-spacing:0.04em;}
+tr.flagged td{background:var(--flag-wash);}
+
+@media(max-width:520px){.inner{padding:0 18px;}.triad{gap:20px;}.stats{gap:22px;}}
+</style></head><body><div class='wrap'>
+<h1>EDGE CARD — DMR, Fri Jul 24, 2026</h1>
+<p class="meta">Card hashed and public at 10:12 AM ET: <a href="https://edgecardhq.com/archive/2026-07-24-dmr/">card</a> · <a href="https://x.com/edgecardHQ">X post</a> · SHA-256 <code>7a988efd1ee5…</code></p>
+<p class="notice">Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.</p>
+<h2>Yesterday in one line</h2>
+<p class="notice">1-3 · flat-$2 -3.28 · drift +23.7% · meet to date 8-14 · flat-$2 +1.72 · drift +35.1% → full results: https://github.com/EZDB15/edgecard-archive</p>
+<h2>DMR · first post 5:00 PM ET</h2>
+<div class="race">
+<h3>R1 · Md 50000 · dirt, 5.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops WINSOR GEORGE at 19%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R2 · Md Sp Wt · turf, 5.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Contested pace likely (3 early-speed types)</div>
+<div>WHY: Model tops FIRST OR LAST at 17%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R3 · OClm 50000 · dirt, 8.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Contested pace likely (3 early-speed types)</div>
+<div>WHY: Model tops CRAZY CAMI at 21%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R4 · Clm 40000 · turf, 9.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Even pace</div>
+<div>Flag: <strong>LORD BULLINGDON</strong> — p 26% · fair odds 3/1 · ML 3/1</div>
+<div class="play">Bet #6 to win &mdash; you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #2 in our power figure blend; model 26% vs 20% morning-line implied (+5.7 pts).</div>
+</div>
+<div class="race">
+<h3>R5 · Md 12500 · dirt, 6.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Contested pace likely (3 early-speed types)</div>
+<div>WHY: Model tops TIGHT DALLY at 16%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R6 · OClm 100000n2x · turf, 5.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Contested pace likely (6 early-speed types)</div>
+<div>Flag: <strong>BAD UNCLE BARRY</strong> — p 21% · fair odds 4/1 · ML 5/1</div>
+<div class="play">Bet #6 to win &mdash; you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 21% vs 13% morning-line implied (+7.4 pts).</div>
+</div>
+<div class="race">
+<h3>R7 · FleetTrtB150k · dirt, 7.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Contested pace likely (6 early-speed types)</div>
+<div>WHY: Model tops MOHAVEN at 25%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R8 · Md Sp Wt · turf, 8.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Lone speed</div>
+<div>Flag: <strong>FLASH OF LIGHTNING</strong> — p 29% · fair odds 5/2 · ML 7/2</div>
+<div class="play">Bet #9 to win &mdash; you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 29% vs 18% morning-line implied (+10.8 pts).</div>
+</div>
+<p class="meta">Today's numbers are <code>v0-heuristic-1.4+cfg.aab788cb@code.f93be1a6</code> — <a href="https://edgecardhq.com/methodology">methodology</a>. Full archive, every card, losses included: <a href="https://github.com/EZDB15/edgecard-archive">archive</a>.</p>
+<footer class="disc"><p>Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.</p><p>Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.</p>
+<p><a href="https://buttondown.com/della_bitta/unsubscribe">Unsubscribe</a></p></footer>
+</div></body></html>
