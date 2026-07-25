@@ -51,6 +51,8 @@
       "race": 1,
       "program": "7",
       "horse": "KINZLEE'SCHARISMA",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 24,
       "fair_odds": "3/1",
       "fair_odds_decimal": 4.22,
@@ -226,6 +228,8 @@
       "race": 7,
       "program": "10",
       "horse": "VENTRY STRAND",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 32,
       "fair_odds": "2/1",
       "fair_odds_decimal": 3.11,
@@ -401,6 +405,8 @@
       "race": 9,
       "program": "3",
       "horse": "CAN'T SLEEP",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 21,
       "fair_odds": "4/1",
       "fair_odds_decimal": 4.8,
@@ -576,6 +582,8 @@
       "race": 10,
       "program": "6",
       "horse": "CORNUCOPIAN",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 26,
       "fair_odds": "3/1",
       "fair_odds_decimal": 3.81,
@@ -748,6 +756,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [
     {
       "type": "daily_double",

@@ -32,6 +32,8 @@
       "race": 1,
       "program": "3",
       "horse": "BEIJING",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 22,
       "fair_odds": "7/2",
       "fair_odds_decimal": 4.65,
@@ -207,6 +209,8 @@
       "race": 5,
       "program": "1",
       "horse": "BOSTON'S PHINEST",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 16,
       "fair_odds": "5/1",
       "fair_odds_decimal": 6.2,
@@ -382,6 +386,8 @@
       "race": 8,
       "program": "2",
       "horse": "ICE CHOCOLAT",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 19,
       "fair_odds": "4/1",
       "fair_odds_decimal": 5.23,
@@ -557,6 +563,8 @@
       "race": 9,
       "program": "9",
       "horse": "DEEP SATIN",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 13,
       "fair_odds": "13/2",
       "fair_odds_decimal": 7.51,
@@ -729,6 +737,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [
     {
       "type": "daily_double",

@@ -32,6 +32,8 @@
       "race": 1,
       "program": "3",
       "horse": "BOUNDING ALONG",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 26,
       "fair_odds": "3/1",
       "fair_odds_decimal": 3.86,
@@ -207,6 +209,8 @@
       "race": 4,
       "program": "2",
       "horse": "SPIRIT OF ST LOUIS",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 33,
       "fair_odds": "2/1",
       "fair_odds_decimal": 2.99,
@@ -382,6 +386,8 @@
       "race": 4,
       "program": "5",
       "horse": "SALAMIS",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 29,
       "fair_odds": "5/2",
       "fair_odds_decimal": 3.46,
@@ -557,6 +563,8 @@
       "race": 7,
       "program": "5",
       "horse": "CELTIC DAWN",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 32,
       "fair_odds": "2/1",
       "fair_odds_decimal": 3.12,
@@ -729,6 +737,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [],
   "card_reads": [
     {

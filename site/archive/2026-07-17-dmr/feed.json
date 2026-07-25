@@ -32,6 +32,8 @@
       "race": 2,
       "program": "3",
       "horse": "VICTORIOUS DREAM",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 24,
       "fair_odds": "3/1",
       "fair_odds_decimal": 4.17,
@@ -207,6 +209,8 @@
       "race": 3,
       "program": "1",
       "horse": "CHARLIE'S CLOCK",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 32,
       "fair_odds": "2/1",
       "fair_odds_decimal": 3.08,
@@ -382,6 +386,8 @@
       "race": 4,
       "program": "1",
       "horse": "CODE DUELLO",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 24,
       "fair_odds": "3/1",
       "fair_odds_decimal": 4.17,
@@ -557,6 +563,8 @@
       "race": 8,
       "program": "2",
       "horse": "SECURED FREEDOM",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 11,
       "fair_odds": "8/1",
       "fair_odds_decimal": 8.77,
@@ -729,6 +737,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [
     {
       "type": "daily_double",

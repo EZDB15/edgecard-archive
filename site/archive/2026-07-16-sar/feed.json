@@ -32,6 +32,8 @@
       "race": 2,
       "program": "4",
       "horse": "IRISH GOODBYE",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 28,
       "fair_odds": "5/2",
       "fair_odds_decimal": 3.62,
@@ -207,6 +209,8 @@
       "race": 6,
       "program": "7",
       "horse": "JADORLINIJA",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 15,
       "fair_odds": "11/2",
       "fair_odds_decimal": 6.72,
@@ -382,6 +386,8 @@
       "race": 7,
       "program": "2",
       "horse": "ENGLISH LAW",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 18,
       "fair_odds": "9/2",
       "fair_odds_decimal": 5.71,
@@ -554,6 +560,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [
     {
       "type": "daily_double",

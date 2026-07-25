@@ -32,6 +32,8 @@
       "race": 4,
       "program": "5",
       "horse": "CITY EXILE",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 35,
       "fair_odds": "9/5",
       "fair_odds_decimal": 2.83,
@@ -207,6 +209,8 @@
       "race": 4,
       "program": "6",
       "horse": "LORD BULLINGDON",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 26,
       "fair_odds": "3/1",
       "fair_odds_decimal": 3.87,
@@ -382,6 +386,8 @@
       "race": 6,
       "program": "6",
       "horse": "BAD UNCLE BARRY",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 21,
       "fair_odds": "4/1",
       "fair_odds_decimal": 4.82,
@@ -557,6 +563,8 @@
       "race": 8,
       "program": "9",
       "horse": "FLASH OF LIGHTNING",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 29,
       "fair_odds": "5/2",
       "fair_odds_decimal": 3.51,
@@ -729,6 +737,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [],
   "card_reads": [
     {

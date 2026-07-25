@@ -32,6 +32,8 @@
       "race": 1,
       "program": "4",
       "horse": "AMERICAN GRANT",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 14,
       "fair_odds": "6/1",
       "fair_odds_decimal": 7.21,
@@ -207,6 +209,8 @@
       "race": 2,
       "program": "2",
       "horse": "EMERGENCY NINE",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 17,
       "fair_odds": "5/1",
       "fair_odds_decimal": 5.99,
@@ -382,6 +386,8 @@
       "race": 4,
       "program": "5",
       "horse": "HOT GOSSIP",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 21,
       "fair_odds": "7/2",
       "fair_odds_decimal": 4.72,
@@ -557,6 +563,8 @@
       "race": 5,
       "program": "12",
       "horse": "PELICAN PRIDE",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 16,
       "fair_odds": "11/2",
       "fair_odds_decimal": 6.34,
@@ -729,6 +737,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [
     {
       "type": "daily_double",

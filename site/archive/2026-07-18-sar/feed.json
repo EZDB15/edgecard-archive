@@ -32,6 +32,8 @@
       "race": 4,
       "program": "4",
       "horse": "SHAPE NOTE",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 24,
       "fair_odds": "3/1",
       "fair_odds_decimal": 4.17,
@@ -207,6 +209,8 @@
       "race": 8,
       "program": "2",
       "horse": "CY FAIR",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 38,
       "fair_odds": "8/5",
       "fair_odds_decimal": 2.61,
@@ -382,6 +386,8 @@
       "race": 11,
       "program": "8",
       "horse": "JACK AND JIM",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 30,
       "fair_odds": "5/2",
       "fair_odds_decimal": 3.31,
@@ -557,6 +563,8 @@
       "race": 12,
       "program": "2",
       "horse": "APERITIF",
+      "status": "ACTIVE",
+      "bettable": true,
       "model_win_pct": 25,
       "fair_odds": "3/1",
       "fair_odds_decimal": 4.04,
@@ -729,6 +737,7 @@
       }
     }
   ],
+  "errata": [],
   "parlays": [
     {
       "type": "daily_double",
