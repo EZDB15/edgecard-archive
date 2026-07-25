@@ -332,6 +332,22 @@ details.deep .deep-caveat{font-size:12.5px;color:var(--muted);border-top:1px sol
 blockquote.method{background:var(--surface);border:1px solid var(--line);
   border-left:3px solid var(--flag-fill);margin:14px 0;padding:12px 16px;font-size:15.5px;color:var(--ink);}
 .notice{color:var(--muted);font-size:14px;margin:8px 0;max-width:66ch;}
+/* ---- Mobile launch audit 2026-07-25: measured fixes ------------------- */
+/* P1: an unbreakable inline span pushed the document 11px past a 320px
+   viewport (docScroll 331). Nothing on a card should ever scroll sideways. */
+html,body{max-width:100%;overflow-x:hidden;}
+.dateline-card,.cardcap,.rmeta,.prov,.esrc{overflow-wrap:anywhere;word-break:break-word;}
+/* P1: 16 of 17 tap targets measured under the 44px minimum at 320-430px —
+   almost all of them nav and inline links. Give them a real touch box without
+   changing the visual rhythm (padding, not font-size). */
+@media (max-width:640px){
+  .mastnav a{display:inline-block;padding:13px 10px;min-height:44px;line-height:18px;}
+  .disc nav a{display:inline-block;padding:12px 8px;min-height:44px;line-height:20px;}
+  .vtoggle{min-height:44px;padding:11px 14px;}
+  .rec a,.notice a,.efoot a{display:inline-block;padding:6px 0;min-height:32px;}
+  /* the record chip's link is the route to the full ledger — make it real */
+  .rec .recmore{display:inline-block;padding:12px 0;min-height:44px;}
+}
 /* ---- Post-publication errata band (late scratches / off-turf) ---------- */
 /* Deliberately loud: it must out-rank every betting action on the page. */
 .errata{border:2px solid #b3261e;background:#fdf3f2;border-radius:6px;
