@@ -1,0 +1,49 @@
+# Line-ending safeguard for byte-anchored artifacts. This is an integrity
+# control, not a formatting preference.
+#
+# Why: this archive is written from Windows, where core.autocrlf=true rewrites
+# checked-out files to CRLF. For ordinary text that is harmless. For the files
+# below it is not:
+#
+#   * ledger.jsonl is hash-chained and append-only. A CRLF commit would rewrite
+#     the recorded bytes of entries that are supposed to be frozen.
+#   * Locked card.json / meta.json are hashed into the ledger and their SHA-256
+#     is published. One converted byte invalidates the published hash.
+#   * .ots files are OpenTimestamps proofs anchored to Bitcoin. They prove a
+#     specific byte sequence existed at a specific time. If the file those
+#     proofs cover changes by even one byte, the proof no longer verifies --
+#     silently, and in a way that looks like tampering rather than a checkout
+#     artifact.
+#
+# Caught 2026-07-25 in the sibling `edge-card` repo, where a checkout left the
+# shadow ledger with 8 CRLF endings while the committed blob had none. This
+# archive was clean at the time (0 CRLF), so nothing needed repair -- but the
+# hazard is identical and the consequences here are worse, because these bytes
+# are externally anchored and publicly hashed.
+#
+# Deliberately NARROW. Existing archive content is not renormalised and no
+# `git add --renormalize .` was run: that would rewrite exactly the bytes this
+# file exists to protect.
+
+# -text disables EOL conversion in BOTH directions, so the working tree always
+# holds exactly the committed bytes.
+# Generated site + source text may normalise to LF safely.
+*.html   text eol=lf
+*.css    text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+
+# Byte-anchored artifacts. These come LAST: in .gitattributes the final matching
+# line wins, so listing them after the general *.txt rule is what makes HASH.txt
+# actually protected rather than silently normalised.
+ledger.jsonl        -text
+*.jsonl             -text
+*.json              -text
+*.ots               -text
+*.sha256            -text
+HASH.txt            -text
+
+# Binary
+*.png binary
+*.jpg binary
+*.ico binary
