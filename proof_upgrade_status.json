@@ -130,14 +130,16 @@
     },
     {
       "ots_file": "cards/2026-07-17-dmr/meta.current.json.ots",
-      "pre_proof_sha256": "75e703fe0fb1e6b3b03d289a68333f51fa64dd5372d3ad875b23d4c750b566a0",
+      "pre_proof_sha256": "c306fbb703848469185819d8f406f0a432c23a97ea9e64901ec173576e8e5c06",
       "committed_target_digest": "ff0eaa1ac59783ec048a303f2243d50ec66b166e02ef256e355fed9c4c3a35ad",
       "target_file": "cards/2026-07-17-dmr/meta.current.json",
       "target_current_sha256": null,
       "proof_matches_current_target": null,
       "pre_attestations": [
         "pending:https://finney.calendar.eternitywall.com",
+        "bitcoin:959725",
         "pending:https://btc.calendar.catallaxy.com",
+        "bitcoin:959711",
         "pending:https://bob.btc.calendar.opentimestamps.org",
         "bitcoin:959704",
         "pending:https://alice.btc.calendar.opentimestamps.org",
@@ -158,19 +160,16 @@
         "target_digest": "ff0eaa1ac59783ec048a303f2243d50ec66b166e02ef256e355fed9c4c3a35ad",
         "status_before": "BITCOIN_CONFIRMED",
         "status_after": "BITCOIN_CONFIRMED",
-        "bitcoin_gained": [
-          959711,
-          959725
-        ],
+        "bitcoin_gained": [],
         "calendars_resolved": [],
-        "bytes_before": 2790,
+        "bytes_before": 5004,
         "bytes_after": 5004,
-        "sha_before": "75e703fe0fb1e6b3b03d289a68333f51fa64dd5372d3ad875b23d4c750b566a0",
+        "sha_before": "c306fbb703848469185819d8f406f0a432c23a97ea9e64901ec173576e8e5c06",
         "sha_after": "c306fbb703848469185819d8f406f0a432c23a97ea9e64901ec173576e8e5c06",
-        "changed": true
+        "changed": false
       },
       "post_proof_sha256": "c306fbb703848469185819d8f406f0a432c23a97ea9e64901ec173576e8e5c06",
-      "proof_bytes_changed": true,
+      "proof_bytes_changed": false,
       "status": "BITCOIN_CONFIRMED"
     },
     {
@@ -255,7 +254,7 @@
     },
     {
       "ots_file": "cards/2026-07-17-sar/meta.current.json.ots",
-      "pre_proof_sha256": "b67824f3b6e38afcdd693a8e79985e261b27534987bc2123c43c3059efb980cb",
+      "pre_proof_sha256": "7e5b466e8cd61a4d66a169969ff5d9184c38f69c83b9c7c059394411e33f9298",
       "committed_target_digest": "538f751ef04760b7598cc327f279f8be4b89aadeb73d5328e0937f1958efeea2",
       "target_file": "cards/2026-07-17-sar/meta.current.json",
       "target_current_sha256": null,
@@ -264,7 +263,9 @@
         "pending:https://bob.btc.calendar.opentimestamps.org",
         "bitcoin:959704",
         "pending:https://finney.calendar.eternitywall.com",
+        "bitcoin:959725",
         "pending:https://btc.calendar.catallaxy.com",
+        "bitcoin:959711",
         "pending:https://alice.btc.calendar.opentimestamps.org",
         "bitcoin:959700"
       ],
@@ -283,19 +284,16 @@
         "target_digest": "538f751ef04760b7598cc327f279f8be4b89aadeb73d5328e0937f1958efeea2",
         "status_before": "BITCOIN_CONFIRMED",
         "status_after": "BITCOIN_CONFIRMED",
-        "bitcoin_gained": [
-          959711,
-          959725
-        ],
+        "bitcoin_gained": [],
         "calendars_resolved": [],
-        "bytes_before": 2685,
+        "bytes_before": 4899,
         "bytes_after": 4899,
-        "sha_before": "b67824f3b6e38afcdd693a8e79985e261b27534987bc2123c43c3059efb980cb",
+        "sha_before": "7e5b466e8cd61a4d66a169969ff5d9184c38f69c83b9c7c059394411e33f9298",
         "sha_after": "7e5b466e8cd61a4d66a169969ff5d9184c38f69c83b9c7c059394411e33f9298",
-        "changed": true
+        "changed": false
       },
       "post_proof_sha256": "7e5b466e8cd61a4d66a169969ff5d9184c38f69c83b9c7c059394411e33f9298",
-      "proof_bytes_changed": true,
+      "proof_bytes_changed": false,
       "status": "BITCOIN_CONFIRMED"
     },
     {
@@ -1436,7 +1434,7 @@
     },
     {
       "ots_file": "proofs/ledger/e2c210fe13bc0e1449fe147bf7e6357aa038fef47fd1e50558b2ef7191e27fb7/ledger.jsonl.ots",
-      "pre_proof_sha256": "e11690dbde456d67626a12da147c4ea3a5e276d6fff0818e6dc4c2eee4328534",
+      "pre_proof_sha256": "d67f19d877c850f58a4d04ceedb2f4bff45d24070c67870ebffbad1c085101a3",
       "committed_target_digest": "ad98664dcddf217ef5e94dde48d7dd349ac3a80e5fa07ae8564d39fa78b6c64e",
       "target_file": "proofs/ledger/e2c210fe13bc0e1449fe147bf7e6357aa038fef47fd1e50558b2ef7191e27fb7/ledger.jsonl",
       "target_current_sha256": "ad98664dcddf217ef5e94dde48d7dd349ac3a80e5fa07ae8564d39fa78b6c64e",
@@ -1444,8 +1442,11 @@
       "pre_attestations": [
         "pending:https://btc.calendar.catallaxy.com",
         "pending:https://alice.btc.calendar.opentimestamps.org",
+        "bitcoin:959715",
         "pending:https://bob.btc.calendar.opentimestamps.org",
-        "pending:https://finney.calendar.eternitywall.com"
+        "bitcoin:959715",
+        "pending:https://finney.calendar.eternitywall.com",
+        "bitcoin:959725"
       ],
       "post_attestations": [
         "pending:https://btc.calendar.catallaxy.com",
@@ -1459,21 +1460,18 @@
       "bitcoin_block_height": 959715,
       "monotonicity": {
         "target_digest": "ad98664dcddf217ef5e94dde48d7dd349ac3a80e5fa07ae8564d39fa78b6c64e",
-        "status_before": "CALENDAR_PENDING",
+        "status_before": "BITCOIN_CONFIRMED",
         "status_after": "BITCOIN_CONFIRMED",
-        "bitcoin_gained": [
-          959715,
-          959725
-        ],
+        "bitcoin_gained": [],
         "calendars_resolved": [],
-        "bytes_before": 716,
+        "bytes_before": 3827,
         "bytes_after": 3827,
-        "sha_before": "e11690dbde456d67626a12da147c4ea3a5e276d6fff0818e6dc4c2eee4328534",
+        "sha_before": "d67f19d877c850f58a4d04ceedb2f4bff45d24070c67870ebffbad1c085101a3",
         "sha_after": "d67f19d877c850f58a4d04ceedb2f4bff45d24070c67870ebffbad1c085101a3",
-        "changed": true
+        "changed": false
       },
       "post_proof_sha256": "d67f19d877c850f58a4d04ceedb2f4bff45d24070c67870ebffbad1c085101a3",
-      "proof_bytes_changed": true,
+      "proof_bytes_changed": false,
       "status": "BITCOIN_CONFIRMED"
     }
   ],
