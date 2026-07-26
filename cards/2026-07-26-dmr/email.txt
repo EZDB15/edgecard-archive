@@ -1,0 +1,69 @@
+SUBJECT: DMR · Sun Jul 26 — 11 races, 4 flags, 7 passes
+
+EDGE CARD — DMR, Sun Jul 26, 2026
+Card hashed and public at 12:03 AM ET: https://edgecardhq.com/archive/2026-07-26-dmr/ · https://x.com/edgecardHQ
+Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-4 · flat-$2 -8.00 · drift +22.0% · meet to date 9-29 · flat-$2 -21.98 · drift +30.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— DMR · first post 5:00 PM ET —
+
+R1 · OClm 50000n1x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops SAREEHA at 24%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops VAN GOGH STYLE at 23%; the morning line already prices the race. Pass is a position.
+
+R3 · Md Sp Wt · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops LET HER FLY at 27%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 50000n1x · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: RABEEBA — p 22% · fair odds 7/2 · ML 5/1
+  Bet #4 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 22% vs 13% morning-line implied (+8.4 pts).
+
+R5 · Md Sp Wt · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: COME ON OM — p 29% · fair odds 5/2 · ML 4/1
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 29% vs 16% morning-line implied (+12.8 pts).
+
+R6 · Md 16000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PERFECT SMILE at 17%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 50000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PRIVATE GEM at 18%; the morning line already prices the race. Pass is a position.
+
+R8 · Clm 16000n3l · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: EMMA G — p 14% · fair odds 13/2 · ML 12/1
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; closer in a contested-pace setup; model 14% vs 6% morning-line implied (+7.6 pts).
+
+R9 · EdRead-G2 · turf, 9.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: GOLD PHOENIX — p 29% · fair odds 5/2 · ML 3/1
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 29% vs 20% morning-line implied (+8.9 pts).
+
+R10 · Clm 10000 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MONGOLIAN MAX at 16%; the morning line already prices the race. Pass is a position.
+
+R11 · OClm 20000n1x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops GOJE at 19%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.3c797c7f — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
