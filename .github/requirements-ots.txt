@@ -1,0 +1,13 @@
+# Frozen environment for the OpenTimestamps integrity workflows.
+#
+# NOT a minimum-version range. `opentimestamps>=0.4.5` was insufficient: an
+# integrity job must behave identically on every run, and a floating dependency
+# is how proof handling silently changes between runs.
+#
+# Runner : ubuntu-24.04 (pinned; not ubuntu-latest)
+# Python : 3.11.9      (pinned; the CLI cannot import on 3.12 --
+#                       python-bitcoinlib raises TypeError there)
+opentimestamps==0.4.5
+opentimestamps-client==0.7.1
+python-bitcoinlib==0.11.0
+pysocks==1.7.1

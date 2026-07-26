@@ -1,0 +1,13 @@
+{
+  "migrated_utc": "2026-07-26T14:45:13+00:00",
+  "reason": "ledger.jsonl is append-only and grows, so a single proof beside it could only ever attest one state. The previous workflow deleted and re-stamped that proof on every ledger change, discarding earned Bitcoin attestations and the evidence that an earlier ledger state existed at an earlier time.",
+  "old_path": "ledger.jsonl.ots",
+  "old_path_status": "PRESERVED as a compatibility alias; never deleted, never re-stamped",
+  "canonical_path": "proofs/ledger/87fd166666d5b788e0913dc39f770c51447331eb2bc45d8fbd7368ca520843c4/ledger.jsonl.ots",
+  "proved_target_digest": "3d23a5f404aa9b2202b88dad7b9e03a8dfb6267d85f2281e35f4296048185a0e",
+  "proved_ledger_state": {
+    "git_commit": "affdd0df5ff5",
+    "line_count": 239
+  },
+  "policy": "Every new ledger state creates a NEW snapshot directory keyed by head hash. Older snapshots and their proofs are never modified or removed."
+}

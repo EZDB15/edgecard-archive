@@ -1,55 +1,109 @@
-name: timestamp
+name: stamp-new-artifacts
 
-# Proof-of-existence for the public record. On every push, OpenTimestamps
-# stamps the append-only ledger and each new card bundle, commits the .ots
-# proofs back, and (later) they upgrade to Bitcoin attestations. This is the
-# blockchain layer of the three-part timestamp (X hash pre-lock -> git commit
-# -> OpenTimestamps). The bot commit carries [skip-ots] so it never re-triggers.
+# Stamps NEW immutable artifacts exactly once. It never deletes, replaces, or
+# re-stamps an existing proof.
+#
+# WHAT THIS REPLACED, AND WHY
+# ---------------------------
+# The previous version ran, on every ledger change:
+#
+#     rm -f ledger.jsonl.ots
+#     ots stamp ledger.jsonl
+#
+# That is destructive. `ledger.jsonl` is append-only and grows, so a single proof
+# beside it can only ever attest one state; the workflow "handled" that by
+# throwing the proof away and making a new one. Every re-stamp discarded a proof
+# that had earned a Bitcoin attestation, and destroyed the evidence that an
+# earlier ledger state existed at an earlier time -- the whole purpose of
+# timestamping an append-only record. Safety also depended on remembering to put
+# `[skip-ots]` in a commit message, which is not a safety mechanism.
+#
+# THE RULE NOW: AN OTS PROOF MAY BE ENRICHED, BUT NEVER DELETED OR REPURPOSED TO
+# ATTEST A DIFFERENT TARGET.
+#
+# Mutable targets are versioned instead of replaced:
+#   * ledger    -> proofs/ledger/<head-hash>/ immutable snapshots (MIGRATION.json)
+#   * meta.json -> mutable presentation metadata, NOT stamped as evidence.
+#     Historical meta proofs are preserved; later revisions get separately named
+#     proofs (meta.current.json.ots) that never claim original-publication time.
+#
+# Upgrading pending proofs is a DIFFERENT job: ots-upgrade.yml.
 
 on:
   push:
     branches: [main]
+    paths:
+      # Only a genuinely new immutable artifact can require a stamp. Proofs,
+      # proof status, docs and site output are excluded so this job cannot be
+      # triggered by its own output or by an upgrade run.
+      - "cards/*/card.json"
+      - "proofs/ledger/*/ledger.jsonl"
+      - "!**/*.ots"
+      - "!proof_status.json"
+      - "!site/**"
+      - "!**/*.md"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: timestamp
+  group: ots-stamp
   cancel-in-progress: false
 
 jobs:
-  ots:
-    if: ${{ !contains(github.event.head_commit.message, '[skip-ots]') }}
-    runs-on: ubuntu-latest
+  stamp:
+    runs-on: ubuntu-24.04            # exact runner image, never a floating tag
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Install OpenTimestamps client
-        run: pip install opentimestamps-client
-      - name: Stamp ledger + unstamped card bundles
+          python-version: "3.11.9"   # exact
+
+      - name: Install pinned OpenTimestamps
+        run: pip install -r .github/requirements-ots.txt
+
+      - name: Stamp only targets that have no proof
         run: |
-          set -u
-          # The ledger changes with every card -> always re-stamp it.
-          if [ -s ledger.jsonl ]; then
-            rm -f ledger.jsonl.ots
-            ots stamp ledger.jsonl || echo "ledger stamp failed (calendar down?) — non-fatal"
-          fi
-          # Stamp any card/meta json that has no proof yet (never re-stamp).
-          for f in cards/*/card.json cards/*/meta.json; do
-            [ -e "$f" ] || continue
-            [ -f "$f.ots" ] || ots stamp "$f" || echo "stamp $f failed — non-fatal"
-          done
-      - name: Commit proofs
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, pathlib, subprocess, sys
+
+          # Immutable targets ONLY. meta.json is deliberately absent: it is
+          # mutable presentation metadata and is not stamped as evidence.
+          targets = sorted(pathlib.Path("cards").glob("*/card.json")) + \
+                    sorted(pathlib.Path("proofs/ledger").glob("*/ledger.jsonl"))
+
+          todo = [t for t in targets
+                  if not t.with_suffix(t.suffix + ".ots").exists()]
+          if not todo:
+              print("no unstamped immutable target; nothing to do")
+              sys.exit(0)
+
+          for t in todo:
+              print(f"stamping {t} sha256={hashlib.sha256(t.read_bytes()).hexdigest()[:16]}")
+              subprocess.run(["ots", "stamp", str(t)], check=True)
+              assert t.with_suffix(t.suffix + ".ots").exists()
+          PY
+
+      - name: Refuse if any existing proof was modified or deleted
         run: |
-          git config user.name "edgecard-timestamps"
+          set -euo pipefail
+          MOD=$(git diff --name-only --diff-filter=M -- '*.ots' || true)
+          DEL=$(git diff --name-only --diff-filter=D -- '*.ots' || true)
+          if [ -n "$MOD" ]; then echo "::error::stamp modified proof(s): $MOD"; exit 1; fi
+          if [ -n "$DEL" ]; then echo "::error::stamp deleted proof(s): $DEL"; exit 1; fi
+          echo "only new proofs added"
+
+      - name: Commit new proofs
+        run: |
+          git config user.name  "edgecard-timestamps"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Only .ots proofs are ever new here; -A tolerates the empty case.
-          git add -A
+          git add -A -- '*.ots'
           if git diff --cached --quiet; then
-            echo "No new timestamp proofs."
-          else
-            git commit -m "OpenTimestamps proofs [skip-ots]"
-            git push
+            echo "No new proofs."
+            exit 0
           fi
+          git commit -m "OpenTimestamps: stamp new artifacts"
+          git push

@@ -1,0 +1,15 @@
+{
+  "head_hash": "87fd166666d5b788e0913dc39f770c51447331eb2bc45d8fbd7368ca520843c4",
+  "ledger_sha256": "3d23a5f404aa9b2202b88dad7b9e03a8dfb6267d85f2281e35f4296048185a0e",
+  "line_count": 239,
+  "byte_count": 198622,
+  "created_utc": "2026-07-26T04:08:09+00:00",
+  "git_commit": "affdd0df5ff5",
+  "previous_snapshot": null,
+  "proof_file": "ledger.jsonl.ots",
+  "proof_status": "BITCOIN_CONFIRMED",
+  "migrated_from": "ledger.jsonl.ots (archive root)",
+  "canonical_path": "proofs/ledger/87fd166666d5b788e0913dc39f770c51447331eb2bc45d8fbd7368ca520843c4/ledger.jsonl.ots",
+  "compatibility_path": "ledger.jsonl.ots",
+  "note": "Migrated 2026-07-26. This is the FIRST versioned ledger snapshot. The proof was copied byte-for-byte from the archive root, where it still remains so the existing public URL keeps working. The snapshot copy is canonical; the root copy is a compatibility alias and must not be re-stamped or deleted."
+}

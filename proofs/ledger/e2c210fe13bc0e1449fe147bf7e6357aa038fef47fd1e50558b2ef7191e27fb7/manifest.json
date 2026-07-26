@@ -1,0 +1,12 @@
+{
+  "head_hash": "e2c210fe13bc0e1449fe147bf7e6357aa038fef47fd1e50558b2ef7191e27fb7",
+  "ledger_sha256": "ad98664dcddf217ef5e94dde48d7dd349ac3a80e5fa07ae8564d39fa78b6c64e",
+  "line_count": 270,
+  "byte_count": 230934,
+  "created_utc": "2026-07-26T14:45:13+00:00",
+  "git_commit": "83431b75269f50d8c40af6c84fa678608c9af232",
+  "previous_snapshot": "87fd166666d5b788e0913dc39f770c51447331eb2bc45d8fbd7368ca520843c4",
+  "proof_file": "ledger.jsonl.ots",
+  "proof_status": "UNSTAMPED",
+  "note": "immutable snapshot; these bytes are never modified. A proof for this directory attests exactly this ledger state and is never replaced."
+}
