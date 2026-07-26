@@ -30,6 +30,124 @@
   "scratch_track": "DMR",
   "scratch_date": "2026-07-26",
   "scratch_check_detail": "Turf firm, dirt fast. Scratches: R5 #11,#12,#13,#14 (all also-eligible); R6 #12 (vet), #14 (AE); R7 #11,#12 (AE); R9 #1 Astronomer (trainer); R10 #1 (vet); R11 #12 (AE). Weight changes R6 #4 and #9. No Edge Card selection affected: R4 #4 Rabeeba, R5 #5 Come On Om, R8 #5 Emma G and R9 #5 Gold Phoenix all remain entered and bettable.",
-  "scratch_retrieved_utc": "2026-07-26T21:49:43+00:00",
-  "scratch_source_updated_et": "12:32 PM PT"
+  "scratch_retrieved_utc": "2026-07-26T23:32:58+00:00",
+  "scratch_source_updated_et": "12:32 PM PT",
+  "scratch_checkpoints": [
+    {
+      "checked_at_utc": "2026-07-26T13:39:00+00:00",
+      "state": "CHECKED_NO_CHANGES",
+      "source": "Del Mar (DMTC) official Changes, Equibase-sourced",
+      "source_updated": "3:22 AM PT",
+      "races_still_ahead": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "races_already_started": [],
+      "selections_confirmed_pre_race": [
+        "#4 Rabeeba",
+        "#5 Come On Om",
+        "#5 Emma G",
+        "#5 Gold Phoenix"
+      ],
+      "selections_whose_race_had_already_started": [],
+      "detail": "R5 #11 scratched; temporary rail 18 ft on turf races. No selection affected"
+    },
+    {
+      "checked_at_utc": "2026-07-26T14:40:00+00:00",
+      "state": "CHECKED_NO_CHANGES",
+      "source": "Del Mar (DMTC) official Changes, Equibase-sourced",
+      "source_updated": "3:22 AM PT",
+      "races_still_ahead": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "races_already_started": [],
+      "selections_confirmed_pre_race": [
+        "#4 Rabeeba",
+        "#5 Come On Om",
+        "#5 Emma G",
+        "#5 Gold Phoenix"
+      ],
+      "selections_whose_race_had_already_started": [],
+      "detail": "re-verified; source unchanged since the 3:22 AM PT posting"
+    },
+    {
+      "checked_at_utc": "2026-07-26T21:49:00+00:00",
+      "state": "CHECKED_NO_CHANGES",
+      "source": "Del Mar (DMTC) official Changes, Equibase-sourced",
+      "source_updated": "12:32 PM PT",
+      "races_still_ahead": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "races_already_started": [
+        1,
+        2
+      ],
+      "selections_confirmed_pre_race": [
+        "#4 Rabeeba",
+        "#5 Come On Om",
+        "#5 Emma G",
+        "#5 Gold Phoenix"
+      ],
+      "selections_whose_race_had_already_started": [],
+      "detail": "R5 #11,#12,#13,#14 (AE); R6 #12 (vet), #14 (AE); R7 #11,#12 (AE); R9 #1 Astronomer (trainer); R10 #1 (vet); R11 #12 (AE). No selection affected"
+    },
+    {
+      "checked_at_utc": "2026-07-26T23:32:58+00:00",
+      "state": "CHECKED_NO_CHANGES",
+      "source": "Del Mar (DMTC) official Changes, Equibase-sourced (dmtc.com/racing/changes)",
+      "source_updated": "12:32 PM PT",
+      "races_still_ahead": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "races_already_started": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selections_confirmed_pre_race": [
+        "#5 Emma G",
+        "#5 Gold Phoenix"
+      ],
+      "selections_whose_race_had_already_started": [
+        "#4 Rabeeba",
+        "#5 Come On Om"
+      ],
+      "detail": "final pre-race check for the two selections still ahead. R8: no scratches, dirt fast — #5 Emma G active and bettable. R9: only #1 Astronomer scratched (trainer), turf firm — #5 Gold Phoenix active and bettable. No jockey change, cancellation, surface change, AE/MTO change or coupled-entry change on either race. Source posting time unchanged at 12:32 PM PT, so this reflects a list roughly four hours old at retrieval"
+    }
+  ],
+  "scratch_checkpoint_note": "Append-only history. A single card-level timestamp would imply every race was checked at that moment; these entries record, for each check, which races were still ahead and which had already started. No earlier checkpoint is ever rewritten."
 }

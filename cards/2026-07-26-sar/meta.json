@@ -30,6 +30,92 @@
   "scratch_track": "SAR",
   "scratch_date": "2026-07-26",
   "scratch_check_detail": "Late-afternoon check. Scratches R1,R2,R4,R5,R6,R7,R9,R10; new since the 10:13 AM list: R7 #9 Beary Funny (late, vet-unsound). Jockey changes on R3 #5, R5 #4, R6 #3, R6 #6. R10 scratch is #11 Coinvestment (also-eligible). No Edge Card selection affected: R5 #2, R6 #7 and R8 #1 were unaffected and have now run; R10 #10 Phantom Blue remains entered and bettable ahead of its 6:19 PM ET post.",
-  "scratch_retrieved_utc": "2026-07-26T21:49:43+00:00",
-  "scratch_source_updated_et": "live, page current through Race 9 off"
+  "scratch_retrieved_utc": "2026-07-26T21:49:00+00:00",
+  "scratch_source_updated_et": "live, page current through Race 9 off",
+  "scratch_checkpoints": [
+    {
+      "checked_at_utc": "2026-07-26T13:38:00+00:00",
+      "state": "SOURCE_UNAVAILABLE",
+      "source": "NYRA official Saratoga Scratches & Changes",
+      "source_updated": "12:03:01 AM ET",
+      "races_still_ahead": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "races_already_started": [],
+      "selections_confirmed_pre_race": [
+        "#2 Charlottesuniverse",
+        "#7 Samartina",
+        "#1 Maida",
+        "#10 Phantom Blue"
+      ],
+      "selections_whose_race_had_already_started": [],
+      "detail": "page loaded for the correct date but reported 'SCRATCHES AND PROGRAM CHANGES ARE CURRENTLY NOT AVAILABLE'; failed closed rather than treating an empty list as a clean card"
+    },
+    {
+      "checked_at_utc": "2026-07-26T14:38:00+00:00",
+      "state": "CHECKED_NO_CHANGES",
+      "source": "NYRA official Saratoga Scratches & Changes",
+      "source_updated": "10:13:34 AM ET",
+      "races_still_ahead": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "races_already_started": [],
+      "selections_confirmed_pre_race": [
+        "#2 Charlottesuniverse",
+        "#7 Samartina",
+        "#1 Maida",
+        "#10 Phantom Blue"
+      ],
+      "selections_whose_race_had_already_started": [],
+      "detail": "full-card authoritative list. Track fast, turf firm both courses, no off-turf move. Scratches in R1,R2,R4,R5,R6,R9,R10; none affecting an Edge Card selection. R5 lost #11 Lady Rose and #12 Baseball Lady (main-track-only), both shorter-priced than our selection"
+    },
+    {
+      "checked_at_utc": "2026-07-26T21:49:00+00:00",
+      "state": "CHECKED_NO_CHANGES",
+      "source": "NYRA official Saratoga Scratches & Changes",
+      "source_updated": "live, page current through Race 9 off",
+      "races_still_ahead": [
+        10
+      ],
+      "races_already_started": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selections_confirmed_pre_race": [
+        "#10 Phantom Blue"
+      ],
+      "selections_whose_race_had_already_started": [
+        "#2 Charlottesuniverse",
+        "#7 Samartina",
+        "#1 Maida"
+      ],
+      "detail": "late-afternoon check confirming R10 #10 Phantom Blue active before its 6:19 PM ET post. New since the morning list: R7 #9 late vet scratch and four jockey changes, none on an Edge Card selection"
+    }
+  ],
+  "scratch_checkpoint_note": "Append-only history. A single card-level timestamp would imply every race was checked at that moment; these entries record, for each check, which races were still ahead and which had already started. No earlier checkpoint is ever rewritten."
 }
