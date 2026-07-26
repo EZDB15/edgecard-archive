@@ -220,8 +220,14 @@ def main() -> int:
           all(r.get("status") != TARGET_MISMATCH for r in recs))
 
     if a.out:
-        from hre.io.canonical import write_json
-        write_json(a.out, {"proofs": recs, "summary": by})
+        # Standalone: the vendored copy runs on a runner with no edge-card src
+        # on the path. Importing hre here is what made the first real dispatch
+        # exit 1 after a completely successful upgrade.
+        raw = (json.dumps({"proofs": recs, "summary": by}, indent=2,
+                          ensure_ascii=False, allow_nan=False) + chr(10)).encode("utf-8")
+        Path(a.out).parent.mkdir(parents=True, exist_ok=True)
+        with Path(a.out).open("wb") as fh:
+            fh.write(raw)
         print(f"status report -> {a.out}")
     return 0 if all(r["status"] != TARGET_MISMATCH for r in recs) else 1
 
