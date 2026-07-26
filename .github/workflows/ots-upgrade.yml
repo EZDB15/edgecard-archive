@@ -11,23 +11,21 @@ name: ots-upgrade
 # "delete and stamp again" is exactly the destructive behaviour that discarded
 # earned Bitcoin attestations on every ledger append.
 
-# MANUAL ONLY. The schedule is deliberately disabled.
+# SCHEDULE ENABLED 2026-07-26, after both required drills passed on real
+# infrastructure:
+#   1. an automated run opened PR #2 (3 proofs enriched, 0 target artifacts
+#      touched, monotonic), which was reviewed and merged normally; and
+#   2. an immediate rerun produced "No proof changed - no commit, no PR",
+#      creating no branch, no PR and no commit.
 #
-# PREREQUISITE, VERIFIED MISSING 2026-07-26. A real dispatch reached the final
-# step and failed with:
+# GitHub cron is always UTC and ignores repository or user time zones. 06:17 UTC
+# is off the hour deliberately: the calendars are busiest on the hour.
 #
-#     GraphQL: GitHub Actions is not permitted to create or approve pull
-#     requests (createPullRequest)
-#
-# The branch pushes fine; only PR creation is blocked. Enabling it requires
-# Settings -> Actions -> General -> "Allow GitHub Actions to create and approve
-# pull requests", which needs admin on EZDB15 and is not available to the
-# operating account. Until that is enabled, this job pushes an upgrade branch and
-# a human opens the PR, so a daily schedule would only accumulate branches nobody
-# had asked for. Do not describe upgrades as automatic while this is the case.
-on:
-  # schedule:
-  #   - cron: "17 6 * * *"    # enable only after Actions may open PRs
+# PR creation works now that "Allow GitHub Actions to create and approve pull
+# requests" is enabled for this repository. Before that it failed with
+# "GitHub Actions is not permitted to create or approve pull requests".
+  schedule:
+    - cron: "17 6 * * *"      # 06:17 UTC daily; GitHub cron is UTC-only
   workflow_dispatch:
 
 # No `push` trigger at all. An upgrade run commits .ots and proof_status.json;
