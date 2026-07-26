@@ -23,12 +23,13 @@
   "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
   "x_handle": "@edgecardHQ",
   "subject": "SAR · Sun Jul 26 — 10 races, 4 flags, 6 passes",
-  "scratch_state": "SOURCE_UNAVAILABLE",
-  "scratch_checked_at_et": null,
-  "scratch_checked_at_utc": null,
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "10:38 AM ET",
+  "scratch_checked_at_utc": "2026-07-26T14:38:07+00:00",
   "scratch_source": "NYRA official Saratoga Scratches & Changes (nyra.com/saratoga/racing/scratches-changes)",
   "scratch_track": "SAR",
   "scratch_date": "2026-07-26",
-  "scratch_check_detail": "page loaded for the correct card date (Sunday 7/26/2026) and reported 'SCRATCHES AND PROGRAM CHANGES ARE CURRENTLY NOT AVAILABLE', Last Updated 12:03:01 AM ET. Cross-checked NYRA entries: all four Edge Card selections still entered, full fields, no scratch markers.",
-  "scratch_retrieved_utc": "2026-07-26T13:38:00+00:00"
+  "scratch_check_detail": "Official NYRA list, Last Updated 10:13:34 AM ET. Track FAST; turf FIRM on both courses; turf races Mellon 2,6 and Inner 1,5,10, all as carded — no off-turf move. Scratches: R1 #9,#10,#11,#12,#13 (also-eligible), #14 (main-track-only); R2 #6 (vet, injured), #9,#10 (MTO); R4 #1,#2,#8 (vet, illness); R5 #11 Lady Rose, #12 Baseball Lady (MTO); R6 #10 Addagirl Addie (stewards), #14,#15 (AE); R9 #6,#7,#10 (vet); R10 #11 Coinvestment (AE). No scratches in R3, R7, R8. Jockey changes: none. Miscellaneous changes: none. Post-time changes: none. No Edge Card selection affected: R5 #2 Charlottesuniverse, R6 #7 Samartina, R8 #1 Maida and R10 #10 Phantom Blue all remain entered and bettable.",
+  "scratch_retrieved_utc": "2026-07-26T14:38:07+00:00",
+  "scratch_source_updated_et": "10:13:34 AM ET"
 }

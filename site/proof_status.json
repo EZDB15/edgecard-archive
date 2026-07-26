@@ -709,8 +709,8 @@
         "meta.json": {
           "proof_file": "meta.json.ots",
           "committed_digest": "3d8e8221b29f58cefc1e53f50f2ad59a1eec83f7c6fa93de605c0ca85c4251da",
-          "current_downloadable_sha256": "3d8e8221b29f58cefc1e53f50f2ad59a1eec83f7c6fa93de605c0ca85c4251da",
-          "proof_targets_current_bytes": true,
+          "current_downloadable_sha256": "4444cdaa5425a8091e0c7e476c367ffaa007ba9b75a55b7c23f34127e5648b25",
+          "proof_targets_current_bytes": false,
           "bitcoin_attestations": [
             959652,
             959680
@@ -758,7 +758,7 @@
         "meta.json": {
           "proof_file": "meta.json.ots",
           "committed_digest": "d04147061f3ad83729a76ad19ae39049af582f76e0a6b8c6035aca6ad8dcb0e1",
-          "current_downloadable_sha256": "0500ad61442be3c7c4987c8b44976b3bf3035243c6c26361dd933d342fa776ec",
+          "current_downloadable_sha256": "2ee79b612347e283b2a86daf33672e1dcd7b48d115b6360b1c3e5b9106c7425e",
           "proof_targets_current_bytes": false,
           "bitcoin_attestations": [
             959652,
