@@ -1,0 +1,126 @@
+name: ots-upgrade
+
+# Upgrade OpenTimestamps proofs from calendar commitments to Bitcoin attestations.
+#
+# WHY THIS EXISTS. `timestamp.yml` stamps new artifacts but never upgrades them.
+# Its own comment said proofs "(later) upgrade to Bitcoin attestations" — nothing
+# performed that step, so on 2026-07-26 all 53 stored attestations were still
+# pending calendar commitments and zero contained a Bitcoin attestation. The
+# Bitcoin paths existed on the calendars the whole time; they had simply never
+# been fetched. Public copy meanwhile implied confirmed blockchain anchoring.
+#
+# An upgrade ENRICHES a detached proof by adding attestation paths. It never
+# changes what the proof commits to, and never touches the target artifact. Both
+# invariants are asserted by the upgrader and re-checked below.
+
+# PREREQUISITE, NOT YET SATISFIED. This job checks the upgrader out of the
+# protected `Elde15/edge-card` repo, which needs a read-only token in
+# `secrets.EDGE_CARD_RO_TOKEN`. That secret does not exist yet and cannot be
+# created from here: this repository is owned by EZDB15 and the operating account
+# holds push but not admin. Until the secret is configured the scheduled run will
+# fail at the checkout step, so the schedule is left COMMENTED OUT and the job is
+# manual-dispatch only. Do not paste a token into this file.
+#
+# GOVERNANCE LIMITATION: `edgecard-archive` has no branch protection and we cannot
+# configure it. The upgrader itself lives in the protected repo so the code that
+# writes to proofs is review-gated, but the archive-side workflow is not.
+
+on:
+  # schedule:
+  #   - cron: "17 6 * * *"      # enable once EDGE_CARD_RO_TOKEN exists
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Pinned deliberately. An unpinned client is how an upgrade job silently
+      # changes behaviour between runs.
+      - name: Install pinned OpenTimestamps
+        run: pip install "opentimestamps==0.4.5"
+
+      - name: Fetch the upgrader from the protected repo
+        # The upgrader lives in edge-card, which has branch protection; this repo
+        # does not. Pulling the script from there means the logic that writes to
+        # proofs is itself review-gated.
+        uses: actions/checkout@v4
+        with:
+          repository: Elde15/edge-card
+          path: .tools
+          token: ${{ secrets.EDGE_CARD_RO_TOKEN }}
+
+      - name: Record pre-upgrade state
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib
+          pre = {str(p): hashlib.sha256(p.read_bytes()).hexdigest()
+                 for p in sorted(pathlib.Path('.').rglob('*.ots'))}
+          tgt = {}
+          for p in sorted(pathlib.Path('.').rglob('*.ots')):
+              t = p.with_suffix('')
+              if t.exists():
+                  tgt[str(t)] = hashlib.sha256(t.read_bytes()).hexdigest()
+          pathlib.Path('.pre.json').write_text(json.dumps({"proofs": pre, "targets": tgt}))
+          print(f"{len(pre)} proofs, {len(tgt)} targets recorded")
+          PY
+
+      - name: Upgrade proofs
+        run: |
+          python .tools/scripts/ots_upgrade.py --root . --apply --out proof_upgrade_status.json
+
+      - name: Assert targets untouched and commitments unchanged
+        run: |
+          python - <<'PY'
+          import binascii, hashlib, json, pathlib, sys
+          from opentimestamps.core.serialize import BytesDeserializationContext
+          from opentimestamps.core.timestamp import DetachedTimestampFile
+          pre = json.loads(pathlib.Path('.pre.json').read_text())
+          bad = []
+          for f, h in pre["targets"].items():
+              if hashlib.sha256(pathlib.Path(f).read_bytes()).hexdigest() != h:
+                  bad.append(f"TARGET MUTATED: {f}")
+          status = json.loads(pathlib.Path('proof_upgrade_status.json').read_text())
+          for r in status["proofs"]:
+              if r["status"] == "TARGET_MISMATCH":
+                  bad.append(f"COMMITMENT CHANGED: {r['ots_file']}")
+          if bad:
+              print("\n".join(bad)); sys.exit(1)
+          print("targets untouched; all commitments unchanged")
+          PY
+
+      - name: Regenerate machine-readable proof status
+        run: |
+          python .tools/scripts/build_proof_status.py --root . --out proof_status.json
+          cp proof_status.json site/proof_status.json || true
+
+      - name: Open a pull request only if something actually changed
+        run: |
+          rm -f .pre.json
+          git config user.name  "edgecard-timestamps"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No proof changed — no commit, no PR."
+            exit 0
+          fi
+          BR="ots-upgrade/$(date -u +%Y%m%d-%H%M)"
+          git checkout -b "$BR"
+          git commit -m "OpenTimestamps: upgrade pending proofs [skip-ots]"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" \
+            --title "OTS upgrade $(date -u +%Y-%m-%d)" \
+            --body "Automated proof enrichment. Target artifacts untouched; committed digests unchanged. See proof_upgrade_status.json."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

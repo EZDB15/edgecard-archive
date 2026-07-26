@@ -1,0 +1,787 @@
+{
+  "generated_by": "scripts/build_proof_status.py",
+  "note": "status is parsed from each .ots file; BITCOIN_CONFIRMED appears only when that proof contains a BitcoinBlockHeaderAttestation",
+  "cards": {
+    "2026-07-16-sar": {
+      "date": "2026-07-16",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "91f2264a9bd2786db0e8a8e532c2fd1653f0c4b0b08884d7795ab9e2e79228b3",
+          "current_downloadable_sha256": "91f2264a9bd2786db0e8a8e532c2fd1653f0c4b0b08884d7795ab9e2e79228b3",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958263,
+            958271,
+            958300,
+            958319
+          ],
+          "bitcoin_block_height": 958263,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "826e290cc4eabe5ebee98bd5219ae394ce729151ddf1a08b3f0159eb6ec37172",
+          "current_downloadable_sha256": "826e290cc4eabe5ebee98bd5219ae394ce729151ddf1a08b3f0159eb6ec37172",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958263,
+            958271,
+            958300,
+            958319
+          ],
+          "bitcoin_block_height": 958263,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "970405a2813327fc1a188298ce40db3bbe0420e64b3207e037d0bef9b04e40a8",
+        "downloadable_artifact_sha256": "91f2264a9bd2786db0e8a8e532c2fd1653f0c4b0b08884d7795ab9e2e79228b3",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-16-sar-card-01"
+      }
+    },
+    "2026-07-17-dmr": {
+      "date": "2026-07-17",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "5c5738c552644939d1ceb632e1c41f9cf24fe7e272b6a9dc92b570056ac94153",
+          "current_downloadable_sha256": "5c5738c552644939d1ceb632e1c41f9cf24fe7e272b6a9dc92b570056ac94153",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958444,
+            958447,
+            958448
+          ],
+          "bitcoin_block_height": 958444,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "1ae3ae679cede01bbb443fea282995a152b04c926e1d81f0f84048790672bc0a",
+          "current_downloadable_sha256": "ff0eaa1ac59783ec048a303f2243d50ec66b166e02ef256e355fed9c4c3a35ad",
+          "proof_targets_current_bytes": false,
+          "bitcoin_attestations": [
+            958444,
+            958447,
+            958448
+          ],
+          "bitcoin_block_height": 958444,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.current.json": {
+          "proof_file": "meta.current.json.ots",
+          "committed_digest": "ff0eaa1ac59783ec048a303f2243d50ec66b166e02ef256e355fed9c4c3a35ad",
+          "current_downloadable_sha256": "ff0eaa1ac59783ec048a303f2243d50ec66b166e02ef256e355fed9c4c3a35ad",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "910012f7fdcbbcbda9e4c3aef1bf72acc83bcef9e602cc1f7105de2f390646c3",
+        "downloadable_artifact_sha256": "5c5738c552644939d1ceb632e1c41f9cf24fe7e272b6a9dc92b570056ac94153",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-17-dmr-card-01"
+      }
+    },
+    "2026-07-17-sar": {
+      "date": "2026-07-17",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "eee831ef7500a09f6cd59e32529cc279067694888cf9b0a613bc8c683279f777",
+          "current_downloadable_sha256": "eee831ef7500a09f6cd59e32529cc279067694888cf9b0a613bc8c683279f777",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958444,
+            958447,
+            958448
+          ],
+          "bitcoin_block_height": 958444,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "ba91a5e7b5c1b9229779deddcab0b01c4bcfb526ac80f7b4da680f4bba3b168d",
+          "current_downloadable_sha256": "538f751ef04760b7598cc327f279f8be4b89aadeb73d5328e0937f1958efeea2",
+          "proof_targets_current_bytes": false,
+          "bitcoin_attestations": [
+            958444,
+            958447,
+            958448
+          ],
+          "bitcoin_block_height": 958444,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.current.json": {
+          "proof_file": "meta.current.json.ots",
+          "committed_digest": "538f751ef04760b7598cc327f279f8be4b89aadeb73d5328e0937f1958efeea2",
+          "current_downloadable_sha256": "538f751ef04760b7598cc327f279f8be4b89aadeb73d5328e0937f1958efeea2",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "cb1ec2f6d1d68ffd795a688f7ae747052719dcaab8a6526210b2713472708a31",
+        "downloadable_artifact_sha256": "eee831ef7500a09f6cd59e32529cc279067694888cf9b0a613bc8c683279f777",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-17-sar-card-01"
+      }
+    },
+    "2026-07-18-dmr": {
+      "date": "2026-07-18",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "f054f172d11271ff6d1148f31a23fce7f063e31f37102aa1246669c7b415a7a9",
+          "current_downloadable_sha256": "f054f172d11271ff6d1148f31a23fce7f063e31f37102aa1246669c7b415a7a9",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958590,
+            958594,
+            958601
+          ],
+          "bitcoin_block_height": 958590,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "72a100d20a14796fbfc9342d7caeb1af1f591312f8fd72a3e7f7dc175222fad3",
+          "current_downloadable_sha256": "72a100d20a14796fbfc9342d7caeb1af1f591312f8fd72a3e7f7dc175222fad3",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958590,
+            958594,
+            958601
+          ],
+          "bitcoin_block_height": 958590,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "452a707b645298a88c84fc1af7a9c045671ab827537c7c73a21f17abf6e99ef7",
+        "downloadable_artifact_sha256": "f054f172d11271ff6d1148f31a23fce7f063e31f37102aa1246669c7b415a7a9",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-18-dmr-card-01"
+      }
+    },
+    "2026-07-18-sar": {
+      "date": "2026-07-18",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "7470d5434d899bc61a55ed4fdb830522dc00a1468d9fd79f3e1b2acbe1877c31",
+          "current_downloadable_sha256": "7470d5434d899bc61a55ed4fdb830522dc00a1468d9fd79f3e1b2acbe1877c31",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958587,
+            958590,
+            958601
+          ],
+          "bitcoin_block_height": 958587,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "cd3818b36e0a72ebfbefb9d2330a0c73a3af9fca70f37a862b7af1616a739a1c",
+          "current_downloadable_sha256": "cd3818b36e0a72ebfbefb9d2330a0c73a3af9fca70f37a862b7af1616a739a1c",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958587,
+            958590,
+            958601
+          ],
+          "bitcoin_block_height": 958587,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "ba2c741b3ea0c8a25ae117fa32cfbe7f8ca63879b6b1496f7fb9396e50f52426",
+        "downloadable_artifact_sha256": "7470d5434d899bc61a55ed4fdb830522dc00a1468d9fd79f3e1b2acbe1877c31",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-18-sar-card-01"
+      }
+    },
+    "2026-07-19-dmr": {
+      "date": "2026-07-19",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "0a22d8979143b47d0f5c2231e1dc4d97b2f3097da2eca5e1080fb451feca36c2",
+          "current_downloadable_sha256": "0a22d8979143b47d0f5c2231e1dc4d97b2f3097da2eca5e1080fb451feca36c2",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958756,
+            958761
+          ],
+          "bitcoin_block_height": 958756,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "958c15dec27ae740135a17059e856f245adaa2d8d3959da644a8ea9f6dadb4e1",
+          "current_downloadable_sha256": "958c15dec27ae740135a17059e856f245adaa2d8d3959da644a8ea9f6dadb4e1",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958756,
+            958761
+          ],
+          "bitcoin_block_height": 958756,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "4c9c5e8e4aef0d3ab99fd607a5499924eb02948aa7c5af9762732e61c6344333",
+        "downloadable_artifact_sha256": "0a22d8979143b47d0f5c2231e1dc4d97b2f3097da2eca5e1080fb451feca36c2",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-19-dmr-card-01"
+      }
+    },
+    "2026-07-19-sar": {
+      "date": "2026-07-19",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "a295b82f5d0ccac7bfd635ab0cea30c50abae0cab2a6f6cff81f94eba2488136",
+          "current_downloadable_sha256": "a295b82f5d0ccac7bfd635ab0cea30c50abae0cab2a6f6cff81f94eba2488136",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958756,
+            958761
+          ],
+          "bitcoin_block_height": 958756,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "1d4d6b8aba2a247f9db61c07510fada68a454e0676e9f0e56b7b3babb8feb1c6",
+          "current_downloadable_sha256": "1d4d6b8aba2a247f9db61c07510fada68a454e0676e9f0e56b7b3babb8feb1c6",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            958756,
+            958761
+          ],
+          "bitcoin_block_height": 958756,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "a989d8e7773e6e837e171d752095f93aa70522b4e1f3627f96dad8f493e92486",
+        "downloadable_artifact_sha256": "a295b82f5d0ccac7bfd635ab0cea30c50abae0cab2a6f6cff81f94eba2488136",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-19-sar-card-01"
+      }
+    },
+    "2026-07-23-dmr": {
+      "date": "2026-07-23",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "3c06ef8b292491380dee47bb9687754881ce6d98c19361d6f071402273131384",
+          "current_downloadable_sha256": "3c06ef8b292491380dee47bb9687754881ce6d98c19361d6f071402273131384",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959238,
+            959247,
+            959254
+          ],
+          "bitcoin_block_height": 959238,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "463d9fdb27b03ef53b882ef964c1e06c07668d68c68a950767b641e7a5ebe743",
+          "current_downloadable_sha256": "463d9fdb27b03ef53b882ef964c1e06c07668d68c68a950767b641e7a5ebe743",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959238,
+            959247,
+            959254
+          ],
+          "bitcoin_block_height": 959238,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "5d18e4b2450bfe332163ca53dce2c5ec89df652f23efdf8de0d62fb5fcedcb69",
+        "downloadable_artifact_sha256": "3c06ef8b292491380dee47bb9687754881ce6d98c19361d6f071402273131384",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-23-dmr-card-01"
+      }
+    },
+    "2026-07-23-sar": {
+      "date": "2026-07-23",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "09ba713f7784c4963587f857039b90be5ba0d2bc34a6edf5a8237bab3637de87",
+          "current_downloadable_sha256": "09ba713f7784c4963587f857039b90be5ba0d2bc34a6edf5a8237bab3637de87",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959238,
+            959247,
+            959254
+          ],
+          "bitcoin_block_height": 959238,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "5d085a3b28bcda3d58f7de698ecab49f5220706440657ea3c01f664374a85d87",
+          "current_downloadable_sha256": "5d085a3b28bcda3d58f7de698ecab49f5220706440657ea3c01f664374a85d87",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959238,
+            959247,
+            959254
+          ],
+          "bitcoin_block_height": 959238,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "834825237f6814531db09e433f93e92e71f2afd39be0ffa6c6ab543380ba37af",
+        "downloadable_artifact_sha256": "09ba713f7784c4963587f857039b90be5ba0d2bc34a6edf5a8237bab3637de87",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-23-sar-card-01"
+      }
+    },
+    "2026-07-24-dmr": {
+      "date": "2026-07-24",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "4e9088b356aa5dd41d3a3a92077401248cf74cbac8d5ac8fa90394952d3b36b1",
+          "current_downloadable_sha256": "4e9088b356aa5dd41d3a3a92077401248cf74cbac8d5ac8fa90394952d3b36b1",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959385,
+            959395,
+            959429
+          ],
+          "bitcoin_block_height": 959385,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "36487d3c9ac4c59f8c5047221716bc4643d822b62d0991aa9277384c6eea5eaa",
+          "current_downloadable_sha256": "36487d3c9ac4c59f8c5047221716bc4643d822b62d0991aa9277384c6eea5eaa",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959385,
+            959395,
+            959429
+          ],
+          "bitcoin_block_height": 959385,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "7a988efd1ee58c4dcf8e62d143b56b51fde5dcc87320c33667410d4e6887ca0e",
+        "downloadable_artifact_sha256": "4e9088b356aa5dd41d3a3a92077401248cf74cbac8d5ac8fa90394952d3b36b1",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-24-dmr-card-01"
+      }
+    },
+    "2026-07-24-sar": {
+      "date": "2026-07-24",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "8b399bb0a6fe598b6ad13db9ffe76f7708839dfb20e4c6bc333f42e9b1ceff50",
+          "current_downloadable_sha256": "8b399bb0a6fe598b6ad13db9ffe76f7708839dfb20e4c6bc333f42e9b1ceff50",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959385,
+            959395,
+            959429
+          ],
+          "bitcoin_block_height": 959385,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "48d47e582f5fec1082736d6f09b2e982d43b0f7668c40e883d15f37236a912f4",
+          "current_downloadable_sha256": "48d47e582f5fec1082736d6f09b2e982d43b0f7668c40e883d15f37236a912f4",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959385,
+            959395,
+            959429
+          ],
+          "bitcoin_block_height": 959385,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "74b3e1d7629297c428c30ce3fbca07906c0e21c76916462d1d6f7b92276e821b",
+        "downloadable_artifact_sha256": "8b399bb0a6fe598b6ad13db9ffe76f7708839dfb20e4c6bc333f42e9b1ceff50",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-24-sar-card-01"
+      }
+    },
+    "2026-07-25-dmr": {
+      "date": "2026-07-25",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "6784f29f6adc84a4107bfa9e73233fecad7d764c60fbd4464c5fed6f1a665963",
+          "current_downloadable_sha256": "6784f29f6adc84a4107bfa9e73233fecad7d764c60fbd4464c5fed6f1a665963",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959570,
+            959572,
+            959587,
+            959609
+          ],
+          "bitcoin_block_height": 959570,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "c3659cc26c0567b1326e306d41c5518cd7317004a483695882a7332a57efd76f",
+          "current_downloadable_sha256": "c3659cc26c0567b1326e306d41c5518cd7317004a483695882a7332a57efd76f",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959570,
+            959572,
+            959587,
+            959609
+          ],
+          "bitcoin_block_height": 959570,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "7bfff866e6b7172b7d7c39cf3514d75fa964d4898fa5cb0db6b0810b18a0935e",
+        "downloadable_artifact_sha256": "6784f29f6adc84a4107bfa9e73233fecad7d764c60fbd4464c5fed6f1a665963",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-25-dmr-card-01"
+      }
+    },
+    "2026-07-25-sar": {
+      "date": "2026-07-25",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "7ed9dae36137d5e85afc83bff4b78f87e14bcc1b15953ae7c225d5b22efc52a7",
+          "current_downloadable_sha256": "7ed9dae36137d5e85afc83bff4b78f87e14bcc1b15953ae7c225d5b22efc52a7",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959570,
+            959572,
+            959587,
+            959609
+          ],
+          "bitcoin_block_height": 959570,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "261e38c9b21be23b866f2ba2f007136f649300c1761269628faa066076307952",
+          "current_downloadable_sha256": "261e38c9b21be23b866f2ba2f007136f649300c1761269628faa066076307952",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959570,
+            959572,
+            959587,
+            959609
+          ],
+          "bitcoin_block_height": 959570,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "f82ed51d5645eb05a834131508995d469b6c068b63fb1fb83f4c47e3e867ab1b",
+        "downloadable_artifact_sha256": "7ed9dae36137d5e85afc83bff4b78f87e14bcc1b15953ae7c225d5b22efc52a7",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-25-sar-card-01"
+      }
+    },
+    "2026-07-26-dmr": {
+      "date": "2026-07-26",
+      "track": "DMR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "1c5d42b418bbde69146f2cfadc58ae9d2178cb6f2571024f56eef618f6ac5f1b",
+          "current_downloadable_sha256": "1c5d42b418bbde69146f2cfadc58ae9d2178cb6f2571024f56eef618f6ac5f1b",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959652,
+            959680
+          ],
+          "bitcoin_block_height": 959652,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "3d8e8221b29f58cefc1e53f50f2ad59a1eec83f7c6fa93de605c0ca85c4251da",
+          "current_downloadable_sha256": "3d8e8221b29f58cefc1e53f50f2ad59a1eec83f7c6fa93de605c0ca85c4251da",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959652,
+            959680
+          ],
+          "bitcoin_block_height": 959652,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "ee2f7ccdc08a723a5308e68a9c353669da3986c4cfafe297b023b57b8bc18e2a",
+        "downloadable_artifact_sha256": "1c5d42b418bbde69146f2cfadc58ae9d2178cb6f2571024f56eef618f6ac5f1b",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-26-dmr-card-01"
+      }
+    },
+    "2026-07-26-sar": {
+      "date": "2026-07-26",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "db33d2f0e2962fc12a2b41a048d464feb4607e65be7c9d21ebe8485e860b61ac",
+          "current_downloadable_sha256": "db33d2f0e2962fc12a2b41a048d464feb4607e65be7c9d21ebe8485e860b61ac",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959652,
+            959655,
+            959680
+          ],
+          "bitcoin_block_height": 959652,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        },
+        "meta.json": {
+          "proof_file": "meta.json.ots",
+          "committed_digest": "d04147061f3ad83729a76ad19ae39049af582f76e0a6b8c6035aca6ad8dcb0e1",
+          "current_downloadable_sha256": "d04147061f3ad83729a76ad19ae39049af582f76e0a6b8c6035aca6ad8dcb0e1",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [
+            959652,
+            959655,
+            959680
+          ],
+          "bitcoin_block_height": 959652,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "BITCOIN_CONFIRMED"
+        }
+      },
+      "hash_correction": {
+        "original_recorded_lock_sha256": "99d2c0a8398a0d5db7e7379fbc745175bf2ca30f400d7ce7982960400ea69c1e",
+        "downloadable_artifact_sha256": "db33d2f0e2962fc12a2b41a048d464feb4607e65be7c9d21ebe8485e860b61ac",
+        "newline_only_difference": true,
+        "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
+        "correction_id": "chc-2026-07-26-sar-card-01"
+      }
+    }
+  }
+}

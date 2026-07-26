@@ -1,0 +1,150 @@
+{
+  "computation_version": "canonical-record-1.0.0",
+  "source_ledger_head_hash": "e2c210fe13bc0e1449fe147bf7e6357aa038fef47fd1e50558b2ef7191e27fb7",
+  "source_ledger_lines": 270,
+  "through_date": "2026-07-25",
+  "counts": {
+    "raw_ledger_result_entries": 59,
+    "effective_unique_results": 51,
+    "declared_supersessions": 8,
+    "unique_picks": 59,
+    "pending_selections": 8,
+    "conflicts": 0
+  },
+  "totals": {
+    "wins": 11,
+    "losses": 35,
+    "voids": 5,
+    "record": "11-35",
+    "effective_scored_selections": 51,
+    "flat_2_dollar_pl": -24.74,
+    "roi": -0.268913,
+    "roi_pct": -26.9
+  },
+  "supersession_declarations": [
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "4",
+        "race": 2,
+        "track": "DMR"
+      },
+      "superseded_entry_line": 123,
+      "canonical_entry_line": 143,
+      "settlement_values_agree": true,
+      "enriched_fields": [
+        "finish_pos",
+        "closing_decimal_odds",
+        "drift_vs_ml"
+      ]
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "8",
+        "race": 2,
+        "track": "DMR"
+      },
+      "superseded_entry_line": 124,
+      "canonical_entry_line": 144,
+      "settlement_values_agree": true,
+      "enriched_fields": []
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "8",
+        "race": 6,
+        "track": "DMR"
+      },
+      "superseded_entry_line": 125,
+      "canonical_entry_line": 145,
+      "settlement_values_agree": true,
+      "enriched_fields": [
+        "finish_pos",
+        "closing_decimal_odds",
+        "drift_vs_ml"
+      ]
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "9",
+        "race": 8,
+        "track": "DMR"
+      },
+      "superseded_entry_line": 126,
+      "canonical_entry_line": 146,
+      "settlement_values_agree": true,
+      "enriched_fields": [
+        "finish_pos",
+        "closing_decimal_odds",
+        "drift_vs_ml"
+      ]
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "3",
+        "race": 1,
+        "track": "SAR"
+      },
+      "superseded_entry_line": 116,
+      "canonical_entry_line": 130,
+      "settlement_values_agree": true,
+      "enriched_fields": [
+        "finish_pos",
+        "closing_decimal_odds",
+        "drift_vs_ml"
+      ]
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "2",
+        "race": 4,
+        "track": "SAR"
+      },
+      "superseded_entry_line": 117,
+      "canonical_entry_line": 131,
+      "settlement_values_agree": true,
+      "enriched_fields": [
+        "finish_pos",
+        "closing_decimal_odds",
+        "drift_vs_ml"
+      ]
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "5",
+        "race": 4,
+        "track": "SAR"
+      },
+      "superseded_entry_line": 118,
+      "canonical_entry_line": 132,
+      "settlement_values_agree": true,
+      "enriched_fields": []
+    },
+    {
+      "canonical_result_key": {
+        "card_date": "2026-07-23",
+        "pick": "5",
+        "race": 7,
+        "track": "SAR"
+      },
+      "superseded_entry_line": 119,
+      "canonical_entry_line": 133,
+      "settlement_values_agree": true,
+      "enriched_fields": [
+        "finish_pos",
+        "closing_decimal_odds",
+        "drift_vs_ml"
+      ]
+    }
+  ],
+  "notes": {
+    "dedup_rule": "results are keyed by (track, card_date, race, pick); when a key has more than one entry the later, authoritatively-sourced entry is effective and the earlier provisional one is retained as history",
+    "totals_unchanged": "the canonical reader always counted each key once, so these totals are identical to those published before the supersessions were declared explicitly"
+  }
+}
