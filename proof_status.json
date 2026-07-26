@@ -758,8 +758,8 @@
         "meta.json": {
           "proof_file": "meta.json.ots",
           "committed_digest": "d04147061f3ad83729a76ad19ae39049af582f76e0a6b8c6035aca6ad8dcb0e1",
-          "current_downloadable_sha256": "d04147061f3ad83729a76ad19ae39049af582f76e0a6b8c6035aca6ad8dcb0e1",
-          "proof_targets_current_bytes": true,
+          "current_downloadable_sha256": "0500ad61442be3c7c4987c8b44976b3bf3035243c6c26361dd933d342fa776ec",
+          "proof_targets_current_bytes": false,
           "bitcoin_attestations": [
             959652,
             959655,

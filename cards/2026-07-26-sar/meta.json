@@ -11,7 +11,7 @@
   "pick_notes": null,
   "publish_time_et": "12:02 AM ET",
   "lock_ts_utc": "2026-07-26T04:02:51+00:00",
-  "scratches_as_of_et": "12:02 AM ET (lock time — no scratches posted yet; first post 13h away)",
+  "scratches_as_of_et": null,
   "first_post_et": "1:10 PM ET",
   "site_card_url": "https://edgecardhq.com/archive/2026-07-26-sar/",
   "archive_url": "https://github.com/EZDB15/edgecard-archive",
@@ -22,5 +22,13 @@
   "subscribe_url": "https://buttondown.com/della_bitta",
   "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
   "x_handle": "@edgecardHQ",
-  "subject": "SAR · Sun Jul 26 — 10 races, 4 flags, 6 passes"
+  "subject": "SAR · Sun Jul 26 — 10 races, 4 flags, 6 passes",
+  "scratch_state": "SOURCE_UNAVAILABLE",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": "NYRA official Saratoga Scratches & Changes (nyra.com/saratoga/racing/scratches-changes)",
+  "scratch_track": "SAR",
+  "scratch_date": "2026-07-26",
+  "scratch_check_detail": "page loaded for the correct card date (Sunday 7/26/2026) and reported 'SCRATCHES AND PROGRAM CHANGES ARE CURRENTLY NOT AVAILABLE', Last Updated 12:03:01 AM ET. Cross-checked NYRA entries: all four Edge Card selections still entered, full fields, no scratch markers.",
+  "scratch_retrieved_utc": "2026-07-26T13:38:00+00:00"
 }

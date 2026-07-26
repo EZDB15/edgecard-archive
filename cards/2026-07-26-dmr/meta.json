@@ -11,7 +11,7 @@
   "pick_notes": null,
   "publish_time_et": "12:03 AM ET",
   "lock_ts_utc": "2026-07-26T04:03:06+00:00",
-  "scratches_as_of_et": "12:03 AM ET (lock time — no scratches posted yet; first post 13h away)",
+  "scratches_as_of_et": null,
   "first_post_et": "5:00 PM ET",
   "site_card_url": "https://edgecardhq.com/archive/2026-07-26-dmr/",
   "archive_url": "https://github.com/EZDB15/edgecard-archive",
@@ -22,5 +22,13 @@
   "subscribe_url": "https://buttondown.com/della_bitta",
   "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
   "x_handle": "@edgecardHQ",
-  "subject": "DMR · Sun Jul 26 — 11 races, 4 flags, 7 passes"
+  "subject": "DMR · Sun Jul 26 — 11 races, 4 flags, 7 passes",
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "9:39 AM ET",
+  "scratch_checked_at_utc": "2026-07-26T13:39:00+00:00",
+  "scratch_source": "Del Mar (DMTC) official Changes, Equibase-sourced (dmtc.com/racing/changes), posted 3:22 AM PT, updated several times per hour",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-07-26",
+  "scratch_check_detail": "R5 #11 Unusual Exchange scratched; temporary rail set at 18 ft on races 1, 3, 5, 7, 9, 11. No Edge Card selection affected: our R5 selection is #5, and the rail setting matches the published race conditions. No cancellation, postponement, surface change, or coupled-entry change.",
+  "scratch_retrieved_utc": "2026-07-26T13:39:00+00:00"
 }
