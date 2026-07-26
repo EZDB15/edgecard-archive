@@ -156,6 +156,15 @@ def process(ots_path: Path, *, apply: bool, timeout: int = 20) -> dict:
     rec["bitcoin_block_height"] = post_height
 
     new_bytes = dump(dtf)
+    # An upgrade may only ADD attestations. Verified before writing, so a
+    # weakened proof is never persisted.
+    try:
+        from proof_monotonicity import MonotonicityError, check as mono_check
+        rec['monotonicity'] = mono_check(pre_bytes, new_bytes)
+    except MonotonicityError as exc:
+        rec.update(status=VERIFY_FAILED, error=f'monotonicity: {exc}')
+        return rec
+
     # The invariant that makes this safe: the commitment must not move.
     if binascii.hexlify(load_from_bytes(new_bytes).timestamp.msg).decode() != target_digest:
         rec.update(status=TARGET_MISMATCH,

@@ -90,7 +90,10 @@ jobs:
       - name: Regenerate proof status
         run: |
           python .github/tools/build_proof_status.py --root . --out proof_status.json
-          mkdir -p site && cp proof_status.json site/proof_status.json
+          python .github/tools/build_proof_registry.py --root . --out proof_registry.json
+          mkdir -p site
+          cp proof_status.json site/proof_status.json
+          cp proof_registry.json site/proof_registry.json
 
       - name: Open a pull request only if proof bytes actually changed
         run: |
@@ -98,7 +101,7 @@ jobs:
           rm -f .pre.json
           git config user.name  "edgecard-timestamps"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- '*.ots' proof_status.json site/proof_status.json proof_upgrade_status.json
+          git add -A -- '*.ots' proof_status.json proof_registry.json site/proof_status.json site/proof_registry.json proof_upgrade_status.json
           if git diff --cached --quiet; then
             echo "No proof changed - no commit, no PR."
             exit 0
