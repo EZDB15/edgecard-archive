@@ -11,3 +11,4 @@ desktop.ini
 *.dat
 data/
 raw/
+proof_upgrade_status.json

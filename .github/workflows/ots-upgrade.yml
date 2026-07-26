@@ -74,7 +74,7 @@ jobs:
           PY
 
       - name: Upgrade pending proofs
-        run: python .github/tools/ots_upgrade.py --root . --apply --out proof_upgrade_status.json
+        run: python .github/tools/ots_upgrade.py --root . --apply --out /tmp/proof_upgrade_status.json
 
       - name: Assert targets untouched, commitments unchanged, no proof lost
         run: |
@@ -92,7 +92,7 @@ jobs:
           for f in pre["proofs"]:
               if not pathlib.Path(f).exists():
                   bad.append(f"PROOF DELETED: {f}")
-          st = json.loads(pathlib.Path('proof_upgrade_status.json').read_text())
+          st = json.loads(pathlib.Path('/tmp/proof_upgrade_status.json').read_text())
           for r in st["proofs"]:
               if r["status"] == "TARGET_MISMATCH":
                   bad.append(f"COMMITMENT CHANGED: {r['ots_file']}")
@@ -109,13 +109,24 @@ jobs:
           cp proof_status.json site/proof_status.json
           cp proof_registry.json site/proof_registry.json
 
+      - name: Upload the run report as an artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: proof-upgrade-status
+          path: /tmp/proof_upgrade_status.json
+          if-no-files-found: warn
+
       - name: Open a pull request only if proof bytes actually changed
         run: |
           set -euo pipefail
           rm -f .pre.json
           git config user.name  "edgecard-timestamps"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- '*.ots' proof_status.json proof_registry.json site/proof_status.json site/proof_registry.json proof_upgrade_status.json
+          # proof_upgrade_status.json is a PER-RUN report: it embeds run-specific
+          # detail and therefore differs on every run. Committing it made a
+          # genuine no-change run look like a change and open an empty PR.
+          # It is uploaded as a workflow artifact instead of being committed.
+          git add -A -- '*.ots' proof_status.json proof_registry.json site/proof_status.json site/proof_registry.json
           if git diff --cached --quiet; then
             echo "No proof changed - no commit, no PR."
             exit 0
