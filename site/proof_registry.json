@@ -738,7 +738,7 @@
       "target_path": "cards/2026-07-26-dmr/meta.json",
       "preserved_target_path": null,
       "target_revision": "original_publication",
-      "target_current_sha256": "9adb461728a50844136203f23d8388263b21f348121a77691132790e5d71e23f",
+      "target_current_sha256": "c4c8daf43984d60e76ae34e2f42c8eb7a84a09d130b30a0ecf300b5817088148",
       "proof_targets_current_bytes": false,
       "status": "BITCOIN_CONFIRMED",
       "bitcoin_block_heights": [
@@ -785,7 +785,7 @@
       "target_path": "cards/2026-07-26-sar/meta.json",
       "preserved_target_path": null,
       "target_revision": "original_publication",
-      "target_current_sha256": "8c7f79855c2c4277d7cc8ffc136898f9b931426f3a98f7a45223b7bb722257ae",
+      "target_current_sha256": "0820fce61ec353da2a797ad34cf93c66c9ae7154e6fb3408047fd3530f2177f6",
       "proof_targets_current_bytes": false,
       "status": "BITCOIN_CONFIRMED",
       "bitcoin_block_heights": [
