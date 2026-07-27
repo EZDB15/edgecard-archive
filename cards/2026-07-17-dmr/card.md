@@ -4,7 +4,7 @@
 *Takeout (DMR):* win 15.43% / exacta 22.68%
 Scratches as of 10:00 AM ET. Late scratches void at scoring; the card is never edited.
 
-> Edge Card v0 is a transparent heuristic, not a trained model: Prime-Power softmax blended 50/50 with the de-vigged morning line, plus a published rules-based pace adjustment. Constants on the methodology page. Structured analysis, not proven edge; tracked publicly either way.
+> This card was produced under the methodology version identified at publication. Detailed implementation parameters are proprietary and are no longer displayed. The original selections, probabilities, prices, timestamps, grading and integrity evidence are unchanged, and the locked card file below is the original.
 
 ## Edge Picks — 4 flags, 6 passes of 10 races
 
