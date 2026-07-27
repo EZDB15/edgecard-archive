@@ -1,0 +1,30 @@
+{
+  "deployment": "corrective-feed-and-site-repair",
+  "generated_utc": "2026-07-27T03:41:09+00:00",
+  "source_repo": "Elde15/edge-card",
+  "source_commit": "2816b3766fc610bddcc5194b10f3aad704c67405",
+  "source_pr": 18,
+  "source_pr_head_sha": "d54065ffcce514486b5815d75ac2d7e2824c4e62",
+  "merge_commit": "2816b3766fc610bddcc5194b10f3aad704c67405",
+  "merge_method": "squash",
+  "build_command": "scripts/build_site.py --archive cards --ledger ledger.jsonl --out site",
+  "reproducible": "clean post-merge rebuild is byte-identical to the pre-merge inspected output",
+  "ledger_sha256": "b8b80d4edc0420e0a65c0d86152e69ae4d2706d7cfa33dc65bd625ee0946eef8",
+  "ledger_entries": 286,
+  "locked_cards_unchanged": 15,
+  "ots_proof_files": 35,
+  "feeds": 15,
+  "partner_schema": "schemas/partner-feed-v1.json",
+  "partner_schema_sha256": "241f9a27fd63c0cc41ef458bedd14408842f6e6417914421c4166f8097e037a7",
+  "record": {
+    "wins": 16,
+    "losses": 38,
+    "voids": 5,
+    "record": "16-38",
+    "effective_scored_selections": 59,
+    "flat_2_dollar_pl": 15.24,
+    "roi": 0.141111,
+    "roi_pct": 14.1
+  },
+  "note": "build_site.py wipes site/ and does not regenerate record.json, proof_status.json, proof_registry.json or card_hash_corrections.jsonl. They are copied from the archive root during deploy. Folding that copy into the build is a tracked follow-up; it was NOT done here so this deployment contains only reviewed code."
+}

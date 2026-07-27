@@ -348,6 +348,21 @@ html,body{max-width:100%;overflow-x:hidden;}
   /* the record chip's link is the route to the full ledger — make it real */
   .rec .recmore{display:inline-block;padding:12px 0;min-height:44px;}
 }
+/* ---- Archived-card disclosure ------------------------------------------ */
+/* Distinct from .errata on purpose. Red says "something changed, act now";
+   this says "this is a record, do not act". Neutral slate, quieter than the
+   errata band but unmistakably not part of the live card. */
+.histband{border:1px solid var(--rule);border-left:4px solid #64748b;
+  background:#f1f5f9;border-radius:6px;padding:12px 14px;margin:14px 0;}
+.histband .hhead{font-weight:700;color:#334155;font-size:14px;
+  letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px;}
+.histband .hbody{font-size:15px;line-height:1.55;margin:0;max-width:62ch;}
+.histband .hfoot{color:var(--muted);font-size:13px;margin:8px 0 0;max-width:62ch;}
+@media (prefers-color-scheme:dark){
+  .histband{background:#161c24;border-left-color:#94a3b8;}
+  .histband .hhead{color:#cbd5e1;}
+}
+
 /* ---- Post-publication errata band (late scratches / off-turf) ---------- */
 /* Deliberately loud: it must out-rank every betting action on the page. */
 .errata{border:2px solid #b3261e;background:#fdf3f2;border-radius:6px;
