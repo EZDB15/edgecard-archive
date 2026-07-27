@@ -125,6 +125,11 @@
           }
         },
 
+        "scheduled_post_utc": {
+          "type": ["string", "null"],
+          "description": "This race's SCHEDULED post time from the PP, not its actual off. Advisory: `bettable` already accounts for it, and a delayed race is not reflected here."
+        },
+
         "exotics": {
           "type": "null",
           "description": "Suppressed in partner mode — see /properties/parlays."
@@ -138,7 +143,7 @@
           "description": "A race with an official result, a void, or a past date is never bettable.",
           "if": {
             "properties": {
-              "lifecycle_status": { "enum": ["SETTLED", "VOID", "HISTORICAL"] }
+              "lifecycle_status": { "enum": ["SETTLED", "VOID", "HISTORICAL", "STARTED", "INDETERMINATE"] }
             },
             "required": ["lifecycle_status"]
           },

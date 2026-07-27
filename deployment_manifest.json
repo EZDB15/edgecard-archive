@@ -1,21 +1,26 @@
 {
-  "deployment": "corrective-feed-and-site-repair",
-  "generated_utc": "2026-07-27T03:41:09+00:00",
+  "deployment": "per-race-post-times-and-void-status",
+  "generated_utc": "2026-07-27T04:02:13+00:00",
   "source_repo": "Elde15/edge-card",
-  "source_commit": "2816b3766fc610bddcc5194b10f3aad704c67405",
-  "source_pr": 18,
-  "source_pr_head_sha": "d54065ffcce514486b5815d75ac2d7e2824c4e62",
-  "merge_commit": "2816b3766fc610bddcc5194b10f3aad704c67405",
+  "source_commit": "e3cae376ca339cbc8bdde2fdde4d8d20c0acba8c",
+  "source_pr": 19,
+  "source_pr_head_sha": "05426fb390b2a4580b106c3716b3abe4c79be8c2",
+  "merge_commit": "e3cae376ca339cbc8bdde2fdde4d8d20c0acba8c",
   "merge_method": "squash",
   "build_command": "scripts/build_site.py --archive cards --ledger ledger.jsonl --out site",
-  "reproducible": "clean post-merge rebuild is byte-identical to the pre-merge inspected output",
+  "reproducible": "built twice from merged main; byte-identical",
   "ledger_sha256": "b8b80d4edc0420e0a65c0d86152e69ae4d2706d7cfa33dc65bd625ee0946eef8",
   "ledger_entries": 286,
   "locked_cards_unchanged": 15,
   "ots_proof_files": 35,
   "feeds": 15,
-  "partner_schema": "schemas/partner-feed-v1.json",
-  "partner_schema_sha256": "241f9a27fd63c0cc41ef458bedd14408842f6e6417914421c4166f8097e037a7",
+  "artifact_hashes": {
+    "record.json": "5a661faecdd55f37052bf2fef172b1791e8643c4fb8894975a57297a7a27b6d8",
+    "proof_status.json": "bb61a5d3e2b175b974429784254226e759e6517a4e76541fc4cda2be0742ed51",
+    "proof_registry.json": "10480310cf9904868354b9ab9a260a9458f2ee9c154e9b40c9bed9e073b94c52",
+    "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe",
+    "site/schemas/partner-feed-v1.json": "2a098e68d3e108bbde9c92877a087d479b9c558372096ea5cf3f28e86fe2d30a"
+  },
   "record": {
     "wins": 16,
     "losses": 38,
@@ -26,5 +31,5 @@
     "roi": 0.141111,
     "roi_pct": 14.1
   },
-  "note": "build_site.py wipes site/ and does not regenerate record.json, proof_status.json, proof_registry.json or card_hash_corrections.jsonl. They are copied from the archive root during deploy. Folding that copy into the build is a tracked follow-up; it was NOT done here so this deployment contains only reviewed code."
+  "known_defect": "build_site.py still wipes site/ without regenerating record.json, proof_status.json, proof_registry.json or card_hash_corrections.jsonl. For this deploy each was REGENERATED from its authoritative generator (not carried forward from stale output) and verified byte-identical to its repo-root source. A dedicated PR repairs the build so no manual step is required."
 }
