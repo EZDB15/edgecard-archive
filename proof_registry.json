@@ -24,7 +24,7 @@
     "ledger_snapshots_total": 2,
     "ledger_snapshots_with_proof": 2,
     "ledger_snapshots_without_proof": 0,
-    "total_bitcoin_attestation_objects": 120,
+    "total_bitcoin_attestation_objects": 121,
     "total_calendar_attestation_objects": 121
   },
   "unstamped_snapshots": [],
@@ -828,7 +828,7 @@
       "proof_id": "ledger_snapshot:ad98664dcddf217e",
       "canonical_path": "proofs/ledger/e2c210fe13bc0e1449fe147bf7e6357aa038fef47fd1e50558b2ef7191e27fb7/ledger.jsonl.ots",
       "alias_paths": [],
-      "proof_sha256": "d67f19d877c850f58a4d04ceedb2f4bff45d24070c67870ebffbad1c085101a3",
+      "proof_sha256": "b5bfae776caff5c6ddfa149ac0e40b2e9bd0906775bf1ef559b846627f4386d1",
       "target_digest": "ad98664dcddf217ef5e94dde48d7dd349ac3a80e5fa07ae8564d39fa78b6c64e",
       "target_type": "ledger_snapshot",
       "target_path": "proofs/ledger/e2c210fe13bc0e1449fe147bf7e6357aa038fef47fd1e50558b2ef7191e27fb7/ledger.jsonl",
@@ -839,9 +839,10 @@
       "status": "BITCOIN_CONFIRMED",
       "bitcoin_block_heights": [
         959715,
-        959725
+        959725,
+        959747
       ],
-      "bitcoin_attestation_count": 3,
+      "bitcoin_attestation_count": 4,
       "calendar_attestation_count": 4,
       "superseded_target": false,
       "compatibility_alias": false,
