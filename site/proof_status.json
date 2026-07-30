@@ -792,6 +792,11 @@
         "semantic_equivalence": "parsed JSON identical; binary round-trip proves newline-only difference",
         "correction_id": "chc-2026-07-26-sar-card-01"
       }
+    },
+    "2026-07-30-dmr": {
+      "date": "2026-07-30",
+      "track": "DMR",
+      "artifacts": {}
     }
   }
 }
