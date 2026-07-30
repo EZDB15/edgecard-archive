@@ -7,17 +7,17 @@
     "metadata_rule": "original-publication and current-revision metadata proofs are distinct identities because they commit to different digests"
   },
   "metrics": {
-    "physical_ots_file_paths": 35,
-    "unique_proof_byte_hashes": 34,
-    "unique_target_digests": 34,
-    "canonical_proof_identities": 34,
+    "physical_ots_file_paths": 36,
+    "unique_proof_byte_hashes": 35,
+    "unique_target_digests": 35,
+    "canonical_proof_identities": 35,
     "compatibility_aliases": 1,
     "bitcoin_confirmed_unique_commitments": 34,
-    "calendar_pending_unique_commitments": 0,
+    "calendar_pending_unique_commitments": 1,
     "unproven_targets": 0,
     "by_target_type": {
       "ledger_snapshot": 2,
-      "locked_card": 15,
+      "locked_card": 16,
       "metadata": 17
     },
     "superseded_metadata_proofs": 4,
@@ -25,7 +25,7 @@
     "ledger_snapshots_with_proof": 2,
     "ledger_snapshots_without_proof": 0,
     "total_bitcoin_attestation_objects": 121,
-    "total_calendar_attestation_objects": 121
+    "total_calendar_attestation_objects": 125
   },
   "unstamped_snapshots": [],
   "proofs": [
@@ -796,6 +796,26 @@
       "bitcoin_attestation_count": 4,
       "calendar_attestation_count": 4,
       "superseded_target": true,
+      "compatibility_alias": false,
+      "counts_toward_public_total": true
+    },
+    {
+      "proof_id": "locked_card:81b42c1e625ff520",
+      "canonical_path": "cards/2026-07-30-dmr/card.json.ots",
+      "alias_paths": [],
+      "proof_sha256": "d347ceefc5641a455d1fa3df1ef12410f72d31d6af8c52ac6df10548711a3cc2",
+      "target_digest": "81b42c1e625ff520710d55bedf86c51834ba447f189e0487dda1b3053c47d0c6",
+      "target_type": "locked_card",
+      "target_path": "cards/2026-07-30-dmr/card.json",
+      "preserved_target_path": null,
+      "target_revision": "original",
+      "target_current_sha256": "81b42c1e625ff520710d55bedf86c51834ba447f189e0487dda1b3053c47d0c6",
+      "proof_targets_current_bytes": true,
+      "status": "CALENDAR_PENDING",
+      "bitcoin_block_heights": [],
+      "bitcoin_attestation_count": 0,
+      "calendar_attestation_count": 4,
+      "superseded_target": false,
       "compatibility_alias": false,
       "counts_toward_public_total": true
     },
