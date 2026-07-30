@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1.json",
+  "product": "Edge Card",
+  "track": "SAR",
+  "track_name": "Saratoga",
+  "date": "2026-07-30",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.d51a4d10",
+  "generated_ts_utc": "2026-07-30T15:34:41+00:00",
+  "first_post_et": "1:10 PM ET",
+  "n_races": 9,
+  "n_flags": 0,
+  "n_passes": 9,
+  "edge_of_day": null,
+  "url": "https://edgecardhq.com/archive/2026-07-30-sar/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-07-30-sar/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "16-38",
+    "wins": 16,
+    "losses": 38,
+    "graded": 54,
+    "units": 15.24,
+    "roi_pct": 14.1,
+    "closing_held_n": 16,
+    "closing_graded_n": 51,
+    "closing_held_pct": 31,
+    "last_miss": {
+      "date": "2026-07-25",
+      "track": "SAR",
+      "race": 11,
+      "name": "TUTHILLTOWN",
+      "board_decimal": 13.0,
+      "closing_decimal": 5.68
+    },
+    "has_data": true
+  },
+  "flags": [],
+  "errata": [],
+  "scratch_status": {
+    "state": "CHECKED_WITH_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 11:34 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-07-30T15:34:00+00:00",
+    "checked_at_et": "11:34 AM ET",
+    "source": "https://tr-cdn.nyra.com/direct/scratches/SARscratch.html"
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 2,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 3,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 4,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 5,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 6,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 7,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 8,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    },
+    {
+      "race": 9,
+      "tier": "off",
+      "top": null,
+      "read": "Outside the model's scope — no read.",
+      "coverage_set": [],
+      "edge_pts": null
+    }
+  ],
+  "multi_race": []
+}

@@ -1,0 +1,965 @@
+{
+  "date": "2026-07-30",
+  "generated_ts_utc": "2026-07-30T15:34:41+00:00",
+  "methodology": "Edge Card v0 is a transparent heuristic, not a trained model: Prime-Power softmax blended 65/35 with the de-vigged morning line, plus published rules-based pace and trainer-form adjustments (the trainer angle is used as a model input; the raw figure is never published). Constants on the methodology page. Structured analysis, not proven edge; tracked publicly either way.",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.d51a4d10",
+  "n_races": 9,
+  "picks": [],
+  "races": [
+    {
+      "distance_yards": 1760,
+      "n_interests": 6,
+      "pace": {
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R01",
+      "race_no": 1,
+      "race_type": "Md Sp Wt",
+      "race_type_code": "S",
+      "runners": [
+        {
+          "fair_odds_decimal": 16.74,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "RUN FLAT",
+          "p_ml": 0.0372,
+          "p_v0": 0.0597,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 5.73,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.5,
+          "name": "SUITED CONNECTORS",
+          "p_ml": 0.2233,
+          "p_v0": 0.1746,
+          "pace_adj_applied": null,
+          "pp_rank": 3,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 4.68,
+          "first_timer_fallback": false,
+          "ml_decimal": 4.0,
+          "name": "INTO THE UNKNOWN",
+          "p_ml": 0.1954,
+          "p_v0": 0.2137,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 3.68,
+          "first_timer_fallback": true,
+          "ml_decimal": 3.0,
+          "name": "UNLOCK THE VALUE",
+          "p_ml": 0.2606,
+          "p_v0": 0.2715,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 4.69,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.5,
+          "name": "GOTTA GUN RUNNER",
+          "p_ml": 0.2233,
+          "p_v0": 0.2132,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 14.87,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "READY ROSIE JANE",
+          "p_ml": 0.0601,
+          "p_v0": 0.0673,
+          "pace_adj_applied": null,
+          "pp_rank": 5,
+          "program": "6"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
+      "surface": "D"
+    },
+    {
+      "distance_yards": 1210,
+      "n_interests": 8,
+      "pace": {
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R02",
+      "race_no": 2,
+      "race_type": "Md Sp Wt",
+      "race_type_code": "S",
+      "runners": [
+        {
+          "fair_odds_decimal": 5.06,
+          "first_timer_fallback": true,
+          "ml_decimal": 4.0,
+          "name": "AUTOSPELL",
+          "p_ml": 0.1974,
+          "p_v0": 0.1976,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 6.18,
+          "first_timer_fallback": true,
+          "ml_decimal": 5.0,
+          "name": "HONEST WON",
+          "p_ml": 0.1579,
+          "p_v0": 0.1619,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 11.44,
+          "first_timer_fallback": true,
+          "ml_decimal": 9.0,
+          "name": "SCRAMJET",
+          "p_ml": 0.0877,
+          "p_v0": 0.0874,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 9.06,
+          "first_timer_fallback": true,
+          "ml_decimal": 7.0,
+          "name": "TOP THRILLER",
+          "p_ml": 0.1128,
+          "p_v0": 0.1103,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 14.04,
+          "first_timer_fallback": true,
+          "ml_decimal": 11.0,
+          "name": "GAYNOR",
+          "p_ml": 0.0718,
+          "p_v0": 0.0712,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 3.8,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.0,
+          "name": "FIRE MARSHAL",
+          "p_ml": 0.2631,
+          "p_v0": 0.2629,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 27.28,
+          "first_timer_fallback": true,
+          "ml_decimal": 21.0,
+          "name": "SOLO STRYKER",
+          "p_ml": 0.0376,
+          "p_v0": 0.0367,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "7"
+        },
+        {
+          "fair_odds_decimal": 13.89,
+          "first_timer_fallback": true,
+          "ml_decimal": 11.0,
+          "name": "SMOOTH AUTHORITY",
+          "p_ml": 0.0718,
+          "p_v0": 0.072,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "8"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
+      "surface": "T"
+    },
+    {
+      "distance_yards": 1540,
+      "n_interests": 6,
+      "pace": {
+        "front_runner_count": 2,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R03",
+      "race_no": 3,
+      "race_type": "Clm 55000n3l",
+      "race_type_code": "C",
+      "runners": [
+        {
+          "fair_odds_decimal": 14.38,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "SCHLOMO",
+          "p_ml": 0.0373,
+          "p_v0": 0.0695,
+          "pace_adj_applied": null,
+          "pp_rank": 6,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 4.0,
+          "first_timer_fallback": false,
+          "ml_decimal": 2.8,
+          "name": "BEDARD",
+          "p_ml": 0.2795,
+          "p_v0": 0.2499,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 5.7,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.5,
+          "name": "BARB",
+          "p_ml": 0.2236,
+          "p_v0": 0.1755,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 10.03,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "SHATTUCK",
+          "p_ml": 0.087,
+          "p_v0": 0.0997,
+          "pace_adj_applied": null,
+          "pp_rank": 5,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 3.85,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.0,
+          "name": "PLAYING TRICKS",
+          "p_ml": 0.2609,
+          "p_v0": 0.2596,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 6.86,
+          "first_timer_fallback": false,
+          "ml_decimal": 7.0,
+          "name": "PERFECT FORCE",
+          "p_ml": 0.1118,
+          "p_v0": 0.1457,
+          "pace_adj_applied": null,
+          "pp_rank": 3,
+          "program": "6"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
+      "surface": "D"
+    },
+    {
+      "distance_yards": 1980,
+      "n_interests": 7,
+      "pace": {
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R04",
+      "race_no": 4,
+      "race_type": "Md Sp Wt",
+      "race_type_code": "S",
+      "runners": [
+        {
+          "fair_odds_decimal": 3.78,
+          "first_timer_fallback": false,
+          "ml_decimal": 4.0,
+          "name": "HADRIAN'S WALL",
+          "p_ml": 0.1959,
+          "p_v0": 0.2646,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 30.34,
+          "first_timer_fallback": false,
+          "ml_decimal": 31.0,
+          "name": "STORMING",
+          "p_ml": 0.0253,
+          "p_v0": 0.033,
+          "pace_adj_applied": null,
+          "pp_rank": 7,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 13.13,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "SIR DUKE",
+          "p_ml": 0.0603,
+          "p_v0": 0.0762,
+          "pace_adj_applied": null,
+          "pp_rank": 5,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 7.25,
+          "first_timer_fallback": false,
+          "ml_decimal": 6.0,
+          "name": "PRESIDENTIAL POWER",
+          "p_ml": 0.1306,
+          "p_v0": 0.138,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 3.84,
+          "first_timer_fallback": false,
+          "ml_decimal": 2.4,
+          "name": "PRESIDE",
+          "p_ml": 0.3266,
+          "p_v0": 0.2603,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 5.54,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.5,
+          "name": "COLLADO HUECO",
+          "p_ml": 0.2239,
+          "p_v0": 0.1806,
+          "pace_adj_applied": null,
+          "pp_rank": 3,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 21.15,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "BATTLE",
+          "p_ml": 0.0373,
+          "p_v0": 0.0473,
+          "pace_adj_applied": null,
+          "pp_rank": 6,
+          "program": "7"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
+      "surface": "D"
+    },
+    {
+      "distance_yards": 1870,
+      "n_interests": 9,
+      "pace": {
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R05",
+      "race_no": 5,
+      "race_type": "Clm 25000",
+      "race_type_code": "C",
+      "runners": [
+        {
+          "fair_odds_decimal": 6.81,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.5,
+          "name": "REYNOLDS CHANNEL",
+          "p_ml": 0.142,
+          "p_v0": 0.1468,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 6.34,
+          "first_timer_fallback": false,
+          "ml_decimal": 4.5,
+          "name": "FORTUNE SELLER",
+          "p_ml": 0.1735,
+          "p_v0": 0.1577,
+          "pace_adj_applied": null,
+          "pp_rank": 3,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 15.9,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "LIFE AND LIGHT",
+          "p_ml": 0.0601,
+          "p_v0": 0.0629,
+          "pace_adj_applied": null,
+          "pp_rank": 6,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 6.86,
+          "first_timer_fallback": false,
+          "ml_decimal": 7.0,
+          "name": "RIGHT TO WIN",
+          "p_ml": 0.1116,
+          "p_v0": 0.1458,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 24.33,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "LOU",
+          "p_ml": 0.0372,
+          "p_v0": 0.0411,
+          "pace_adj_applied": null,
+          "pp_rank": 8,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 39.21,
+          "first_timer_fallback": false,
+          "ml_decimal": 31.0,
+          "name": "OUTTAWATERBURY",
+          "p_ml": 0.0252,
+          "p_v0": 0.0255,
+          "pace_adj_applied": null,
+          "pp_rank": 9,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 4.32,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.0,
+          "name": "LATE CALL",
+          "p_ml": 0.2603,
+          "p_v0": 0.2317,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "7"
+        },
+        {
+          "fair_odds_decimal": 12.16,
+          "first_timer_fallback": false,
+          "ml_decimal": 6.0,
+          "name": "CLASSIC CREATION",
+          "p_ml": 0.1301,
+          "p_v0": 0.0822,
+          "pace_adj_applied": null,
+          "pp_rank": 7,
+          "program": "8"
+        },
+        {
+          "fair_odds_decimal": 9.41,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "AMBITION",
+          "p_ml": 0.0601,
+          "p_v0": 0.1063,
+          "pace_adj_applied": null,
+          "pp_rank": 5,
+          "program": "9"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
+      "surface": "t"
+    },
+    {
+      "distance_yards": 1320,
+      "n_interests": 7,
+      "pace": {
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "contested"
+      },
+      "race_id": "SAR-2026-07-30-R06",
+      "race_no": 6,
+      "race_type": "Clm 30000",
+      "race_type_code": "C",
+      "runners": [
+        {
+          "fair_odds_decimal": 11.86,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "BIG HAT WILLIE",
+          "p_ml": 0.0604,
+          "p_v0": 0.0843,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 4.29,
+          "first_timer_fallback": false,
+          "ml_decimal": 2.8,
+          "name": "RUN CLASSIC",
+          "p_ml": 0.2804,
+          "p_v0": 0.2329,
+          "pace_adj_applied": 1.1,
+          "pp_rank": 2,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 3.24,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.0,
+          "name": "PAIR OF SOCKS",
+          "p_ml": 0.2617,
+          "p_v0": 0.3086,
+          "pace_adj_applied": 1.1,
+          "pp_rank": 1,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 10.7,
+          "first_timer_fallback": false,
+          "ml_decimal": 7.0,
+          "name": "KID BILLY",
+          "p_ml": 0.1121,
+          "p_v0": 0.0934,
+          "pace_adj_applied": 0.9,
+          "pp_rank": 4,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 9.27,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.5,
+          "name": "FACTUALLY CORRECT",
+          "p_ml": 0.1427,
+          "p_v0": 0.1078,
+          "pace_adj_applied": 0.9,
+          "pp_rank": 3,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 10.1,
+          "first_timer_fallback": false,
+          "ml_decimal": 11.0,
+          "name": "PRINCIP",
+          "p_ml": 0.0714,
+          "p_v0": 0.099,
+          "pace_adj_applied": 1.1,
+          "pp_rank": 6,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 13.52,
+          "first_timer_fallback": false,
+          "ml_decimal": 11.0,
+          "name": "SLIM SLOW SLIDER",
+          "p_ml": 0.0714,
+          "p_v0": 0.074,
+          "pace_adj_applied": null,
+          "pp_rank": 7,
+          "program": "7"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
+      "surface": "D"
+    },
+    {
+      "distance_yards": 1430,
+      "n_interests": 8,
+      "pace": {
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R07",
+      "race_no": 7,
+      "race_type": "Alw 55000s",
+      "race_type_code": "R",
+      "runners": [
+        {
+          "fair_odds_decimal": 10.36,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.5,
+          "name": "ACCELERATED NEWS",
+          "p_ml": 0.142,
+          "p_v0": 0.0965,
+          "pace_adj_applied": null,
+          "pp_rank": 8,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 12.72,
+          "first_timer_fallback": false,
+          "ml_decimal": 16.0,
+          "name": "VINO FRIZZANTE",
+          "p_ml": 0.0488,
+          "p_v0": 0.0786,
+          "pace_adj_applied": null,
+          "pp_rank": 5,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 12.09,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "MEG'S FOXY GREY",
+          "p_ml": 0.0868,
+          "p_v0": 0.0827,
+          "pace_adj_applied": null,
+          "pp_rank": 6,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 8.09,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.5,
+          "name": "MISS ELLARY",
+          "p_ml": 0.142,
+          "p_v0": 0.1236,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 4.01,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.5,
+          "name": "PRINCESS NY",
+          "p_ml": 0.2231,
+          "p_v0": 0.2497,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 6.18,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.0,
+          "name": "ADRIAN",
+          "p_ml": 0.1562,
+          "p_v0": 0.1617,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 14.0,
+          "first_timer_fallback": false,
+          "ml_decimal": 11.0,
+          "name": "MADELINE'S PROMISE",
+          "p_ml": 0.071,
+          "p_v0": 0.0714,
+          "pace_adj_applied": null,
+          "pp_rank": 7,
+          "program": "7"
+        },
+        {
+          "fair_odds_decimal": 7.36,
+          "first_timer_fallback": false,
+          "ml_decimal": 6.0,
+          "name": "MAJESTIC RETURN",
+          "p_ml": 0.1302,
+          "p_v0": 0.1359,
+          "pace_adj_applied": null,
+          "pp_rank": 3,
+          "program": "8"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
+      "surface": "D"
+    },
+    {
+      "distance_yards": 2640,
+      "n_interests": 11,
+      "pace": {
+        "front_runner_count": 2,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "even"
+      },
+      "race_id": "SAR-2026-07-30-R08",
+      "race_no": 8,
+      "race_type": "GlenFls-G2",
+      "race_type_code": "G2",
+      "runners": [
+        {
+          "fair_odds_decimal": 6.7,
+          "first_timer_fallback": true,
+          "ml_decimal": 5.0,
+          "name": "SURVIE",
+          "p_ml": 0.1545,
+          "p_v0": 0.1492,
+          "pace_adj_applied": null,
+          "pp_rank": null,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 23.91,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "STORM MIAMI",
+          "p_ml": 0.0594,
+          "p_v0": 0.0418,
+          "pace_adj_applied": null,
+          "pp_rank": 9,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 16.71,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "MASSARAT",
+          "p_ml": 0.0368,
+          "p_v0": 0.0598,
+          "pace_adj_applied": null,
+          "pp_rank": 6,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 5.26,
+          "first_timer_fallback": false,
+          "ml_decimal": 3.0,
+          "name": "GEZORA",
+          "p_ml": 0.2575,
+          "p_v0": 0.1902,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 5.18,
+          "first_timer_fallback": false,
+          "ml_decimal": 6.0,
+          "name": "SPEED SHOPPER",
+          "p_ml": 0.1288,
+          "p_v0": 0.1931,
+          "pace_adj_applied": null,
+          "pp_rank": 1,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 14.62,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "VENENCIA",
+          "p_ml": 0.0368,
+          "p_v0": 0.0684,
+          "pace_adj_applied": null,
+          "pp_rank": 5,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 10.9,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "BELLEZZA",
+          "p_ml": 0.0858,
+          "p_v0": 0.0918,
+          "pace_adj_applied": null,
+          "pp_rank": 3,
+          "program": "7"
+        },
+        {
+          "fair_odds_decimal": 21.43,
+          "first_timer_fallback": false,
+          "ml_decimal": 11.0,
+          "name": "FAVORITE MEMORY",
+          "p_ml": 0.0702,
+          "p_v0": 0.0467,
+          "pace_adj_applied": null,
+          "pp_rank": 8,
+          "program": "8"
+        },
+        {
+          "fair_odds_decimal": 67.14,
+          "first_timer_fallback": false,
+          "ml_decimal": 31.0,
+          "name": "LADY FIREFOOT",
+          "p_ml": 0.0249,
+          "p_v0": 0.0149,
+          "pace_adj_applied": null,
+          "pp_rank": 10,
+          "program": "9"
+        },
+        {
+          "fair_odds_decimal": 11.01,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "DONA CLOTA",
+          "p_ml": 0.0858,
+          "p_v0": 0.0908,
+          "pace_adj_applied": null,
+          "pp_rank": 4,
+          "program": "10"
+        },
+        {
+          "fair_odds_decimal": 18.74,
+          "first_timer_fallback": false,
+          "ml_decimal": 13.0,
+          "name": "ALLURING ANGEL",
+          "p_ml": 0.0594,
+          "p_v0": 0.0534,
+          "pace_adj_applied": null,
+          "pp_rank": 7,
+          "program": "11"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "RACE CANCELLED - NYRA daily notes: race 8 is cancelled. No selections, no analysis.",
+      "surface": "t"
+    },
+    {
+      "distance_yards": 1210,
+      "n_interests": 10,
+      "pace": {
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false,
+        "scenario": "contested"
+      },
+      "race_id": "SAR-2026-07-30-R09",
+      "race_no": 9,
+      "race_type": "Clm 40000n2l",
+      "race_type_code": "C",
+      "runners": [
+        {
+          "fair_odds_decimal": 7.22,
+          "first_timer_fallback": false,
+          "ml_decimal": 6.0,
+          "name": "ABSOLUTELY HOT",
+          "p_ml": 0.1304,
+          "p_v0": 0.1386,
+          "pace_adj_applied": null,
+          "pp_rank": 2,
+          "program": "1"
+        },
+        {
+          "fair_odds_decimal": 17.59,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.5,
+          "name": "NIGHT",
+          "p_ml": 0.1423,
+          "p_v0": 0.0568,
+          "pace_adj_applied": 0.9,
+          "pp_rank": 10,
+          "program": "2"
+        },
+        {
+          "fair_odds_decimal": 5.36,
+          "first_timer_fallback": false,
+          "ml_decimal": 5.0,
+          "name": "TAMINO",
+          "p_ml": 0.1565,
+          "p_v0": 0.1867,
+          "pace_adj_applied": 0.99,
+          "pp_rank": 1,
+          "program": "3"
+        },
+        {
+          "fair_odds_decimal": 7.64,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "MOMENT'S NOTICE",
+          "p_ml": 0.087,
+          "p_v0": 0.1309,
+          "pace_adj_applied": 1.1,
+          "pp_rank": 5,
+          "program": "4"
+        },
+        {
+          "fair_odds_decimal": 27.72,
+          "first_timer_fallback": false,
+          "ml_decimal": 16.0,
+          "name": "OUT OF THE FOG",
+          "p_ml": 0.0489,
+          "p_v0": 0.0361,
+          "pace_adj_applied": null,
+          "pp_rank": 9,
+          "program": "5"
+        },
+        {
+          "fair_odds_decimal": 14.93,
+          "first_timer_fallback": false,
+          "ml_decimal": 21.0,
+          "name": "STRATEGICOPERATION",
+          "p_ml": 0.0373,
+          "p_v0": 0.067,
+          "pace_adj_applied": null,
+          "pp_rank": 6,
+          "program": "6"
+        },
+        {
+          "fair_odds_decimal": 11.82,
+          "first_timer_fallback": false,
+          "ml_decimal": 7.0,
+          "name": "SLAY SADIE SLAY",
+          "p_ml": 0.1118,
+          "p_v0": 0.0846,
+          "pace_adj_applied": null,
+          "pp_rank": 7,
+          "program": "7"
+        },
+        {
+          "fair_odds_decimal": 7.45,
+          "first_timer_fallback": false,
+          "ml_decimal": 7.0,
+          "name": "DILIELLO",
+          "p_ml": 0.1118,
+          "p_v0": 0.1343,
+          "pace_adj_applied": 1.1,
+          "pp_rank": 4,
+          "program": "8"
+        },
+        {
+          "fair_odds_decimal": 19.01,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "HONG KONG PHOOEY",
+          "p_ml": 0.087,
+          "p_v0": 0.0526,
+          "pace_adj_applied": null,
+          "pp_rank": 8,
+          "program": "9"
+        },
+        {
+          "fair_odds_decimal": 8.9,
+          "first_timer_fallback": false,
+          "ml_decimal": 9.0,
+          "name": "HEARTILY",
+          "p_ml": 0.087,
+          "p_v0": 0.1124,
+          "pace_adj_applied": 0.9,
+          "pp_rank": 3,
+          "program": "10"
+        }
+      ],
+      "scope": "out_of_scope",
+      "scope_reason": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
+      "surface": "T"
+    }
+  ],
+  "track": "SAR"
+}
