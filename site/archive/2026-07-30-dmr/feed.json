@@ -311,7 +311,7 @@
       "race": 1,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - CONFIRMED SCRATCH CANNOT YET BE APPLIED BEFORE SCORING. Official Del Mar changes list #3 Divine Kismet scratched from race 1. The card builder has no pre-scoring scratch removal, so this race's field-relative values were computed over a field that still contains the scratched runner. No pick, fair odds or threshold is shown.",
       "coverage_set": [],
       "edge_pts": null
     },

@@ -60,7 +60,7 @@
       "race": 1,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -68,7 +68,7 @@
       "race": 2,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -76,7 +76,7 @@
       "race": 3,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -84,7 +84,7 @@
       "race": 4,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -92,7 +92,7 @@
       "race": 5,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -100,7 +100,7 @@
       "race": 6,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -108,7 +108,7 @@
       "race": 7,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -116,7 +116,7 @@
       "race": 8,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "RACE CANCELLED - NYRA daily notes: race 8 is cancelled. No selections, no analysis.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -124,7 +124,7 @@
       "race": 9,
       "tier": "off",
       "top": null,
-      "read": "Outside the model's scope — no read.",
+      "read": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
       "coverage_set": [],
       "edge_pts": null
     }
