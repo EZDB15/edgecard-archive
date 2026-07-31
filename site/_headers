@@ -1,0 +1,9 @@
+# Additive: Pages' own ETag, Cache-Control and nosniff are preserved.
+/archive/*/feed.json
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+
+/feed-not-found.json
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Cache-Control: no-store

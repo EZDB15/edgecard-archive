@@ -1,0 +1,5 @@
+# Cloudflare Pages applies these only when no static asset matches, so a
+# PUBLISHED feed never reaches them. Most specific first.
+/archive/*/feed.json   /feed-not-found.json   404
+/*.json                /feed-not-found.json   404
+/*                     /404.html              404

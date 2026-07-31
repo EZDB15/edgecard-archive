@@ -1,0 +1,63 @@
+SUBJECT: SAR · Fri Jul 31 — 10 races, 3 flags, 7 passes
+
+EDGE CARD — SAR, Fri Jul 31, 2026
+Card hashed and public at 10:32 AM ET: https://edgecardhq.com/archive/2026-07-31-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 10:32 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-2 · flat-$2 +20.38 · drift -26.3% · meet to date 16-38 · flat-$2 +15.24 · drift +34.2% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops WITHOUT HESITATION at 29%; the morning line already prices the race. Pass is a position.
+
+R2 · Md 35000 · dirt, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BELTANDSUSPENDERS at 20%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 30000 · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: MURSAL — p 25% · fair odds 3/1 · ML 3/1
+  Bet #2 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 25% vs 19% morning-line implied (+5.2 pts).
+
+R4 · Clm 45000n2l · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: NOBLE HERITAGE — p 13% · fair odds 13/2 · ML 10/1
+  Bet #8 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; closer in a contested-pace setup; model 13% vs 7% morning-line implied (+6.4 pts).
+
+R5 · Md 55000 · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops VIVALDI at 22%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops YESTAHAL at 23%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 20000 · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CALIBRATE at 26%; the morning line already prices the race. Pass is a position.
+
+R8 · Alw 105000n1x · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LIGHTNING STRIKE at 21%; the morning line already prices the race. Pass is a position.
+
+R9 · Amstrdam-G2 · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops OBLITERATION at 29%; the morning line already prices the race. Pass is a position.
+
+R10 · Clm 40000n2l · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: FIVE DOZEN ROSES — p 25% · fair odds 3/1 · ML 5/1
+  Bet #2 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 25% vs 13% morning-line implied (+12.1 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.d16c4663 — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

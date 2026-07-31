@@ -1,14 +1,14 @@
 {
   "computation_version": "canonical-record-1.0.0",
-  "source_ledger_head_hash": "d084d542e75c8565bf4fd373019f5c4d129ac52043c4e1296a36631aaff585ed",
-  "source_ledger_lines": 292,
+  "source_ledger_head_hash": "8c6695a0351575ea7302ce3613ba2d7e190016ed567db59b213cc9f741ce1b30",
+  "source_ledger_lines": 301,
   "through_date": "2026-07-26",
   "counts": {
     "raw_ledger_result_entries": 67,
     "effective_unique_results": 59,
     "declared_supersessions": 8,
-    "unique_picks": 63,
-    "pending_selections": 4,
+    "unique_picks": 70,
+    "pending_selections": 11,
     "conflicts": 0
   },
   "totals": {

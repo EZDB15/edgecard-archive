@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.1",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1.json",
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-07-31",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.d16c4663",
+  "generated_ts_utc": "2026-07-31T14:25:32+00:00",
+  "first_post_et": "5:00 PM ET",
+  "n_races": 8,
+  "n_flags": 4,
+  "n_passes": 5,
+  "edge_of_day": {
+    "race": 4,
+    "program": "5",
+    "horse": "MARCH OF TIME",
+    "model_win_pct": 19,
+    "play_at": "5/1",
+    "edge_pts": 7.3,
+    "durability": {
+      "cls": "watch",
+      "label": "Price may move",
+      "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-07-31-dmr/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-07-31-dmr/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "16-38",
+    "wins": 16,
+    "losses": 38,
+    "graded": 54,
+    "units": 15.24,
+    "roi_pct": 14.1,
+    "closing_held_n": 16,
+    "closing_graded_n": 51,
+    "closing_held_pct": 31,
+    "last_miss": {
+      "date": "2026-07-25",
+      "track": "SAR",
+      "race": 11,
+      "name": "TUTHILLTOWN",
+      "board_decimal": 13.0,
+      "closing_decimal": 5.68
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 1,
+      "program": "4",
+      "horse": "I'M OTTER HERE",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 17,
+      "fair_odds": "5/1",
+      "fair_odds_decimal": 5.94,
+      "play_at": "11/2",
+      "play_at_decimal": 6.53,
+      "edge_pts": 5.3,
+      "reason": "Ranks #1 in our power figure blend; model 17% vs 12% morning-line implied (+5.3 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "OClm 50000",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-07-31",
+        "races": [
+          1
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 1,
+            "role": "win",
+            "programs": [
+              "4"
+            ]
+          }
+        ],
+        "min_odds_decimal": 6.53,
+        "minimum_acceptable_odds_decimal": 6.53,
+        "minimum_acceptable_odds_display": "11/2",
+        "play_at_odds_decimal": 6.53,
+        "play_at_odds_display": "11/2",
+        "fair_odds_decimal": 5.94,
+        "fair_odds_display": "5/1",
+        "morning_line_odds_decimal": 7.0,
+        "morning_line_odds_display": "6/1",
+        "fair_return_usd": null,
+        "instruction": "Play at 11/2 or better — #4 to win.",
+        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+      },
+      "exotics": null
+    },
+    {
+      "race": 4,
+      "program": "5",
+      "horse": "MARCH OF TIME",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 19,
+      "fair_odds": "9/2",
+      "fair_odds_decimal": 5.3,
+      "play_at": "5/1",
+      "play_at_decimal": 5.83,
+      "edge_pts": 7.3,
+      "reason": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 19% vs 12% morning-line implied (+7.4 pts)",
+      "surface": "dirt",
+      "distance": "6 furlongs",
+      "race_type": "OClm 100000b",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-07-31",
+        "races": [
+          4
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 4,
+            "role": "win",
+            "programs": [
+              "5"
+            ]
+          }
+        ],
+        "min_odds_decimal": 5.83,
+        "minimum_acceptable_odds_decimal": 5.83,
+        "minimum_acceptable_odds_display": "5/1",
+        "play_at_odds_decimal": 5.83,
+        "play_at_odds_display": "5/1",
+        "fair_odds_decimal": 5.3,
+        "fair_odds_display": "9/2",
+        "morning_line_odds_decimal": 7.0,
+        "morning_line_odds_display": "6/1",
+        "fair_return_usd": null,
+        "instruction": "Play at 5/1 or better — #5 to win.",
+        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+      },
+      "exotics": null
+    },
+    {
+      "race": 6,
+      "program": "7",
+      "horse": "SOGNO DI VINO",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 18,
+      "fair_odds": "9/2",
+      "fair_odds_decimal": 5.44,
+      "play_at": "5/1",
+      "play_at_decimal": 5.98,
+      "edge_pts": 7.0,
+      "reason": "Ranks #2 in our power figure blend; model 18% vs 11% morning-line implied (+7.0 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Clm 25000n2l",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-07-31",
+        "races": [
+          6
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 6,
+            "role": "win",
+            "programs": [
+              "7"
+            ]
+          }
+        ],
+        "min_odds_decimal": 5.98,
+        "minimum_acceptable_odds_decimal": 5.98,
+        "minimum_acceptable_odds_display": "5/1",
+        "play_at_odds_decimal": 5.98,
+        "play_at_odds_display": "5/1",
+        "fair_odds_decimal": 5.44,
+        "fair_odds_display": "9/2",
+        "morning_line_odds_decimal": 7.0,
+        "morning_line_odds_display": "6/1",
+        "fair_return_usd": null,
+        "instruction": "Play at 5/1 or better — #7 to win.",
+        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+      },
+      "exotics": null
+    },
+    {
+      "race": 6,
+      "program": "9",
+      "horse": "KOKOSAN",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 25,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 3.95,
+      "play_at": "7/2",
+      "play_at_decimal": 4.35,
+      "edge_pts": 5.3,
+      "reason": "Ranks #1 in our power figure blend; model 25% vs 20% morning-line implied (+5.3 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Clm 25000n2l",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-07-31",
+        "races": [
+          6
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 6,
+            "role": "win",
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.35,
+        "minimum_acceptable_odds_decimal": 4.35,
+        "minimum_acceptable_odds_display": "7/2",
+        "play_at_odds_decimal": 4.35,
+        "play_at_odds_display": "7/2",
+        "fair_odds_decimal": 3.95,
+        "fair_odds_display": "3/1",
+        "morning_line_odds_decimal": 4.0,
+        "morning_line_odds_display": "3/1",
+        "fair_return_usd": null,
+        "instruction": "Play at 7/2 or better — #9 to win.",
+        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [],
+  "scratch_status": {
+    "state": "CHECKED_NO_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 10:32 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-07-31T14:32:18+00:00",
+    "checked_at_et": "10:32 AM ET",
+    "source": "operator confirmation (DMTC official scratches page)"
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "I'M OTTER HERE",
+        "win_pct": 17,
+        "fair": "5/1",
+        "fair_decimal": 5.94,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 17% vs 12% morning-line implied (+5.3 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 5.3
+    },
+    {
+      "race": 2,
+      "tier": "scramble",
+      "top": {
+        "program": "5",
+        "name": "JASMINA",
+        "win_pct": 19,
+        "fair": "4/1",
+        "fair_decimal": 5.21,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ],
+      "edge_pts": -0.9
+    },
+    {
+      "race": 3,
+      "tier": "chalk",
+      "top": {
+        "program": "9",
+        "name": "VANTA",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.34,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": 0.2
+    },
+    {
+      "race": 4,
+      "tier": "play",
+      "top": {
+        "program": "5",
+        "name": "MARCH OF TIME",
+        "win_pct": 19,
+        "fair": "9/2",
+        "fair_decimal": 5.3,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 19% vs 12% morning-line implied (+7.4 pts)",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 7.3
+    },
+    {
+      "race": 5,
+      "tier": "scramble",
+      "top": {
+        "program": "1",
+        "name": "PENNY WORTH",
+        "win_pct": 19,
+        "fair": "4/1",
+        "fair_decimal": 5.24,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "1",
+        "8",
+        "3",
+        "2"
+      ],
+      "edge_pts": -0.7
+    },
+    {
+      "race": 6,
+      "tier": "play",
+      "top": {
+        "program": "9",
+        "name": "KOKOSAN",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 3.95,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 25% vs 20% morning-line implied (+5.3 pts)",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": 5.3
+    },
+    {
+      "race": 7,
+      "tier": "scramble",
+      "top": {
+        "program": "11",
+        "name": "START THE RIDE",
+        "win_pct": 14,
+        "fair": "6/1",
+        "fair_decimal": 7.12,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "11",
+        "8",
+        "1",
+        "9"
+      ],
+      "edge_pts": -1.5
+    },
+    {
+      "race": 8,
+      "tier": "lean",
+      "top": {
+        "program": "7",
+        "name": "MARLA HOOCH",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.5,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 5.1
+    }
+  ],
+  "multi_race": []
+}

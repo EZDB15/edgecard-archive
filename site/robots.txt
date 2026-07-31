@@ -1,0 +1,6 @@
+# Edge Card. The card pages and the public record are meant to be read.
+User-agent: *
+Allow: /
+Disallow: /archive/*/feed.json
+
+Sitemap: https://edgecardhq.com/sitemap.xml
