@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1.json",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
   "product": "Edge Card",
   "track": "SAR",
   "track_name": "Saratoga",
@@ -93,8 +93,8 @@
         "morning_line_odds_decimal": 13.0,
         "morning_line_odds_display": "12/1",
         "fair_return_usd": null,
-        "instruction": "Play at 7/1 or better — #4 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#4 to win. Our reference price is 7/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -152,8 +152,8 @@
         "morning_line_odds_decimal": 9.0,
         "morning_line_odds_display": "8/1",
         "fair_return_usd": null,
-        "instruction": "Play at 11/2 or better — #2 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#2 to win. Our reference price is 11/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -211,8 +211,8 @@
         "morning_line_odds_decimal": 9.0,
         "morning_line_odds_display": "8/1",
         "fair_return_usd": null,
-        "instruction": "Play at 4/1 or better — #5 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#5 to win. Our reference price is 4/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -270,8 +270,8 @@
         "morning_line_odds_decimal": 9.0,
         "morning_line_odds_display": "8/1",
         "fair_return_usd": null,
-        "instruction": "Play at 6/1 or better — #12 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#12 to win. Our reference price is 6/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     }
@@ -327,14 +327,21 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #8 SFUMATO, 17% against the board's 22% — shorter than we think it should be. Our own top-rated is #1 BARGAIN PURCHASE. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "1",
         "8",
         "5",
         "10"
       ],
-      "edge_pts": -1.9
+      "edge_pts": -1.9,
+      "vulnerable_favourite": {
+        "program": "8",
+        "name": "SFUMATO",
+        "market_pct": 22.2,
+        "model_pct": 16.8,
+        "gap_pts": 5.5
+      }
     },
     {
       "race": 4,
@@ -420,11 +427,18 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "read": "Our top-rated horse. A small edge, under our bet line. We make the favourite, #4 IRON DOME, 19% against the board's 28% — shorter than we think it should be. Our own top-rated is #1 GEORGIA MAGIC. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "1"
       ],
-      "edge_pts": 6.0
+      "edge_pts": 6.0,
+      "vulnerable_favourite": {
+        "program": "4",
+        "name": "IRON DOME",
+        "market_pct": 27.9,
+        "model_pct": 19.4,
+        "gap_pts": 8.4
+      }
     },
     {
       "race": 9,

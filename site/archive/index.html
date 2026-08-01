@@ -2,7 +2,61 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Archive — Edge Card</title>
-<meta name="description" content="Every Edge Card ever published, each hashed before post time. Nothing edited, nothing removed."><meta property="og:type" content="website"><meta property="og:site_name" content="Edge Card"><meta property="og:title" content="Archive — Edge Card"><meta property="og:description" content="Every Edge Card ever published, each hashed before post time. Nothing edited, nothing removed."><meta property="og:url" content="https://edgecardhq.com/archive/"><meta property="og:image" content="https://edgecardhq.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Archive — Edge Card"><meta name="twitter:description" content="Every Edge Card ever published, each hashed before post time. Nothing edited, nothing removed."><meta name="twitter:image" content="https://edgecardhq.com/og.png"><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fde635195cd24932b545d4f8b26ffdce"}'></script>
+<meta name="description" content="Every Edge Card ever published, each hashed before post time. Nothing edited, nothing removed."><meta property="og:type" content="website"><meta property="og:site_name" content="Edge Card"><meta property="og:title" content="Archive — Edge Card"><meta property="og:description" content="Every Edge Card ever published, each hashed before post time. Nothing edited, nothing removed."><meta property="og:url" content="https://edgecardhq.com/archive/"><meta property="og:image" content="https://edgecardhq.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Archive — Edge Card"><meta name="twitter:description" content="Every Edge Card ever published, each hashed before post time. Nothing edited, nothing removed."><meta name="twitter:image" content="https://edgecardhq.com/og.png"><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fde635195cd24932b545d4f8b26ffdce"}'></script><script>
+(function(){
+  try{
+    if(navigator.doNotTrack==="1"||window.doNotTrack==="1")return;
+    var K="ec_v1",S;
+    try{S=JSON.parse(localStorage.getItem(K)||"null")}catch(e){}
+    var today=new Date().toISOString().slice(0,10),isNew=false;
+    if(!S||!S.id){S={id:(Math.random().toString(36).slice(2)+Date.now().toString(36)),first:today,days:[]};isNew=true}
+    if(S.days.indexOf(today)<0)S.days.push(today);
+    S.days=S.days.slice(-40);
+    try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}
+
+    // Days elapsed since first visit, and how many distinct days they have been
+    // here. Return rate is derived from these two, not from a stored flag, so a
+    // reader who clears storage is counted as new rather than silently double
+    // counted.
+    var age=Math.round((Date.parse(today)-Date.parse(S.first))/864e5);
+    function ev(n,d){
+      d=d||{};d.visit_days=S.days.length;d.days_since_first=age;
+      d.is_first_visit=isNew;d.path=location.pathname;
+      if(window.__ecq)window.__ecq.push([n,d]);
+      if(navigator.sendBeacon){try{navigator.sendBeacon("/_e",
+        new Blob([JSON.stringify({e:n,d:d,t:Date.now()})],{type:"application/json"}))}catch(e){}}
+    }
+    window.ecEvent=ev;
+    ev(isNew?"first_visit":"return_visit",{});
+
+    document.addEventListener("click",function(e){
+      var a=e.target.closest&&e.target.closest("a");
+      if(!a)return;
+      var href=a.getAttribute("href")||"";
+      if(/^https?:/i.test(href)&&a.hostname&&a.hostname!==location.hostname){
+        ev("outbound_click",{to:a.hostname,label:(a.textContent||"").trim().slice(0,60)});
+      }
+    },true);
+
+    document.addEventListener("toggle",function(e){
+      var d=e.target;
+      if(d&&d.tagName==="DETAILS"&&d.open){
+        var s=d.querySelector("summary");
+        ev("glossary_expand",{term:(s&&s.textContent||"").trim().slice(0,60)});
+      }
+    },true);
+
+    if(/^\/record/.test(location.pathname)){
+      var marks={25:0,50:0,75:0,100:0};
+      addEventListener("scroll",function(){
+        var h=document.documentElement,
+            p=Math.round((h.scrollTop+innerHeight)/h.scrollHeight*100);
+        for(var m in marks){if(!marks[m]&&p>=m){marks[m]=1;ev("record_depth",{pct:+m})}}
+      },{passive:true});
+    }
+  }catch(e){}
+})();
+</script>
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/styles.css?v=b0116941bd">
 </head><body>

@@ -1,0 +1,646 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "title": "Edge Card partner feed, version 1 (v1.2)",
+  "description": "The machine-readable contract for a published Edge Card race card. A consumer that validates against this schema cannot silently receive a play with no qualifying price, a completed race presented as bettable, or an ungraded exotic recommendation. Every constraint here exists because the absence of it produced a real defect.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "product",
+    "track",
+    "track_name",
+    "date",
+    "model_version",
+    "n_races",
+    "n_flags",
+    "n_passes",
+    "url",
+    "record_url",
+    "methodology_url",
+    "attribution",
+    "flags",
+    "errata",
+    "parlays",
+    "multi_race"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "1.0",
+        "1.1",
+        "1.2"
+      ]
+    },
+    "schema_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "product": {
+      "const": "Edge Card"
+    },
+    "track": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,4}$"
+    },
+    "track_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "model_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_ts_utc": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "first_post_et": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "n_races": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "n_flags": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4,
+      "description": "The four-pick cap is a frozen model constant. A feed carrying five plays is a model regression, not a good day, so the schema refuses it."
+    },
+    "n_passes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "record_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "The full public record \u2014 every selection, losses included. Any surface that shows a pick must be able to reach this."
+    },
+    "methodology_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "What model_win_pct and fair_odds mean. Without it those numbers read as a promise."
+    },
+    "partner_links": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "source",
+        "record_url",
+        "methodology_url",
+        "card_url"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "record_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "methodology_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "card_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "attribution": {
+      "type": "string",
+      "pattern": "1-800-GAMBLER",
+      "description": "Vendor credit plus the responsible-gambling line. Required by our Brisnet terms and by every regulated placement; the pattern makes stripping it a validation failure rather than a quiet omission."
+    },
+    "record": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "edge_of_day": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "card_reads": {
+      "type": "array"
+    },
+    "errata": {
+      "type": [
+        "object",
+        "array",
+        "null"
+      ]
+    },
+    "parlays": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "Partner mode carries WIN plays only. Parlays, multi-race tickets and exotic ladders are research output: none of them is graded into the public record, so publishing them beside a graded record would imply a track record they do not have."
+    },
+    "multi_race": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "flags": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/flag"
+      }
+    },
+    "scratch_status": {
+      "type": "object",
+      "description": "What was known about scratches when the card was locked. Derived from the same ScratchStatus the published card page renders. Usually NOT_YET_CHECKED: the card is built from the morning file and locked hours before post, so it cannot know about a scratch that has not happened yet. Any surface showing these picks must carry `message`.",
+      "required": [
+        "state",
+        "confirmed",
+        "message",
+        "late_scratch_rule"
+      ],
+      "properties": {
+        "state": {
+          "type": "string",
+          "enum": [
+            "NOT_YET_CHECKED",
+            "CHECKED_NO_CHANGES",
+            "CHECKED_WITH_CHANGES",
+            "SOURCE_UNAVAILABLE",
+            "STALE"
+          ]
+        },
+        "confirmed": {
+          "type": "boolean",
+          "description": "True only when a check actually ran."
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Consumer-facing line. Display verbatim."
+        },
+        "late_scratch_rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checked_at_utc": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checked_at_et": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "flag": {
+      "type": "object",
+      "required": [
+        "race",
+        "program",
+        "horse",
+        "status",
+        "lifecycle_status",
+        "result_status",
+        "bettable",
+        "lifecycle_reason",
+        "model_win_pct",
+        "fair_odds",
+        "fair_odds_decimal",
+        "play_at",
+        "play_at_decimal",
+        "edge_pts",
+        "reason",
+        "bet"
+      ],
+      "properties": {
+        "race": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "program": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "horse": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "ACTIVE",
+            "VOID_SCRATCHED"
+          ]
+        },
+        "lifecycle_status": {
+          "enum": [
+            "UPCOMING",
+            "STARTED",
+            "SETTLED",
+            "VOID",
+            "HISTORICAL",
+            "INDETERMINATE"
+          ]
+        },
+        "result_status": {
+          "enum": [
+            "PENDING",
+            "WON",
+            "LOST",
+            "VOIDED",
+            "UNKNOWN"
+          ]
+        },
+        "bettable": {
+          "type": "boolean"
+        },
+        "lifecycle_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_win_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "fair_odds": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fair_odds_decimal": {
+          "type": "number",
+          "exclusiveMinimum": 1
+        },
+        "play_at": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The shortest price at which the play qualifies, as displayed."
+        },
+        "play_at_decimal": {
+          "type": "number",
+          "exclusiveMinimum": 1,
+          "description": "Never null. A null here is what let a partner mockup bind its betting action to fair_odds and render a shorter price than our own published threshold."
+        },
+        "edge_pts": {
+          "type": "number"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "surface": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "distance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "race_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "durability": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "Whether the board price is expected to hold into post. Advisory only \u2014 pari-mutuel pays the close, so this never changes the qualifying price.",
+          "required": [
+            "cls",
+            "label",
+            "basis"
+          ],
+          "properties": {
+            "cls": {
+              "enum": [
+                "hold",
+                "watch",
+                "gone"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "version": {
+              "type": "string"
+            }
+          }
+        },
+        "scheduled_post_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "This race's SCHEDULED post time from the PP, not its actual off. Advisory: `bettable` already accounts for it, and a delayed race is not reflected here."
+        },
+        "exotics": {
+          "type": "null",
+          "description": "Suppressed in partner mode \u2014 see /properties/parlays."
+        },
+        "bet": {
+          "$ref": "#/$defs/win_bet"
+        }
+      },
+      "allOf": [
+        {
+          "description": "A race with an official result, a void, or a past date is never bettable.",
+          "if": {
+            "properties": {
+              "lifecycle_status": {
+                "enum": [
+                  "SETTLED",
+                  "VOID",
+                  "HISTORICAL",
+                  "STARTED",
+                  "INDETERMINATE"
+                ]
+              }
+            },
+            "required": [
+              "lifecycle_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "bettable": {
+                "const": false
+              }
+            }
+          }
+        },
+        {
+          "description": "A graded or voided result contradicts a bettable play.",
+          "if": {
+            "properties": {
+              "result_status": {
+                "enum": [
+                  "WON",
+                  "LOST",
+                  "VOIDED"
+                ]
+              }
+            },
+            "required": [
+              "result_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "bettable": {
+                "const": false
+              }
+            }
+          }
+        },
+        {
+          "description": "Only an UPCOMING race may be bettable.",
+          "if": {
+            "properties": {
+              "bettable": {
+                "const": true
+              }
+            },
+            "required": [
+              "bettable"
+            ]
+          },
+          "then": {
+            "properties": {
+              "lifecycle_status": {
+                "const": "UPCOMING"
+              },
+              "result_status": {
+                "const": "PENDING"
+              }
+            }
+          }
+        },
+        {
+          "description": "A void flag must report the legacy status too, so an importer reading either field suppresses it.",
+          "if": {
+            "properties": {
+              "lifecycle_status": {
+                "const": "VOID"
+              }
+            },
+            "required": [
+              "lifecycle_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "status": {
+                "const": "VOID_SCRATCHED"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "win_bet": {
+      "type": "object",
+      "required": [
+        "pool",
+        "track",
+        "date",
+        "races",
+        "base_usd",
+        "cost_usd",
+        "legs",
+        "min_odds_decimal",
+        "minimum_acceptable_odds_decimal",
+        "minimum_acceptable_odds_display",
+        "play_at_odds_decimal",
+        "play_at_odds_display",
+        "fair_odds_decimal",
+        "fair_odds_display",
+        "instruction",
+        "odds_note"
+      ],
+      "properties": {
+        "pool": {
+          "const": "WIN",
+          "description": "Partner mode publishes straight win bets only."
+        },
+        "track": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "races": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "base_usd": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "cost_usd": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "legs": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "race",
+              "role",
+              "programs"
+            ],
+            "properties": {
+              "race": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "role": {
+                "const": "win"
+              },
+              "programs": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "min_odds_decimal": {
+          "type": "number",
+          "exclusiveMinimum": 1
+        },
+        "minimum_acceptable_odds_decimal": {
+          "type": "number",
+          "exclusiveMinimum": 1
+        },
+        "minimum_acceptable_odds_display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "play_at_odds_decimal": {
+          "type": "number",
+          "exclusiveMinimum": 1
+        },
+        "play_at_odds_display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fair_odds_decimal": {
+          "type": "number",
+          "exclusiveMinimum": 1
+        },
+        "fair_odds_display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "morning_line_odds_decimal": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "morning_line_odds_display": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fair_return_usd": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "instruction": {
+          "type": "string",
+          "description": "The human-readable action. It must state the reference price, because a partner surface frequently renders this string verbatim.\n\nCHANGED IN 1.2. Through 1.1 this carried \"pattern\": \"or better\", which forced the string to phrase a reference price as an executable bet rule. A consumer that read it that way was reading the 1.1 contract CORRECTLY -- which is exactly why the contract had to change rather than the wording quietly. A pari-mutuel pool pays the FINAL odds regardless of when the ticket was struck, so no price can be held and \"or better\" is not an instruction anyone can follow. The guarantee that mattered is unchanged: the play-at price must still appear in the string, and the FAIR price must not be quoted in its place.",
+          "minLength": 1
+        },
+        "odds_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "1.1"
+          }
+        },
+        "required": [
+          "schema_version"
+        ]
+      },
+      "then": {
+        "required": [
+          "scratch_status"
+        ]
+      }
+    }
+  ]
+}

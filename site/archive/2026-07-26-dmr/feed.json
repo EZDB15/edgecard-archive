@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.1",
-  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1.json",
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
   "product": "Edge Card",
   "track": "DMR",
   "track_name": "Del Mar",
@@ -93,8 +93,8 @@
         "morning_line_odds_decimal": 6.0,
         "morning_line_odds_display": "5/1",
         "fair_return_usd": null,
-        "instruction": "Play at 4/1 or better — #4 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#4 to win. Our reference price is 4/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -152,8 +152,8 @@
         "morning_line_odds_decimal": 5.0,
         "morning_line_odds_display": "4/1",
         "fair_return_usd": null,
-        "instruction": "Play at 3/1 or better — #5 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#5 to win. Our reference price is 3/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -211,8 +211,8 @@
         "morning_line_odds_decimal": 13.0,
         "morning_line_odds_display": "12/1",
         "fair_return_usd": null,
-        "instruction": "Play at 7/1 or better — #5 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#5 to win. Our reference price is 7/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -270,8 +270,8 @@
         "morning_line_odds_decimal": 4.0,
         "morning_line_odds_display": "3/1",
         "fair_return_usd": null,
-        "instruction": "Play at 3/1 or better — #5 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#5 to win. Our reference price is 3/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     }
@@ -411,11 +411,18 @@
         "board": "4/1",
         "board_decimal": 5.0
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right. We make the favourite, #4 POSEIDON'S LAW, 11% against the board's 20% — shorter than we think it should be. Our own top-rated is #2 PRIVATE GEM. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 1.9
+      "edge_pts": 1.9,
+      "vulnerable_favourite": {
+        "program": "4",
+        "name": "POSEIDON'S LAW",
+        "market_pct": 20.0,
+        "model_pct": 10.9,
+        "gap_pts": 9.1
+      }
     },
     {
       "race": 8,
@@ -465,14 +472,21 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #4 ROYAL 'N RANDO, 14% against the board's 20% — shorter than we think it should be. Our own top-rated is #10 MONGOLIAN MAX. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "10",
         "4",
         "6",
         "8"
       ],
-      "edge_pts": -1.8
+      "edge_pts": -1.8,
+      "vulnerable_favourite": {
+        "program": "4",
+        "name": "ROYAL 'N RANDO",
+        "market_pct": 20.0,
+        "model_pct": 14.3,
+        "gap_pts": 5.7
+      }
     },
     {
       "race": 11,

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1.json",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
   "product": "Edge Card",
   "track": "SAR",
   "track_name": "Saratoga",
@@ -93,8 +93,8 @@
         "morning_line_odds_decimal": 3.5,
         "morning_line_odds_display": "5/2",
         "fair_return_usd": null,
-        "instruction": "Play at 7/2 or better — #4 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#4 to win. Our reference price is 7/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -152,8 +152,8 @@
         "morning_line_odds_decimal": 7.0,
         "morning_line_odds_display": "6/1",
         "fair_return_usd": null,
-        "instruction": "Play at 15/2 or better — #7 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#7 to win. Our reference price is 15/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -211,8 +211,8 @@
         "morning_line_odds_decimal": 4.5,
         "morning_line_odds_display": "7/2",
         "fair_return_usd": null,
-        "instruction": "Play at 6/1 or better — #2 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#2 to win. Our reference price is 6/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     }

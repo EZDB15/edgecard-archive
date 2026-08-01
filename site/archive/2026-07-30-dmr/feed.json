@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.1",
-  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1.json",
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
   "product": "Edge Card",
   "track": "DMR",
   "track_name": "Del Mar",
@@ -93,8 +93,8 @@
         "morning_line_odds_decimal": 9.0,
         "morning_line_odds_display": "8/1",
         "fair_return_usd": null,
-        "instruction": "Play at 13/2 or better — #2 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#2 to win. Our reference price is 13/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -152,8 +152,8 @@
         "morning_line_odds_decimal": 6.0,
         "morning_line_odds_display": "5/1",
         "fair_return_usd": null,
-        "instruction": "Play at 5/1 or better — #7 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#7 to win. Our reference price is 5/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -211,8 +211,8 @@
         "morning_line_odds_decimal": 4.5,
         "morning_line_odds_display": "7/2",
         "fair_return_usd": null,
-        "instruction": "Play at 7/2 or better — #10 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#10 to win. Our reference price is 7/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     },
@@ -270,8 +270,8 @@
         "morning_line_odds_decimal": 9.0,
         "morning_line_odds_display": "8/1",
         "fair_return_usd": null,
-        "instruction": "Play at 4/1 or better — #6 to win.",
-        "odds_note": "Pari-mutuel: you are paid the closing price, not the price shown when you bet. Only take the play at or above the play-at number."
+        "instruction": "#6 to win. Our reference price is 4/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
       },
       "exotics": null
     }
@@ -293,6 +293,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - CONFIRMED SCRATCH CANNOT YET BE APPLIED BEFORE SCORING. Official Del Mar changes list #3 Divine Kismet scratched from race 1. The card builder has no pre-scoring scratch removal, so this race's field-relative values were computed over a field that still contains the scratched runner. No pick, fair odds or threshold is shown.",
+      "read_plain": "Too much of this field came out for our number to still describe the race that is actually being run.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -344,14 +345,21 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #3 COME OUT FIGHTING, 14% against the board's 22% — shorter than we think it should be. Our own top-rated is #8 ZOMBO BOMBO. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "8",
         "9",
         "3",
         "1"
       ],
-      "edge_pts": -4.8
+      "edge_pts": -4.8,
+      "vulnerable_favourite": {
+        "program": "3",
+        "name": "COME OUT FIGHTING",
+        "market_pct": 22.5,
+        "model_pct": 14.1,
+        "gap_pts": 8.4
+      }
     },
     {
       "race": 5,
