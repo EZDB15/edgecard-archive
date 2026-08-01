@@ -1,0 +1,547 @@
+{
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "product": "Edge Card",
+  "track": "SAR",
+  "track_name": "Saratoga",
+  "date": "2026-08-01",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.9abc29fc",
+  "generated_ts_utc": "2026-08-01T13:42:26+00:00",
+  "first_post_et": "1:10 PM ET",
+  "n_races": 12,
+  "n_flags": 4,
+  "n_passes": 8,
+  "edge_of_day": {
+    "race": 12,
+    "program": "5",
+    "horse": "NONCONSECUTIVETRMS",
+    "model_win_pct": 31,
+    "play_at": "5/2",
+    "edge_pts": 8.3,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-08-01-sar/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-08-01-sar/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "17-45",
+    "wins": 17,
+    "losses": 45,
+    "graded": 62,
+    "units": 6.92,
+    "roi_pct": 5.6,
+    "closing_held_n": 18,
+    "closing_graded_n": 55,
+    "closing_held_pct": 33,
+    "last_miss": {
+      "date": "2026-07-31",
+      "track": "DMR",
+      "race": 6,
+      "name": "SOGNO DI VINO",
+      "board_decimal": 7.0,
+      "closing_decimal": 13.1
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 3,
+      "program": "2",
+      "horse": "TUSCAN SKY",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 17,
+      "fair_odds": "5/1",
+      "fair_odds_decimal": 6.05,
+      "play_at": "11/2",
+      "play_at_decimal": 6.65,
+      "edge_pts": 5.4,
+      "reason": "Ranks #2 in our power figure blend; model 17% vs 11% morning-line implied (+5.4 pts)",
+      "surface": "dirt",
+      "distance": "1 mile",
+      "race_type": "Clm 100000",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-01",
+        "races": [
+          3
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 3,
+            "role": "win",
+            "programs": [
+              "2"
+            ]
+          }
+        ],
+        "min_odds_decimal": 6.65,
+        "minimum_acceptable_odds_decimal": 6.65,
+        "minimum_acceptable_odds_display": "11/2",
+        "play_at_odds_decimal": 6.65,
+        "play_at_odds_display": "11/2",
+        "fair_odds_decimal": 6.05,
+        "fair_odds_display": "5/1",
+        "morning_line_odds_decimal": 7.0,
+        "morning_line_odds_display": "6/1",
+        "fair_return_usd": null,
+        "instruction": "#2 to win. Our reference price is 11/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 6,
+      "program": "4",
+      "horse": "BOOKED",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 39,
+      "fair_odds": "8/5",
+      "fair_odds_decimal": 2.56,
+      "play_at": "9/5",
+      "play_at_decimal": 2.82,
+      "edge_pts": 6.5,
+      "reason": "Ranks #1 in our power figure blend; projects as the lone early speed; model 39% vs 33% morning-line implied (+6.5 pts)",
+      "surface": "dirt",
+      "distance": "6 1/2 furlongs",
+      "race_type": "SarSpcl-G2",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-01",
+        "races": [
+          6
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 6,
+            "role": "win",
+            "programs": [
+              "4"
+            ]
+          }
+        ],
+        "min_odds_decimal": 2.82,
+        "minimum_acceptable_odds_decimal": 2.82,
+        "minimum_acceptable_odds_display": "9/5",
+        "play_at_odds_decimal": 2.82,
+        "play_at_odds_display": "9/5",
+        "fair_odds_decimal": 2.56,
+        "fair_odds_display": "8/5",
+        "morning_line_odds_decimal": 2.4,
+        "morning_line_odds_display": "7/5",
+        "fair_return_usd": null,
+        "instruction": "#4 to win. Our reference price is 9/5.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 11,
+      "program": "1",
+      "horse": "ILLMATIC",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 22,
+      "fair_odds": "7/2",
+      "fair_odds_decimal": 4.55,
+      "play_at": "4/1",
+      "play_at_decimal": 5.01,
+      "edge_pts": 7.7,
+      "reason": "Ranks #1 in our power figure blend; model 22% vs 14% morning-line implied (+7.7 pts)",
+      "surface": "turf",
+      "distance": "5 1/2 furlongs",
+      "race_type": "Alw 105000n1x",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-01",
+        "races": [
+          11
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 11,
+            "role": "win",
+            "programs": [
+              "1"
+            ]
+          }
+        ],
+        "min_odds_decimal": 5.01,
+        "minimum_acceptable_odds_decimal": 5.01,
+        "minimum_acceptable_odds_display": "4/1",
+        "play_at_odds_decimal": 5.01,
+        "play_at_odds_display": "4/1",
+        "fair_odds_decimal": 4.55,
+        "fair_odds_display": "7/2",
+        "morning_line_odds_decimal": 5.5,
+        "morning_line_odds_display": "9/2",
+        "fair_return_usd": null,
+        "instruction": "#1 to win. Our reference price is 4/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 12,
+      "program": "5",
+      "horse": "NONCONSECUTIVETRMS",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 31,
+      "fair_odds": "5/2",
+      "fair_odds_decimal": 3.26,
+      "play_at": "5/2",
+      "play_at_decimal": 3.58,
+      "edge_pts": 8.3,
+      "reason": "Ranks #1 in our power figure blend; model 31% vs 22% morning-line implied (+8.3 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-01",
+        "races": [
+          12
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 12,
+            "role": "win",
+            "programs": [
+              "5"
+            ]
+          }
+        ],
+        "min_odds_decimal": 3.58,
+        "minimum_acceptable_odds_decimal": 3.58,
+        "minimum_acceptable_odds_display": "5/2",
+        "play_at_odds_decimal": 3.58,
+        "play_at_odds_display": "5/2",
+        "fair_odds_decimal": 3.26,
+        "fair_odds_display": "5/2",
+        "morning_line_odds_decimal": 3.5,
+        "morning_line_odds_display": "5/2",
+        "fair_return_usd": null,
+        "instruction": "#5 to win. Our reference price is 5/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [],
+  "scratch_status": {
+    "state": "CHECKED_NO_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 9:46 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-01T13:46:15+00:00",
+    "checked_at_et": "9:46 AM ET",
+    "source": "operator confirmation (NYRA official scratches page)"
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "lean",
+      "top": {
+        "program": "5",
+        "name": "VOYAGER",
+        "win_pct": 35,
+        "fair": "9/5",
+        "fair_decimal": 2.84,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 5.1
+    },
+    {
+      "race": 2,
+      "tier": "scramble",
+      "top": {
+        "program": "4",
+        "name": "VELORA",
+        "win_pct": 17,
+        "fair": "5/1",
+        "fair_decimal": 5.79,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "edge_pts": -0.1
+    },
+    {
+      "race": 3,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "TUSCAN SKY",
+        "win_pct": 17,
+        "fair": "5/1",
+        "fair_decimal": 6.05,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #2 in our power figure blend; model 17% vs 11% morning-line implied (+5.4 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 5.4
+    },
+    {
+      "race": 4,
+      "tier": "scramble",
+      "top": {
+        "program": "9",
+        "name": "DREAM MORE",
+        "win_pct": 20,
+        "fair": "4/1",
+        "fair_decimal": 5.09,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "9",
+        "6",
+        "1",
+        "8"
+      ],
+      "edge_pts": -0.0
+    },
+    {
+      "race": 5,
+      "tier": "scramble",
+      "top": {
+        "program": "6",
+        "name": "WYNA",
+        "win_pct": 16,
+        "fair": "5/1",
+        "fair_decimal": 6.24,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "6",
+        "8",
+        "10",
+        "7"
+      ],
+      "edge_pts": 0.4
+    },
+    {
+      "race": 6,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "BOOKED",
+        "win_pct": 39,
+        "fair": "8/5",
+        "fair_decimal": 2.56,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "Ranks #1 in our power figure blend; projects as the lone early speed; model 39% vs 33% morning-line implied (+6.5 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 6.5
+    },
+    {
+      "race": 7,
+      "tier": "chalk",
+      "top": {
+        "program": "8",
+        "name": "IRON DOME",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.51,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 0.9
+    },
+    {
+      "race": 8,
+      "tier": "scramble",
+      "top": {
+        "program": "2",
+        "name": "LADY JANCIS",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.41,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #5 SILSBEE, 15% against the board's 22% — shorter than we think it should be. Our own top-rated is #2 LADY JANCIS. We are not betting the race; take it as an opinion, not a play.",
+      "coverage_set": [
+        "2",
+        "5",
+        "3",
+        "1"
+      ],
+      "edge_pts": -1.0,
+      "vulnerable_favourite": {
+        "program": "5",
+        "name": "SILSBEE",
+        "market_pct": 22.3,
+        "model_pct": 15.2,
+        "gap_pts": 7.1
+      }
+    },
+    {
+      "race": 9,
+      "tier": "lean",
+      "top": {
+        "program": "9",
+        "name": "LION LAKE",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.56,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": 2.6
+    },
+    {
+      "race": 10,
+      "tier": "chalk",
+      "top": {
+        "program": "5",
+        "name": "COMMANDMENT",
+        "win_pct": 35,
+        "fair": "9/5",
+        "fair_decimal": 2.88,
+        "board": "6/5",
+        "board_decimal": 2.2
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": -0.3
+    },
+    {
+      "race": 11,
+      "tier": "play",
+      "top": {
+        "program": "1",
+        "name": "ILLMATIC",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.55,
+        "board": "9/2",
+        "board_decimal": 5.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 22% vs 14% morning-line implied (+7.7 pts)",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 7.7
+    },
+    {
+      "race": 12,
+      "tier": "play",
+      "top": {
+        "program": "5",
+        "name": "NONCONSECUTIVETRMS",
+        "win_pct": 31,
+        "fair": "5/2",
+        "fair_decimal": 3.26,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 31% vs 22% morning-line implied (+8.3 pts)",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 8.3
+    }
+  ],
+  "multi_race": []
+}

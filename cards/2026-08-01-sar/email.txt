@@ -1,0 +1,73 @@
+SUBJECT: SAR · Sat Aug 1 — 12 races, 4 flags, 8 passes
+
+EDGE CARD — SAR, Sat Aug 1, 2026
+Card hashed and public at 9:46 AM ET: https://edgecardhq.com/archive/2026-08-01-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 9:46 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+1-0 · flat-$2 +5.68 · drift +4.2% · meet to date 17-45 · flat-$2 +6.92 · drift +32.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops VOYAGER at 35%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops VELORA at 17%; the morning line already prices the race. Pass is a position.
+
+R3 · Clm 100000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: TUSCAN SKY — p 17% · fair odds 5/1 · ML 6/1
+  Bet #2 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 17% vs 11% morning-line implied (+5.4 pts).
+
+R4 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops DREAM MORE at 20%; the morning line already prices the race. Pass is a position.
+
+R5 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops WYNA at 16%; the morning line already prices the race. Pass is a position.
+
+R6 · SarSpcl-G2 · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: BOOKED — p 39% · fair odds 8/5 · ML 7/5
+  Bet #4 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; projects as the lone early speed; model 39% vs 33% morning-line implied (+6.5 pts).
+
+R7 · Alw 120000n1x · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops IRON DOME at 18%; the morning line already prices the race. Pass is a position.
+
+R8 · Alw 120000n1x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LADY JANCIS at 18%; the morning line already prices the race. Pass is a position.
+
+R9 · LkGeorge-G3 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LION LAKE at 22%; the morning line already prices the race. Pass is a position.
+
+R10 · JimDandy-G2 · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops COMMANDMENT at 35%; the morning line already prices the race. Pass is a position.
+
+R11 · Alw 105000n1x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: ILLMATIC — p 22% · fair odds 7/2 · ML 9/2
+  Bet #1 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 22% vs 14% morning-line implied (+7.7 pts).
+
+R12 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: NONCONSECUTIVETRMS — p 31% · fair odds 5/2 · ML 5/2
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 31% vs 22% morning-line implied (+8.3 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.9abc29fc — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

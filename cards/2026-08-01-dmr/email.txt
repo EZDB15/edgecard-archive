@@ -1,0 +1,69 @@
+SUBJECT: DMR · Sat Aug 1 — 11 races, 4 flags, 7 passes
+
+EDGE CARD — DMR, Sat Aug 1, 2026
+Card hashed and public at 9:46 AM ET: https://edgecardhq.com/archive/2026-08-01-dmr/ · https://x.com/edgecardHQ
+Scratch status checked at 9:46 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+1-0 · flat-$2 +5.68 · drift +4.2% · meet to date 17-45 · flat-$2 +6.92 · drift +32.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+— DMR · first post 5:00 PM ET —
+
+R1 · Md Sp Wt · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: MAGGLES MCGEE — p 36% · fair odds 9/5 · ML 3/1
+  Bet #6 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 36% vs 20% morning-line implied (+16.1 pts).
+
+R2 · Clm 10000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops POP ROX at 19%; the morning line already prices the race. Pass is a position.
+
+R3 · Md Sp Wt · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BROCKSTER at 23%; the morning line already prices the race. Pass is a position.
+
+R4 · Md 20000 · dirt, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops KEEPSMESANE at 34%; the morning line already prices the race. Pass is a position.
+
+R5 · CalDreamnB150k · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops OLD PAL at 25%; the morning line already prices the race. Pass is a position.
+
+R6 · Clm 12500n2l · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops D DAY SKY at 16%; the morning line already prices the race. Pass is a position.
+
+R7 · Md 50000 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: SILKIE SEVEI — p 23% · fair odds 7/2 · ML 4/1
+  Bet #1 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.0 pts).
+
+R8 · OClm 50000n1x · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops GHOST OF MIDNIGHT at 14%; the morning line already prices the race. Pass is a position.
+
+R9 · OClm 20000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: OWL — p 11% · fair odds 8/1 · ML 15/1
+  Bet #2 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 11% vs 5% morning-line implied (+6.4 pts).
+
+R10 · CLHrsch-G1 · dirt, 8.5f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: SEISMIC BEAUTY — p 32% · fair odds 2/1 · ML 5/2
+  Bet #8 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; projects as the lone early speed; model 32% vs 22% morning-line implied (+10.0 pts).
+
+R11 · Md 50000 · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops LORENZO BERNINI at 21%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.9abc29fc — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

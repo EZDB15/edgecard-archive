@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-08-01",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.9abc29fc",
+  "generated_ts_utc": "2026-08-01T13:42:27+00:00",
+  "first_post_et": "5:00 PM ET",
+  "n_races": 11,
+  "n_flags": 4,
+  "n_passes": 7,
+  "edge_of_day": {
+    "race": 1,
+    "program": "6",
+    "horse": "MAGGLES MCGEE",
+    "model_win_pct": 36,
+    "play_at": "2/1",
+    "edge_pts": 16.1,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-08-01-dmr/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-08-01-dmr/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "17-45",
+    "wins": 17,
+    "losses": 45,
+    "graded": 62,
+    "units": 6.92,
+    "roi_pct": 5.6,
+    "closing_held_n": 18,
+    "closing_graded_n": 55,
+    "closing_held_pct": 33,
+    "last_miss": {
+      "date": "2026-07-31",
+      "track": "DMR",
+      "race": 6,
+      "name": "SOGNO DI VINO",
+      "board_decimal": 7.0,
+      "closing_decimal": 13.1
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 1,
+      "program": "6",
+      "horse": "MAGGLES MCGEE",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 36,
+      "fair_odds": "9/5",
+      "fair_odds_decimal": 2.75,
+      "play_at": "2/1",
+      "play_at_decimal": 3.03,
+      "edge_pts": 16.1,
+      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 36% vs 20% morning-line implied (+16.1 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-01",
+        "races": [
+          1
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 1,
+            "role": "win",
+            "programs": [
+              "6"
+            ]
+          }
+        ],
+        "min_odds_decimal": 3.03,
+        "minimum_acceptable_odds_decimal": 3.03,
+        "minimum_acceptable_odds_display": "2/1",
+        "play_at_odds_decimal": 3.03,
+        "play_at_odds_display": "2/1",
+        "fair_odds_decimal": 2.75,
+        "fair_odds_display": "9/5",
+        "morning_line_odds_decimal": 4.0,
+        "morning_line_odds_display": "3/1",
+        "fair_return_usd": null,
+        "instruction": "#6 to win. Our reference price is 2/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 7,
+      "program": "1",
+      "horse": "SILKIE SEVEI",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 23,
+      "fair_odds": "7/2",
+      "fair_odds_decimal": 4.42,
+      "play_at": "4/1",
+      "play_at_decimal": 4.86,
+      "edge_pts": 7.0,
+      "reason": "Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.0 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "Md 50000",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-01",
+        "races": [
+          7
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 7,
+            "role": "win",
+            "programs": [
+              "1"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.86,
+        "minimum_acceptable_odds_decimal": 4.86,
+        "minimum_acceptable_odds_display": "4/1",
+        "play_at_odds_decimal": 4.86,
+        "play_at_odds_display": "4/1",
+        "fair_odds_decimal": 4.42,
+        "fair_odds_display": "7/2",
+        "morning_line_odds_decimal": 5.0,
+        "morning_line_odds_display": "4/1",
+        "fair_return_usd": null,
+        "instruction": "#1 to win. Our reference price is 4/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 9,
+      "program": "2",
+      "horse": "OWL",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 11,
+      "fair_odds": "8/1",
+      "fair_odds_decimal": 8.81,
+      "play_at": "9/1",
+      "play_at_decimal": 9.69,
+      "edge_pts": 6.4,
+      "reason": "Ranks #2 in our power figure blend; model 11% vs 5% morning-line implied (+6.4 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "OClm 20000n1x",
+      "durability": {
+        "cls": "hold",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-01",
+        "races": [
+          9
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 9,
+            "role": "win",
+            "programs": [
+              "2"
+            ]
+          }
+        ],
+        "min_odds_decimal": 9.69,
+        "minimum_acceptable_odds_decimal": 9.69,
+        "minimum_acceptable_odds_display": "9/1",
+        "play_at_odds_decimal": 9.69,
+        "play_at_odds_display": "9/1",
+        "fair_odds_decimal": 8.81,
+        "fair_odds_display": "8/1",
+        "morning_line_odds_decimal": 16.0,
+        "morning_line_odds_display": "15/1",
+        "fair_return_usd": null,
+        "instruction": "#2 to win. Our reference price is 9/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 10,
+      "program": "8",
+      "horse": "SEISMIC BEAUTY",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "no usable scheduled post time for this race — failing closed for this race only",
+      "scheduled_post_utc": null,
+      "model_win_pct": 32,
+      "fair_odds": "2/1",
+      "fair_odds_decimal": 3.08,
+      "play_at": "5/2",
+      "play_at_decimal": 3.39,
+      "edge_pts": 10.0,
+      "reason": "Ranks #1 in our power figure blend; projects as the lone early speed; model 32% vs 22% morning-line implied (+10.0 pts)",
+      "surface": "dirt",
+      "distance": "1 1/16 miles",
+      "race_type": "CLHrsch-G1",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-01",
+        "races": [
+          10
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 10,
+            "role": "win",
+            "programs": [
+              "8"
+            ]
+          }
+        ],
+        "min_odds_decimal": 3.39,
+        "minimum_acceptable_odds_decimal": 3.39,
+        "minimum_acceptable_odds_display": "5/2",
+        "play_at_odds_decimal": 3.39,
+        "play_at_odds_display": "5/2",
+        "fair_odds_decimal": 3.08,
+        "fair_odds_display": "2/1",
+        "morning_line_odds_decimal": 3.5,
+        "morning_line_odds_display": "5/2",
+        "fair_return_usd": null,
+        "instruction": "#8 to win. Our reference price is 5/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [],
+  "scratch_status": {
+    "state": "CHECKED_NO_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 9:46 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-01T13:46:38+00:00",
+    "checked_at_et": "9:46 AM ET",
+    "source": "operator confirmation (DMTC official scratches page)"
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "play",
+      "top": {
+        "program": "6",
+        "name": "MAGGLES MCGEE",
+        "win_pct": 36,
+        "fair": "9/5",
+        "fair_decimal": 2.75,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 36% vs 20% morning-line implied (+16.1 pts)",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 16.1
+    },
+    {
+      "race": 2,
+      "tier": "scramble",
+      "top": {
+        "program": "7",
+        "name": "POP ROX",
+        "win_pct": 19,
+        "fair": "9/2",
+        "fair_decimal": 5.35,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "7",
+        "9",
+        "5",
+        "2"
+      ],
+      "edge_pts": -1.2
+    },
+    {
+      "race": 3,
+      "tier": "chalk",
+      "top": {
+        "program": "3",
+        "name": "BROCKSTER",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.37,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": -0.1
+    },
+    {
+      "race": 4,
+      "tier": "chalk",
+      "top": {
+        "program": "7",
+        "name": "KEEPSMESANE",
+        "win_pct": 34,
+        "fair": "2/1",
+        "fair_decimal": 2.96,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 1.1
+    },
+    {
+      "race": 5,
+      "tier": "lean",
+      "top": {
+        "program": "5",
+        "name": "OLD PAL",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 3.98,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 2.1
+    },
+    {
+      "race": 6,
+      "tier": "scramble",
+      "top": {
+        "program": "4",
+        "name": "D DAY SKY",
+        "win_pct": 16,
+        "fair": "5/1",
+        "fair_decimal": 6.19,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "edge_pts": -3.9
+    },
+    {
+      "race": 7,
+      "tier": "play",
+      "top": {
+        "program": "1",
+        "name": "SILKIE SEVEI",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.42,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.0 pts)",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 7.0
+    },
+    {
+      "race": 8,
+      "tier": "scramble",
+      "top": {
+        "program": "9",
+        "name": "GHOST OF MIDNIGHT",
+        "win_pct": 14,
+        "fair": "6/1",
+        "fair_decimal": 7.08,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "9",
+        "4",
+        "2",
+        "8"
+      ],
+      "edge_pts": -3.7
+    },
+    {
+      "race": 9,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "OWL",
+        "win_pct": 11,
+        "fair": "8/1",
+        "fair_decimal": 8.81,
+        "board": "15/1",
+        "board_decimal": 16.0
+      },
+      "read": "Ranks #2 in our power figure blend; model 11% vs 5% morning-line implied (+6.4 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 6.4
+    },
+    {
+      "race": 10,
+      "tier": "play",
+      "top": {
+        "program": "8",
+        "name": "SEISMIC BEAUTY",
+        "win_pct": 32,
+        "fair": "2/1",
+        "fair_decimal": 3.08,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Ranks #1 in our power figure blend; projects as the lone early speed; model 32% vs 22% morning-line implied (+10.0 pts)",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 10.0
+    },
+    {
+      "race": 11,
+      "tier": "lean",
+      "top": {
+        "program": "2",
+        "name": "LORENZO BERNINI",
+        "win_pct": 21,
+        "fair": "4/1",
+        "fair_decimal": 4.87,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 4.8
+    }
+  ],
+  "multi_race": []
+}

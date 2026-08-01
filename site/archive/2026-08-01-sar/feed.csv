@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-01,3,2,TUSCAN SKY,17,5/1,11/2,5.4,dirt,1 mile,Ranks #2 in our power figure blend; model 17% vs 11% morning-line implied (+5.4 pts),CHECKED_NO_CHANGES,true
+SAR,2026-08-01,6,4,BOOKED,39,8/5,9/5,6.5,dirt,6 1/2 furlongs,Ranks #1 in our power figure blend; projects as the lone early speed; model 39% vs 33% morning-line implied (+6.5 pts),CHECKED_NO_CHANGES,true
+SAR,2026-08-01,11,1,ILLMATIC,22,7/2,4/1,7.7,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 22% vs 14% morning-line implied (+7.7 pts),CHECKED_NO_CHANGES,true
+SAR,2026-08-01,12,5,NONCONSECUTIVETRMS,31,5/2,5/2,8.3,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 31% vs 22% morning-line implied (+8.3 pts),CHECKED_NO_CHANGES,true
