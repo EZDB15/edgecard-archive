@@ -918,6 +918,16 @@
           "status": "CALENDAR_PENDING"
         }
       }
+    },
+    "2026-08-02-dmr": {
+      "date": "2026-08-02",
+      "track": "DMR",
+      "artifacts": {}
+    },
+    "2026-08-02-sar": {
+      "date": "2026-08-02",
+      "track": "SAR",
+      "artifacts": {}
     }
   }
 }

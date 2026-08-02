@@ -1,0 +1,32 @@
+{
+  "sha256": "0d4b92f30fa8b903554e235ffc39d9b63e9655969e650e8e76c1c91c0fdecc50",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 78,
+    "temp_unit": "F",
+    "wind": "0 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "10:06 AM ET",
+  "lock_ts_utc": "2026-08-02T14:06:06+00:00",
+  "scratches_as_of_et": "2026-08-02T14:06:05Z",
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "10:06 AM ET",
+  "scratch_checked_at_utc": "2026-08-02T14:06:05+00:00",
+  "scratch_source": "operator confirmed: no scratches",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-08-02",
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-02-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Sun Aug 2 \u2014 10 races, 4 flags, 6 passes"
+}

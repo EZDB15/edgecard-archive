@@ -37,26 +37,7 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "19-51",
-    "wins": 19,
-    "losses": 51,
-    "graded": 70,
-    "units": 7.86,
-    "roi_pct": 5.6,
-    "closing_held_n": 20,
-    "closing_graded_n": 63,
-    "closing_held_pct": 32,
-    "last_miss": {
-      "date": "2026-08-01",
-      "track": "SAR",
-      "race": 11,
-      "name": "ILLMATIC",
-      "board_decimal": 5.5,
-      "closing_decimal": 3.46
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 3,

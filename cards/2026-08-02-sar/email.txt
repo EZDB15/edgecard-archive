@@ -1,0 +1,67 @@
+SUBJECT: SAR · Sun Aug 2 — 11 races, 4 flags, 8 passes
+
+EDGE CARD — SAR, Sun Aug 2, 2026
+Card hashed and public at 10:05 AM ET: https://edgecardhq.com/archive/2026-08-02-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 10:05 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-2 · flat-$2 +8.94 · drift +21.0% · meet to date 19-51 · flat-$2 +7.86 · drift +32.6% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md Sp Wt · turf, 9.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: SILLY SEASON — p 31% · fair odds 2/1 · ML 7/2
+  Bet #8 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 31% vs 17% morning-line implied (+13.8 pts).
+
+R2 · OClm 45000n2x · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops HOT CURRENCY at 32%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 20000 · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops WILLIE BIRD at 24%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 45000 · turf, 9.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: DIVIDEND RECAP — p 33% · fair odds 2/1 · ML 5/2
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 33% vs 22% morning-line implied (+10.6 pts).
+
+R5 · Alw 50000s · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops COACH CASE at 19%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops MODEST MACLEAN at 23%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 110000b · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: KEEWAYDIN — p 16% · fair odds 5/1 · ML 6/1
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 16% vs 11% morning-line implied (+5.3 pts).
+
+R8 · GlenFls-G2 · turf, 12.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SPEED SHOPPER at 19%; the morning line already prices the race. Pass is a position.
+
+R9 · CurlinL150k · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CHIEF WALLABEE at 43%; the morning line already prices the race. Pass is a position.
+
+R10 · Adirondk-G3 · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SCARLETT BEGONIA at 24%; the morning line already prices the race. Pass is a position.
+
+R11 · Md 35000 · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops JAYME'S TURN at 16%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.9fd049e7 — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

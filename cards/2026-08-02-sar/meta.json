@@ -1,0 +1,32 @@
+{
+  "sha256": "750cbac128ab5ed9ee76791bfc99848eab0dfc4ab5cfef60034961243774089b",
+  "weather": {
+    "short": "Isolated Rain Showers then Isolated Showers And Thunderstorms",
+    "temp": 81,
+    "temp_unit": "F",
+    "wind": "6 to 10 mph",
+    "precip_pct": 24,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "10:05 AM ET",
+  "lock_ts_utc": "2026-08-02T14:05:52+00:00",
+  "scratches_as_of_et": "2026-08-02T14:05:51Z",
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "10:05 AM ET",
+  "scratch_checked_at_utc": "2026-08-02T14:05:51+00:00",
+  "scratch_source": "operator confirmed: no scratches",
+  "scratch_track": "SAR",
+  "scratch_date": "2026-08-02",
+  "first_post_et": "1:10 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-02-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Sun Aug 2 \u2014 11 races, 4 flags, 8 passes"
+}

@@ -1,0 +1,65 @@
+SUBJECT: DMR · Sun Aug 2 — 10 races, 4 flags, 6 passes
+
+EDGE CARD — DMR, Sun Aug 2, 2026
+Card hashed and public at 10:06 AM ET: https://edgecardhq.com/archive/2026-08-02-dmr/ · https://x.com/edgecardHQ
+Scratch status checked at 10:06 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-2 · flat-$2 +8.94 · drift +21.0% · meet to date 19-51 · flat-$2 +7.86 · drift +32.6% → full results: https://github.com/EZDB15/edgecard-archive
+
+— DMR · first post 5:00 PM ET —
+
+R1 · Md Sp Wt · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops COLLMUS at 32%; the morning line already prices the race. Pass is a position.
+
+R2 · Moc 150000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: AVALON ROSE — p 20% · fair odds 4/1 · ML 5/1
+  Bet #2 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; projects as the lone early speed; model 20% vs 13% morning-line implied (+6.2 pts).
+
+R3 · OClm 50000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: O K ROSE — p 27% · fair odds 3/1 · ML 8/1
+  Bet #4 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 9% morning-line implied (+17.7 pts).
+
+R4 · Md Sp Wt · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops TRUTH OR DARE at 23%; the morning line already prices the race. Pass is a position.
+
+R5 · Clm 10000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ONE SMOKIN DUDE at 15%; the morning line already prices the race. Pass is a position.
+
+R6 · Alw 84000nc · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops YOURS SINCERELY at 18%; the morning line already prices the race. Pass is a position.
+
+R7 · Md 50000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MYSTIC MOSES at 21%; the morning line already prices the race. Pass is a position.
+
+R8 · OClm 50000 · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops JOEJOE GO at 20%; the morning line already prices the race. Pass is a position.
+
+R9 · CTBAB100k · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: JOLENE FURY — p 34% · fair odds 2/1 · ML 5/1
+  Bet #2 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 34% vs 13% morning-line implied (+20.9 pts).
+
+R10 · Clm 25000 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: LITTLE HIDDEN PORT — p 18% · fair odds 9/2 · ML 8/1
+  Bet #9 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 18% vs 9% morning-line implied (+9.2 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.9fd049e7 — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
