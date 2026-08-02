@@ -1,24 +1,24 @@
 {
   "computation_version": "canonical-record-1.0.0",
-  "source_ledger_head_hash": "8d9f294918b874680c00f8e4cb5fe7e5f4ebd79e1157e0884715b13ccd25b548",
-  "source_ledger_lines": 340,
-  "through_date": "2026-07-31",
+  "source_ledger_head_hash": "9652eeef1d5ea6d63c130778c706d12d517903538a69f80902db24d28823cffb",
+  "source_ledger_lines": 371,
+  "through_date": "2026-08-01",
   "counts": {
-    "raw_ledger_result_entries": 78,
-    "effective_unique_results": 70,
+    "raw_ledger_result_entries": 86,
+    "effective_unique_results": 78,
     "declared_supersessions": 8,
     "unique_picks": 78,
-    "pending_selections": 8,
+    "pending_selections": 0,
     "conflicts": 0
   },
   "totals": {
-    "wins": 17,
-    "losses": 45,
+    "wins": 19,
+    "losses": 51,
     "voids": 8,
-    "record": "17-45",
-    "effective_scored_selections": 70,
-    "flat_2_dollar_pl": 6.92,
-    "roi": 0.055806,
+    "record": "19-51",
+    "effective_scored_selections": 78,
+    "flat_2_dollar_pl": 7.86,
+    "roi": 0.056143,
     "roi_pct": 5.6
   },
   "supersession_declarations": [
