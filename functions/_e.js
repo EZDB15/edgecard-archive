@@ -27,9 +27,22 @@ const MAX_BYTES = 2048;
 
 // Bounded key space. An unbounded event name is an attacker-chosen KV key, and
 // it also means a typo in a template quietly creates a new metric forever.
+// DERIVED FROM THE CLIENT, not from what sounded plausible. The first version
+// of this list was invented: it allowed card_view, race_expand,
+// methodology_view, record_view and scroll_depth -- none of which the client
+// emits -- while omitting glossary_expand and record_depth, which it does. Those
+// two were rejected 400 and lost from the day the beacon deployed. A bounded key
+// space is still right; a bounded key space that does not match the emitter is a
+// silent filter that looks like a control.
+//
+// Source of truth: `_EVENTS_JS` in src/hre/render/common.py. If you add an event
+// there, add it here in the same change, or it is dropped without a trace.
 const ALLOWED_EVENTS = new Set([
-  "first_visit", "return_visit", "outbound_click", "card_view",
-  "race_expand", "methodology_view", "record_view", "scroll_depth",
+  "first_visit",      // ev(isNew ? ... )
+  "return_visit",     // ev( ... : "return_visit")
+  "outbound_click",
+  "glossary_expand",
+  "record_depth",
 ]);
 
 const ALLOWED_ORIGINS = new Set([
