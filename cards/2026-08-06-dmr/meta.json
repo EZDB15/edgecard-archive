@@ -1,0 +1,32 @@
+{
+  "sha256": "b61e301215faf08d48fca74da3f86c01aa958ca6ade0f8bb85d6fe8420092c8c",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 78,
+    "temp_unit": "F",
+    "wind": "0 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:47 AM ET",
+  "lock_ts_utc": "2026-08-06T15:47:36+00:00",
+  "scratches_as_of_et": "2026-08-06T15:47:35Z",
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "11:47 AM ET",
+  "scratch_checked_at_utc": "2026-08-06T15:47:35+00:00",
+  "scratch_source": "DMTC changes page: no scratches posted; rail set 30ft R3/R5/R7, #2 Atomic Age first start since gelding",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-08-06",
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-06-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Thu Aug 6 \u2014 8 races, 1 flags, 7 passes"
+}

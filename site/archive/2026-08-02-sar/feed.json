@@ -37,26 +37,7 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "22-56",
-    "wins": 22,
-    "losses": 56,
-    "graded": 78,
-    "units": 10.74,
-    "roi_pct": 6.9,
-    "closing_held_n": 24,
-    "closing_graded_n": 71,
-    "closing_held_pct": 34,
-    "last_miss": {
-      "date": "2026-08-02",
-      "track": "DMR",
-      "race": 10,
-      "name": "LITTLE HIDDEN PORT",
-      "board_decimal": 9.0,
-      "closing_decimal": 5.6
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 1,
