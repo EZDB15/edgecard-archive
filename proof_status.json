@@ -970,6 +970,16 @@
       "date": "2026-08-06",
       "track": "SAR",
       "artifacts": {}
+    },
+    "2026-08-07-dmr": {
+      "date": "2026-08-07",
+      "track": "DMR",
+      "artifacts": {}
+    },
+    "2026-08-07-sar": {
+      "date": "2026-08-07",
+      "track": "SAR",
+      "artifacts": {}
     }
   }
 }
