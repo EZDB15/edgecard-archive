@@ -238,10 +238,13 @@
   ],
   "errata": [],
   "scratch_status": {
-    "state": "NOT_YET_CHECKED",
-    "confirmed": false,
-    "message": "Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.",
-    "late_scratch_rule": "Late scratches void at scoring; the card is never edited."
+    "state": "CHECKED_WITH_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 12:30 PM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-07T16:30:06Z",
+    "checked_at_et": "12:30 PM ET",
+    "source": "DMTC changes page; 3 scratches stamped 6:19 AM ET (R5 #12, R7 #1, R8 #13) plus temp rail 30 ft R1/R5/R8. Checked after the card locked."
   },
   "parlays": [],
   "card_reads": [

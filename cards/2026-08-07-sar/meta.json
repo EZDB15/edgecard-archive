@@ -11,11 +11,11 @@
   "pick_notes": null,
   "publish_time_et": "11:58 AM ET",
   "lock_ts_utc": "2026-08-07T15:58:57+00:00",
-  "scratches_as_of_et": null,
-  "scratch_state": "NOT_YET_CHECKED",
-  "scratch_checked_at_et": null,
-  "scratch_checked_at_utc": null,
-  "scratch_source": null,
+  "scratches_as_of_et": "11:12 AM ET",
+  "scratch_state": "CHECKED_WITH_CHANGES",
+  "scratch_checked_at_et": "12:30 PM ET",
+  "scratch_checked_at_utc": "2026-08-07T16:30:06Z",
+  "scratch_source": "NYRA official Saratoga scratches & changes sheet, last updated 11:12:23 AM ET; 17 entries across 8 races (6 main-track-only/also-eligible, 11 true removals). Checked after the card locked.",
   "scratch_track": "SAR",
   "scratch_date": "2026-08-07",
   "first_post_et": "1:10 PM ET",
@@ -28,5 +28,5 @@
   "subscribe_url": "https://buttondown.com/della_bitta",
   "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
   "x_handle": "@edgecardHQ",
-  "subject": "SAR \u00b7 Fri Aug 7 \u2014 11 races, 3 flags, 8 passes"
+  "subject": "SAR · Fri Aug 7 — 11 races, 3 flags, 8 passes"
 }

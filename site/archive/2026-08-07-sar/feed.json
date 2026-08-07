@@ -238,10 +238,13 @@
   ],
   "errata": [],
   "scratch_status": {
-    "state": "NOT_YET_CHECKED",
-    "confirmed": false,
-    "message": "Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.",
-    "late_scratch_rule": "Late scratches void at scoring; the card is never edited."
+    "state": "CHECKED_WITH_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 12:30 PM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-07T16:30:06Z",
+    "checked_at_et": "12:30 PM ET",
+    "source": "NYRA official Saratoga scratches & changes sheet, last updated 11:12:23 AM ET; 17 entries across 8 races (6 main-track-only/also-eligible, 11 true removals). Checked after the card locked."
   },
   "parlays": [],
   "card_reads": [
