@@ -14,14 +14,14 @@
     "archive/index.html": "23bfd658d4023c3df40ab5a41a71908f56abd872ab86ebc77dace6884c139cef",
     "schemas/partner-feed-v1.json": "052e7a874b184cb521e596f21acbafd8a992e6b88481239a1d747c4be8ac7212",
     "record.json": "2ad7fbb770ca9d36ceb8649d3d70c6935ff9fd595d2377a3058a1f4bac709a15",
-    "proof_status.json": "9bfed22486a3630f5de2e2af15170670b387fbfbdb0992d481d1168b214f6adc",
-    "proof_registry.json": "83be910692057d451d5723cdcd258f25945110155a295dc7361d1be851d95c03",
+    "proof_status.json": "38359417d3f211efcb21923328881d0baf64c91596eae6692c86d8617ab7729f",
+    "proof_registry.json": "513b8e5145100264d3283cdeecc0da390909c3133adcd56d630f984ee0534fb8",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   },
   "root_sourced": {
     "record.json": "2ad7fbb770ca9d36ceb8649d3d70c6935ff9fd595d2377a3058a1f4bac709a15",
-    "proof_status.json": "9bfed22486a3630f5de2e2af15170670b387fbfbdb0992d481d1168b214f6adc",
-    "proof_registry.json": "83be910692057d451d5723cdcd258f25945110155a295dc7361d1be851d95c03",
+    "proof_status.json": "38359417d3f211efcb21923328881d0baf64c91596eae6692c86d8617ab7729f",
+    "proof_registry.json": "513b8e5145100264d3283cdeecc0da390909c3133adcd56d630f984ee0534fb8",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   }
 }
