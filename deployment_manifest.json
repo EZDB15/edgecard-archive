@@ -7,21 +7,21 @@
   "cards": 27,
   "feeds": 27,
   "endpoint_hashes": {
-    "index.html": "bf56150586e6046ba273728a7cc6cd942b99786a126b8191141a3e512290de04",
+    "index.html": "9937effda69d197eda045e4f57597d3e36b359d55888e3db907ed1de4f6406ec",
     "styles.css": "b0116941bd112e648494aabbe592e9a9efdaa9db5f6465761fe6111545bbcb69",
     "record/index.html": "dfb23e7a72fdf41e85c9a5d1f7bd709e4bff848d5575d764a2956b830abe798b",
     "methodology/index.html": "0ef07e0227b2fb708e219574ac9e816df6661eb556a3848129fa6c990a2a069a",
     "archive/index.html": "23bfd658d4023c3df40ab5a41a71908f56abd872ab86ebc77dace6884c139cef",
     "schemas/partner-feed-v1.json": "052e7a874b184cb521e596f21acbafd8a992e6b88481239a1d747c4be8ac7212",
     "record.json": "2ad7fbb770ca9d36ceb8649d3d70c6935ff9fd595d2377a3058a1f4bac709a15",
-    "proof_status.json": "38359417d3f211efcb21923328881d0baf64c91596eae6692c86d8617ab7729f",
-    "proof_registry.json": "513b8e5145100264d3283cdeecc0da390909c3133adcd56d630f984ee0534fb8",
+    "proof_status.json": "7e73f274081ec73993691963806d77f5801fe1f2c96597d7b6366aa88877d07f",
+    "proof_registry.json": "a0239ae7f75db5b44a0250c1385d3535fc1228c8767145a63489b02be957704a",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   },
   "root_sourced": {
     "record.json": "2ad7fbb770ca9d36ceb8649d3d70c6935ff9fd595d2377a3058a1f4bac709a15",
-    "proof_status.json": "38359417d3f211efcb21923328881d0baf64c91596eae6692c86d8617ab7729f",
-    "proof_registry.json": "513b8e5145100264d3283cdeecc0da390909c3133adcd56d630f984ee0534fb8",
+    "proof_status.json": "7e73f274081ec73993691963806d77f5801fe1f2c96597d7b6366aa88877d07f",
+    "proof_registry.json": "a0239ae7f75db5b44a0250c1385d3535fc1228c8767145a63489b02be957704a",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   }
 }
