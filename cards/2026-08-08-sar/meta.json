@@ -1,0 +1,32 @@
+{
+  "sha256": "5d303a6f6a2793142b641935487ff26768f9d0c5c45304a3a0a26625db0a66c2",
+  "weather": {
+    "short": "Scattered Showers And Thunderstorms",
+    "temp": 86,
+    "temp_unit": "F",
+    "wind": "7 mph",
+    "precip_pct": 40,
+    "wet": true
+  },
+  "pick_notes": null,
+  "publish_time_et": "12:41 PM ET",
+  "lock_ts_utc": "2026-08-08T16:41:00+00:00",
+  "scratches_as_of_et": "12:20 PM ET",
+  "scratch_state": "CHECKED_WITH_CHANGES",
+  "scratch_checked_at_et": "12:40 PM ET",
+  "scratch_checked_at_utc": "2026-08-08T16:40:00+00:00",
+  "scratch_source": "NYRA official Saratoga scratches & changes sheet, last updated 12:20:55 PM ET; 24 entries across 11 races (9 main-track-only/also-eligible, 15 true removals). Checked BEFORE the card locked; no flagged selection is on a scratched horse.",
+  "scratch_track": "SAR",
+  "scratch_date": "2026-08-08",
+  "first_post_et": "11:45 AM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-08-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Sat Aug 8 \u2014 14 races, 4 flags, 10 passes"
+}

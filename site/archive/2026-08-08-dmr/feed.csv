@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-08,4,5,CODE DUELLO,33,2/1,5/2,15.1,turf,5 furlongs,Ranks #1 in our power figure blend; model 33% vs 18% morning-line implied (+15.1 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-08-08,6,6,CONQUER WE MUST,23,7/2,4/1,5.3,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 23% vs 18% morning-line implied (+5.3 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-08-08,8,2,SWEET REBECCA,29,5/2,3/1,11.3,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 29% vs 18% morning-line implied (+11.3 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-08-08,8,6,WARMING,18,9/2,5/1,7.0,turf,1 1/16 miles,Ranks #2 in our power figure blend; model 18% vs 11% morning-line implied (+7.0 pts),CHECKED_WITH_CHANGES,true

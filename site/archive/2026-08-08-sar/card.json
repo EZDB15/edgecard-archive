@@ -1,0 +1,1945 @@
+{
+  "track": "SAR",
+  "date": "2026-08-08",
+  "generated_ts_utc": "2026-08-08T16:39:58+00:00",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.041077ef",
+  "methodology": "Edge Card runs a proprietary pre-race probability process: market expectations combined with licensed past-performance, pace, field-composition and connections information, evaluated within each race. Exact implementation details are not published. Structured analysis, not a proven edge; tracked publicly either way.",
+  "n_races": 14,
+  "races": [
+    {
+      "race_no": 1,
+      "race_id": "SAR-2026-08-08-R01",
+      "distance_yards": 1430,
+      "surface": "D",
+      "race_type_code": "S",
+      "race_type": "Md Sp Wt",
+      "n_interests": 9,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "U. S. S. VALOR",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1118,
+          "p_v0": 0.1084,
+          "fair_odds_decimal": 9.22,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "2",
+          "name": "COACH POPE",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0602,
+          "p_v0": 0.0589,
+          "fair_odds_decimal": 16.99,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "3",
+          "name": "GORILLAZ",
+          "ml_decimal": 3.5,
+          "p_ml": 0.2235,
+          "p_v0": 0.2256,
+          "fair_odds_decimal": 4.43,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "4",
+          "name": "WITH LUCK FORWARD",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0602,
+          "p_v0": 0.0607,
+          "fair_odds_decimal": 16.48,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "5",
+          "name": "STAR SALUTE",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1304,
+          "p_v0": 0.1281,
+          "fair_odds_decimal": 7.81,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "6",
+          "name": "BELLISSIMO D'ORO",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0489,
+          "p_v0": 0.0462,
+          "fair_odds_decimal": 21.65,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "7",
+          "name": "GAUDREAU",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1739,
+          "p_v0": 0.1761,
+          "fair_odds_decimal": 5.68,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "8",
+          "name": "HEMINGWAY",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1423,
+          "p_v0": 0.1471,
+          "fair_odds_decimal": 6.8,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "9",
+          "name": "COACH'S PALS",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0489,
+          "p_v0": 0.049,
+          "fair_odds_decimal": 20.42,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        }
+      ],
+      "post_time": {
+        "race_no": 1,
+        "post_time_raw": "0845",
+        "post_time_raw_by_region": "(11:45)/10:45/9:45/8:45",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T11:45:00-04:00",
+        "scheduled_post_utc": "2026-08-08T15:45:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "11:45",
+          "derived_track_local_clock": "11:45",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 2,
+      "race_id": "SAR-2026-08-08-R02",
+      "distance_yards": 1430,
+      "surface": "D",
+      "race_type_code": "S",
+      "race_type": "Md Sp Wt",
+      "n_interests": 10,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "MAGICAL MIKEL",
+          "ml_decimal": 31.0,
+          "p_ml": 0.0253,
+          "p_v0": 0.0256,
+          "fair_odds_decimal": 39.1,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "SHARPLY DRESSED",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1122,
+          "p_v0": 0.1135,
+          "fair_odds_decimal": 8.81,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "3",
+          "name": "LIVE",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1122,
+          "p_v0": 0.113,
+          "fair_odds_decimal": 8.85,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "4",
+          "name": "TOMMY TANG",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0604,
+          "p_v0": 0.0624,
+          "fair_odds_decimal": 16.03,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "5",
+          "name": "ADMIRALTY",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1429,
+          "p_v0": 0.1395,
+          "fair_odds_decimal": 7.17,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "6",
+          "name": "IRON CONFESSOR",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0873,
+          "p_v0": 0.086,
+          "fair_odds_decimal": 11.63,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "7",
+          "name": "STONE AGED",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0604,
+          "p_v0": 0.0597,
+          "fair_odds_decimal": 16.75,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "8",
+          "name": "MYSTRIX",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1746,
+          "p_v0": 0.1759,
+          "fair_odds_decimal": 5.68,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "9",
+          "name": "CODE OF ARMS",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1122,
+          "p_v0": 0.1101,
+          "fair_odds_decimal": 9.08,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "10",
+          "name": "IMPLIED OPEN",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1122,
+          "p_v0": 0.1143,
+          "fair_odds_decimal": 8.75,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        }
+      ],
+      "post_time": {
+        "race_no": 2,
+        "post_time_raw": "0921",
+        "post_time_raw_by_region": "(12:21)/11:21/10:21/9:21",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T12:21:00-04:00",
+        "scheduled_post_utc": "2026-08-08T16:21:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "12:21",
+          "derived_track_local_clock": "12:21",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 3,
+      "race_id": "SAR-2026-08-08-R03",
+      "distance_yards": 1980,
+      "surface": "D",
+      "race_type_code": "AO",
+      "race_type": "OClm 110000b",
+      "n_interests": 7,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 4,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "SAN SIRO",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1411,
+          "p_v0": 0.1076,
+          "fair_odds_decimal": 9.3,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "BRAMITO",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.1025,
+          "fair_odds_decimal": 9.76,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "FULL SCREEN",
+          "ml_decimal": 4.0,
+          "p_ml": 0.1941,
+          "p_v0": 0.1658,
+          "fair_odds_decimal": 6.03,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "VIBE",
+          "ml_decimal": 3.5,
+          "p_ml": 0.2218,
+          "p_v0": 0.1534,
+          "fair_odds_decimal": 6.52,
+          "pp_rank": 5,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "CLASSICIST",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.0903,
+          "fair_odds_decimal": 11.07,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "YO DADDY",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1411,
+          "p_v0": 0.2411,
+          "fair_odds_decimal": 4.15,
+          "pp_rank": 1,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "INSTANT REPLAY",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1294,
+          "p_v0": 0.1393,
+          "fair_odds_decimal": 7.18,
+          "pp_rank": 3,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 3,
+        "post_time_raw": "0957",
+        "post_time_raw_by_region": "(12:57)/11:57/10:57/9:57",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T12:57:00-04:00",
+        "scheduled_post_utc": "2026-08-08T16:57:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "12:57",
+          "derived_track_local_clock": "12:57",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 4,
+      "race_id": "SAR-2026-08-08-R04",
+      "distance_yards": 1870,
+      "surface": "T",
+      "race_type_code": "A",
+      "race_type": "Alw 120000n1x",
+      "n_interests": 9,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 4,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "CONSUMER SENTIMENT",
+          "ml_decimal": 3.0,
+          "p_ml": 0.2589,
+          "p_v0": 0.1644,
+          "fair_odds_decimal": 6.08,
+          "pp_rank": 6,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "LADY RIVER LILY",
+          "ml_decimal": 51.0,
+          "p_ml": 0.0152,
+          "p_v0": 0.0095,
+          "fair_odds_decimal": 104.78,
+          "pp_rank": 8,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "MERMAID",
+          "ml_decimal": 21.0,
+          "p_ml": 0.037,
+          "p_v0": 0.0354,
+          "fair_odds_decimal": 28.29,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "HAND OVER HEART",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.1633,
+          "fair_odds_decimal": 6.12,
+          "pp_rank": 2,
+          "pace_adj_applied": 0.99,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "CARMENSITA",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1294,
+          "p_v0": 0.1533,
+          "fair_odds_decimal": 6.52,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "SCRATCH IT",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1109,
+          "p_v0": 0.1194,
+          "fair_odds_decimal": 8.38,
+          "pp_rank": 5,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "SAIL WITH THE WIND",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1726,
+          "p_v0": 0.1488,
+          "fair_odds_decimal": 6.72,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "LOVELY CHRISTINA",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1412,
+          "p_v0": 0.1864,
+          "fair_odds_decimal": 5.37,
+          "pp_rank": 1,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "9",
+          "name": "TWO MARTINI'S",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0196,
+          "fair_odds_decimal": 51.08,
+          "pp_rank": 9,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 4,
+        "post_time_raw": "1034",
+        "post_time_raw_by_region": "(1:34)/12:34/11:34/10:34",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T13:34:00-04:00",
+        "scheduled_post_utc": "2026-08-08T17:34:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "1:34",
+          "derived_track_local_clock": "1:34",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 5,
+      "race_id": "SAR-2026-08-08-R05",
+      "distance_yards": 1540,
+      "surface": "D",
+      "race_type_code": "A",
+      "race_type": "Alw 120000n1x",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 4,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "UNBROKEN CHAIN",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0605,
+          "p_v0": 0.0885,
+          "fair_odds_decimal": 11.3,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "ROCK MUSIC",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1124,
+          "p_v0": 0.1078,
+          "fair_odds_decimal": 9.28,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "AGOO",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1124,
+          "p_v0": 0.1213,
+          "fair_odds_decimal": 8.24,
+          "pp_rank": 5,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "PRIVATE DESIRE",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0874,
+          "p_v0": 0.0943,
+          "fair_odds_decimal": 10.6,
+          "pp_rank": 4,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "PRINCIP",
+          "ml_decimal": 31.0,
+          "p_ml": 0.0254,
+          "p_v0": 0.047,
+          "fair_odds_decimal": 21.27,
+          "pp_rank": 8,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "PRETTY BOY MIAH",
+          "ml_decimal": 3.0,
+          "p_ml": 0.2622,
+          "p_v0": 0.1741,
+          "fair_odds_decimal": 5.74,
+          "pp_rank": 2,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "TAGERMEEN",
+          "ml_decimal": 4.0,
+          "p_ml": 0.1967,
+          "p_v0": 0.1414,
+          "fair_odds_decimal": 7.07,
+          "pp_rank": 3,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "FACT",
+          "ml_decimal": 5.5,
+          "p_ml": 0.143,
+          "p_v0": 0.2256,
+          "fair_odds_decimal": 4.43,
+          "pp_rank": 1,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 5,
+        "post_time_raw": "1110",
+        "post_time_raw_by_region": "(2:10)/1:10/12:10/11:10",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T14:10:00-04:00",
+        "scheduled_post_utc": "2026-08-08T18:10:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "2:10",
+          "derived_track_local_clock": "2:10",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 6,
+      "race_id": "SAR-2026-08-08-R06",
+      "distance_yards": 1430,
+      "surface": "D",
+      "race_type_code": "S",
+      "race_type": "Md Sp Wt",
+      "n_interests": 10,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "VIOLET THE ULTRA",
+          "ml_decimal": 31.0,
+          "p_ml": 0.0252,
+          "p_v0": 0.0253,
+          "fair_odds_decimal": 39.49,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "2",
+          "name": "RUM TWIST",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0867,
+          "p_v0": 0.0919,
+          "fair_odds_decimal": 10.88,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "RED POPPY",
+          "ml_decimal": 3.5,
+          "p_ml": 0.223,
+          "p_v0": 0.2267,
+          "fair_odds_decimal": 4.41,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "4",
+          "name": "STEFANIA",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0867,
+          "p_v0": 0.0882,
+          "fair_odds_decimal": 11.33,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "5",
+          "name": "NORAH BEGORRAH",
+          "ml_decimal": 11.0,
+          "p_ml": 0.071,
+          "p_v0": 0.0696,
+          "fair_odds_decimal": 14.37,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "6",
+          "name": "AERIAL AFFAIR",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1301,
+          "p_v0": 0.1199,
+          "fair_odds_decimal": 8.34,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "DULCE VITA",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1419,
+          "p_v0": 0.1449,
+          "fair_odds_decimal": 6.9,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "8",
+          "name": "BURRATA",
+          "ml_decimal": 21.0,
+          "p_ml": 0.0372,
+          "p_v0": 0.0366,
+          "fair_odds_decimal": 27.31,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "9",
+          "name": "SUMMER STARLET",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1115,
+          "p_v0": 0.1104,
+          "fair_odds_decimal": 9.06,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "10",
+          "name": "JOY OF LIFE",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0867,
+          "p_v0": 0.0865,
+          "fair_odds_decimal": 11.56,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        }
+      ],
+      "post_time": {
+        "race_no": 6,
+        "post_time_raw": "1147",
+        "post_time_raw_by_region": "(2:47)/1:47/12:47/11:47",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T14:47:00-04:00",
+        "scheduled_post_utc": "2026-08-08T18:47:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "2:47",
+          "derived_track_local_clock": "2:47",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 7,
+      "race_id": "SAR-2026-08-08-R07",
+      "distance_yards": 2420,
+      "surface": "t",
+      "race_type_code": "AO",
+      "race_type": "OClm 55000n1x",
+      "n_interests": 10,
+      "scope": "scored",
+      "pace": {
+        "scenario": "lone_speed",
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": true
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "MONTEREY BAY",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1115,
+          "p_v0": 0.0785,
+          "fair_odds_decimal": 12.74,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "RAMBLIN' WRECK",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0488,
+          "p_v0": 0.0371,
+          "fair_odds_decimal": 26.98,
+          "pp_rank": 10,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "GREYSTONE",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1115,
+          "p_v0": 0.0878,
+          "fair_odds_decimal": 11.39,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "WRITE OFF JERRY",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0601,
+          "p_v0": 0.1602,
+          "fair_odds_decimal": 6.24,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "IRON SIGHT",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1562,
+          "p_v0": 0.1106,
+          "fair_odds_decimal": 9.04,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "JUST FOR LUCK",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1115,
+          "p_v0": 0.0993,
+          "fair_odds_decimal": 10.07,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "KRAVITZ",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0868,
+          "p_v0": 0.0646,
+          "fair_odds_decimal": 15.47,
+          "pp_rank": 9,
+          "pace_adj_applied": 1.15,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "FORT THOMAS",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0601,
+          "p_v0": 0.0784,
+          "fair_odds_decimal": 12.75,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "9",
+          "name": "EMERGENCE",
+          "ml_decimal": 5.5,
+          "p_ml": 0.142,
+          "p_v0": 0.2013,
+          "fair_odds_decimal": 4.97,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "10",
+          "name": "IL SICILIANO",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1115,
+          "p_v0": 0.0823,
+          "fair_odds_decimal": 12.15,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 7,
+        "post_time_raw": "1223",
+        "post_time_raw_by_region": "(3:23)/2:23/1:23/12:23",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T15:23:00-04:00",
+        "scheduled_post_utc": "2026-08-08T19:23:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "3:23",
+          "derived_track_local_clock": "3:23",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 8,
+      "race_id": "SAR-2026-08-08-R08",
+      "distance_yards": 1870,
+      "surface": "T",
+      "race_type_code": "S",
+      "race_type": "Md Sp Wt",
+      "n_interests": 12,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "DJOKOVIC",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0594,
+          "p_v0": 0.0593,
+          "fair_odds_decimal": 16.87,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "2",
+          "name": "TIME IN MOTION",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0858,
+          "p_v0": 0.0883,
+          "fair_odds_decimal": 11.33,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "3",
+          "name": "MO MISERY",
+          "ml_decimal": 21.0,
+          "p_ml": 0.0368,
+          "p_v0": 0.021,
+          "fair_odds_decimal": 47.53,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "OSCAR",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0702,
+          "p_v0": 0.073,
+          "fair_odds_decimal": 13.69,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "5",
+          "name": "JUST JOE",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0482,
+          "p_v0": 0.049,
+          "fair_odds_decimal": 20.42,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "6",
+          "name": "PORT IN A STORM",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0702,
+          "p_v0": 0.0691,
+          "fair_odds_decimal": 14.46,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "7",
+          "name": "REVENUE STREAM",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1544,
+          "p_v0": 0.1578,
+          "fair_odds_decimal": 6.34,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "8",
+          "name": "SURETY",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0594,
+          "p_v0": 0.0462,
+          "fair_odds_decimal": 21.63,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "9",
+          "name": "BERTA'S STITCH",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1103,
+          "p_v0": 0.0988,
+          "fair_odds_decimal": 10.12,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "10",
+          "name": "AREQUIPE",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0482,
+          "p_v0": 0.0479,
+          "fair_odds_decimal": 20.88,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "11",
+          "name": "BOLD LEADERSHIP",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0858,
+          "p_v0": 0.0856,
+          "fair_odds_decimal": 11.68,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "12",
+          "name": "AND THE RUNNER IS",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1715,
+          "p_v0": 0.2039,
+          "fair_odds_decimal": 4.9,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 8,
+        "post_time_raw": "1300",
+        "post_time_raw_by_region": "(4:00)/3:00/2:00/1:00",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T16:00:00-04:00",
+        "scheduled_post_utc": "2026-08-08T20:00:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "4:00",
+          "derived_track_local_clock": "4:00",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 9,
+      "race_id": "SAR-2026-08-08-R09",
+      "distance_yards": 1540,
+      "surface": "D",
+      "race_type_code": "G1",
+      "race_type": "Test-G1",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 5,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "MOVIE NIGHT",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1722,
+          "p_v0": 0.1745,
+          "fair_odds_decimal": 5.73,
+          "pp_rank": 3,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "PERCY'S BAR",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0861,
+          "p_v0": 0.1225,
+          "fair_odds_decimal": 8.16,
+          "pp_rank": 5,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "SIPPIN PRETTY",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1107,
+          "p_v0": 0.0881,
+          "fair_odds_decimal": 11.36,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "WHERE LUCK LIVES",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0596,
+          "p_v0": 0.0525,
+          "fair_odds_decimal": 19.05,
+          "pp_rank": 8,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "GOODALL",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1292,
+          "p_v0": 0.1281,
+          "fair_odds_decimal": 7.81,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "ON TIME GIRL",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1722,
+          "p_v0": 0.1796,
+          "fair_odds_decimal": 5.57,
+          "pp_rank": 2,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "EXPLORA",
+          "ml_decimal": 3.5,
+          "p_ml": 0.2214,
+          "p_v0": 0.2077,
+          "fair_odds_decimal": 4.82,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "CARMEL COAST",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0484,
+          "p_v0": 0.047,
+          "fair_odds_decimal": 21.28,
+          "pp_rank": 7,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 9,
+        "post_time_raw": "1336",
+        "post_time_raw_by_region": "(4:36)/3:36/2:36/1:36",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T16:36:00-04:00",
+        "scheduled_post_utc": "2026-08-08T20:36:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "4:36",
+          "derived_track_local_clock": "4:36",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 10,
+      "race_id": "SAR-2026-08-08-R10",
+      "distance_yards": 1760,
+      "surface": "t",
+      "race_type_code": "G1",
+      "race_type": "4strdav-G1",
+      "n_interests": 7,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "RHETORICAL",
+          "ml_decimal": 3.5,
+          "p_ml": 0.222,
+          "p_v0": 0.3005,
+          "fair_odds_decimal": 3.33,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "MI BAGO",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0598,
+          "p_v0": 0.0437,
+          "fair_odds_decimal": 22.91,
+          "pp_rank": 6,
+          "pace_adj_applied": 0.99,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "ZULU KINGDOM",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1727,
+          "p_v0": 0.2096,
+          "fair_odds_decimal": 4.77,
+          "pp_rank": 3,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "CLASSIC Q",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.0542,
+          "fair_odds_decimal": 18.46,
+          "pp_rank": 5,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "DETERMINISTIC",
+          "ml_decimal": 3.0,
+          "p_ml": 0.259,
+          "p_v0": 0.1673,
+          "fair_odds_decimal": 5.98,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "CAPITOL HILL",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0475,
+          "fair_odds_decimal": 21.07,
+          "pp_rank": 7,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "LAGYNOS",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1295,
+          "p_v0": 0.1773,
+          "fair_odds_decimal": 5.64,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 10,
+        "post_time_raw": "1414",
+        "post_time_raw_by_region": "(5:14)/4:14/3:14/2:14",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T17:14:00-04:00",
+        "scheduled_post_utc": "2026-08-08T21:14:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "5:14",
+          "derived_track_local_clock": "5:14",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 11,
+      "race_id": "SAR-2026-08-08-R11",
+      "distance_yards": 2090,
+      "surface": "T",
+      "race_type_code": "G1",
+      "race_type": "SarDby-G1",
+      "n_interests": 10,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": true
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "GLAVINE",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0598,
+          "p_v0": 0.0407,
+          "fair_odds_decimal": 24.58,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "HEEERE'S JOHNNY",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0598,
+          "p_v0": 0.0313,
+          "fair_odds_decimal": 31.92,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "REMEMBER MAMBA",
+          "ml_decimal": 4.0,
+          "p_ml": 0.1943,
+          "p_v0": 0.254,
+          "fair_odds_decimal": 3.94,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "TITLE ROLE",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1413,
+          "p_v0": 0.192,
+          "fair_odds_decimal": 5.21,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "PACIFIC AVENUE",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1295,
+          "p_v0": 0.1276,
+          "fair_odds_decimal": 7.84,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "GLACIUS",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0864,
+          "p_v0": 0.0829,
+          "fair_odds_decimal": 12.07,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true
+        },
+        {
+          "program": "7",
+          "name": "THE BIG CON",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0486,
+          "p_v0": 0.0222,
+          "fair_odds_decimal": 45.09,
+          "pp_rank": 9,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "MCCREADY",
+          "ml_decimal": 21.0,
+          "p_ml": 0.037,
+          "p_v0": 0.0283,
+          "fair_odds_decimal": 35.38,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "9",
+          "name": "BOTTAS",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0707,
+          "p_v0": 0.0577,
+          "fair_odds_decimal": 17.32,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "10",
+          "name": "WEST END KID",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1727,
+          "p_v0": 0.1635,
+          "fair_odds_decimal": 6.12,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 11,
+        "post_time_raw": "1452",
+        "post_time_raw_by_region": "(5:52)/4:52/3:52/2:52",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T17:52:00-04:00",
+        "scheduled_post_utc": "2026-08-08T21:52:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "5:52",
+          "derived_track_local_clock": "5:52",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 12,
+      "race_id": "SAR-2026-08-08-R12",
+      "distance_yards": 1980,
+      "surface": "D",
+      "race_type_code": "G1",
+      "race_type": "Whitney-G1",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "MAGNITUDE",
+          "ml_decimal": 2.8,
+          "p_ml": 0.2724,
+          "p_v0": 0.2071,
+          "fair_odds_decimal": 4.83,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "NITROGEN",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1525,
+          "p_v0": 0.1475,
+          "fair_odds_decimal": 6.78,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "ANTIQUARIAN",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0693,
+          "p_v0": 0.1255,
+          "fair_odds_decimal": 7.97,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "FORGED STEEL",
+          "ml_decimal": 21.0,
+          "p_ml": 0.0363,
+          "p_v0": 0.0713,
+          "fair_odds_decimal": 14.02,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "WHITE ABARRIO",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0847,
+          "p_v0": 0.1026,
+          "fair_odds_decimal": 9.74,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "SOVEREIGNTY",
+          "ml_decimal": 4.0,
+          "p_ml": 0.1907,
+          "p_v0": 0.1825,
+          "fair_odds_decimal": 5.48,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "TIZTASTIC",
+          "ml_decimal": 31.0,
+          "p_ml": 0.0246,
+          "p_v0": 0.0398,
+          "fair_odds_decimal": 25.11,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "BAEZA",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1695,
+          "p_v0": 0.1237,
+          "fair_odds_decimal": 8.09,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 12,
+        "post_time_raw": "1533",
+        "post_time_raw_by_region": "(6:33)/5:33/4:33/3:33",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T18:33:00-04:00",
+        "scheduled_post_utc": "2026-08-08T22:33:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "6:33",
+          "derived_track_local_clock": "6:33",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 13,
+      "race_id": "SAR-2026-08-08-R13",
+      "distance_yards": 1540,
+      "surface": "D",
+      "race_type_code": "AO",
+      "race_type": "OClm 55000n1x",
+      "n_interests": 9,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "ROMANTIC DANCER",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1552,
+          "p_v0": 0.1279,
+          "fair_odds_decimal": 7.82,
+          "pp_rank": 3,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "FEMINISM",
+          "ml_decimal": 3.0,
+          "p_ml": 0.2587,
+          "p_v0": 0.1609,
+          "fair_odds_decimal": 6.21,
+          "pp_rank": 5,
+          "pace_adj_applied": 0.99,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "HELEN'S REVENGE",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1109,
+          "p_v0": 0.126,
+          "fair_odds_decimal": 7.94,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "GOLDEN IRISH",
+          "ml_decimal": 21.0,
+          "p_ml": 0.037,
+          "p_v0": 0.0556,
+          "fair_odds_decimal": 17.99,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "WILL NOT BE SWAYED",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0597,
+          "p_v0": 0.0717,
+          "fair_odds_decimal": 13.94,
+          "pp_rank": 6,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "MISS ELLE",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0469,
+          "fair_odds_decimal": 21.33,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "MERMAID MAGIC",
+          "ml_decimal": 31.0,
+          "p_ml": 0.025,
+          "p_v0": 0.0227,
+          "fair_odds_decimal": 43.97,
+          "pp_rank": 9,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "BATTIS GROVE",
+          "ml_decimal": 4.0,
+          "p_ml": 0.194,
+          "p_v0": 0.251,
+          "fair_odds_decimal": 3.98,
+          "pp_rank": 1,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "9",
+          "name": "BEACH HEIST",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1109,
+          "p_v0": 0.1372,
+          "fair_odds_decimal": 7.29,
+          "pp_rank": 2,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 13,
+        "post_time_raw": "1606",
+        "post_time_raw_by_region": "(7:06)/6:06/5:06/4:06",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T19:06:00-04:00",
+        "scheduled_post_utc": "2026-08-08T23:06:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "7:06",
+          "derived_track_local_clock": "7:06",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 14,
+      "race_id": "SAR-2026-08-08-R14",
+      "distance_yards": 2420,
+      "surface": "t",
+      "race_type_code": "AO",
+      "race_type": "OClm 55000n1x",
+      "n_interests": 10,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "ROTHSCHILD",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.0433,
+          "fair_odds_decimal": 23.07,
+          "pp_rank": 9,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "2",
+          "name": "CAPITAL PARTNER",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1725,
+          "p_v0": 0.1422,
+          "fair_odds_decimal": 7.03,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "3",
+          "name": "PRESIDER",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0528,
+          "fair_odds_decimal": 18.92,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "4",
+          "name": "VERSAILLES ROAD",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1294,
+          "p_v0": 0.1782,
+          "fair_odds_decimal": 5.61,
+          "pp_rank": 2,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "5",
+          "name": "LIGHT CAV",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0319,
+          "fair_odds_decimal": 31.31,
+          "pp_rank": 10,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "6",
+          "name": "VERY CONNECTED",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.0989,
+          "fair_odds_decimal": 10.11,
+          "pp_rank": 5,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "7",
+          "name": "COMPLEX AGENDA",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1412,
+          "p_v0": 0.152,
+          "fair_odds_decimal": 6.58,
+          "pp_rank": 3,
+          "pace_adj_applied": 0.99,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "8",
+          "name": "MIZTERTONIC",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.1621,
+          "fair_odds_decimal": 6.17,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "9",
+          "name": "STARK",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0863,
+          "p_v0": 0.0623,
+          "fair_odds_decimal": 16.05,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        },
+        {
+          "program": "10",
+          "name": "ROTTERDAM",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0762,
+          "fair_odds_decimal": 13.13,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false
+        }
+      ],
+      "post_time": {
+        "race_no": 14,
+        "post_time_raw": "1639",
+        "post_time_raw_by_region": "(7:39)/6:39/5:39/4:39",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-08-08T19:39:00-04:00",
+        "scheduled_post_utc": "2026-08-08T23:39:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "7:39",
+          "derived_track_local_clock": "7:39",
+          "agrees": true
+        },
+        "note": null
+      }
+    }
+  ],
+  "picks": [
+    {
+      "race_no": 3,
+      "race_id": "SAR-2026-08-08-R03",
+      "program": "6",
+      "interest_no": "6",
+      "name": "YO DADDY",
+      "ml_decimal": 5.5,
+      "p_ml": 0.1411,
+      "p_v0": 0.2411,
+      "edge_points": 0.1,
+      "fair_odds_decimal": 4.15,
+      "min_odds_decimal": 4.56,
+      "min_odds_to1": 3.6,
+      "reason": "Ranks #1 in our power figure blend; model 24% vs 14% morning-line implied (+10.0 pts)"
+    },
+    {
+      "race_no": 5,
+      "race_id": "SAR-2026-08-08-R05",
+      "program": "8",
+      "interest_no": "8",
+      "name": "FACT",
+      "ml_decimal": 5.5,
+      "p_ml": 0.143,
+      "p_v0": 0.2256,
+      "edge_points": 0.0826,
+      "fair_odds_decimal": 4.43,
+      "min_odds_decimal": 4.88,
+      "min_odds_to1": 3.9,
+      "reason": "Ranks #1 in our power figure blend; model 23% vs 14% morning-line implied (+8.3 pts)"
+    },
+    {
+      "race_no": 7,
+      "race_id": "SAR-2026-08-08-R07",
+      "program": "4",
+      "interest_no": "4",
+      "name": "WRITE OFF JERRY",
+      "ml_decimal": 13.0,
+      "p_ml": 0.0601,
+      "p_v0": 0.1602,
+      "edge_points": 0.1001,
+      "fair_odds_decimal": 6.24,
+      "min_odds_decimal": 6.87,
+      "min_odds_to1": 5.9,
+      "reason": "Ranks #1 in our power figure blend; model 16% vs 6% morning-line implied (+10.0 pts)"
+    },
+    {
+      "race_no": 10,
+      "race_id": "SAR-2026-08-08-R10",
+      "program": "1",
+      "interest_no": "1",
+      "name": "RHETORICAL",
+      "ml_decimal": 3.5,
+      "p_ml": 0.222,
+      "p_v0": 0.3005,
+      "edge_points": 0.0785,
+      "fair_odds_decimal": 3.33,
+      "min_odds_decimal": 3.66,
+      "min_odds_to1": 2.7,
+      "reason": "Ranks #1 in our power figure blend; model 30% vs 22% morning-line implied (+7.8 pts)"
+    }
+  ]
+}
