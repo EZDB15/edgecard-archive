@@ -1,0 +1,366 @@
+{
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-08-09",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.041077ef",
+  "generated_ts_utc": "2026-08-09T14:58:30+00:00",
+  "first_post_et": "2:00 PM PT",
+  "n_races": 9,
+  "n_flags": 2,
+  "n_passes": 7,
+  "edge_of_day": {
+    "race": 1,
+    "program": "7",
+    "horse": "ULYSSES ROSE",
+    "model_win_pct": 39,
+    "play_at": "9/5",
+    "edge_pts": 16.0,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-08-09-dmr/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-08-09-dmr/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "28-68",
+    "wins": 28,
+    "losses": 68,
+    "graded": 96,
+    "units": 8.4,
+    "roi_pct": 4.4,
+    "closing_held_n": 28,
+    "closing_graded_n": 89,
+    "closing_held_pct": 31,
+    "last_miss": {
+      "date": "2026-08-08",
+      "track": "SAR",
+      "race": 10,
+      "name": "RHETORICAL",
+      "board_decimal": 3.5,
+      "closing_decimal": 5.48
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 1,
+      "program": "7",
+      "horse": "ULYSSES ROSE",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-09T21:00:00+00:00",
+      "model_win_pct": 39,
+      "fair_odds": "8/5",
+      "fair_odds_decimal": 2.56,
+      "play_at": "9/5",
+      "play_at_decimal": 2.82,
+      "edge_pts": 16.0,
+      "reason": "Ranks #1 in our power figure blend; model 39% vs 23% morning-line implied (+16.0 pts)",
+      "surface": "turf",
+      "distance": "1 1/8 miles",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-09",
+        "races": [
+          1
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 1,
+            "role": "win",
+            "programs": [
+              "7"
+            ]
+          }
+        ],
+        "min_odds_decimal": 2.82,
+        "minimum_acceptable_odds_decimal": 2.82,
+        "minimum_acceptable_odds_display": "9/5",
+        "play_at_odds_decimal": 2.82,
+        "play_at_odds_display": "9/5",
+        "fair_odds_decimal": 2.56,
+        "fair_odds_display": "8/5",
+        "morning_line_odds_decimal": 3.5,
+        "morning_line_odds_display": "5/2",
+        "fair_return_usd": null,
+        "instruction": "#7 to win. Our reference price is 9/5.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 5,
+      "program": "9",
+      "horse": "ENTERDADRAGON",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-09T23:10:00+00:00",
+      "model_win_pct": 27,
+      "fair_odds": "5/2",
+      "fair_odds_decimal": 3.67,
+      "play_at": "3/1",
+      "play_at_decimal": 4.04,
+      "edge_pts": 11.3,
+      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 16% morning-line implied (+11.3 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "Clm 25000",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-09",
+        "races": [
+          5
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 5,
+            "role": "win",
+            "programs": [
+              "9"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.04,
+        "minimum_acceptable_odds_decimal": 4.04,
+        "minimum_acceptable_odds_display": "3/1",
+        "play_at_odds_decimal": 4.04,
+        "play_at_odds_display": "3/1",
+        "fair_odds_decimal": 3.67,
+        "fair_odds_display": "5/2",
+        "morning_line_odds_decimal": 5.0,
+        "morning_line_odds_display": "4/1",
+        "fair_return_usd": null,
+        "instruction": "#9 to win. Our reference price is 3/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [],
+  "scratch_status": {
+    "state": "CHECKED_WITH_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 10:58 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-09T14:58:00+00:00",
+    "checked_at_et": "10:58 AM ET",
+    "source": "Del Mar / Equibase race day changes, last updated 6:20 AM ET; 1 scratch (R4 #12 Vahevala), plus temporary rail 18 ft in R1/R3/R5/R7/R9. Checked BEFORE the card locked; no flagged selection is on a scratched horse."
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "play",
+      "top": {
+        "program": "7",
+        "name": "ULYSSES ROSE",
+        "win_pct": 39,
+        "fair": "8/5",
+        "fair_decimal": 2.56,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 39% vs 23% morning-line implied (+16.0 pts)",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 16.0
+    },
+    {
+      "race": 2,
+      "tier": "chalk",
+      "top": {
+        "program": "1",
+        "name": "MISS MONICA",
+        "win_pct": 32,
+        "fair": "2/1",
+        "fair_decimal": 3.1,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 1.1
+    },
+    {
+      "race": 3,
+      "tier": "lean",
+      "top": {
+        "program": "1",
+        "name": "RED CHERRY",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.9,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 3.1
+    },
+    {
+      "race": 4,
+      "tier": "chalk",
+      "top": {
+        "program": "3",
+        "name": "BIG BROADCAST",
+        "win_pct": 20,
+        "fair": "4/1",
+        "fair_decimal": 4.95,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": 0.3
+    },
+    {
+      "race": 5,
+      "tier": "play",
+      "top": {
+        "program": "9",
+        "name": "ENTERDADRAGON",
+        "win_pct": 27,
+        "fair": "5/2",
+        "fair_decimal": 3.67,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 16% morning-line implied (+11.3 pts)",
+      "coverage_set": [
+        "9"
+      ],
+      "edge_pts": 11.3
+    },
+    {
+      "race": 6,
+      "tier": "lean",
+      "top": {
+        "program": "4",
+        "name": "RUIVA",
+        "win_pct": 37,
+        "fair": "8/5",
+        "fair_decimal": 2.68,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 3.8
+    },
+    {
+      "race": 7,
+      "tier": "chalk",
+      "top": {
+        "program": "7",
+        "name": "PAVEL IS APPEALING",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.81,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": -0.3
+    },
+    {
+      "race": 8,
+      "tier": "chalk",
+      "top": {
+        "program": "1",
+        "name": "NO BAD BEATS",
+        "win_pct": 20,
+        "fair": "4/1",
+        "fair_decimal": 4.93,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "No edge on our top pick — the market has it priced about right. We make the favourite, #1 NO BAD BEATS, 20% against the board's 27% — shorter than we think it should be. We are not betting the race; take it as an opinion, not a play.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": -6.7,
+      "vulnerable_favourite": {
+        "program": "1",
+        "name": "NO BAD BEATS",
+        "market_pct": 27.0,
+        "model_pct": 20.3,
+        "gap_pts": 6.7
+      }
+    },
+    {
+      "race": 9,
+      "tier": "scramble",
+      "top": {
+        "program": "2",
+        "name": "ROSTOVSKY",
+        "win_pct": 16,
+        "fair": "11/2",
+        "fair_decimal": 6.43,
+        "board": "4/1",
+        "board_decimal": 5.0
+      },
+      "read": "Wide-open heat; no separation we'd trust.",
+      "coverage_set": [
+        "2",
+        "7",
+        "4",
+        "10"
+      ],
+      "edge_pts": -0.1
+    }
+  ],
+  "multi_race": []
+}

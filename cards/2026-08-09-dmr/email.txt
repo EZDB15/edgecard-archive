@@ -1,0 +1,57 @@
+SUBJECT: DMR · Sun Aug 9 — 9 races, 2 flags, 7 passes
+
+EDGE CARD — DMR, Sun Aug 9, 2026
+Card hashed and public at 10:59 AM ET: https://edgecardhq.com/archive/2026-08-09-dmr/ · https://x.com/edgecardHQ
+Scratch status checked at 10:58 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+1-2 · flat-$2 +0.52 · drift +18.8% · meet to date 26-62 · flat-$2 +13.20 · drift +34.9% → full results: https://github.com/EZDB15/edgecard-archive
+
+— DMR · first post 2:00 PM PT —
+
+R1 · Md Sp Wt · turf, 9.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: ULYSSES ROSE — p 39% · fair odds 8/5 · ML 5/2
+  Bet #7 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 39% vs 23% morning-line implied (+16.0 pts).
+
+R2 · Md Sp Wt · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MISS MONICA at 32%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 80000n1x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops RED CHERRY at 26%; the morning line already prices the race. Pass is a position.
+
+R4 · Md 20000 · dirt, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BIG BROADCAST at 20%; the morning line already prices the race. Pass is a position.
+
+R5 · Clm 25000 · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: ENTERDADRAGON — p 27% · fair odds 5/2 · ML 4/1
+  Bet #9 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 16% morning-line implied (+11.3 pts).
+
+R6 · Sorrento-G3 · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops RUIVA at 37%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 20000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PAVEL IS APPEALING at 26%; the morning line already prices the race. Pass is a position.
+
+R8 · OClm 50000n1x · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops NO BAD BEATS at 20%; the morning line already prices the race. Pass is a position.
+
+R9 · OClm 50000 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ROSTOVSKY at 16%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.041077ef — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
