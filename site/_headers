@@ -1,4 +1,20 @@
 # Additive: Pages' own ETag, Cache-Control and nosniff are preserved.
+/*
+  Strict-Transport-Security: max-age=2592000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Locked artifacts. These are immutable by the append-only promise: a card.json
+# and its proof are the bytes the hash and the timestamp commit to, and if one
+# ever changed the record would be broken anyway.
+/archive/*/card.json
+  Cache-Control: public, max-age=31536000, immutable
+
+/archive/*/*.ots
+  Cache-Control: public, max-age=31536000, immutable
+
 /archive/*/feed.json
   Access-Control-Allow-Origin: *
   X-Content-Type-Options: nosniff
