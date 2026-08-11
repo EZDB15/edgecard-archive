@@ -43,6 +43,11 @@ a:hover{border-bottom-color:currentColor;}
   border-bottom:1px solid var(--rule);}
 .dateline .anti{color:var(--gold-text);}
 .nameplate{text-align:center;padding:16px 0 8px;}
+/* Masthead rows share the content column. The bands stay full-bleed (the rules
+   and background still run edge to edge) but their CONTENT is constrained to the
+   same 1180px grid as .inner, so the nameplate cannot drift away from the
+   headline beneath it as the viewport widens. */
+.masthead .dateline,.nameplate,.mastnav-in{max-width:1180px;margin-left:auto;margin-right:auto;}
 .brandmark{display:inline-block;border:0;line-height:0;}
 .brandmark img{width:auto;height:58px;max-width:100%;display:block;}
 @media(max-width:640px){.brandmark img{height:40px;}}
@@ -63,7 +68,11 @@ h1.thesis{font-family:var(--serif);font-weight:700;font-size:clamp(27px,1.4rem+2
   line-height:1.12;margin:0 0 14px;}
 .lede{font-size:19px;color:var(--muted);margin:0 0 22px;max-width:44ch;}
 .lede b{color:var(--ink);font-weight:700;}
-h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;}
+/* h1.sec and h2.sec share one look: /record/ and /archive/ had no h1 at all,
+   so the leading section heading became the page h1 without changing how the
+   page reads. */
+h1.sec,h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;
+  line-height:1.2;border:0;padding:0;}
 .sec-head{border-bottom:2px solid var(--rule);padding-bottom:8px;margin-bottom:20px;
   display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;}
 .sec-head .k{font-family:var(--mono);font-size:12px;letter-spacing:0.09em;
@@ -417,10 +426,17 @@ html,body{max-width:100%;overflow-x:hidden;}
   letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px;}
 .histband .hbody{font-size:15px;line-height:1.55;margin:0;max-width:62ch;}
 .histband .hfoot{color:var(--muted);font-size:13px;margin:8px 0 0;max-width:62ch;}
-@media (prefers-color-scheme:dark){
-  .histband{background:#161c24;border-left-color:#8fa3bd;opacity:1;}
-  .histband .hhead{color:#cbd5e1;}
-}
+/* NO DARK OVERRIDE HERE, deliberately. `:root` declares `color-scheme:light`
+   and this file states the site is "bright paper only, no dark theme". Two
+   orphan `prefers-color-scheme:dark` blocks survived that decision and were the
+   only dark rules in the stylesheet -- so a reader on a dark OS got a dark band
+   dropped into an otherwise light page, with its body text still inheriting
+   --ink (#161d24) on #161c24: a contrast ratio of 1.01:1, i.e. invisible.
+   This band is the archived-card disclosure -- the sentence telling a reader
+   the card has already run and is not something to act on. A disclosure nobody
+   can read is not a disclosure. Patching the text colours would have preserved
+   a half-theme the design explicitly rejected, so the block is gone and dark-OS
+   readers now get the same legible light page as everyone else. */
 
 /* ---- Post-publication errata band (late scratches / off-turf) ---------- */
 /* Deliberately loud: it must out-rank every betting action on the page. */
@@ -438,11 +454,12 @@ html,body{max-width:100%;overflow-x:hidden;}
 .flag.voided .playat{background:#eee;color:#666;border-color:#ccc;}
 .chip-void{background:#b3261e;color:#fff;border-radius:3px;padding:2px 7px;
   font-size:12px;font-weight:700;letter-spacing:.02em;}
-@media (prefers-color-scheme:dark){
-  .errata{background:#2a1614;border-color:#e06a60;}
-  .errata .ehead{color:#ff8a80;}
-  .flag.voided .playat{background:#333;color:#aaa;border-color:#555;}
-}
+/* Removed for the same reason as the .histband dark block above, and this one
+   mattered more: the errata band carries LATE SCRATCHES and off-turf changes,
+   and the comment above says it must out-rank every betting action on the page.
+   Its list items inherited --ink on #2a1614 -- also 1.01:1. A dark-OS reader
+   could have acted on a scratched runner because the notice was invisible. */
+.flag.voided .playat{background:#eee;color:#666;border-color:#ccc;}
 /* The daily write-up block (email + card). */
 .read{border-top:2px solid var(--rule);border-bottom:1px solid var(--line);padding:14px 0 8px;margin:18px 0;}
 .read h2{margin:0 0 8px;border:0;padding:0;}
