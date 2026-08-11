@@ -17,6 +17,9 @@
 //   * No IP and no user agent are stored. The IP is hashed with a daily-rotating
 //     salt for rate limiting ONLY, the hash never enters a record, and it stops
 //     being linkable at midnight UTC.
+//   * The referring SITE is stored (`ref`), the referring URL is not. A host
+//     answers "did this reader come from TwinSpires"; a full URL can carry a
+//     path or query the reader never meant to hand over. Host only, always.
 //
 // FAIL LOUD, NEVER SILENTLY SUCCEED
 // Unbound namespace returns 503. A silent 204 that discards is worse than a
@@ -143,6 +146,32 @@ export async function onRequestPost({ request, env }) {
     to: String(d.to || "").slice(0, 80),
     term: String(d.term || "").slice(0, 60),
     pct: Math.max(0, Math.min(100, Number(d.pct) || 0)),
+
+    // ARRIVAL SOURCE. The CDI licence requires their display to link to
+    // /record, and that referral traffic is the only engagement signal we will
+    // ever get -- CDI keeps their own analytics. Traffic that arrives before
+    // this field exists is unmeasurable forever, which is why it lands ahead of
+    // their page going live rather than after.
+    //
+    // Inside the /privacy/ promise: `ref` is the referring SITE, not a reader.
+    // It says how someone arrived; it does not follow anyone anywhere, and it
+    // is strictly less than Cloudflare Web Analytics already records. The host
+    // only -- never the full referring URL, whose path and query can carry
+    // things a reader never meant to hand over (search terms, a private page
+    // title, a session token someone put in a query string).
+    //
+    // Stored RAW, not bucketed into "twinspires"/"other". Classification is an
+    // analysis-time decision that can be revised; a label applied at write time
+    // cannot. The invented ALLOWED_EVENTS list above is the standing lesson --
+    // a write-time filter that looks like a control silently destroys data.
+    ref: String(d.ref || "").toLowerCase().slice(0, 80),
+
+    // Explicit campaign tag from `?s=`. Load-bearing, and NOT redundant with
+    // `ref`: a `Referrer-Policy: no-referrer` on the partner's own page zeroes
+    // `ref` entirely, and we neither control that header nor get told when it
+    // changes. A tagged link survives it. `?s=ts` is still the /record link the
+    // licence requires, so asking for it costs nothing contractually.
+    src: String(d.src || "").replace(/[^a-z0-9_-]/gi, "").slice(0, 20),
   };
 
   // One key per event; the analysis job aggregates. Keys sort by time so a range
