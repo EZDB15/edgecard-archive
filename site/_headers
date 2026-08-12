@@ -9,6 +9,12 @@
 # Locked artifacts. These are immutable by the append-only promise: a card.json
 # and its proof are the bytes the hash and the timestamp commit to, and if one
 # ever changed the record would be broken anyway.
+# Content-hashed font files: the name changes when the bytes do, so a year of
+# immutable is safe and the browser never revalidates them.
+/webfonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
 /archive/*/card.json
   Cache-Control: public, max-age=31536000, immutable
 
