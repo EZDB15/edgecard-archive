@@ -37,26 +37,7 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "28-74",
-    "wins": 28,
-    "losses": 74,
-    "graded": 102,
-    "units": -3.6,
-    "roi_pct": -1.8,
-    "closing_held_n": 30,
-    "closing_graded_n": 95,
-    "closing_held_pct": 32,
-    "last_miss": {
-      "date": "2026-08-09",
-      "track": "SAR",
-      "race": 11,
-      "name": "BOSTONTONIAN",
-      "board_decimal": 9.0,
-      "closing_decimal": 11.3
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 5,

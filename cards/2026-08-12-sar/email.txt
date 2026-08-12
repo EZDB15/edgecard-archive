@@ -1,0 +1,57 @@
+SUBJECT: SAR · Wed Aug 12 — 9 races, 2 flags, 7 passes
+
+EDGE CARD — SAR, Wed Aug 12, 2026
+Card hashed and public at 11:08 AM ET: https://edgecardhq.com/archive/2026-08-12-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 11:08 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-4 · flat-$2 -8.00 · drift +39.4% · meet to date 28-74 · flat-$2 -3.60 · drift +35.7% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · MGWlshNov75k · turf, 19.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CYBER NINJA at 23%; the morning line already prices the race. Pass is a position.
+
+R2 · Md 55000 · dirt, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops DREAM ABOUT at 18%; the morning line already prices the race. Pass is a position.
+
+R3 · Md 55000 · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LOTS OF KISSES at 35%; the morning line already prices the race. Pass is a position.
+
+R4 · Clm 45000 · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops INEXORABLE at 19%; the morning line already prices the race. Pass is a position.
+
+R5 · Clm 35000n2l · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: ARTISTIC SUCCESS — p 27% · fair odds 5/2 · ML 3/1
+  Bet #8 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 27% vs 20% morning-line implied (+7.4 pts).
+
+R6 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops YOLO TRAIN at 23%; the morning line already prices the race. Pass is a position.
+
+R7 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops UNDER THE MOON at 16%; the morning line already prices the race. Pass is a position.
+
+R8 · OClm 55000n1x · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops HIDDEN ROSE at 19%; the morning line already prices the race. Pass is a position.
+
+R9 · Md 85000 · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: GUM — p 20% · fair odds 4/1 · ML 9/2
+  Bet #5 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 20% vs 14% morning-line implied (+6.1 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.041077ef — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
