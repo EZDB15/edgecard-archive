@@ -21,7 +21,7 @@
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
@@ -37,39 +37,17 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "28-74",
-    "wins": 28,
-    "losses": 74,
-    "graded": 102,
-    "units": -3.6,
-    "roi_pct": -1.8,
-    "roi_ci_low": -34.3,
-    "roi_ci_high": 33.4,
-    "roi_n": 102,
-    "closing_held_n": 30,
-    "closing_graded_n": 95,
-    "closing_held_pct": 32,
-    "last_miss": {
-      "date": "2026-08-09",
-      "track": "SAR",
-      "race": 11,
-      "name": "BOSTONTONIAN",
-      "board_decimal": 9.0,
-      "closing_decimal": 11.3
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 5,
       "program": "8",
       "horse": "ARTISTIC SUCCESS",
       "status": "ACTIVE",
-      "lifecycle_status": "STARTED",
-      "result_status": "PENDING",
+      "lifecycle_status": "SETTLED",
+      "result_status": "WON",
       "bettable": false,
-      "lifecycle_reason": "this race's scheduled post time has passed",
+      "lifecycle_reason": "official result recorded (WIN)",
       "scheduled_post_utc": "2026-08-12T19:30:00+00:00",
       "model_win_pct": 27,
       "fair_odds": "5/2",
@@ -84,7 +62,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -125,10 +103,10 @@
       "program": "5",
       "horse": "GUM",
       "status": "ACTIVE",
-      "lifecycle_status": "STARTED",
-      "result_status": "PENDING",
+      "lifecycle_status": "SETTLED",
+      "result_status": "WON",
       "bettable": false,
-      "lifecycle_reason": "this race's scheduled post time has passed",
+      "lifecycle_reason": "official result recorded (WIN)",
       "scheduled_post_utc": "2026-08-12T21:46:00+00:00",
       "model_win_pct": 20,
       "fair_odds": "4/1",
@@ -143,7 +121,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -204,7 +182,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "4"
       ],
@@ -300,7 +278,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "10"
       ],
@@ -339,7 +317,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #1 ANSWERED PRAYERS, 17% against the board's 22%, shorter than we think it should be. Our own top-rated is #2 HIDDEN ROSE. We are not betting the race; take it as an opinion, not a play.",
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #1 ANSWERED PRAYERS, 17% against the board's 22% — shorter than we think it should be. Our own top-rated is #2 HIDDEN ROSE. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "2",
         "1",

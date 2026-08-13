@@ -1,0 +1,61 @@
+SUBJECT: SAR · Thu Aug 13 — 9 races, 4 flags, 5 passes
+
+EDGE CARD — SAR, Thu Aug 13, 2026
+Card hashed and public at 10:50 AM ET: https://edgecardhq.com/archive/2026-08-13-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 10:49 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-0 · flat-$2 +8.54 · drift +52.8% · meet to date 30-74 · flat-$2 +4.94 · drift +36.0% → full results: https://github.com/EZDB15/edgecard-archive
+
+— SAR · first post 1:10 PM ET —
+
+R1 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: LIBERTY'S ADVANCE — p 28% · fair odds 5/2 · ML 5/1
+  Bet #7 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 28% vs 13% morning-line implied (+15.2 pts).
+
+R2 · Md 85000 · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops MO THE MERRIER at 37%; the morning line already prices the race. Pass is a position.
+
+R3 · Alw 40000s · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LADY WISDOM at 26%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 55000n1x · turf, 9.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: MAJAZ — p 38% · fair odds 8/5 · ML 2/1
+  Bet #1 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 38% vs 26% morning-line implied (+11.8 pts).
+
+R5 · Clm 20000n3l · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops VEKOMANCER at 24%; the morning line already prices the race. Pass is a position.
+
+R6 · OClm 110000b · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: FIONN — p 51% · fair odds 1/1 · ML 6/5
+  Bet #1 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 51% vs 36% morning-line implied (+15.0 pts).
+
+R7 · OClm 80000n2x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: SHOOT IT TRUE — p 48% · fair odds 1/1 · ML 1/1
+  Bet #6 to win — pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 48% vs 39% morning-line implied (+9.0 pts).
+
+R8 · BirdstoneL200k · dirt, 14.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops PARCHMENT PARTY at 30%; the morning line already prices the race. Pass is a position.
+
+R9 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CRITERIA at 30%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.1e87694e — methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data — derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction — you are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

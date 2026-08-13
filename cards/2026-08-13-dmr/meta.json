@@ -1,0 +1,32 @@
+{
+  "sha256": "3340caa20c7b373e128a7fd8958adb3908e6b3010aefa5140a4e3349d9180a53",
+  "weather": {
+    "short": "Mostly Cloudy",
+    "temp": 75,
+    "temp_unit": "F",
+    "wind": "5 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "10:51 AM ET",
+  "lock_ts_utc": "2026-08-13T14:51:17+00:00",
+  "scratches_as_of_et": "6:17 AM ET",
+  "scratch_state": "CHECKED_WITH_CHANGES",
+  "scratch_checked_at_et": "10:49 AM ET",
+  "scratch_checked_at_utc": "2026-08-13T14:49:00+00:00",
+  "scratch_source": "Del Mar / Equibase race day changes, last updated 6:17 AM ET; 3 scratches across 2 races (R3 #5 Shemakesmemad, R5 #5 Nosox, R5 #9 Jager Angel), plus temporary rail 24 ft in R1/R3/R5/R7. Checked BEFORE the card locked; no flagged selection is on a scratched horse.",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-08-13",
+  "first_post_et": "2:00 PM PT",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-13-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Thu Aug 13 \u2014 8 races, 3 flags, 5 passes"
+}
