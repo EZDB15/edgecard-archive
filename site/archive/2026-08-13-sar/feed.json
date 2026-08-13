@@ -18,13 +18,14 @@
     "model_win_pct": 28,
     "play_at": "3/1",
     "edge_pts": 15.2,
+    "fair_vs_board_pts": 15.2,
     "durability": {
       "cls": "watch",
       "label": "Price may move",
-      "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+      "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
       "version": "d0"
     },
-    "why": "The biggest edge on today's card."
+    "why": "The widest gap between our number and the board today."
   },
   "url": "https://edgecardhq.com/archive/2026-08-13-sar/",
   "record_url": "https://edgecardhq.com/record",
@@ -44,9 +45,6 @@
     "graded": 104,
     "units": 4.94,
     "roi_pct": 2.4,
-    "roi_ci_low": -30.5,
-    "roi_ci_high": 37.2,
-    "roi_n": 104,
     "closing_held_n": 30,
     "closing_graded_n": 97,
     "closing_held_pct": 31,
@@ -77,6 +75,8 @@
       "play_at": "3/1",
       "play_at_decimal": 3.89,
       "edge_pts": 15.2,
+      "fair_vs_board_pts": 15.2,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 28% vs 13% morning-line implied (+15.2 pts)",
       "surface": "turf",
       "distance": "5 1/2 furlongs",
@@ -84,7 +84,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -136,6 +136,8 @@
       "play_at": "9/5",
       "play_at_decimal": 2.88,
       "edge_pts": 11.8,
+      "fair_vs_board_pts": 11.8,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 38% vs 26% morning-line implied (+11.8 pts)",
       "surface": "turf",
       "distance": "1 3/16 miles",
@@ -143,7 +145,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -195,6 +197,8 @@
       "play_at": "6/5",
       "play_at_decimal": 2.17,
       "edge_pts": 15.0,
+      "fair_vs_board_pts": 15.0,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 51% vs 36% morning-line implied (+15.0 pts)",
       "surface": "turf",
       "distance": "1 mile",
@@ -202,7 +206,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -254,6 +258,8 @@
       "play_at": "6/5",
       "play_at_decimal": 2.29,
       "edge_pts": 9.0,
+      "fair_vs_board_pts": 9.0,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 48% vs 39% morning-line implied (+9.0 pts)",
       "surface": "turf",
       "distance": "5 1/2 furlongs",
@@ -261,7 +267,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -358,7 +364,7 @@
         "board": "7/5",
         "board_decimal": 2.4
       },
-      "read": "No edge on our top pick — the market has it priced about right. We make the favourite, #1 LADY WISDOM, 26% against the board's 32% — shorter than we think it should be. We are not betting the race; take it as an opinion, not a play.",
+      "read": "No edge on our top pick, the market has it priced about right. We make the favourite, #1 LADY WISDOM, 26% against the board's 32%, shorter than we think it should be. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "1"
       ],
@@ -401,7 +407,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "No edge on our top pick, the market has it priced about right.",
       "coverage_set": [
         "3"
       ],
@@ -455,7 +461,7 @@
         "board": "8/5",
         "board_decimal": 2.6
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "No edge on our top pick, the market has it priced about right.",
       "coverage_set": [
         "1"
       ],

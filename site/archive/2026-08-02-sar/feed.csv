@@ -1,5 +1,5 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-SAR,2026-08-02,1,8,SILLY SEASON,31,2/1,5/2,13.8,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 31% vs 17% morning-line implied (+13.8 pts),CHECKED_NO_CHANGES,true
-SAR,2026-08-02,4,5,DIVIDEND RECAP,33,2/1,5/2,10.6,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 33% vs 22% morning-line implied (+10.6 pts),CHECKED_NO_CHANGES,true
-SAR,2026-08-02,7,2,NOBALS,14,6/1,13/2,7.4,turf,5 1/2 furlongs,Ranks #2 in our power figure blend; model 14% vs 7% morning-line implied (+7.4 pts),CHECKED_NO_CHANGES,true
-SAR,2026-08-02,7,5,KEEWAYDIN,16,5/1,11/2,5.2,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 16% vs 11% morning-line implied (+5.3 pts),CHECKED_NO_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-02,1,8,SILLY SEASON,31,2/1,5/2,13.8,13.8,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 31% vs 17% morning-line implied (+13.8 pts),CHECKED_NO_CHANGES,true
+SAR,2026-08-02,4,5,DIVIDEND RECAP,33,2/1,5/2,10.6,10.6,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 33% vs 22% morning-line implied (+10.6 pts),CHECKED_NO_CHANGES,true
+SAR,2026-08-02,7,2,NOBALS,14,6/1,13/2,7.4,7.4,turf,5 1/2 furlongs,Ranks #2 in our power figure blend; model 14% vs 7% morning-line implied (+7.4 pts),CHECKED_NO_CHANGES,true
+SAR,2026-08-02,7,5,KEEWAYDIN,16,5/1,11/2,5.2,5.2,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 16% vs 11% morning-line implied (+5.3 pts),CHECKED_NO_CHANGES,true

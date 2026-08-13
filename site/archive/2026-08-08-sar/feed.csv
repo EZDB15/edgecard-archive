@@ -1,5 +1,5 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-SAR,2026-08-08,3,6,YO DADDY,24,3/1,7/2,10.0,dirt,1 1/8 miles,Ranks #1 in our power figure blend; model 24% vs 14% morning-line implied (+10.0 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-08,5,8,FACT,23,7/2,4/1,8.3,dirt,7 furlongs,Ranks #1 in our power figure blend; model 23% vs 14% morning-line implied (+8.3 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-08,7,4,WRITE OFF JERRY,16,5/1,6/1,10.0,turf,1 3/8 miles,Ranks #1 in our power figure blend; model 16% vs 6% morning-line implied (+10.0 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-08,10,1,RHETORICAL,30,5/2,5/2,7.8,turf,1 mile,Ranks #1 in our power figure blend; model 30% vs 22% morning-line implied (+7.8 pts),CHECKED_WITH_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-08,3,6,YO DADDY,24,3/1,7/2,10.0,10.0,dirt,1 1/8 miles,Ranks #1 in our power figure blend; model 24% vs 14% morning-line implied (+10.0 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-08,5,8,FACT,23,7/2,4/1,8.3,8.3,dirt,7 furlongs,Ranks #1 in our power figure blend; model 23% vs 14% morning-line implied (+8.3 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-08,7,4,WRITE OFF JERRY,16,5/1,6/1,10.0,10.0,turf,1 3/8 miles,Ranks #1 in our power figure blend; model 16% vs 6% morning-line implied (+10.0 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-08,10,1,RHETORICAL,30,5/2,5/2,7.8,7.8,turf,1 mile,Ranks #1 in our power figure blend; model 30% vs 22% morning-line implied (+7.8 pts),CHECKED_WITH_CHANGES,true

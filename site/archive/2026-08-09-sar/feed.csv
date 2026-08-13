@@ -1,5 +1,5 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-SAR,2026-08-09,5,8,ALL STAR LEIGH,29,5/2,3/1,6.9,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 29% vs 22% morning-line implied (+6.9 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-09,6,1,CAPRICIOUS OUTCOME,38,8/5,9/5,16.1,turf,1 mile,Ranks #1 in our power figure blend; model 38% vs 22% morning-line implied (+16.1 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-09,10,5,CIAO CHUCK,28,5/2,3/1,10.7,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 28% vs 17% morning-line implied (+10.7 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-09,11,3,BOSTONTONIAN,14,6/1,13/2,5.8,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 14% vs 9% morning-line implied (+5.8 pts),CHECKED_WITH_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-09,5,8,ALL STAR LEIGH,29,5/2,3/1,6.9,6.9,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 29% vs 22% morning-line implied (+6.9 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-09,6,1,CAPRICIOUS OUTCOME,38,8/5,9/5,16.1,16.1,turf,1 mile,Ranks #1 in our power figure blend; model 38% vs 22% morning-line implied (+16.1 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-09,10,5,CIAO CHUCK,28,5/2,3/1,10.7,10.7,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 28% vs 17% morning-line implied (+10.7 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-09,11,3,BOSTONTONIAN,14,6/1,13/2,5.8,5.8,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 14% vs 9% morning-line implied (+5.8 pts),CHECKED_WITH_CHANGES,true

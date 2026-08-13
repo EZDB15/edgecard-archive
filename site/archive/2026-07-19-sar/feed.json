@@ -18,13 +18,14 @@
     "model_win_pct": 21,
     "play_at": "4/1",
     "edge_pts": 12.5,
+    "fair_vs_board_pts": 12.5,
     "durability": {
       "cls": "hold",
       "label": "Price should hold",
-      "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+      "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
       "version": "d0"
     },
-    "why": "The biggest edge on today's card."
+    "why": "The widest gap between our number and the board today."
   },
   "url": "https://edgecardhq.com/archive/2026-07-19-sar/",
   "record_url": "https://edgecardhq.com/record",
@@ -55,6 +56,8 @@
       "play_at": "7/1",
       "play_at_decimal": 7.93,
       "edge_pts": 7.8,
+      "fair_vs_board_pts": 7.8,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #2 in our power figure blend; model 14% vs 6% morning-line implied (+7.8 pts)",
       "surface": "dirt",
       "distance": "1 1/8 miles",
@@ -62,7 +65,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -114,6 +117,8 @@
       "play_at": "11/2",
       "play_at_decimal": 6.59,
       "edge_pts": 8.0,
+      "fair_vs_board_pts": 8.0,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #2 in our power figure blend; model 17% vs 9% morning-line implied (+8.0 pts)",
       "surface": "turf",
       "distance": "5 1/2 furlongs",
@@ -121,7 +126,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -173,6 +178,8 @@
       "play_at": "4/1",
       "play_at_decimal": 5.19,
       "edge_pts": 12.5,
+      "fair_vs_board_pts": 12.5,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 21% vs 9% morning-line implied (+12.5 pts)",
       "surface": "dirt",
       "distance": "1 mile",
@@ -180,7 +187,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -232,6 +239,8 @@
       "play_at": "6/1",
       "play_at_decimal": 6.97,
       "edge_pts": 7.0,
+      "fair_vs_board_pts": 7.0,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #2 in our power figure blend; model 16% vs 9% morning-line implied (+7.1 pts)",
       "surface": "turf",
       "distance": "1 1/16 miles",
@@ -239,7 +248,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -327,7 +336,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #8 SFUMATO, 17% against the board's 22% — shorter than we think it should be. Our own top-rated is #1 BARGAIN PURCHASE. We are not betting the race; take it as an opinion, not a play.",
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #8 SFUMATO, 17% against the board's 22%, shorter than we think it should be. Our own top-rated is #1 BARGAIN PURCHASE. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "1",
         "8",
@@ -409,7 +418,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "No edge on our top pick, the market has it priced about right.",
       "coverage_set": [
         "7"
       ],
@@ -427,7 +436,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Our top-rated horse. A small edge, under our bet line. We make the favourite, #4 IRON DOME, 19% against the board's 28% — shorter than we think it should be. Our own top-rated is #1 GEORGIA MAGIC. We are not betting the race; take it as an opinion, not a play.",
+      "read": "Our top-rated horse. A small edge, under our bet line. We make the favourite, #4 IRON DOME, 19% against the board's 28%, shorter than we think it should be. Our own top-rated is #1 GEORGIA MAGIC. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "1"
       ],

@@ -1,5 +1,5 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-DMR,2026-07-30,2,2,SMILE BABY SMILE,15,11/2,13/2,6.1,dirt,6 1/2 furlongs,Ranks #1 in our power figure blend; model 15% vs 9% morning-line implied (+6.1 pts),CHECKED_WITH_CHANGES,true
-DMR,2026-07-30,6,7,MIO BAMBINO,19,4/1,5/1,5.8,dirt,1 mile,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 19% vs 13% morning-line implied (+5.8 pts),CHECKED_WITH_CHANGES,true
-DMR,2026-07-30,8,10,JUSTIVAR,26,3/1,7/2,8.1,turf,1 mile,Ranks #1 in our power figure blend; model 26% vs 18% morning-line implied (+8.1 pts),CHECKED_WITH_CHANGES,true
-DMR,2026-07-30,8,6,ASTRONOMICALLY,22,7/2,4/1,12.8,turf,1 mile,Ranks #2 in our power figure blend; model 22% vs 9% morning-line implied (+12.8 pts),CHECKED_WITH_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-07-30,2,2,SMILE BABY SMILE,15,11/2,13/2,6.1,6.1,dirt,6 1/2 furlongs,Ranks #1 in our power figure blend; model 15% vs 9% morning-line implied (+6.1 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-07-30,6,7,MIO BAMBINO,19,4/1,5/1,5.8,5.8,dirt,1 mile,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 19% vs 13% morning-line implied (+5.8 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-07-30,8,10,JUSTIVAR,26,3/1,7/2,8.1,8.1,turf,1 mile,Ranks #1 in our power figure blend; model 26% vs 18% morning-line implied (+8.1 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-07-30,8,6,ASTRONOMICALLY,22,7/2,4/1,12.8,12.8,turf,1 mile,Ranks #2 in our power figure blend; model 22% vs 9% morning-line implied (+12.8 pts),CHECKED_WITH_CHANGES,true

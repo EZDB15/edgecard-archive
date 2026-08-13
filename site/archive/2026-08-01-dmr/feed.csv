@@ -1,5 +1,5 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-DMR,2026-08-01,1,6,MAGGLES MCGEE,36,9/5,2/1,16.1,turf,5 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 36% vs 20% morning-line implied (+16.1 pts),CHECKED_NO_CHANGES,true
-DMR,2026-08-01,7,1,SILKIE SEVEI,23,7/2,4/1,7.0,turf,1 mile,Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.0 pts),CHECKED_NO_CHANGES,true
-DMR,2026-08-01,9,2,OWL,11,8/1,9/1,6.4,turf,5 furlongs,Ranks #2 in our power figure blend; model 11% vs 5% morning-line implied (+6.4 pts),CHECKED_NO_CHANGES,true
-DMR,2026-08-01,10,8,SEISMIC BEAUTY,32,2/1,5/2,10.0,dirt,1 1/16 miles,Ranks #1 in our power figure blend; projects as the lone early speed; model 32% vs 22% morning-line implied (+10.0 pts),CHECKED_NO_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-01,1,6,MAGGLES MCGEE,36,9/5,2/1,16.1,16.1,turf,5 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 36% vs 20% morning-line implied (+16.1 pts),CHECKED_NO_CHANGES,true
+DMR,2026-08-01,7,1,SILKIE SEVEI,23,7/2,4/1,7.0,7.0,turf,1 mile,Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.0 pts),CHECKED_NO_CHANGES,true
+DMR,2026-08-01,9,2,OWL,11,8/1,9/1,6.4,6.4,turf,5 furlongs,Ranks #2 in our power figure blend; model 11% vs 5% morning-line implied (+6.4 pts),CHECKED_NO_CHANGES,true
+DMR,2026-08-01,10,8,SEISMIC BEAUTY,32,2/1,5/2,10.0,10.0,dirt,1 1/16 miles,Ranks #1 in our power figure blend; projects as the lone early speed; model 32% vs 22% morning-line implied (+10.0 pts),CHECKED_NO_CHANGES,true

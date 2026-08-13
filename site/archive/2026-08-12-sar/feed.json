@@ -18,13 +18,14 @@
     "model_win_pct": 27,
     "play_at": "3/1",
     "edge_pts": 7.4,
+    "fair_vs_board_pts": 7.4,
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
-    "why": "The biggest edge on today's card."
+    "why": "The widest gap between our number and the board today."
   },
   "url": "https://edgecardhq.com/archive/2026-08-12-sar/",
   "record_url": "https://edgecardhq.com/record",
@@ -55,6 +56,8 @@
       "play_at": "3/1",
       "play_at_decimal": 4.08,
       "edge_pts": 7.4,
+      "fair_vs_board_pts": 7.4,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #2 in our power figure blend; model 27% vs 20% morning-line implied (+7.4 pts)",
       "surface": "turf",
       "distance": "1 1/16 miles",
@@ -62,7 +65,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -114,6 +117,8 @@
       "play_at": "9/2",
       "play_at_decimal": 5.39,
       "edge_pts": 6.2,
+      "fair_vs_board_pts": 6.2,
+      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 20% vs 14% morning-line implied (+6.1 pts)",
       "surface": "turf",
       "distance": "1 mile",
@@ -121,7 +126,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -182,7 +187,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "No edge on our top pick, the market has it priced about right.",
       "coverage_set": [
         "4"
       ],
@@ -278,7 +283,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "No edge on our top pick, the market has it priced about right.",
       "coverage_set": [
         "10"
       ],
@@ -317,7 +322,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #1 ANSWERED PRAYERS, 17% against the board's 22% — shorter than we think it should be. Our own top-rated is #2 HIDDEN ROSE. We are not betting the race; take it as an opinion, not a play.",
+      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #1 ANSWERED PRAYERS, 17% against the board's 22%, shorter than we think it should be. Our own top-rated is #2 HIDDEN ROSE. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "2",
         "1",

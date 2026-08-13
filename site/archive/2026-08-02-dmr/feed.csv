@@ -1,5 +1,5 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-DMR,2026-08-02,2,2,AVALON ROSE,20,4/1,9/2,6.2,dirt,5 1/2 furlongs,Ranks #1 in our power figure blend; projects as the lone early speed; model 20% vs 13% morning-line implied (+6.2 pts),CHECKED_NO_CHANGES,true
-DMR,2026-08-02,3,4,O K ROSE,27,3/1,3/1,17.7,turf,5 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 9% morning-line implied (+17.7 pts),CHECKED_NO_CHANGES,true
-DMR,2026-08-02,9,2,JOLENE FURY,34,2/1,2/1,20.9,dirt,5 1/2 furlongs,Ranks #1 in our power figure blend; model 34% vs 13% morning-line implied (+20.9 pts),CHECKED_NO_CHANGES,true
-DMR,2026-08-02,10,9,LITTLE HIDDEN PORT,18,9/2,5/1,9.2,turf,1 mile,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 18% vs 9% morning-line implied (+9.2 pts),CHECKED_NO_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-02,2,2,AVALON ROSE,20,4/1,9/2,6.2,6.2,dirt,5 1/2 furlongs,Ranks #1 in our power figure blend; projects as the lone early speed; model 20% vs 13% morning-line implied (+6.2 pts),CHECKED_NO_CHANGES,true
+DMR,2026-08-02,3,4,O K ROSE,27,3/1,3/1,17.7,17.7,turf,5 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 9% morning-line implied (+17.7 pts),CHECKED_NO_CHANGES,true
+DMR,2026-08-02,9,2,JOLENE FURY,34,2/1,2/1,20.9,20.9,dirt,5 1/2 furlongs,Ranks #1 in our power figure blend; model 34% vs 13% morning-line implied (+20.9 pts),CHECKED_NO_CHANGES,true
+DMR,2026-08-02,10,9,LITTLE HIDDEN PORT,18,9/2,5/1,9.2,9.2,turf,1 mile,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 18% vs 9% morning-line implied (+9.2 pts),CHECKED_NO_CHANGES,true

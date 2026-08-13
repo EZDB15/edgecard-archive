@@ -1,7 +1,7 @@
 {
   "computation_version": "canonical-record-1.0.0",
-  "source_ledger_head_hash": "96a02a6f0d5bddd51d9793a28f426635269cc36bccb7500cb31d0f0218ccd62a",
-  "source_ledger_lines": 572,
+  "source_ledger_head_hash": "c3017644a78c61107fc6dfd1198e702d04d71473687ec8fa61f766c2ccd9f916",
+  "source_ledger_lines": 593,
   "through_date": "2026-08-12",
   "counts": {
     "raw_ledger_result_entries": 121,

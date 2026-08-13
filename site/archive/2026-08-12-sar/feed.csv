@@ -1,3 +1,3 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
-SAR,2026-08-12,5,8,ARTISTIC SUCCESS,27,5/2,3/1,7.4,turf,1 1/16 miles,Ranks #2 in our power figure blend; model 27% vs 20% morning-line implied (+7.4 pts),CHECKED_WITH_CHANGES,true
-SAR,2026-08-12,9,5,GUM,20,4/1,9/2,6.2,turf,1 mile,Ranks #1 in our power figure blend; model 20% vs 14% morning-line implied (+6.1 pts),CHECKED_WITH_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-12,5,8,ARTISTIC SUCCESS,27,5/2,3/1,7.4,7.4,turf,1 1/16 miles,Ranks #2 in our power figure blend; model 27% vs 20% morning-line implied (+7.4 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-12,9,5,GUM,20,4/1,9/2,6.2,6.2,turf,1 mile,Ranks #1 in our power figure blend; model 20% vs 14% morning-line implied (+6.1 pts),CHECKED_WITH_CHANGES,true
