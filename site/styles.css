@@ -155,6 +155,11 @@ h1.sec,h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;
 .why .pchip{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:0.05em;
   color:var(--muted);border:1px solid var(--line);border-radius:2px;padding:1px 6px;margin-left:5px;
   white-space:nowrap;}
+/* Connections chip. Gold when the barn's angle here is among the best in the
+   field, dashed when it is among the worst; absent when unremarkable, which is
+   most of the time. */
+.why .tchip{color:var(--gold-text);border-color:var(--gold);}
+.why .tchip-dn{border-style:dashed;}
 .prov{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:0.03em;
   text-transform:uppercase;}
 
@@ -309,26 +314,27 @@ details.howto dd{margin:2px 0 0;color:var(--muted);font-size:13.5px;max-width:64
 .rd-shape .k{display:block;font-family:var(--mono);font-size:10px;font-weight:700;
   text-transform:uppercase;letter-spacing:0.06em;color:var(--gold-text);margin-bottom:3px;}
 .rd-shape p{font-family:var(--serif);font-size:14px;line-height:1.5;color:var(--ink);margin:0;}
-/* The pace picture. Filled dots are the runners the pace module counted as
-   entitled to the lead, hollow dots the rest of the field. Deliberately NOT a
-   plot of horses by early speed: those figures are licensed and never leave
-   the model. */
-.pacebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 7px;}
-.pb-dots{display:flex;gap:3px;flex:none;}
-.pb-dots i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--gold);
-  background:transparent;display:block;}
-.pb-dots i.on{background:var(--gold-fill);}
-.pb-label{font-family:var(--mono);font-size:11px;color:var(--gold-text);
-  font-variant-numeric:tabular-nums;}
+/* The pace picture. Real program numbers in their saddle-cloth colours, not
+   abstract markers: the number is what a bettor reads on the board and the
+   colour is the one they will see load into the gate, so the diagram maps
+   straight onto the race in front of them. Roles are derived from the pace
+   adjustment's direction, never from a republished vendor field. */
+.pacebar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 8px;}
 .pb-tag{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
   letter-spacing:0.06em;color:var(--gold-text);border:1px solid var(--gold);
-  border-radius:2px;padding:1px 5px;margin-left:auto;flex:none;}
+  border-radius:2px;padding:1px 6px;flex:none;}
 .pb-tag.t-lone_speed{background:var(--gold-fill);color:var(--ink);border-color:var(--gold-fill);}
-.pb-who{display:flex;flex-direction:column;gap:2px;margin:0 0 7px;}
-.pb-who span{font-family:var(--mono);font-size:11px;color:var(--muted);}
-.pb-who .pb-up::before{content:"91 ";color:var(--gold-text);font-weight:700;}
-.pb-who .pb-dn::before{content:"93 ";color:var(--muted);font-weight:700;}
-@media (max-width:560px){.pb-tag{margin-left:0;}}
+.pb-tag.t-contested{background:var(--flag-wash);}
+.pb-label{font-family:var(--mono);font-size:11px;color:var(--muted);
+  font-variant-numeric:tabular-nums;}
+.pb-row{display:flex;align-items:center;gap:9px;margin:0 0 5px;flex-wrap:wrap;}
+.pb-k{font-family:var(--mono);font-size:10px;text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--muted);flex:none;min-width:82px;}
+.pb-set{display:flex;gap:4px;flex-wrap:wrap;}
+.pb-set .pgm{width:22px;height:22px;font-size:12px;}
+/* Our own selection inside the pace picture. */
+.pb-set .pgm.pb-me{box-shadow:0 0 0 2px var(--gold-fill);}
+@media (max-width:560px){.pb-k{min-width:0;width:100%;}}
 
 /* The operator's own read, set apart from the model's line above it: a rule and
    a label, so a reader can tell derived output from a person's opinion. */

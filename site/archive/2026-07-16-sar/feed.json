@@ -232,7 +232,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "The board and our number agree in a starter allowance at 19 furlongs on turf. We make the top one 26% against the board's 26%.",
+      "read": "The board and our number agree in a starter allowance. We make the top one 26% against the board's 26%.",
       "coverage_set": [
         "6"
       ],
@@ -270,7 +270,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "The board and our number agree in a $16,000 optional claimer at seven furlongs on dirt. We make the top one 23% against the board's 22%.",
+      "read": "The board and our number agree in a $16,000 optional claimer. We make the top one 23% against the board's 22%.",
       "coverage_set": [
         "5"
       ],
@@ -289,7 +289,7 @@
         "board": "8/5",
         "board_decimal": 2.6
       },
-      "read": "A full field of twelve at a mile on turf. Nothing separates the top two by more than 1.9 points. We make the top one 14% against the board's 19%.",
+      "read": "A full field of twelve. Nothing separates the top two by more than 1.9 points. We make the top one 14% against the board's 19%.",
       "coverage_set": [
         "10",
         "1",
@@ -311,7 +311,7 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "A full field of 16 at five and a half furlongs on turf. Nothing separates the top two by more than 1.2 points. We make the top one 12% against the board's 12%.",
+      "read": "A full field of 16. Nothing separates the top two by more than 1.2 points. We make the top one 12% against the board's 12%.",
       "coverage_set": [
         "3",
         "4",
@@ -371,7 +371,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "The board and our number agree in a $75,000 optional claimer at a mile on dirt. We make the top one 21% against the board's 22%.",
+      "read": "The board and our number agree in a $75,000 optional claimer. We make the top one 21% against the board's 22%.",
       "coverage_set": [
         "7"
       ],
@@ -390,7 +390,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "A full field of 16 at a mile and a sixteenth on turf. The top two are effectively level on our numbers. We make the top one 13% against the board's 15%.",
+      "read": "A full field of 16. The top two are effectively level on our numbers. We make the top one 13% against the board's 15%.",
       "coverage_set": [
         "6",
         "12",

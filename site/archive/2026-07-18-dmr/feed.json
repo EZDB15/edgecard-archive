@@ -291,7 +291,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "The board and our number agree in a $25,000 claimer at six furlongs on dirt. We make the top one 26% against the board's 27%.",
+      "read": "The board and our number agree in a $25,000 claimer. We make the top one 26% against the board's 27%.",
       "coverage_set": [
         "3"
       ],
@@ -310,7 +310,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "A full field of ten at five furlongs on dirt. Nothing separates the top two by more than 4.0 points. We make the top one 17% against the board's 20%.",
+      "read": "A full field of ten. Nothing separates the top two by more than 4.0 points. We make the top one 17% against the board's 20%.",
       "coverage_set": [
         "6",
         "1",
@@ -351,7 +351,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "A full field of eleven at five furlongs on dirt. Nothing separates the top two by more than 2.0 points. We make the top one 18% against the board's 18%.",
+      "read": "A full field of eleven. Nothing separates the top two by more than 2.0 points. We make the top one 18% against the board's 18%.",
       "coverage_set": [
         "9",
         "5",
@@ -373,7 +373,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Our top-rated horse in a $16,000 claimer at six furlongs on dirt. We make the top one 23% against the board's 20%. The edge is real but sits under our bet line at 3 points.",
+      "read": "Our top-rated horse in a $16,000 claimer. We make the top one 23% against the board's 20%. The edge is real but sits under our bet line at 3 points.",
       "coverage_set": [
         "4"
       ],
@@ -430,7 +430,7 @@
         "board": "1/1",
         "board_decimal": 2.0
       },
-      "read": "Our top-rated horse in a Grade 2 at a mile and a sixteenth on dirt. Four horses want the front, so the early fractions should be honest. The edge is real but sits under our bet line at 6 points.",
+      "read": "Our top-rated horse in a Grade 2. Four horses want the front, so the early fractions should be honest. The edge is real but sits under our bet line at 6 points.",
       "coverage_set": [
         "5"
       ],
@@ -449,7 +449,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Our top-rated horse in a Grade 2 at a mile on turf. Four horses want the front, so the early fractions should be honest. The edge is real but sits under our bet line at 3 points.",
+      "read": "Our top-rated horse in a Grade 2. Four horses want the front, so the early fractions should be honest. The edge is real but sits under our bet line at 3 points.",
       "coverage_set": [
         "1"
       ],
@@ -468,7 +468,7 @@
         "board": "6/1",
         "board_decimal": 7.0
       },
-      "read": "Our top-rated horse in a $50,000 allowance optional claimer at a mile on dirt. Six horses want the front, so the early fractions should be honest. The edge is real but sits under our bet line at 4 points.",
+      "read": "Our top-rated horse in a $50,000 allowance optional claimer. Six horses want the front, so the early fractions should be honest. The edge is real but sits under our bet line at 4 points.",
       "coverage_set": [
         "1"
       ],

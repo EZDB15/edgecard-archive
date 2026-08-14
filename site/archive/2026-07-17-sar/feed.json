@@ -310,7 +310,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Our top-rated horse in a $100,000 maiden claimer at seven furlongs on dirt. We make the top one 22% against the board's 19%. The edge is real but sits under our bet line at 3 points.",
+      "read": "Our top-rated horse in a $100,000 maiden claimer. We make the top one 22% against the board's 19%. The edge is real but sits under our bet line at 3 points.",
       "coverage_set": [
         "3"
       ],
@@ -329,7 +329,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "An open heat at seven furlongs on dirt. Nothing separates the top two by more than 1.2 points. We make the top one 18% against the board's 20%.",
+      "read": "An open heat. Nothing separates the top two by more than 1.2 points. We make the top one 18% against the board's 20%.",
       "coverage_set": [
         "8",
         "3",
@@ -351,7 +351,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "A full field of ten at five and a half furlongs on dirt. Nothing separates the top two by more than 3.9 points. We make the top one 20% against the board's 20%.",
+      "read": "A full field of ten. Nothing separates the top two by more than 3.9 points. We make the top one 20% against the board's 20%.",
       "coverage_set": [
         "6",
         "5",
@@ -392,7 +392,7 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "A full field of 16 at a mile and three eighths on turf. The top two are effectively level on our numbers. Three of them want the lead.",
+      "read": "A full field of 16. The top two are effectively level on our numbers. Three of them want the lead.",
       "coverage_set": [
         "16",
         "15",
@@ -414,7 +414,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "The board and our number agree in a $20,000 claimer at a mile and an eighth on dirt. Four horses want the front, so the early fractions should be honest.",
+      "read": "The board and our number agree in a $20,000 claimer. Four horses want the front, so the early fractions should be honest.",
       "coverage_set": [
         "9"
       ],
@@ -471,7 +471,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "The board and our number agree in a $20,000 claimer at six and a half furlongs on dirt. A full field of eleven.",
+      "read": "The board and our number agree in a $20,000 claimer. A full field of eleven.",
       "coverage_set": [
         "2"
       ],
