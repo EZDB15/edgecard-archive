@@ -18,14 +18,13 @@
     "model_win_pct": 34,
     "play_at": "2/1",
     "edge_pts": 20.9,
-    "fair_vs_board_pts": 20.9,
     "durability": {
       "cls": "watch",
       "label": "Price may move",
-      "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+      "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
       "version": "d0"
     },
-    "why": "The widest gap between our number and the board today."
+    "why": "The biggest edge on today's card."
   },
   "url": "https://edgecardhq.com/archive/2026-08-02-dmr/",
   "record_url": "https://edgecardhq.com/record",
@@ -56,8 +55,6 @@
       "play_at": "9/2",
       "play_at_decimal": 5.61,
       "edge_pts": 6.2,
-      "fair_vs_board_pts": 6.2,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; projects as the lone early speed; model 20% vs 13% morning-line implied (+6.2 pts)",
       "surface": "dirt",
       "distance": "5 1/2 furlongs",
@@ -65,7 +62,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -117,8 +114,6 @@
       "play_at": "3/1",
       "play_at_decimal": 4.13,
       "edge_pts": 17.7,
-      "fair_vs_board_pts": 17.7,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 9% morning-line implied (+17.7 pts)",
       "surface": "turf",
       "distance": "5 furlongs",
@@ -126,7 +121,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -178,8 +173,6 @@
       "play_at": "2/1",
       "play_at_decimal": 3.21,
       "edge_pts": 20.9,
-      "fair_vs_board_pts": 20.9,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 34% vs 13% morning-line implied (+20.9 pts)",
       "surface": "dirt",
       "distance": "5 1/2 furlongs",
@@ -187,7 +180,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -239,8 +232,6 @@
       "play_at": "5/1",
       "play_at_decimal": 6.1,
       "edge_pts": 9.2,
-      "fair_vs_board_pts": 9.2,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 18% vs 9% morning-line implied (+9.2 pts)",
       "surface": "turf",
       "distance": "1 mile",
@@ -248,7 +239,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -309,7 +300,7 @@
         "board": "8/5",
         "board_decimal": 2.6
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "5"
       ],
@@ -363,7 +354,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "2"
       ],

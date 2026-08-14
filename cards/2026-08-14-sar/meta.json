@@ -1,0 +1,32 @@
+{
+  "sha256": "82f43a1c410ca947dc5272181a321247f606798735b0c53720a41dc49d629a89",
+  "weather": {
+    "short": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+    "temp": 80,
+    "temp_unit": "F",
+    "wind": "3 mph",
+    "precip_pct": 32,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:18 AM ET",
+  "lock_ts_utc": "2026-08-14T15:18:43+00:00",
+  "scratches_as_of_et": "11:01 AM ET",
+  "scratch_state": "CHECKED_WITH_CHANGES",
+  "scratch_checked_at_et": "11:17 AM ET",
+  "scratch_checked_at_utc": "2026-08-14T15:17:00+00:00",
+  "scratch_source": "NYRA official Saratoga scratches & changes sheet, last updated 11:01:45 AM ET; 9 entries across 5 races (5 main-track-only, 4 true removals). Checked BEFORE the card locked; no flagged selection is on a scratched horse.",
+  "scratch_track": "SAR",
+  "scratch_date": "2026-08-14",
+  "first_post_et": "1:10 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-14-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Fri Aug 14 \u2014 10 races, 4 flags, 6 passes"
+}

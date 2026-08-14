@@ -1,0 +1,15 @@
+DMR — Fri Aug 14, 2026-08-14: winning day. Same accounting as every day.
+
+Picks published (hash 2faf53de0ee2…, 11:18 AM ET): 3
+Record                                        : [W]–[L]
+Flat $2 on every pick                         : [+/−]$[X.XX]
+Market drift vs ML (our fair odds vs closing) : [+/−X.X%]
+Meet to date                                  : [W]–[L] · [+/−$X.XX] · drift [+/−X.X%]
+
+What worked, specifically:
+• [FILL: the winning flag, the price, one factual line]
+What missed anyway:
+• [FILL: a winning day still shows its losers]
+
+One day. Sample size proves nothing yet — the archive is the point.
+Archive, every card hashed before post: https://github.com/EZDB15/edgecard-archive. Tomorrow's card by 2:00 PM PT.

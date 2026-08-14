@@ -1,2 +1,2 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
-DMR,2026-08-06,1,6,NOKIE,29,5/2,5/2,9.2,9.2,dirt,6 furlongs,Ranks #1 in our power figure blend; model 29% vs 20% morning-line implied (+9.2 pts),CHECKED_NO_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-06,1,6,NOKIE,29,5/2,5/2,9.2,dirt,6 furlongs,Ranks #1 in our power figure blend; model 29% vs 20% morning-line implied (+9.2 pts),CHECKED_NO_CHANGES,true

@@ -18,14 +18,13 @@
     "model_win_pct": 37,
     "play_at": "2/1",
     "edge_pts": 16.5,
-    "fair_vs_board_pts": 16.5,
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
-    "why": "The widest gap between our number and the board today."
+    "why": "The biggest edge on today's card."
   },
   "url": "https://edgecardhq.com/archive/2026-08-07-dmr/",
   "record_url": "https://edgecardhq.com/record",
@@ -56,8 +55,6 @@
       "play_at": "2/1",
       "play_at_decimal": 3.0,
       "edge_pts": 16.5,
-      "fair_vs_board_pts": 16.5,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 37% vs 20% morning-line implied (+16.5 pts)",
       "surface": "turf",
       "distance": "5 furlongs",
@@ -65,7 +62,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -117,8 +114,6 @@
       "play_at": "7/2",
       "play_at_decimal": 4.66,
       "edge_pts": 5.9,
-      "fair_vs_board_pts": 5.9,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; projects as the lone early speed; model 24% vs 18% morning-line implied (+5.9 pts)",
       "surface": "dirt",
       "distance": "5 1/2 furlongs",
@@ -126,7 +121,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -178,8 +173,6 @@
       "play_at": "3/1",
       "play_at_decimal": 4.24,
       "edge_pts": 8.3,
-      "fair_vs_board_pts": 8.3,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 26% vs 18% morning-line implied (+8.3 pts)",
       "surface": "turf",
       "distance": "1 mile",
@@ -187,7 +180,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -266,7 +259,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "Our top-rated horse. A small edge, under our bet line. We make the favourite, #3 THERESASILVERLININ, 17% against the board's 29%, shorter than we think it should be. Our own top-rated is #6 LOVE OUR FAMILY. We are not betting the race; take it as an opinion, not a play.",
+      "read": "Our top-rated horse. A small edge, under our bet line. We make the favourite, #3 THERESASILVERLININ, 17% against the board's 29% — shorter than we think it should be. Our own top-rated is #6 LOVE OUR FAMILY. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "6"
       ],
@@ -291,7 +284,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "2"
       ],
@@ -327,7 +320,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "8"
       ],
@@ -363,7 +356,7 @@
         "board": "6/5",
         "board_decimal": 2.2
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "4"
       ],

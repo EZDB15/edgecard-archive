@@ -1,4 +1,4 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
-SAR,2026-07-31,3,2,MURSAL,25,3/1,7/2,5.2,5.2,dirt,6 furlongs,Ranks #1 in our power figure blend; model 25% vs 19% morning-line implied (+5.2 pts),CHECKED_NO_CHANGES,true
-SAR,2026-07-31,4,8,NOBLE HERITAGE,13,13/2,7/1,6.4,6.4,dirt,1 1/8 miles,Ranks #2 in our power figure blend; closer in a contested-pace setup; model 13% vs 7% morning-line implied (+6.4 pts),CHECKED_NO_CHANGES,true
-SAR,2026-07-31,10,2,FIVE DOZEN ROSES,25,3/1,7/2,12.1,12.1,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 25% vs 13% morning-line implied (+12.1 pts),CHECKED_NO_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-07-31,3,2,MURSAL,25,3/1,7/2,5.2,dirt,6 furlongs,Ranks #1 in our power figure blend; model 25% vs 19% morning-line implied (+5.2 pts),CHECKED_NO_CHANGES,true
+SAR,2026-07-31,4,8,NOBLE HERITAGE,13,13/2,7/1,6.4,dirt,1 1/8 miles,Ranks #2 in our power figure blend; closer in a contested-pace setup; model 13% vs 7% morning-line implied (+6.4 pts),CHECKED_NO_CHANGES,true
+SAR,2026-07-31,10,2,FIVE DOZEN ROSES,25,3/1,7/2,12.1,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 25% vs 13% morning-line implied (+12.1 pts),CHECKED_NO_CHANGES,true

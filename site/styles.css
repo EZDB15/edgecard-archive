@@ -399,7 +399,7 @@ blockquote.method{background:var(--surface);border:1px solid var(--line);
    viewport (docScroll 331). Nothing on a card should ever scroll sideways. */
 html,body{max-width:100%;overflow-x:hidden;}
 .dateline-card,.cardcap,.rmeta,.prov,.esrc{overflow-wrap:anywhere;word-break:break-word;}
-/* P1: 16 of 17 tap targets measured under the 44px minimum at 320-430px ,
+/* P1: 16 of 17 tap targets measured under the 44px minimum at 320-430px —
    almost all of them nav and inline links. Give them a real touch box without
    changing the visual rhythm (padding, not font-size). */
 @media (max-width:640px){
@@ -407,7 +407,7 @@ html,body{max-width:100%;overflow-x:hidden;}
   .disc nav a{display:inline-block;padding:12px 8px;min-height:44px;line-height:20px;}
   .vtoggle{min-height:44px;padding:11px 14px;}
   .rec a,.notice a,.efoot a{display:inline-block;padding:6px 0;min-height:32px;}
-  /* the record chip's link is the route to the full ledger , make it real */
+  /* the record chip's link is the route to the full ledger — make it real */
   .rec .recmore{display:inline-block;padding:12px 0;min-height:44px;}
 }
 /* ---- Archived-card disclosure ------------------------------------------ */
@@ -416,7 +416,7 @@ html,body{max-width:100%;overflow-x:hidden;}
    errata band but unmistakably not part of the live card. */
 /* On the navy/paper palette rather than the old slate: a cool blue-grey next
    to warm paper read as "a different site" instead of "a quieter part of this
-   one". The left rule is navy at reduced weight , same family as the live
+   one". The left rule is navy at reduced weight — same family as the live
    card's structure, deliberately lower contrast, so the band is subordinate
    without being decorative. No gold anywhere: gold marks things to act on. */
 .histband{border:1px solid var(--rule);border-left:4px solid var(--navy);

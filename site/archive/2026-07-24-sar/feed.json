@@ -18,14 +18,13 @@
     "model_win_pct": 26,
     "play_at": "3/1",
     "edge_pts": 14.9,
-    "fair_vs_board_pts": 14.9,
     "durability": {
       "cls": "watch",
       "label": "Price may move",
-      "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+      "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
       "version": "d0"
     },
-    "why": "The widest gap between our number and the board today."
+    "why": "The biggest edge on today's card."
   },
   "url": "https://edgecardhq.com/archive/2026-07-24-sar/",
   "record_url": "https://edgecardhq.com/record",
@@ -56,8 +55,6 @@
       "play_at": "15/2",
       "play_at_decimal": 8.52,
       "edge_pts": 6.9,
-      "fair_vs_board_pts": 6.9,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 13% vs 6% morning-line implied (+6.9 pts)",
       "surface": "dirt",
       "distance": "1 mile",
@@ -65,7 +62,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -117,8 +114,6 @@
       "play_at": "3/1",
       "play_at_decimal": 3.92,
       "edge_pts": 8.4,
-      "fair_vs_board_pts": 8.4,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 28% vs 20% morning-line implied (+8.4 pts)",
       "surface": "turf",
       "distance": "1 1/16 miles",
@@ -126,7 +121,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -178,8 +173,6 @@
       "play_at": "3/1",
       "play_at_decimal": 4.21,
       "edge_pts": 14.9,
-      "fair_vs_board_pts": 14.9,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; model 26% vs 11% morning-line implied (+14.9 pts)",
       "surface": "turf",
       "distance": "1 1/16 miles",
@@ -187,7 +180,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -239,8 +232,6 @@
       "play_at": "4/1",
       "play_at_decimal": 5.12,
       "edge_pts": 10.2,
-      "fair_vs_board_pts": 10.2,
-      "fair_vs_board_basis": "Our modelled win probability minus the probability implied by the board price, in percentage points. A modelled difference of opinion, not a demonstrated edge: see the public record for what these have actually returned.",
       "reason": "Ranks #1 in our power figure blend; projects as the lone early speed; model 21% vs 11% morning-line implied (+10.2 pts)",
       "surface": "turf",
       "distance": "1 1/2 miles",
@@ -248,7 +239,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -318,7 +309,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "7"
       ],
@@ -354,7 +345,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "1"
       ],
@@ -393,7 +384,7 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "4"
       ],
@@ -429,7 +420,7 @@
         "board": "9/5",
         "board_decimal": 2.8
       },
-      "read": "No edge on our top pick, the market has it priced about right.",
+      "read": "No edge on our top pick — the market has it priced about right.",
       "coverage_set": [
         "4"
       ],

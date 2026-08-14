@@ -1,0 +1,407 @@
+{
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-08-14",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.45b3e059",
+  "generated_ts_utc": "2026-08-14T15:17:11+00:00",
+  "first_post_et": "2:00 PM PT",
+  "n_races": 8,
+  "n_flags": 3,
+  "n_passes": 5,
+  "edge_of_day": {
+    "race": 8,
+    "program": "4",
+    "horse": "DANZING DAISY",
+    "model_win_pct": 31,
+    "play_at": "5/2",
+    "edge_pts": 17.7,
+    "durability": {
+      "cls": "watch",
+      "label": "Price may move",
+      "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-08-14-dmr/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-08-14-dmr/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "33-78",
+    "wins": 33,
+    "losses": 78,
+    "graded": 111,
+    "units": 6.14,
+    "roi_pct": 2.8,
+    "roi_ci_low": -28.5,
+    "roi_ci_high": 36.3,
+    "roi_n": 111,
+    "closing_held_n": 33,
+    "closing_graded_n": 104,
+    "closing_held_pct": 32,
+    "last_miss": {
+      "date": "2026-08-13",
+      "track": "DMR",
+      "race": 7,
+      "name": "RETHINK",
+      "board_decimal": 7.0,
+      "closing_decimal": 9.4
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 4,
+      "program": "10",
+      "horse": "ZALAMO",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-14T22:34:00+00:00",
+      "model_win_pct": 18,
+      "fair_odds": "9/2",
+      "fair_odds_decimal": 5.59,
+      "play_at": "5/1",
+      "play_at_decimal": 6.15,
+      "edge_pts": 6.5,
+      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 18% vs 11% morning-line implied (+6.5 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "Clm 32000",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-14",
+        "races": [
+          4
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 4,
+            "role": "win",
+            "programs": [
+              "10"
+            ]
+          }
+        ],
+        "min_odds_decimal": 6.15,
+        "minimum_acceptable_odds_decimal": 6.15,
+        "minimum_acceptable_odds_display": "5/1",
+        "play_at_odds_decimal": 6.15,
+        "play_at_odds_display": "5/1",
+        "fair_odds_decimal": 5.59,
+        "fair_odds_display": "9/2",
+        "morning_line_odds_decimal": 7.0,
+        "morning_line_odds_display": "6/1",
+        "fair_return_usd": null,
+        "instruction": "#10 to win. Our reference price is 5/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 6,
+      "program": "2",
+      "horse": "POKERKNIGHTATVEES",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-14T23:36:00+00:00",
+      "model_win_pct": 24,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 4.24,
+      "play_at": "7/2",
+      "play_at_decimal": 4.67,
+      "edge_pts": 14.6,
+      "reason": "Ranks #1 in our power figure blend; model 24% vs 9% morning-line implied (+14.6 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "OClm 20000n1x",
+      "durability": {
+        "cls": "hold",
+        "label": "Price should hold",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-14",
+        "races": [
+          6
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 6,
+            "role": "win",
+            "programs": [
+              "2"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.67,
+        "minimum_acceptable_odds_decimal": 4.67,
+        "minimum_acceptable_odds_display": "7/2",
+        "play_at_odds_decimal": 4.67,
+        "play_at_odds_display": "7/2",
+        "fair_odds_decimal": 4.24,
+        "fair_odds_display": "3/1",
+        "morning_line_odds_decimal": 9.0,
+        "morning_line_odds_display": "8/1",
+        "fair_return_usd": null,
+        "instruction": "#2 to win. Our reference price is 7/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 8,
+      "program": "4",
+      "horse": "DANZING DAISY",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-15T00:35:00+00:00",
+      "model_win_pct": 31,
+      "fair_odds": "2/1",
+      "fair_odds_decimal": 3.24,
+      "play_at": "5/2",
+      "play_at_decimal": 3.57,
+      "edge_pts": 17.7,
+      "reason": "Ranks #1 in our power figure blend; model 31% vs 13% morning-line implied (+17.7 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "Md 50000",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-14",
+        "races": [
+          8
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 8,
+            "role": "win",
+            "programs": [
+              "4"
+            ]
+          }
+        ],
+        "min_odds_decimal": 3.57,
+        "minimum_acceptable_odds_decimal": 3.57,
+        "minimum_acceptable_odds_display": "5/2",
+        "play_at_odds_decimal": 3.57,
+        "play_at_odds_display": "5/2",
+        "fair_odds_decimal": 3.24,
+        "fair_odds_display": "2/1",
+        "morning_line_odds_decimal": 6.0,
+        "morning_line_odds_display": "5/1",
+        "fair_return_usd": null,
+        "instruction": "#4 to win. Our reference price is 5/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [],
+  "scratch_status": {
+    "state": "CHECKED_NO_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 11:17 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-14T15:17:00+00:00",
+    "checked_at_et": "11:17 AM ET",
+    "source": "Del Mar / Equibase race day changes, last updated 5:00 AM ET; NO scratches today. Temporary rail 24 ft in R2/R4/R6/R8; R7 #3 first start since gelded. Checked BEFORE the card locked."
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "lean",
+      "top": {
+        "program": "1",
+        "name": "JALISCO",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.4,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 2.8
+    },
+    {
+      "race": 2,
+      "tier": "lean",
+      "top": {
+        "program": "4",
+        "name": "LET HER FLY",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.9,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 2.6
+    },
+    {
+      "race": 3,
+      "tier": "chalk",
+      "top": {
+        "program": "3",
+        "name": "CHE",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.8,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": -4.6
+    },
+    {
+      "race": 4,
+      "tier": "play",
+      "top": {
+        "program": "10",
+        "name": "ZALAMO",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.59,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 18% vs 11% morning-line implied (+6.5 pts)",
+      "coverage_set": [
+        "10"
+      ],
+      "edge_pts": 6.5
+    },
+    {
+      "race": 5,
+      "tier": "chalk",
+      "top": {
+        "program": "6",
+        "name": "JETWAY",
+        "win_pct": 30,
+        "fair": "5/2",
+        "fair_decimal": 3.31,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "No edge on our top pick — the market has it priced about right.",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": -3.1
+    },
+    {
+      "race": 6,
+      "tier": "play",
+      "top": {
+        "program": "2",
+        "name": "POKERKNIGHTATVEES",
+        "win_pct": 24,
+        "fair": "3/1",
+        "fair_decimal": 4.24,
+        "board": "8/1",
+        "board_decimal": 9.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 24% vs 9% morning-line implied (+14.6 pts)",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 14.6
+    },
+    {
+      "race": 7,
+      "tier": "chalk",
+      "top": {
+        "program": "6",
+        "name": "HOWIE'S LAW",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 4.06,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "No edge on our top pick — the market has it priced about right. We make the favourite, #6 HOWIE'S LAW, 25% against the board's 34% — shorter than we think it should be. We are not betting the race; take it as an opinion, not a play.",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": -8.9,
+      "vulnerable_favourite": {
+        "program": "6",
+        "name": "HOWIE'S LAW",
+        "market_pct": 33.5,
+        "model_pct": 24.6,
+        "gap_pts": 8.9
+      }
+    },
+    {
+      "race": 8,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "DANZING DAISY",
+        "win_pct": 31,
+        "fair": "2/1",
+        "fair_decimal": 3.24,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 31% vs 13% morning-line implied (+17.7 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 17.7
+    }
+  ],
+  "multi_race": []
+}

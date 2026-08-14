@@ -1,0 +1,32 @@
+{
+  "sha256": "2faf53de0ee20de804ce86983b161ee97d206e6e9712ebb777a01c7f688064be",
+  "weather": {
+    "short": "Partly Sunny",
+    "temp": 75,
+    "temp_unit": "F",
+    "wind": "5 to 10 mph",
+    "precip_pct": 4,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:18 AM ET",
+  "lock_ts_utc": "2026-08-14T15:18:56+00:00",
+  "scratches_as_of_et": "5:00 AM ET",
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "11:17 AM ET",
+  "scratch_checked_at_utc": "2026-08-14T15:17:00+00:00",
+  "scratch_source": "Del Mar / Equibase race day changes, last updated 5:00 AM ET; NO scratches today. Temporary rail 24 ft in R2/R4/R6/R8; R7 #3 first start since gelded. Checked BEFORE the card locked.",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-08-14",
+  "first_post_et": "2:00 PM PT",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-14-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Fri Aug 14 \u2014 8 races, 3 flags, 5 passes"
+}

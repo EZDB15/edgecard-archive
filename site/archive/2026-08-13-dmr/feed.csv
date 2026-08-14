@@ -1,4 +1,4 @@
-track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,fair_vs_board_pts,surface,distance,reason,scratch_state,scratch_confirmed
-DMR,2026-08-13,1,5,MR. A. P.,48,1/1,6/5,17.1,17.1,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 48% vs 31% morning-line implied (+17.1 pts),CHECKED_WITH_CHANGES,true
-DMR,2026-08-13,5,11,ELITE HEAT,31,2/1,5/2,13.4,13.4,turf,5 furlongs,Ranks #1 in our power figure blend; model 31% vs 18% morning-line implied (+13.4 pts),CHECKED_WITH_CHANGES,true
-DMR,2026-08-13,7,5,RETHINK,27,5/2,3/1,15.4,15.4,turf,5 furlongs,Ranks #1 in our power figure blend; model 27% vs 11% morning-line implied (+15.4 pts),CHECKED_WITH_CHANGES,true
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-13,1,5,MR. A. P.,48,1/1,6/5,17.1,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 48% vs 31% morning-line implied (+17.1 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-08-13,5,11,ELITE HEAT,31,2/1,5/2,13.4,turf,5 furlongs,Ranks #1 in our power figure blend; model 31% vs 18% morning-line implied (+13.4 pts),CHECKED_WITH_CHANGES,true
+DMR,2026-08-13,7,5,RETHINK,27,5/2,3/1,15.4,turf,5 furlongs,Ranks #1 in our power figure blend; model 27% vs 11% morning-line implied (+15.4 pts),CHECKED_WITH_CHANGES,true
