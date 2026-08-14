@@ -280,7 +280,34 @@ details.howto dd{margin:2px 0 0;color:var(--muted);font-size:13.5px;max-width:64
 .rtier.t-chalk{color:var(--muted);}
 .rtier.t-scramble{color:var(--muted);border-style:dashed;}
 .rtier.t-off{color:var(--muted);border:0;padding-left:0;}
+/* /guide/ : long-form prose, set for reading rather than scanning. */
+.checks{padding-left:0;list-style:none;max-width:70ch;margin:10px 0 0;}
+.checks li{font-family:var(--serif);font-size:15px;line-height:1.55;margin:0 0 10px;
+  padding-left:15px;border-left:2px solid var(--line);}
+.checks li b{font-family:var(--sans);font-size:14px;}
+
+/* The TwinSpires placement call-to-action. Deliberately reads as a sibling
+   publication note rather than an ad unit: the page states plainly that Edge
+   Card is not a TwinSpires product, and a banner-shaped block would undercut
+   the sentence sitting inside it. */
+.ts-cta{display:flex;flex-wrap:wrap;align-items:center;gap:16px;justify-content:space-between;
+  border:1px solid var(--line);border-left:3px solid var(--accent);
+  background:var(--surface);padding:16px 18px;}
+.ts-cta p{font-family:var(--serif);font-size:14px;color:var(--muted);margin:4px 0 0;max-width:62ch;}
+.btn-ts{flex:none;font-family:var(--mono);font-size:12px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;background:var(--accent);color:#fff;padding:10px 16px;border-radius:2px;
+  border-bottom:0;white-space:nowrap;}
+.btn-ts:hover{background:var(--ink);}
+@media (max-width:560px){.btn-ts{width:100%;text-align:center;}}
+
 .rd-read{font-family:var(--serif);font-size:14px;color:var(--muted);margin:6px 0 0;max-width:66ch;}
+/* The operator's own read, set apart from the model's line above it: a rule and
+   a label, so a reader can tell derived output from a person's opinion. */
+.rd-note{margin:9px 0 0;padding-left:11px;border-left:2px solid var(--line);max-width:66ch;}
+.rd-note .k{display:block;font-family:var(--mono);font-size:10px;font-weight:700;
+  text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:3px;}
+.rd-note p{font-family:var(--serif);font-size:14px;color:var(--ink);margin:0 0 6px;}
+.rd-note p:last-child{margin-bottom:0;}
 .rd.off .hn{color:var(--muted);font-style:italic;}
 .rd .field{margin-top:9px;}
 
@@ -399,7 +426,7 @@ blockquote.method{background:var(--surface);border:1px solid var(--line);
    viewport (docScroll 331). Nothing on a card should ever scroll sideways. */
 html,body{max-width:100%;overflow-x:hidden;}
 .dateline-card,.cardcap,.rmeta,.prov,.esrc{overflow-wrap:anywhere;word-break:break-word;}
-/* P1: 16 of 17 tap targets measured under the 44px minimum at 320-430px —
+/* P1: 16 of 17 tap targets measured under the 44px minimum at 320-430px ,
    almost all of them nav and inline links. Give them a real touch box without
    changing the visual rhythm (padding, not font-size). */
 @media (max-width:640px){
@@ -407,7 +434,7 @@ html,body{max-width:100%;overflow-x:hidden;}
   .disc nav a{display:inline-block;padding:12px 8px;min-height:44px;line-height:20px;}
   .vtoggle{min-height:44px;padding:11px 14px;}
   .rec a,.notice a,.efoot a{display:inline-block;padding:6px 0;min-height:32px;}
-  /* the record chip's link is the route to the full ledger — make it real */
+  /* the record chip's link is the route to the full ledger , make it real */
   .rec .recmore{display:inline-block;padding:12px 0;min-height:44px;}
 }
 /* ---- Archived-card disclosure ------------------------------------------ */
@@ -416,7 +443,7 @@ html,body{max-width:100%;overflow-x:hidden;}
    errata band but unmistakably not part of the live card. */
 /* On the navy/paper palette rather than the old slate: a cool blue-grey next
    to warm paper read as "a different site" instead of "a quieter part of this
-   one". The left rule is navy at reduced weight — same family as the live
+   one". The left rule is navy at reduced weight , same family as the live
    card's structure, deliberately lower contrast, so the band is subordinate
    without being decorative. No gold anywhere: gold marks things to act on. */
 .histband{border:1px solid var(--rule);border-left:4px solid var(--navy);

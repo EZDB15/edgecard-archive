@@ -21,7 +21,7 @@
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
@@ -62,7 +62,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -121,7 +121,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -182,7 +182,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a starter allowance at 19 furlongs on turf. We make the top one 23% against the board's 22%.",
       "coverage_set": [
         "4"
       ],
@@ -200,7 +200,7 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "An open heat at five and a half furlongs on dirt. Nothing separates the top two by more than 2.6 points. We make the top one 18% against the board's 17%.",
       "coverage_set": [
         "3",
         "2",
@@ -221,7 +221,7 @@
         "board": "7/5",
         "board_decimal": 2.4
       },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "read": "Our top-rated horse in a $55,000 maiden claimer at five and a half furlongs on turf. We make the top one 35% against the board's 32%. The edge is real but sits under our bet line at 3 points.",
       "coverage_set": [
         "7"
       ],
@@ -239,7 +239,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "An open heat at six and a half furlongs on dirt. Nothing separates the top two by more than 1.9 points. We make the top one 19% against the board's 22%.",
       "coverage_set": [
         "5",
         "4",
@@ -278,7 +278,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a maiden special weight at five and a half furlongs on turf. A full field of ten.",
       "coverage_set": [
         "10"
       ],
@@ -296,7 +296,7 @@
         "board": "4/1",
         "board_decimal": 5.0
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of twelve at six furlongs on dirt. Nothing separates the top two by more than 2.9 points. We make the top one 16% against the board's 15%.",
       "coverage_set": [
         "3",
         "9",
@@ -317,7 +317,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust. We make the favourite, #1 ANSWERED PRAYERS, 17% against the board's 22% — shorter than we think it should be. Our own top-rated is #2 HIDDEN ROSE. We are not betting the race; take it as an opinion, not a play.",
+      "read": "An open heat at a mile and an eighth on dirt. Nothing separates the top two by more than 1.8 points. We make the top one 19% against the board's 20%. We make the favourite, #1 ANSWERED PRAYERS, 17% against the board's 22%, shorter than we think it should be. Our own top-rated is #2 HIDDEN ROSE. We are not betting the race; take it as an opinion, not a play.",
       "coverage_set": [
         "2",
         "1",

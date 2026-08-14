@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to read a racing record | Edge Card</title>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","@id":"https://edgecardhq.com/#org","name":"Edge Card","url":"https://edgecardhq.com/","logo":"https://edgecardhq.com/logo-full.png","description":"Quantitative horse-racing analysis for the Saratoga and Del Mar meets. Every selection is published before post and graded in public."},{"@context":"https://schema.org","@type":"WebSite","@id":"https://edgecardhq.com/#site","name":"Edge Card","url":"https://edgecardhq.com/","publisher":{"@id":"https://edgecardhq.com/#org"}}]</script><meta name="description" content="Win rate, flat-bet return, sample size, takeout and closing price: how to judge a published betting record, ours or anyone else&#x27;s."><link rel="canonical" href="https://edgecardhq.com/"><meta property="og:type" content="website"><meta property="og:site_name" content="Edge Card"><meta property="og:title" content="How to read a racing record | Edge Card"><meta property="og:description" content="Win rate, flat-bet return, sample size, takeout and closing price: how to judge a published betting record, ours or anyone else&#x27;s."><meta property="og:url" content="https://edgecardhq.com/"><meta property="og:image" content="https://edgecardhq.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to read a racing record | Edge Card"><meta name="twitter:description" content="Win rate, flat-bet return, sample size, takeout and closing price: how to judge a published betting record, ours or anyone else&#x27;s."><meta name="twitter:image" content="https://edgecardhq.com/og.png"><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fde635195cd24932b545d4f8b26ffdce"}'></script><script>
+(function(){
+  try{
+    if(navigator.doNotTrack==="1"||window.doNotTrack==="1")return;
+    var K="ec_v1",S;
+    try{S=JSON.parse(localStorage.getItem(K)||"null")}catch(e){}
+    var today=new Date().toISOString().slice(0,10),isNew=false;
+    if(!S||!S.id){S={id:(Math.random().toString(36).slice(2)+Date.now().toString(36)),first:today,days:[]};isNew=true}
+    if(S.days.indexOf(today)<0)S.days.push(today);
+    S.days=S.days.slice(-40);
+    try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}
+
+    // Days elapsed since first visit, and how many distinct days they have been
+    // here. Return rate is derived from these two, not from a stored flag, so a
+    // reader who clears storage is counted as new rather than silently double
+    // counted.
+    var age=Math.round((Date.parse(today)-Date.parse(S.first))/864e5);
+
+    // Arrival source: referring HOST only (never the full URL), and the
+    // campaign tag. See the Python comment above for why.
+    var REF="",SRC="";
+    try{
+      var r=document.referrer||"";
+      if(r){
+        var rh=new URL(r).hostname.toLowerCase().replace(/^www\./,"");
+        REF=(rh===location.hostname.toLowerCase().replace(/^www\./,""))?"internal":rh;
+      }
+    }catch(e){}
+    // utm_source first (what the partner feed already hands out); "?s=" alias.
+    try{
+      var m=/[?&]utm_source=([A-Za-z0-9_.-]{1,20})/.exec(location.search)
+          ||/[?&]s=([A-Za-z0-9_-]{1,20})/.exec(location.search);
+      if(m)SRC=m[1];
+    }catch(e){}
+
+    function ev(n,d){
+      d=d||{};d.visit_days=S.days.length;d.days_since_first=age;
+      d.is_first_visit=isNew;d.path=location.pathname;
+      d.ref=REF;d.src=SRC;
+      if(window.__ecq)window.__ecq.push([n,d]);
+      if(navigator.sendBeacon){try{navigator.sendBeacon("/_e",
+        new Blob([JSON.stringify({e:n,d:d,t:Date.now()})],{type:"application/json"}))}catch(e){}}
+    }
+    window.ecEvent=ev;
+    ev(isNew?"first_visit":"return_visit",{});
+
+    document.addEventListener("click",function(e){
+      var a=e.target.closest&&e.target.closest("a");
+      if(!a)return;
+      var href=a.getAttribute("href")||"";
+      if(/^https?:/i.test(href)&&a.hostname&&a.hostname!==location.hostname){
+        ev("outbound_click",{to:a.hostname,label:(a.textContent||"").trim().slice(0,60)});
+      }
+    },true);
+
+    document.addEventListener("toggle",function(e){
+      var d=e.target;
+      if(d&&d.tagName==="DETAILS"&&d.open){
+        var s=d.querySelector("summary");
+        ev("glossary_expand",{term:(s&&s.textContent||"").trim().slice(0,60)});
+      }
+    },true);
+
+    if(/^\/record/.test(location.pathname)){
+      var marks={25:0,50:0,75:0,100:0};
+      addEventListener("scroll",function(){
+        var h=document.documentElement,
+            p=Math.round((h.scrollTop+innerHeight)/h.scrollHeight*100);
+        for(var m in marks){if(!marks[m]&&p>=m){marks[m]=1;ev("record_depth",{pct:+m})}}
+      },{passive:true});
+    }
+  }catch(e){}
+})();
+</script>
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/webfonts/fraunces-700.5ca9a251.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/webfonts/plex-400.b0ea425e.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css?v=4b86841425">
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="masthead"><div class="dateline">Saratoga &amp; Del Mar &middot; 2026 Meets &middot; Model v0-heuristic-1.4 <span class="anti">the anti-tout</span></div><div class="nameplate"><a class="brandmark" href="/" aria-label="EdgeCardHQ home"><picture><source srcset="/logo-full.webp" type="image/webp"><img src="/logo-full.png" width="507" height="120" alt="EdgeCardHQ" decoding="async"></picture></a><div class="tag">Transparent racing cards &middot; Locked before post &middot; Every pick graded</div></div><div class="mastnav"><nav class="inner mastnav-in" aria-label="Primary"><a href="/">Today</a><a href="/record/">Record</a><a href="/guide/" class="on">Guide</a><a href="/methodology/">Methodology</a><a href="/corrections/">Corrections</a><a href="/archive/">Archive</a></nav></div></header>
+<main id="main" tabindex="-1">
+<section class="section"><div class="inner"><h1>How to read a racing record</h1><p class="lede">Almost every service publishes a record. Almost none of them publish one you can actually judge. Here is how to tell the difference, and the same test applied to ours.</p><h2>Win rate tells you close to nothing</h2><p>"We hit 34% of our plays" sounds like a number until you ask what it paid. Hitting a third of your bets at even money loses money. Hitting one in six at 8/1 prints. A win rate with no prices attached is a statistic chosen because it was the flattering one, and a service that leads with it is telling you which number it could not lead with.</p><p>The question is never how often. It is how often, at what price, against what the race was worth.</p><h2>Flat-bet return is the honest number</h2><p>Bet the same amount on every play. Add up what came back. That is flat-bet return, and it is the only figure that cannot be dressed up by bet sizing. The moment a record uses variable stakes, "3 units on this one, half a unit on that one," you are reading a number that depends on decisions made after the fact, and you have no way to audit them.</p><p>We publish flat $2 win bets on every flagged play. No parlays, no staking plan, no place or show cushion to soften a losing month.</p><h2>A hundred bets is a rounding error</h2><p>This is the one that separates people who have done this from people who have not. Horse racing variance is enormous. A 20% win rate over 100 bets can come from a genuine edge or from nothing at all, and the arithmetic cannot separate them. You need something in the range of a thousand settled bets before a return starts carrying information, and most services quietly restart the count long before they get there.</p><p>So when you read any record, ours included, find the sample size first. If it is under a few hundred, the return is a story, not evidence. We say that plainly on our own record page even when the number is good, because it would be dishonest to only mention sample size in the months it excuses us.</p><h2>Takeout is the opponent</h2><p>Every dollar in the win pool has roughly 15 to 18 cents taken out before anyone is paid, and exotics run higher. You are not trying to beat the other bettors. You are trying to beat them by more than the house takes off the top, every single race, forever. That is why a break-even record is genuinely respectable and why "we are up slightly" is a claim worth more scrutiny than it usually gets.</p><p>We print the takeout on every card so the bar is visible next to the plays.</p><h2>The price you were quoted is not the price you got</h2><p>Pari-mutuel odds are final. Whatever the board showed when you bet is irrelevant; you are paid the closing price. So a record that grades itself at morning-line odds, or at the price showing when the pick was posted, is grading a bet nobody could have made.</p><p>Ours is graded at the closing price, and we publish the drift between the price we called and the price the race closed at. When our number gets bet down, that shows up as a worse result, which is what should happen.</p><h2>What to actually check</h2><ul class="checks"><li><b>Was it published before the race?</b> A pick you cannot timestamp is a memory. Look for a hash, an archive commit, a post with a time on it.</li><li><b>Are the losses there?</b> Count them. A record showing only winners is not a record.</li><li><b>Can you recount it yourself?</b> Every bet, every price, every result, downloadable. If you have to trust their arithmetic, you are not reading evidence.</li><li><b>Does anything get edited after the fact?</b> Corrections should be appended and dated, never quietly patched.</li><li><b>Do they tell you when the sample is too small?</b> The ones who do are the ones who understand what they are publishing.</li></ul><p class="meta">Our own answers are on <a href="/record/">the record</a> and in <a href="/corrections/">corrections</a>, and every card ever published is in <a href="/archive/">the archive</a>, hashed before post time.</p></div></section>
+</main>
+<footer class="disc"><div class="footer-brand"><a href="/" aria-label="EdgeCardHQ home"><picture><source srcset="/logo-full-reverse.webp" type="image/webp"><img src="/logo-full-reverse.png" width="507" height="120" alt="EdgeCardHQ" decoding="async" loading="lazy"></picture></a></div><div class="inner"><nav><a href="/methodology/">Methodology</a><a href="/record/">Record</a><a href="/corrections/">Corrections</a><a href="/archive/">Archive</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a></nav><p>Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.</p><p>Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.</p></div></footer>
+<div id="agegate" class="agegate" hidden role="dialog" aria-label="Age verification"><div class="agegate-box"><strong>Edge Card</strong><p>Quantitative horse-racing analysis for adults. You must be 18 or older (21+ where required by your state) to enter.</p><div class="agegate-actions"><button id="agegate-enter" type="button">I am 18+ &middot; Enter</button><a class="leave" href="https://www.ncpgambling.org/">Leave</a></div><p class="agegate-fine">Analysis, not wagering advice. Gambling problem? Call or text 1-800-GAMBLER.</p></div></div><script>(function(){try{if(localStorage.getItem('ec_age_ok')==='1')return;}catch(e){}var g=document.getElementById('agegate');if(!g)return;g.hidden=false;document.documentElement.style.overflow='hidden';var b=document.getElementById('agegate-enter');if(b)b.addEventListener('click',function(){try{localStorage.setItem('ec_age_ok','1');}catch(e){}g.hidden=true;document.documentElement.style.overflow='';});})();</script>
+</body></html>

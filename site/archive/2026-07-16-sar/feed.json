@@ -21,7 +21,7 @@
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
@@ -62,7 +62,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -121,7 +121,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -180,7 +180,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -232,7 +232,7 @@
         "board": "2/1",
         "board_decimal": 3.0
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a starter allowance at 19 furlongs on turf. We make the top one 26% against the board's 26%.",
       "coverage_set": [
         "6"
       ],
@@ -268,7 +268,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a $16,000 optional claimer at seven furlongs on dirt. We make the top one 23% against the board's 22%.",
       "coverage_set": [
         "5"
       ],
@@ -286,7 +286,7 @@
         "board": "8/5",
         "board_decimal": 2.6
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of twelve at a mile on turf. Nothing separates the top two by more than 1.9 points. We make the top one 14% against the board's 19%.",
       "coverage_set": [
         "10",
         "1",
@@ -307,7 +307,7 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of 16 at five and a half furlongs on turf. Nothing separates the top two by more than 1.2 points. We make the top one 12% against the board's 12%.",
       "coverage_set": [
         "3",
         "4",
@@ -364,7 +364,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a $75,000 optional claimer at a mile on dirt. We make the top one 21% against the board's 22%.",
       "coverage_set": [
         "7"
       ],
@@ -382,7 +382,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of 16 at a mile and a sixteenth on turf. The top two are effectively level on our numbers. We make the top one 13% against the board's 15%.",
       "coverage_set": [
         "6",
         "12",

@@ -42,7 +42,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
-      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly — so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
+      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly, so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -51,7 +51,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
-      "read_plain": "This race came off the turf. The field was assembled for grass, and once a race is moved the shape of it changes — different horses scratch, different runners are suited. Our number was built for the race that was entered, not the one now being run, so we sit it out.",
+      "read_plain": "This race came off the turf. The field was assembled for grass, and once a race is moved the shape of it changes, different horses scratch, different runners are suited. Our number was built for the race that was entered, not the one now being run, so we sit it out.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -60,7 +60,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
-      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly — so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
+      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly, so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -69,7 +69,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
-      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly — so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
+      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly, so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -78,7 +78,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
-      "read_plain": "This race came off the turf. The field was assembled for grass, and once a race is moved the shape of it changes — different horses scratch, different runners are suited. Our number was built for the race that was entered, not the one now being run, so we sit it out.",
+      "read_plain": "This race came off the turf. The field was assembled for grass, and once a race is moved the shape of it changes, different horses scratch, different runners are suited. Our number was built for the race that was entered, not the one now being run, so we sit it out.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -87,7 +87,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
-      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly — so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
+      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly, so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -96,7 +96,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - WET-DIRT CONDITIONS NOT YET VALIDATED. NYRA reports the main track SLOPPY (rain, 64F). The frozen public model carries no track-condition input and was not fit on off going, so it is not validated here.",
-      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly — so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
+      "read_plain": "Passing this one on the going. The model was built and tested on dry dirt, and it has never been shown to price a wet track properly, so on a sloppy or muddy strip we do not have a number we trust. That is a limit of the model, not a read on the race.",
       "coverage_set": [],
       "edge_pts": null
     },
@@ -114,7 +114,7 @@
       "tier": "off",
       "top": null,
       "read": "PASS - SURFACE SWITCH AND FIELD RECONSTRUCTION OUTSIDE CURRENT VALIDATED SCOPE. NYRA moved this race off the turf; the entered population was assembled for turf and the field is materially reconstructed.",
-      "read_plain": "This race came off the turf. The field was assembled for grass, and once a race is moved the shape of it changes — different horses scratch, different runners are suited. Our number was built for the race that was entered, not the one now being run, so we sit it out.",
+      "read_plain": "This race came off the turf. The field was assembled for grass, and once a race is moved the shape of it changes, different horses scratch, different runners are suited. Our number was built for the race that was entered, not the one now being run, so we sit it out.",
       "coverage_set": [],
       "edge_pts": null
     }

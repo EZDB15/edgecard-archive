@@ -21,7 +21,7 @@
     "durability": {
       "cls": "gone",
       "label": "Likely bet down",
-      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+      "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
       "version": "d0"
     },
     "why": "The biggest edge on today's card."
@@ -62,7 +62,7 @@
       "durability": {
         "cls": "hold",
         "label": "Price should hold",
-        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post — the fullest version of the edge.",
+        "basis": "A long board price the late money tends to leave alone, so you should still get a strong number at post, the fullest version of the edge.",
         "version": "d0"
       },
       "bet": {
@@ -121,7 +121,7 @@
       "durability": {
         "cls": "watch",
         "label": "Price may move",
-        "basis": "A mid board price — it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
         "version": "d0"
       },
       "bet": {
@@ -180,7 +180,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -239,7 +239,7 @@
       "durability": {
         "cls": "gone",
         "label": "Likely bet down",
-        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post — pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
         "version": "d0"
       },
       "bet": {
@@ -300,7 +300,7 @@
         "board": "7/5",
         "board_decimal": 2.4
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a $12,500 claimer at a mile on dirt. Three of them want the lead.",
       "coverage_set": [
         "3"
       ],
@@ -318,7 +318,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "read": "Our top-rated horse in a maiden special weight at a mile and a sixteenth on turf. We make the top one 25% against the board's 22%. The edge is real but sits under our bet line at 3 points.",
       "coverage_set": [
         "5"
       ],
@@ -336,7 +336,7 @@
         "board": "9/2",
         "board_decimal": 5.5
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of twelve at seven furlongs on dirt. The top two are effectively level on our numbers. Four horses want the front, so the early fractions should be honest.",
       "coverage_set": [
         "1",
         "11",
@@ -375,7 +375,7 @@
         "board": "3/1",
         "board_decimal": 4.0
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of eleven at five and a half furlongs on turf. Nothing separates the top two by more than 3.7 points. Three of them want the lead.",
       "coverage_set": [
         "2",
         "9",
@@ -396,7 +396,7 @@
         "board": "5/2",
         "board_decimal": 3.5
       },
-      "read": "No edge on our top pick — the market has it priced about right.",
+      "read": "The board and our number agree in a maiden special weight at six furlongs on dirt. A full field of eleven.",
       "coverage_set": [
         "7"
       ],
@@ -450,7 +450,7 @@
         "board": "4/1",
         "board_decimal": 5.0
       },
-      "read": "Wide-open heat; no separation we'd trust.",
+      "read": "A full field of 13 at seven furlongs on dirt. Nothing separates the top two by more than 1.4 points. Seven horses want the front, so the early fractions should be honest.",
       "coverage_set": [
         "6",
         "8",
@@ -471,7 +471,7 @@
         "board": "7/2",
         "board_decimal": 4.5
       },
-      "read": "Our top-rated horse. A small edge, under our bet line.",
+      "read": "Our top-rated horse in a $50,000 maiden claimer at a mile and a sixteenth on turf. We make the top one 20% against the board's 17%. The edge is real but sits under our bet line at 3 points.",
       "coverage_set": [
         "8"
       ],
