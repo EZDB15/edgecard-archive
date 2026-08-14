@@ -267,7 +267,8 @@
       "coverage_set": [
         "1"
       ],
-      "edge_pts": 2.8
+      "edge_pts": 2.8,
+      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #1 Jalisco and #6 Chase N Ryan for it."
     },
     {
       "race": 2,
@@ -285,7 +286,8 @@
       "coverage_set": [
         "4"
       ],
-      "edge_pts": 2.6
+      "edge_pts": 2.6,
+      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -303,7 +305,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": -4.6
+      "edge_pts": -4.6,
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #7 Straight Buzzin accordingly."
     },
     {
       "race": 4,
@@ -321,7 +324,8 @@
       "coverage_set": [
         "10"
       ],
-      "edge_pts": 6.5
+      "edge_pts": 6.5,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #3 Uncle Happy and #7 Lahaina Flavor for it."
     },
     {
       "race": 5,
@@ -339,7 +343,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": -3.1
+      "edge_pts": -3.1,
+      "shape": "Nobody is clearly entitled to the lead going six furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -357,7 +362,8 @@
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 14.6
+      "edge_pts": 14.6,
+      "shape": "Five horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #1 Frank Bullitt and #4 Lucky N Smart for it."
     },
     {
       "race": 7,
@@ -376,6 +382,7 @@
         "6"
       ],
       "edge_pts": -8.9,
+      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #3 King Stephen for it.",
       "vulnerable_favourite": {
         "program": "6",
         "name": "HOWIE'S LAW",
@@ -400,7 +407,8 @@
       "coverage_set": [
         "4"
       ],
-      "edge_pts": 17.7
+      "edge_pts": 17.7,
+      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     }
   ],
   "multi_race": []

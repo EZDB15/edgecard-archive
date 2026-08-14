@@ -304,7 +304,8 @@
       "coverage_set": [
         "8"
       ],
-      "edge_pts": 13.8
+      "edge_pts": 13.8,
+      "shape": "No one horse is entitled to the lead going a mile and an eighth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -322,7 +323,8 @@
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 2.2
+      "edge_pts": 2.2,
+      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #1 Nina Kay and #2 Hot Currency for it."
     },
     {
       "race": 3,
@@ -340,7 +342,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": 4.6
+      "edge_pts": 4.6,
+      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #2 Norwich and #5 Shoot The Nickel for it."
     },
     {
       "race": 4,
@@ -358,7 +361,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 10.6
+      "edge_pts": 10.6,
+      "shape": "No one horse is entitled to the lead going a mile and an eighth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -380,6 +384,7 @@
         "4"
       ],
       "edge_pts": -7.3,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Eleven going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "9",
         "name": "COACH CASE",
@@ -404,7 +409,8 @@
       "coverage_set": [
         "8"
       ],
-      "edge_pts": 0.3
+      "edge_pts": 0.3,
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -422,7 +428,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 5.2
+      "edge_pts": 5.2,
+      "shape": "Five horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #1 Creditworthy for it."
     },
     {
       "race": 8,
@@ -441,6 +448,7 @@
         "8"
       ],
       "edge_pts": 3.6,
+      "shape": "No one horse is entitled to the lead going a mile and a half on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "9",
         "name": "GEZORA",
@@ -465,7 +473,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": -0.4
+      "edge_pts": -0.4,
+      "shape": "No one horse is entitled to the lead going a mile and an eighth on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 10,
@@ -483,7 +492,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": 1.6
+      "edge_pts": 1.6,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 11,
@@ -502,6 +512,7 @@
         "2"
       ],
       "edge_pts": 3.1,
+      "shape": "Nobody is clearly entitled to the lead going six furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "3",
         "name": "BOUQUETRY",

@@ -301,6 +301,35 @@ details.howto dd{margin:2px 0 0;color:var(--muted);font-size:13.5px;max-width:64
 @media (max-width:560px){.btn-ts{width:100%;text-align:center;}}
 
 .rd-read{font-family:var(--serif);font-size:14px;color:var(--muted);margin:6px 0 0;max-width:66ch;}
+/* "How it sets up": the pace projection. Given a tinted ground rather than a
+   rule so it reads as a different KIND of statement from the horse-by-horse
+   lines around it, which is exactly what it is. */
+.rd-shape{margin:9px 0 0;padding:10px 12px;background:var(--flag-wash);
+  border-radius:2px;max-width:70ch;}
+.rd-shape .k{display:block;font-family:var(--mono);font-size:10px;font-weight:700;
+  text-transform:uppercase;letter-spacing:0.06em;color:var(--gold-text);margin-bottom:3px;}
+.rd-shape p{font-family:var(--serif);font-size:14px;line-height:1.5;color:var(--ink);margin:0;}
+/* The pace picture. Filled dots are the runners the pace module counted as
+   entitled to the lead, hollow dots the rest of the field. Deliberately NOT a
+   plot of horses by early speed: those figures are licensed and never leave
+   the model. */
+.pacebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 7px;}
+.pb-dots{display:flex;gap:3px;flex:none;}
+.pb-dots i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--gold);
+  background:transparent;display:block;}
+.pb-dots i.on{background:var(--gold-fill);}
+.pb-label{font-family:var(--mono);font-size:11px;color:var(--gold-text);
+  font-variant-numeric:tabular-nums;}
+.pb-tag{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--gold-text);border:1px solid var(--gold);
+  border-radius:2px;padding:1px 5px;margin-left:auto;flex:none;}
+.pb-tag.t-lone_speed{background:var(--gold-fill);color:var(--ink);border-color:var(--gold-fill);}
+.pb-who{display:flex;flex-direction:column;gap:2px;margin:0 0 7px;}
+.pb-who span{font-family:var(--mono);font-size:11px;color:var(--muted);}
+.pb-who .pb-up::before{content:"91 ";color:var(--gold-text);font-weight:700;}
+.pb-who .pb-dn::before{content:"93 ";color:var(--muted);font-weight:700;}
+@media (max-width:560px){.pb-tag{margin-left:0;}}
+
 /* The operator's own read, set apart from the model's line above it: a rule and
    a label, so a reader can tell derived output from a person's opinion. */
 .rd-note{margin:9px 0 0;padding-left:11px;border-left:2px solid var(--line);max-width:66ch;}

@@ -304,7 +304,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 0.2
+      "edge_pts": 0.2,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -325,7 +326,8 @@
         "10",
         "2"
       ],
-      "edge_pts": 0.1
+      "edge_pts": 0.1,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -343,7 +345,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": 10.0
+      "edge_pts": 10.0,
+      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #4 Vibe and #6 Yo Daddy for it."
     },
     {
       "race": 4,
@@ -362,6 +365,7 @@
         "8"
       ],
       "edge_pts": 4.5,
+      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Consumer Sentiment and #6 Scratch It for it.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "CONSUMER SENTIMENT",
@@ -386,7 +390,8 @@
       "coverage_set": [
         "8"
       ],
-      "edge_pts": 8.3
+      "edge_pts": 8.3,
+      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #3 Agoo and #5 Princip for it."
     },
     {
       "race": 6,
@@ -404,7 +409,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 0.4
+      "edge_pts": 0.4,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -422,7 +428,8 @@
       "coverage_set": [
         "4"
       ],
-      "edge_pts": 10.0
+      "edge_pts": 10.0,
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #7 Kravitz accordingly."
     },
     {
       "race": 8,
@@ -440,7 +447,8 @@
       "coverage_set": [
         "12"
       ],
-      "edge_pts": 3.2
+      "edge_pts": 3.2,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Twelve going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -458,7 +466,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": -1.4
+      "edge_pts": -1.4,
+      "shape": "Five horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Movie Night and #2 Percy's Bar for it."
     },
     {
       "race": 10,
@@ -476,7 +485,8 @@
       "coverage_set": [
         "1"
       ],
-      "edge_pts": 7.8
+      "edge_pts": 7.8,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #3 Zulu Kingdom and #6 Capitol Hill for it."
     },
     {
       "race": 11,
@@ -494,7 +504,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 6.0
+      "edge_pts": 6.0,
+      "shape": "No one horse is entitled to the lead going a mile and three sixteenths on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 12,
@@ -513,6 +524,7 @@
         "1"
       ],
       "edge_pts": -6.5,
+      "shape": "No one horse is entitled to the lead going a mile and an eighth on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "MAGNITUDE",
@@ -538,6 +550,7 @@
         "8"
       ],
       "edge_pts": 5.7,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #5 Will Not Be Swayed and #8 Battis Grove for it.",
       "vulnerable_favourite": {
         "program": "2",
         "name": "FEMINISM",
@@ -562,7 +575,8 @@
       "coverage_set": [
         "4"
       ],
-      "edge_pts": 4.9
+      "edge_pts": 4.9,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #4 Versailles Road and #6 Very Connected for it."
     }
   ],
   "multi_race": []

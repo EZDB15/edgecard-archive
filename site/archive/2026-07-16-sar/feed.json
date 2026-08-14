@@ -236,7 +236,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": 0.0
+      "edge_pts": 0.0,
+      "shape": "No one horse is entitled to the lead going 19 furlongs on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -254,7 +255,8 @@
       "coverage_set": [
         "4"
       ],
-      "edge_pts": 5.3
+      "edge_pts": 5.3,
+      "shape": "No one horse is entitled to the lead going a mile on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -272,7 +274,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 0.2
+      "edge_pts": 0.2,
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -293,7 +296,8 @@
         "9",
         "11"
       ],
-      "edge_pts": -4.3
+      "edge_pts": -4.3,
+      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Twelve going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -314,7 +318,8 @@
         "1",
         "2"
       ],
-      "edge_pts": 0.0
+      "edge_pts": 0.0,
+      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. 16 going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -332,7 +337,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": 3.8
+      "edge_pts": 3.8,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #3 Full Of Tact and #4 Ati Girl for it."
     },
     {
       "race": 7,
@@ -350,7 +356,8 @@
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 5.1
+      "edge_pts": 5.1,
+      "shape": "Five horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #4 Blame It On K J and #6 Vintage Vino for it."
     },
     {
       "race": 8,
@@ -368,7 +375,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": -1.2
+      "edge_pts": -1.2,
+      "shape": "No one horse is entitled to the lead going a mile on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -389,7 +397,8 @@
         "1",
         "13"
       ],
-      "edge_pts": -1.5
+      "edge_pts": -1.5,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. 16 going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     }
   ],
   "multi_race": []

@@ -296,6 +296,7 @@
         "7"
       ],
       "edge_pts": -6.3,
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #8 Pioneer Prince accordingly.",
       "vulnerable_favourite": {
         "program": "7",
         "name": "HARD TO FIGURE",
@@ -320,7 +321,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 12.4
+      "edge_pts": 12.4,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -338,7 +340,8 @@
       "coverage_set": [
         "1"
       ],
-      "edge_pts": 5.5
+      "edge_pts": 5.5,
+      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -356,7 +359,8 @@
       "coverage_set": [
         "1"
       ],
-      "edge_pts": 6.1
+      "edge_pts": 6.1,
+      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #5 Nasty Habit and #7 Gregory's Pride for it."
     },
     {
       "race": 5,
@@ -377,7 +381,8 @@
         "3",
         "5"
       ],
-      "edge_pts": 0.0
+      "edge_pts": 0.0,
+      "shape": "Nobody is clearly entitled to the lead going five furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -395,7 +400,8 @@
       "coverage_set": [
         "13"
       ],
-      "edge_pts": 4.3
+      "edge_pts": 4.3,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #8 Maaz and #10 Tempus Volat for it."
     },
     {
       "race": 7,
@@ -416,7 +422,8 @@
         "7",
         "1"
       ],
-      "edge_pts": -0.7
+      "edge_pts": -0.7,
+      "shape": "No one horse is entitled to the lead going a mile on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -434,7 +441,8 @@
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 5.4
+      "edge_pts": 5.4,
+      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Twelve going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -455,7 +463,8 @@
         "5",
         "10"
       ],
-      "edge_pts": 1.2
+      "edge_pts": 1.2,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 10,
@@ -473,7 +482,8 @@
       "coverage_set": [
         "9"
       ],
-      "edge_pts": 4.9
+      "edge_pts": 4.9,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #5 Peachy Canyon and #6 Helen's Time for it."
     }
   ],
   "multi_race": []

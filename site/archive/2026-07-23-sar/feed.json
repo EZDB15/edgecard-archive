@@ -295,7 +295,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 8.4
+      "edge_pts": 8.4,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #3 Bounding Along for it."
     },
     {
       "race": 2,
@@ -313,7 +314,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 2.1
+      "edge_pts": 2.1,
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #3 Light Fantastic accordingly."
     },
     {
       "race": 3,
@@ -335,6 +337,7 @@
         "9"
       ],
       "edge_pts": -8.1,
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "3",
         "name": "NORWICH",
@@ -359,7 +362,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 6.5
+      "edge_pts": 6.5,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Britain's Kitten and #3 Bourbon Day for it."
     },
     {
       "race": 5,
@@ -377,7 +381,8 @@
       "coverage_set": [
         "9"
       ],
-      "edge_pts": 5.6
+      "edge_pts": 5.6,
+      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -396,6 +401,7 @@
         "1"
       ],
       "edge_pts": -8.1,
+      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #6 Otto Nipoti and #10 Tapwrits Temper for it.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "ANCIENT WORLD",
@@ -420,7 +426,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 9.6
+      "edge_pts": 9.6,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -441,7 +448,8 @@
         "4",
         "6"
       ],
-      "edge_pts": -4.2
+      "edge_pts": -4.2,
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -459,7 +467,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 5.1
+      "edge_pts": 5.1,
+      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #6 You Know Better and #7 Garden Of Grace for it."
     }
   ],
   "multi_race": []

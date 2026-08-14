@@ -304,7 +304,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 5.0
+      "edge_pts": 5.0,
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #3 Poise accordingly."
     },
     {
       "race": 2,
@@ -322,7 +323,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 3.2
+      "edge_pts": 3.2,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -340,7 +342,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": -2.2
+      "edge_pts": -2.2,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #3 Royal Bobbie and #5 Calling An Audible for it."
     },
     {
       "race": 4,
@@ -358,7 +361,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": -2.4
+      "edge_pts": -2.4,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -376,7 +380,8 @@
       "coverage_set": [
         "8"
       ],
-      "edge_pts": 6.9
+      "edge_pts": 6.9,
+      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Twelve going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -394,7 +399,8 @@
       "coverage_set": [
         "1"
       ],
-      "edge_pts": 16.1
+      "edge_pts": 16.1,
+      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Capricious Outcome and #2 Printer's Alley for it."
     },
     {
       "race": 7,
@@ -412,7 +418,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": 3.3
+      "edge_pts": 3.3,
+      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -430,7 +437,8 @@
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 2.8
+      "edge_pts": 2.8,
+      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #7 Works For Me for it."
     },
     {
       "race": 9,
@@ -451,7 +459,8 @@
         "6",
         "4"
       ],
-      "edge_pts": -3.4
+      "edge_pts": -3.4,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #2 Mo For The King and #8 Empire Sky for it."
     },
     {
       "race": 10,
@@ -469,7 +478,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 10.7
+      "edge_pts": 10.7,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Twelve going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 11,
@@ -487,7 +497,8 @@
       "coverage_set": [
         "3"
       ],
-      "edge_pts": 5.8
+      "edge_pts": 5.8,
+      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #2 Brightline Bullet and #5 Mission Improbable for it."
     }
   ],
   "multi_race": []

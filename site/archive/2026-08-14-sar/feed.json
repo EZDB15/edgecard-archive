@@ -243,10 +243,10 @@
       "program": "6",
       "horse": "MISS VYVYANNE",
       "status": "ACTIVE",
-      "lifecycle_status": "UPCOMING",
+      "lifecycle_status": "STARTED",
       "result_status": "PENDING",
-      "bettable": true,
-      "lifecycle_reason": "before this race's scheduled post time",
+      "bettable": false,
+      "lifecycle_reason": "this race's scheduled post time has passed",
       "scheduled_post_utc": "2026-08-14T21:44:00+00:00",
       "model_win_pct": 32,
       "fair_odds": "2/1",
@@ -326,7 +326,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 6.9
+      "edge_pts": 6.9,
+      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Into The Light and #3 Bold Love for it."
     },
     {
       "race": 2,
@@ -344,7 +345,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": 12.3
+      "edge_pts": 12.3,
+      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -362,7 +364,8 @@
       "coverage_set": [
         "5"
       ],
-      "edge_pts": 11.1
+      "edge_pts": 11.1,
+      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -380,7 +383,8 @@
       "coverage_set": [
         "4"
       ],
-      "edge_pts": -0.8
+      "edge_pts": -0.8,
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -399,6 +403,7 @@
         "6"
       ],
       "edge_pts": -6.0,
+      "shape": "No one horse is entitled to the lead going a mile on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "6",
         "name": "OLD TIME ROCKNROLL",
@@ -423,7 +428,8 @@
       "coverage_set": [
         "8"
       ],
-      "edge_pts": 0.6
+      "edge_pts": 0.6,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -441,7 +447,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": -2.3
+      "edge_pts": -2.3,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #7 Glen Airy and #9 Apalta for it."
     },
     {
       "race": 8,
@@ -459,7 +466,8 @@
       "coverage_set": [
         "7"
       ],
-      "edge_pts": 2.8
+      "edge_pts": 2.8,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Ridgewood Runner and #3 Commuted for it."
     },
     {
       "race": 9,
@@ -477,7 +485,8 @@
       "coverage_set": [
         "6"
       ],
-      "edge_pts": 9.5
+      "edge_pts": 9.5,
+      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #3 Praying and #4 Le Amazonia for it."
     },
     {
       "race": 10,
@@ -495,7 +504,8 @@
       "coverage_set": [
         "2"
       ],
-      "edge_pts": 0.8
+      "edge_pts": 0.8,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
     }
   ],
   "multi_race": []
