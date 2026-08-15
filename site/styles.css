@@ -382,11 +382,11 @@ details.howto dd{margin:2px 0 0;color:var(--muted);font-size:13.5px;max-width:64
 /* "How it sets up": the pace projection. Given a tinted ground rather than a
    rule so it reads as a different KIND of statement from the horse-by-horse
    lines around it, which is exactly what it is. */
-.rd-shape{margin:9px 0 0;padding:10px 12px;background:var(--flag-wash);
+.rd-shape{margin:9px 0 0;padding:8px 11px;background:var(--flag-wash);
   border-radius:2px;max-width:70ch;}
 .rd-shape .k{display:block;font-family:var(--mono);font-size:10px;font-weight:700;
   text-transform:uppercase;letter-spacing:0.06em;color:var(--gold-text);margin-bottom:3px;}
-.rd-shape p{font-family:var(--serif);font-size:14px;line-height:1.5;color:var(--ink);margin:0;}
+.rd-shape p{font-family:var(--serif);font-size:13.5px;line-height:1.45;color:var(--ink);margin:0;}
 /* The pace picture. Real program numbers in their saddle-cloth colours, not
    abstract markers: the number is what a bettor reads on the board and the
    colour is the one they will see load into the gate, so the diagram maps
