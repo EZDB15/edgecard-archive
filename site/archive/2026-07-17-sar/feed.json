@@ -296,7 +296,7 @@
         "3"
       ],
       "edge_pts": 5.9,
-      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five and a half furlongs on turf. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -315,7 +315,7 @@
         "3"
       ],
       "edge_pts": 2.7,
-      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -337,7 +337,7 @@
         "1"
       ],
       "edge_pts": -1.4,
-      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -359,7 +359,7 @@
         "9"
       ],
       "edge_pts": 0.0,
-      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five and a half furlongs on dirt. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -378,7 +378,7 @@
         "1"
       ],
       "edge_pts": 8.9,
-      "shape": "Six horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #7 Funny Factor and #10 Anyway for it."
+      "shape": "Six horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #7 Funny Factor and #10 Anyway on that basis."
     },
     {
       "race": 6,
@@ -400,7 +400,7 @@
         "2"
       ],
       "edge_pts": -0.3,
-      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #5 Mayor Of Midnight and #8 The Hidden Chamber for it."
+      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #5 Mayor Of Midnight and #8 The Hidden Chamber on that basis."
     },
     {
       "race": 7,
@@ -419,7 +419,7 @@
         "9"
       ],
       "edge_pts": -0.8,
-      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Antietam and #7 Geostoblame for it."
+      "shape": "Four horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Antietam and #7 Geostoblame on that basis."
     },
     {
       "race": 8,
@@ -438,7 +438,7 @@
         "2"
       ],
       "edge_pts": 9.2,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. 16 going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. 16 going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -457,7 +457,7 @@
         "9"
       ],
       "edge_pts": 5.3,
-      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Salty Senorita and #2 Hang The Moon for it."
+      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Salty Senorita and #2 Hang The Moon on that basis."
     },
     {
       "race": 10,
@@ -476,7 +476,7 @@
         "2"
       ],
       "edge_pts": -4.6,
-      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Eleven going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. Eleven going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     }
   ],
   "multi_race": []

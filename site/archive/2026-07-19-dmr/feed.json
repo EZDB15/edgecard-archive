@@ -296,7 +296,7 @@
         "7"
       ],
       "edge_pts": 5.8,
-      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five and a half furlongs on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -315,7 +315,7 @@
         "5"
       ],
       "edge_pts": 0.2,
-      "shape": "Nobody is clearly entitled to the lead going five furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five furlongs on dirt. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -334,7 +334,7 @@
         "6"
       ],
       "edge_pts": 11.4,
-      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #1 Nesso's Lastharrah and #6 Motorious for it."
+      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Nesso's Lastharrah and #6 Motorious on that basis."
     },
     {
       "race": 4,
@@ -356,7 +356,7 @@
         "8"
       ],
       "edge_pts": -2.8,
-      "shape": "No one horse is entitled to the lead going a mile on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile on dirt. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -378,7 +378,7 @@
         "4"
       ],
       "edge_pts": -0.8,
-      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile on turf. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -397,7 +397,7 @@
         "1"
       ],
       "edge_pts": 5.0,
-      "shape": "Six horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #1 Next Trick and #2 Desert Kat for it."
+      "shape": "Six horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Next Trick and #2 Desert Kat on that basis."
     },
     {
       "race": 7,
@@ -416,7 +416,7 @@
         "2"
       ],
       "edge_pts": 5.9,
-      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #4 Lucky N Smart and #12 Still Bulletproof for it."
+      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #4 Lucky N Smart and #12 Still Bulletproof on that basis."
     },
     {
       "race": 8,
@@ -438,7 +438,7 @@
         "11"
       ],
       "edge_pts": 0.0,
-      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Twelve going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five and a half furlongs on dirt. Twelve going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -460,7 +460,7 @@
         "2"
       ],
       "edge_pts": -2.8,
-      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile on turf. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 10,
@@ -482,7 +482,7 @@
         "4"
       ],
       "edge_pts": 1.1,
-      "shape": "Four horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Got'm Cot'm and #5 Letmein for it.",
+      "shape": "Four horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Got'm Cot'm and #5 Letmein on that basis.",
       "vulnerable_favourite": {
         "program": "6",
         "name": "CRUISIN FOR CALI",
@@ -508,7 +508,7 @@
         "6"
       ],
       "edge_pts": 10.1,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Twelve going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Twelve going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     }
   ],
   "multi_race": []

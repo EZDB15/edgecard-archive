@@ -114,8 +114,81 @@ h1.sec,h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;
   letter-spacing:0.09em;padding:3px 10px;border-radius:2px;flex:none;}
 .chip-sample{border:1px dashed var(--rule);color:var(--muted);font-family:var(--mono);
   padding:2px 8px;border-radius:2px;}
-.surf-t{border-bottom:2px solid var(--win);padding-bottom:1px;}
-.surf-d{border-bottom:2px solid #C9A96A;padding-bottom:1px;}
+/* Surface chips. The texture is drawn entirely from gradients, so there is no
+   image request and the strict CSP is never in play. The WORD stays inside the
+   chip: colour and texture are reinforcement, never the only carrier, which is
+   the same rule the saddle-cloth badges follow. */
+.surf{display:inline-block;padding:1px 7px;border-radius:2px;vertical-align:baseline;
+  font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.07em;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,0.5);
+  border:1px solid rgba(0,0,0,0.22);background-repeat:repeat;}
+/* Turf: two near-vertical strokes at opposing angles. Crossing them at 84 and
+   96 degrees stops the eye reading a regular stripe and gives blades instead. */
+.surf-t{background-color:#3f6b3a;
+  background-image:
+    repeating-linear-gradient(84deg, rgba(255,255,255,0.15) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(96deg, rgba(0,0,0,0.18) 0 1px, transparent 1px 4px),
+    linear-gradient(180deg, rgba(255,255,255,0.12), rgba(0,0,0,0.16));}
+/* Dirt: five speckle layers on deliberately co-prime tile sizes, so the grain
+   never lines up into a visible repeat at chip scale. */
+.surf-d{background-color:#7c5636;
+  background-image:
+    radial-gradient(circle at 12% 30%, rgba(255,255,255,0.20) 0 0.6px, transparent 0.7px),
+    radial-gradient(circle at 37% 68%, rgba(0,0,0,0.24) 0 0.7px, transparent 0.8px),
+    radial-gradient(circle at 61% 22%, rgba(255,255,255,0.15) 0 0.5px, transparent 0.6px),
+    radial-gradient(circle at 82% 74%, rgba(0,0,0,0.22) 0 0.6px, transparent 0.7px),
+    radial-gradient(circle at 27% 88%, rgba(255,255,255,0.11) 0 0.5px, transparent 0.6px),
+    linear-gradient(180deg, rgba(255,255,255,0.10), rgba(0,0,0,0.18));
+  background-size:9px 7px,11px 8px,7px 9px,13px 7px,8px 10px,100% 100%;}
+/* Flag block, two columns from 900px. display:contents below the breakpoint so
+   the wrapper vanishes entirely on mobile and the source order still governs:
+   no duplicated markup, no second rendering path to keep in step. */
+.flag-cols{display:contents;}
+@media (min-width:900px){
+  .flag-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);
+    gap:0 26px;align-items:start;}
+  .flag-c1,.flag-c2{min-width:0;}
+  /* A hairline between the columns, in the broadsheet register rather than a
+     card boundary: this is one block read in two passes, not two cards. */
+  .flag-c2{border-left:1px solid var(--line);padding-left:26px;}
+}
+
+/* BLOCK WASH. The same surface, laid under the whole race card at a few
+   percent so the block itself carries the going. Tiles are much larger than the
+   chip's: a blade scaled for a 10px label turns into noise across 700px, so
+   these are drawn for the block and the chip keeps its own finer set.
+   On a ::before at z-index 0 with pointer-events off, so it can never touch
+   text contrast or intercept a click. */
+.flag,.rd{position:relative;}
+.flag>*,.rd>*{position:relative;z-index:1;}
+.flag::before,.rd::before{content:"";position:absolute;inset:0;z-index:0;
+  pointer-events:none;opacity:0.06;}
+.sfc-t::before{background-image:
+  repeating-linear-gradient(87deg, rgba(24,74,22,0.9) 0 1px, transparent 1px 6px),
+  repeating-linear-gradient(93deg, rgba(10,44,12,0.7) 0 1px, transparent 1px 9px),
+  repeating-linear-gradient(90deg, rgba(40,96,36,0.5) 0 2px, transparent 2px 14px);}
+.sfc-d::before{background-image:
+  radial-gradient(circle at 18% 34%, rgba(72,44,20,0.9) 0 1.1px, transparent 1.3px),
+  radial-gradient(circle at 63% 71%, rgba(48,30,14,0.8) 0 1.3px, transparent 1.5px),
+  radial-gradient(circle at 41% 12%, rgba(96,64,32,0.7) 0 1px, transparent 1.2px),
+  radial-gradient(circle at 86% 47%, rgba(60,38,18,0.8) 0 1.2px, transparent 1.4px);
+  background-size:23px 19px,31px 26px,17px 29px,37px 21px;}
+.sfc-a::before{background-image:
+  radial-gradient(circle at 30% 45%, rgba(48,52,60,0.8) 0 1px, transparent 1.2px),
+  radial-gradient(circle at 75% 62%, rgba(30,34,42,0.7) 0 1px, transparent 1.2px);
+  background-size:13px 11px,17px 14px;}
+/* Voided flags are already struck through; a going wash under them would fight
+   the strike-through for attention. */
+.flag.voided::before{opacity:0;}
+
+/* All-weather: a finer, cooler, more uniform grain. It is waxed sand, and it
+   should not read as either of the other two. */
+.surf-a{background-color:#5a5f6b;
+  background-image:
+    radial-gradient(circle at 20% 40%, rgba(255,255,255,0.16) 0 0.5px, transparent 0.6px),
+    radial-gradient(circle at 70% 65%, rgba(0,0,0,0.20) 0 0.5px, transparent 0.6px),
+    linear-gradient(180deg, rgba(255,255,255,0.10), rgba(0,0,0,0.16));
+  background-size:6px 5px,7px 6px,100% 100%;}
 .flag .horse{font-family:var(--serif);font-weight:700;font-size:23px;margin:2px 0 13px;
   display:flex;align-items:center;gap:11px;}
 .flag .horse .pgm{width:34px;height:34px;font-size:16px;}
@@ -569,11 +642,19 @@ table.clv td.own{color:var(--ink);font-weight:700;}
 .passes .row code{font-family:var(--mono);font-size:12px;color:var(--muted);}
 
 /* ---- track tabs (Today: flip between the day's meets) ---- */
-.tracktabs{display:flex;gap:0;flex-wrap:wrap;border-bottom:2px solid var(--rule);margin:0 0 20px;}
-.tracktabs .tt{font-family:var(--mono);font-size:13px;letter-spacing:0.07em;text-transform:uppercase;
-  padding:9px 18px 8px;color:var(--muted);border:0;border-bottom:3px solid transparent;margin-bottom:-2px;}
-.tracktabs a.tt:hover{color:var(--ink);}
-.tracktabs .tt.on{color:var(--ink);font-weight:700;border-bottom-color:var(--flag);}
+/* Track switcher as a SEGMENTED CONTROL rather than underlined text links.
+   It is a choice between two views of the same day, and underline tabs read as
+   navigation you might be leaving the page for. A bordered group with a filled
+   active segment says "pick one" at a glance and is the documented pattern for
+   this job. */
+.tracktabs{display:inline-flex;gap:0;flex-wrap:wrap;margin:0 0 20px;
+  border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:var(--surface);}
+.tracktabs .tt{font-family:var(--mono);font-size:12.5px;letter-spacing:0.07em;
+  text-transform:uppercase;padding:8px 18px;color:var(--muted);border:0;
+  border-right:1px solid var(--line);text-decoration:none;}
+.tracktabs .tt:last-child{border-right:0;}
+.tracktabs a.tt:hover{color:var(--ink);background:var(--bg);}
+.tracktabs .tt.on{color:#fff;background:var(--accent);font-weight:700;}
 
 /* ---- legal pages ---- */
 .legal h1{margin-bottom:0.1em;}
@@ -676,6 +757,73 @@ tr.flagged td{background:var(--flag-wash);}
   .card-col .flag:nth-of-type(1){animation-delay:.12s;}
   .card-col .flag:nth-of-type(2){animation-delay:.18s;}
   @keyframes ec-rise{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+
+  /* TIMING ONLY lives in here, plus anything that moves. The hover STATES sit
+     outside this query, so a reader who asks for reduced motion still gets the
+     feedback, it just arrives instantly instead of easing in. */
+  a,summary,button,.btn-ts,.pgm,.surf,.mastnav a,.sub-row button{
+    transition:color .16s ease, background-color .16s ease, border-color .16s ease,
+      box-shadow .16s ease, transform .16s cubic-bezier(.2,.7,.2,1);}
+  .flag,.rd,.tile,.calib-row,table.rt tbody tr,.archive-row{
+    transition:background-color .16s ease, box-shadow .18s ease, transform .18s cubic-bezier(.2,.7,.2,1);}
+  summary::marker,summary::-webkit-details-marker{transition:transform .18s ease;}
+  /* Lifts. Small on purpose: this is a broadsheet, not a dashboard. */
+  .flag:hover,.tile:hover{transform:translateY(-2px);}
+  .btn-ts:hover,.sub-row button:hover{transform:translateY(-1px);}
+  .pgm:hover{transform:scale(1.06);}
+}
+
+/* ---- interaction states (no motion required to be useful) ---- */
+.flag:hover,.tile:hover{box-shadow:0 2px 0 var(--rule);}
+.rd:hover,.calib-row:hover{background:var(--surface);}
+table.rt tbody tr:hover{background:var(--surface);}
+summary{cursor:pointer;}
+summary:hover{color:var(--ink);}
+.surf:hover{filter:brightness(1.08);}
+.mastnav a:hover{color:var(--ink);}
+/* A focus ring that is visible ON the textured chips and coloured badges,
+   where the default outline colour disappears into the fill. */
+.pgm:focus-visible,.surf:focus-visible{outline:2px solid var(--ink);outline-offset:2px;}
+
+/* Sortable table headers. The affordance only appears once the script has run
+   and added .sortable, so a reader with JS blocked is never shown a control
+   that does nothing. */
+th.sortable{cursor:pointer;user-select:none;position:relative;padding-right:18px;}
+th.sortable::after{content:"95";position:absolute;right:6px;opacity:0.3;
+  font-size:10px;font-weight:400;}
+th.sortable:hover{color:var(--ink);}
+th.sortable:hover::after{opacity:0.6;}
+th.sortable[aria-sort="ascending"]::after{content:"91";opacity:1;color:var(--accent);}
+th.sortable[aria-sort="descending"]::after{content:"93";opacity:1;color:var(--accent);}
+
+/* ---- compliance panel ----
+   The legal block was three lines of 11px muted mono, which is what a site
+   looks like when it is discharging an obligation. This is the same locked
+   wording given a frame: an age badge, the text at a readable size, and the
+   helpline as a real target rather than a phrase inside a paragraph. The
+   number is deliberately repeated from the disclaimer, because somebody who
+   needs it should not have to finish reading a compliance notice first. */
+.compliance{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px 16px;
+  align-items:start;border:1px solid var(--rule);border-left:4px solid var(--accent);
+  background:var(--bg);padding:16px 18px;margin:14px 0 0;}
+.comp-badge{grid-row:span 2;display:flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:50%;border:2px solid var(--accent);
+  font-family:var(--mono);font-size:14px;font-weight:700;color:var(--accent);
+  letter-spacing:0.02em;flex:none;}
+.comp-text{font-family:var(--mono);font-size:11.5px;line-height:1.75;color:var(--muted);
+  margin:0;max-width:88ch;}
+.comp-help{grid-column:2;display:inline-flex;align-items:baseline;gap:9px;
+  align-self:start;border:1px solid var(--loss);border-radius:2px;padding:7px 12px;
+  text-decoration:none;width:fit-content;}
+.comp-help .comp-k{font-family:var(--mono);font-size:10px;text-transform:uppercase;
+  letter-spacing:0.07em;color:var(--muted);}
+.comp-help .comp-v{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--loss);
+  letter-spacing:0.03em;}
+.comp-help:hover{background:var(--surface);border-bottom-color:var(--loss);}
+@media (max-width:560px){
+  .compliance{grid-template-columns:1fr;}
+  .comp-badge{grid-row:auto;}
+  .comp-help{grid-column:1;}
 }
 
 /* ---- footer brand: reverse-white lockup on a slim racing-navy band ---- */

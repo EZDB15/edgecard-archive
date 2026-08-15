@@ -296,7 +296,7 @@
         "7"
       ],
       "edge_pts": 4.2,
-      "shape": "No one horse is entitled to the lead going seven furlongs on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going seven furlongs on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -315,7 +315,7 @@
         "7"
       ],
       "edge_pts": -1.3,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -334,7 +334,7 @@
         "5"
       ],
       "edge_pts": 6.9,
-      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #1 Brunch With Amy and #6 My Gun's Loaded for it."
+      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Brunch With Amy and #6 My Gun's Loaded on that basis."
     },
     {
       "race": 4,
@@ -353,7 +353,7 @@
         "1"
       ],
       "edge_pts": -1.2,
-      "shape": "No one horse is entitled to the lead going a mile on dirt, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -375,7 +375,7 @@
         "5"
       ],
       "edge_pts": 0.1,
-      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Eleven going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. Eleven going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -394,7 +394,7 @@
         "4"
       ],
       "edge_pts": 0.7,
-      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five and a half furlongs on turf. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -413,7 +413,7 @@
         "8"
       ],
       "edge_pts": 8.4,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #7 Golden Rocket accordingly."
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #7 Golden Rocket on that basis."
     },
     {
       "race": 8,
@@ -432,7 +432,7 @@
         "4"
       ],
       "edge_pts": 0.3,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #4 Scottish Lassie accordingly."
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #4 Scottish Lassie on that basis."
     },
     {
       "race": 9,
@@ -451,7 +451,7 @@
         "1"
       ],
       "edge_pts": 14.9,
-      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #2 Voodoo Doll and #3 Newlyn for it."
+      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #2 Voodoo Doll and #3 Newlyn on that basis."
     },
     {
       "race": 10,
@@ -470,7 +470,7 @@
         "9"
       ],
       "edge_pts": 10.2,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #9 War And Majesty accordingly."
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #9 War And Majesty on that basis."
     }
   ],
   "multi_race": []

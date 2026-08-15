@@ -296,7 +296,7 @@
         "6"
       ],
       "edge_pts": 0.8,
-      "shape": "Nobody is clearly entitled to the lead going five furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five furlongs on dirt. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -318,7 +318,7 @@
         "5"
       ],
       "edge_pts": -0.6,
-      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #4 First Or Last and #5 Tiz Alluring for it."
+      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #4 First Or Last and #5 Tiz Alluring on that basis."
     },
     {
       "race": 3,
@@ -337,7 +337,7 @@
         "4"
       ],
       "edge_pts": 0.9,
-      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #2 Allihies and #4 Crazy Cami for it."
+      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #2 Allihies and #4 Crazy Cami on that basis."
     },
     {
       "race": 4,
@@ -356,7 +356,7 @@
         "6"
       ],
       "edge_pts": 5.7,
-      "shape": "No one horse is entitled to the lead going a mile and an eighth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile and an eighth on turf. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -378,7 +378,7 @@
         "9"
       ],
       "edge_pts": -3.3,
-      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #4 Smokem And Love and #8 Duke Of Orleans for it."
+      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #4 Smokem And Love and #8 Duke Of Orleans on that basis."
     },
     {
       "race": 6,
@@ -397,7 +397,7 @@
         "6"
       ],
       "edge_pts": 7.4,
-      "shape": "Six horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #3 Incanto and #6 Bad Uncle Barry for it."
+      "shape": "Six horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #3 Incanto and #6 Bad Uncle Barry on that basis."
     },
     {
       "race": 7,
@@ -416,7 +416,7 @@
         "8"
       ],
       "edge_pts": -5.5,
-      "shape": "Six horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #5 Troisieme Etoile and #6 She's No Quant for it.",
+      "shape": "Six horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #5 Troisieme Etoile and #6 She's No Quant on that basis.",
       "vulnerable_favourite": {
         "program": "8",
         "name": "MOHAVEN",
@@ -442,7 +442,7 @@
         "9"
       ],
       "edge_pts": 10.8,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #10 Royal Rumor accordingly."
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #10 Royal Rumor on that basis."
     }
   ],
   "multi_race": []

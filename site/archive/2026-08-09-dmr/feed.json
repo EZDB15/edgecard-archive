@@ -187,7 +187,7 @@
         "7"
       ],
       "edge_pts": 16.0,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #6 Daring Pursuit accordingly."
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #6 Daring Pursuit on that basis."
     },
     {
       "race": 2,
@@ -206,7 +206,7 @@
         "1"
       ],
       "edge_pts": 1.1,
-      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. With only five going it should be a clean trip for everyone, which puts the weight back on ability. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. With only five going it should be a clean trip for everyone, which puts the weight back on ability. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -225,7 +225,7 @@
         "1"
       ],
       "edge_pts": 3.1,
-      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile on turf. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -244,7 +244,7 @@
         "3"
       ],
       "edge_pts": 0.3,
-      "shape": "Nobody is clearly entitled to the lead going five furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going five furlongs on dirt. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -263,7 +263,7 @@
         "9"
       ],
       "edge_pts": 11.3,
-      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #2 Smart Code and #9 Enterdadragon for it."
+      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #2 Smart Code and #9 Enterdadragon on that basis."
     },
     {
       "race": 6,
@@ -282,7 +282,7 @@
         "4"
       ],
       "edge_pts": 3.8,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #4 Ruiva accordingly."
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #4 Ruiva on that basis."
     },
     {
       "race": 7,
@@ -301,7 +301,7 @@
         "7"
       ],
       "edge_pts": -0.3,
-      "shape": "Four horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #2 Harney Lane and #7 Pavel Is Appealing for it."
+      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #2 Harney Lane and #7 Pavel Is Appealing on that basis."
     },
     {
       "race": 8,
@@ -320,7 +320,7 @@
         "1"
       ],
       "edge_pts": -6.7,
-      "shape": "Nobody is clearly entitled to the lead going six and a half furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied.",
+      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "NO BAD BEATS",
@@ -349,7 +349,7 @@
         "10"
       ],
       "edge_pts": -0.1,
-      "shape": "No one horse is entitled to the lead going a mile on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Eleven going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going a mile on turf. Eleven going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     }
   ],
   "multi_race": []
