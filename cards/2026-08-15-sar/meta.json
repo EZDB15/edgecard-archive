@@ -1,0 +1,32 @@
+{
+  "sha256": "7b5952d2150fa5142c908d689717f7a76afaa2634e25735b58f024d72e6c411e",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 79,
+    "temp_unit": "F",
+    "wind": "3 mph",
+    "precip_pct": 1,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:24 AM ET",
+  "lock_ts_utc": "2026-08-15T15:24:36+00:00",
+  "scratches_as_of_et": "11:06 AM ET",
+  "scratch_state": "CHECKED_WITH_CHANGES",
+  "scratch_checked_at_et": "11:23 AM ET",
+  "scratch_checked_at_utc": "2026-08-15T15:23:00+00:00",
+  "scratch_source": "NYRA official Saratoga scratches & changes sheet, last updated 11:06:41 AM ET; 24 entries across 10 races. Track MUDDY, turf YIELDING; races 5, 7 and 12 taken OFF THE TURF, with distance changes in 5 and 12. The race-5 flag #8 CONSIDERATE CITY was scratched off the turf and is VOID - an erratum is filed against it and it must not be acted on. Checked BEFORE the card locked.",
+  "scratch_track": "SAR",
+  "scratch_date": "2026-08-15",
+  "first_post_et": "12:30 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-15-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Sat Aug 15 \u00b7 12 races, 4 flags, 8 passes"
+}

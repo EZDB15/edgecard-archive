@@ -1,0 +1,32 @@
+{
+  "sha256": "8089db42a62e526afe90f47e692ce3415c2584faabcc207a50f2b3118566fbf4",
+  "weather": {
+    "short": "Partly Sunny",
+    "temp": 76,
+    "temp_unit": "F",
+    "wind": "5 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:24 AM ET",
+  "lock_ts_utc": "2026-08-15T15:24:50+00:00",
+  "scratches_as_of_et": "6:21 AM ET",
+  "scratch_state": "CHECKED_WITH_CHANGES",
+  "scratch_checked_at_et": "11:23 AM ET",
+  "scratch_checked_at_utc": "2026-08-15T15:23:00+00:00",
+  "scratch_source": "Del Mar / Equibase race day changes, last updated 6:21 AM ET; 2 scratches (R8 #8 Catalina Cocktail, R9 #10 Sigma Boy), temporary rail 12 ft in R2/R4/R6/R8/R10, R3 #2 first start since gelded. Checked BEFORE the card locked; no flagged selection is on a scratched horse.",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-08-15",
+  "first_post_et": "2:00 PM PT",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-15-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Sat Aug 15 \u00b7 10 races, 3 flags, 7 passes"
+}

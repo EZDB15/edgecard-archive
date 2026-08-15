@@ -1,0 +1,29 @@
+{
+  "schema": 2,
+  "entries": [
+    {
+      "id": "e001",
+      "schema": 2,
+      "type": "SCRATCH",
+      "track": "SAR",
+      "date": "2026-08-15",
+      "race": 5,
+      "program": "8",
+      "horse": "CONSIDERATE CITY",
+      "status": "active",
+      "source": "NYRA official Saratoga scratches & changes sheet",
+      "source_ref": "",
+      "verified_by": "paddock",
+      "verified_at": "2026-08-15T15:25:13+00:00",
+      "issued_at": "2026-08-15T15:25:13+00:00",
+      "notice": "Scratched off the turf. Race 5 was taken off the turf and its distance changed from 1 1/16M to 1M; this flag is void and must not be acted on.",
+      "action": "VOID_SELECTION",
+      "bettable": false,
+      "grade_disposition": "void",
+      "race_level": false,
+      "supersedes": null
+    }
+  ],
+  "track": "SAR",
+  "date": "2026-08-15"
+}

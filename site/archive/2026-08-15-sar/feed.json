@@ -1,0 +1,570 @@
+{
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "product": "Edge Card",
+  "track": "SAR",
+  "track_name": "Saratoga",
+  "date": "2026-08-15",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.dd6808c9",
+  "generated_ts_utc": "2026-08-15T15:21:50+00:00",
+  "first_post_et": "12:30 PM ET",
+  "n_races": 12,
+  "n_flags": 4,
+  "n_passes": 8,
+  "edge_of_day": {
+    "race": 9,
+    "program": "7",
+    "horse": "SURVIE",
+    "model_win_pct": 29,
+    "play_at": "3/1",
+    "edge_pts": 18.0,
+    "durability": {
+      "cls": "watch",
+      "label": "Price may move",
+      "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+      "version": "d0"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-08-15-sar/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-08-15-sar/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "34-84",
+    "wins": 34,
+    "losses": 84,
+    "graded": 118,
+    "units": -2.06,
+    "roi_pct": -0.9,
+    "roi_ci_low": -30.8,
+    "roi_ci_high": 30.9,
+    "roi_n": 118,
+    "closing_held_n": 37,
+    "closing_graded_n": 111,
+    "closing_held_pct": 33,
+    "last_miss": {
+      "date": "2026-08-14",
+      "track": "SAR",
+      "race": 9,
+      "name": "MISS VYVYANNE",
+      "board_decimal": 3.5,
+      "closing_decimal": 3.72
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 5,
+      "program": "8",
+      "horse": "CONSIDERATE CITY",
+      "status": "VOID_SCRATCHED",
+      "lifecycle_status": "VOID",
+      "result_status": "VOIDED",
+      "bettable": false,
+      "lifecycle_reason": "selection was scratched or the race was voided",
+      "scheduled_post_utc": "2026-08-15T18:43:00+00:00",
+      "model_win_pct": 38,
+      "fair_odds": "8/5",
+      "fair_odds_decimal": 2.64,
+      "play_at": "9/5",
+      "play_at_decimal": 2.9,
+      "edge_pts": 7.7,
+      "reason": "Ranks #1 in our power figure blend; model 38% vs 30% morning-line implied (+7.7 pts)",
+      "surface": "turf",
+      "distance": "1 1/16 miles",
+      "race_type": "Alw 105000n1x",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-15",
+        "races": [
+          5
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 5,
+            "role": "win",
+            "programs": [
+              "8"
+            ]
+          }
+        ],
+        "min_odds_decimal": 2.9,
+        "minimum_acceptable_odds_decimal": 2.9,
+        "minimum_acceptable_odds_display": "9/5",
+        "play_at_odds_decimal": 2.9,
+        "play_at_odds_display": "9/5",
+        "fair_odds_decimal": 2.64,
+        "fair_odds_display": "8/5",
+        "morning_line_odds_decimal": 2.6,
+        "morning_line_odds_display": "8/5",
+        "fair_return_usd": null,
+        "instruction": "#8 to win. Our reference price is 9/5.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 7,
+      "program": "6",
+      "horse": "CANDYTOWN",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-15T19:53:00+00:00",
+      "model_win_pct": 25,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 3.96,
+      "play_at": "7/2",
+      "play_at_decimal": 4.36,
+      "edge_pts": 11.0,
+      "reason": "Ranks #1 in our power figure blend; model 25% vs 14% morning-line implied (+11.0 pts)",
+      "surface": "turf",
+      "distance": "5 1/2 furlongs",
+      "race_type": "OClm 80000n2x",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-15",
+        "races": [
+          7
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 7,
+            "role": "win",
+            "programs": [
+              "6"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.36,
+        "minimum_acceptable_odds_decimal": 4.36,
+        "minimum_acceptable_odds_display": "7/2",
+        "play_at_odds_decimal": 4.36,
+        "play_at_odds_display": "7/2",
+        "fair_odds_decimal": 3.96,
+        "fair_odds_display": "3/1",
+        "morning_line_odds_decimal": 5.5,
+        "morning_line_odds_display": "9/2",
+        "fair_return_usd": null,
+        "instruction": "#6 to win. Our reference price is 7/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 9,
+      "program": "7",
+      "horse": "SURVIE",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-15T21:06:00+00:00",
+      "model_win_pct": 29,
+      "fair_odds": "5/2",
+      "fair_odds_decimal": 3.42,
+      "play_at": "3/1",
+      "play_at_decimal": 3.76,
+      "edge_pts": 18.0,
+      "reason": "Ranks #1 in our power figure blend; model 29% vs 11% morning-line implied (+18.0 pts)",
+      "surface": "turf",
+      "distance": "1 1/2 miles",
+      "race_type": "CClmntTf-G1",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-15",
+        "races": [
+          9
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 9,
+            "role": "win",
+            "programs": [
+              "7"
+            ]
+          }
+        ],
+        "min_odds_decimal": 3.76,
+        "minimum_acceptable_odds_decimal": 3.76,
+        "minimum_acceptable_odds_display": "3/1",
+        "play_at_odds_decimal": 3.76,
+        "play_at_odds_display": "3/1",
+        "fair_odds_decimal": 3.42,
+        "fair_odds_display": "5/2",
+        "morning_line_odds_decimal": 7.0,
+        "morning_line_odds_display": "6/1",
+        "fair_return_usd": null,
+        "instruction": "#7 to win. Our reference price is 3/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 10,
+      "program": "5",
+      "horse": "CADENZA",
+      "status": "ACTIVE",
+      "lifecycle_status": "UPCOMING",
+      "result_status": "PENDING",
+      "bettable": true,
+      "lifecycle_reason": "before this race's scheduled post time",
+      "scheduled_post_utc": "2026-08-15T21:44:00+00:00",
+      "model_win_pct": 27,
+      "fair_odds": "5/2",
+      "fair_odds_decimal": 3.7,
+      "play_at": "3/1",
+      "play_at_decimal": 4.07,
+      "edge_pts": 9.6,
+      "reason": "Ranks #1 in our power figure blend; model 27% vs 17% morning-line implied (+9.6 pts)",
+      "surface": "turf",
+      "distance": "5 1/2 furlongs",
+      "race_type": "GalwayL200k",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
+        "version": "d0"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "SAR",
+        "date": "2026-08-15",
+        "races": [
+          10
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 10,
+            "role": "win",
+            "programs": [
+              "5"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.07,
+        "minimum_acceptable_odds_decimal": 4.07,
+        "minimum_acceptable_odds_display": "3/1",
+        "play_at_odds_decimal": 4.07,
+        "play_at_odds_display": "3/1",
+        "fair_odds_decimal": 3.7,
+        "fair_odds_display": "5/2",
+        "morning_line_odds_decimal": 4.5,
+        "morning_line_odds_display": "7/2",
+        "fair_return_usd": null,
+        "instruction": "#5 to win. Our reference price is 3/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [
+    {
+      "id": "e001",
+      "type": "SCRATCH",
+      "race": 5,
+      "program": "8",
+      "horse": "CONSIDERATE CITY",
+      "action": "VOID_SELECTION",
+      "bettable": false,
+      "grade_disposition": "void",
+      "notice": "Scratched off the turf. Race 5 was taken off the turf and its distance changed from 1 1/16M to 1M; this flag is void and must not be acted on.",
+      "source": "NYRA official Saratoga scratches & changes sheet",
+      "source_ref": "",
+      "verified_by": "paddock",
+      "verified_at": "2026-08-15T15:25:13+00:00",
+      "issued_at": "2026-08-15T15:25:13+00:00",
+      "supersedes": null
+    }
+  ],
+  "scratch_status": {
+    "state": "CHECKED_WITH_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 11:23 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-15T15:23:00+00:00",
+    "checked_at_et": "11:23 AM ET",
+    "source": "NYRA official Saratoga scratches & changes sheet, last updated 11:06:41 AM ET; 24 entries across 10 races. Track MUDDY, turf YIELDING; races 5, 7 and 12 taken OFF THE TURF, with distance changes in 5 and 12. The race-5 flag #8 CONSIDERATE CITY was scratched off the turf and is VOID - an erratum is filed against it and it must not be acted on. Checked BEFORE the card locked."
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "lean",
+      "top": {
+        "program": "6",
+        "name": "SALMING",
+        "win_pct": 28,
+        "fair": "5/2",
+        "fair_decimal": 3.51,
+        "board": "2/1",
+        "board_decimal": 3.0
+      },
+      "read": "Our top-rated horse in a $30,000 claimer. Three of them want the lead. The barn's angle in this exact spot is among the best in the field. The edge is real but sits under our bet line at 2 points.",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 2.4,
+      "shape": "Three horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #5 Antietam and #6 Salming for it."
+    },
+    {
+      "race": 2,
+      "tier": "scramble",
+      "top": {
+        "program": "4",
+        "name": "MINDFIELD",
+        "win_pct": 17,
+        "fair": "5/1",
+        "fair_decimal": 5.82,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "An open heat. Nothing separates the top two by more than 1.6 points. We make the top one 17% against the board's 17%.",
+      "coverage_set": [
+        "4",
+        "7",
+        "3",
+        "8"
+      ],
+      "edge_pts": -0.3,
+      "shape": "Nobody is clearly entitled to the lead going six furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+    },
+    {
+      "race": 3,
+      "tier": "chalk",
+      "top": {
+        "program": "4",
+        "name": "ROAD SHOW",
+        "win_pct": 29,
+        "fair": "5/2",
+        "fair_decimal": 3.49,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "The board and our number agree in a maiden special weight. One horse looks alone on the lead, which our pace adjustment credits.",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": -3.8,
+      "shape": "One horse looks alone on the lead, clear of the field on the early figures. Uncontested, that is the hardest kind of horse to run down, because nobody makes it work for the lead and it dictates every fraction. Our number credits #7 Cut Down The Nets accordingly."
+    },
+    {
+      "race": 4,
+      "tier": "lean",
+      "top": {
+        "program": "2",
+        "name": "LADY ROSE",
+        "win_pct": 33,
+        "fair": "2/1",
+        "fair_decimal": 2.99,
+        "board": "9/5",
+        "board_decimal": 2.8
+      },
+      "read": "Our top-rated horse in an allowance. Three of them want the lead. The edge is real but sits under our bet line at 5 points.",
+      "coverage_set": [
+        "2"
+      ],
+      "edge_pts": 5.4,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #2 Lady Rose and #3 Last Glory for it."
+    },
+    {
+      "race": 5,
+      "tier": "play",
+      "top": {
+        "program": "8",
+        "name": "CONSIDERATE CITY",
+        "win_pct": 38,
+        "fair": "8/5",
+        "fair_decimal": 2.64,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "Ranks #1 in our power figure blend; model 38% vs 30% morning-line implied (+7.7 pts)",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 7.7,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+    },
+    {
+      "race": 6,
+      "tier": "chalk",
+      "top": {
+        "program": "8",
+        "name": "TUMOOHAAT",
+        "win_pct": 22,
+        "fair": "7/2",
+        "fair_decimal": 4.45,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "The board and our number agree in a maiden special weight. We make the top one 22% against the board's 22%.",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": -0.0,
+      "shape": "Nobody is clearly entitled to the lead going six furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Nothing in here has shown real early speed, so the first quarter is guesswork and whoever is sent may get an easy time. No pace adjustment applied."
+    },
+    {
+      "race": 7,
+      "tier": "play",
+      "top": {
+        "program": "6",
+        "name": "CANDYTOWN",
+        "win_pct": 25,
+        "fair": "3/1",
+        "fair_decimal": 3.96,
+        "board": "9/2",
+        "board_decimal": 5.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 25% vs 14% morning-line implied (+11.0 pts)",
+      "coverage_set": [
+        "6"
+      ],
+      "edge_pts": 11.0,
+      "shape": "Nobody is clearly entitled to the lead going five and a half furlongs on turf, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+    },
+    {
+      "race": 8,
+      "tier": "scramble",
+      "top": {
+        "program": "2",
+        "name": "CARD MAN",
+        "win_pct": 18,
+        "fair": "9/2",
+        "fair_decimal": 5.71,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "A full field of ten. Nothing separates the top two by more than 1.4 points. We make the top one 18% against the board's 17%.",
+      "coverage_set": [
+        "2",
+        "3",
+        "8",
+        "1"
+      ],
+      "edge_pts": 0.1,
+      "shape": "Nobody is clearly entitled to the lead going six furlongs on dirt, which over a sprint usually means an honest pace rather than a meltdown, and a race run close to the figures. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+    },
+    {
+      "race": 9,
+      "tier": "play",
+      "top": {
+        "program": "7",
+        "name": "SURVIE",
+        "win_pct": 29,
+        "fair": "5/2",
+        "fair_decimal": 3.42,
+        "board": "6/1",
+        "board_decimal": 7.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 29% vs 11% morning-line implied (+18.0 pts)",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 18.0,
+      "shape": "No one horse is entitled to the lead going a mile and a half on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Only one has shown genuine early speed, and without company it may get away with a softer lead than the figures suggest. No pace adjustment applied."
+    },
+    {
+      "race": 10,
+      "tier": "play",
+      "top": {
+        "program": "5",
+        "name": "CADENZA",
+        "win_pct": 27,
+        "fair": "5/2",
+        "fair_decimal": 3.7,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 27% vs 17% morning-line implied (+9.6 pts)",
+      "coverage_set": [
+        "5"
+      ],
+      "edge_pts": 9.6,
+      "shape": "Eight horses are entitled to the early lead. Over a sprint trip there is nowhere to hide from that: they will burn each other down and the race should come back to the closers. Our number credits #2 Epic Lady Luck and #5 Cadenza for it."
+    },
+    {
+      "race": 11,
+      "tier": "scramble",
+      "top": {
+        "program": "7",
+        "name": "COME FULL CIRCLE",
+        "win_pct": 20,
+        "fair": "4/1",
+        "fair_decimal": 5.02,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "An open heat. Nothing separates the top two by more than 1.1 points. Three of them want the lead.",
+      "coverage_set": [
+        "7",
+        "2",
+        "4",
+        "1"
+      ],
+      "edge_pts": 0.4,
+      "shape": "Three horses are entitled to the early lead. Honest early fractions over this trip usually means the leaders are cooked turning for home. Our number credits #2 Calling Card and #8 Sociably Johnny for it."
+    },
+    {
+      "race": 12,
+      "tier": "chalk",
+      "top": {
+        "program": "8",
+        "name": "GILBANE",
+        "win_pct": 23,
+        "fair": "7/2",
+        "fair_decimal": 4.29,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "The board and our number agree in a $50,000 maiden claimer. A full field of ten.",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 1.0,
+      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf, so expect a tactical early half and a race decided in the lane rather than on the front end. Ten going means traffic is the risk in here, not the pace. Two have shown early speed without enough of them to rate the race contested, so how hard they go at each other is the open question. No pace adjustment applied."
+    }
+  ],
+  "multi_race": []
+}
