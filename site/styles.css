@@ -785,6 +785,19 @@ summary:hover{color:var(--ink);}
    where the default outline colour disappears into the fill. */
 .pgm:focus-visible,.surf:focus-visible{outline:2px solid var(--ink);outline-offset:2px;}
 
+/* The provenance line, out from behind a disclosure. Model, takeout, card hash
+   and scratch status are the facts unique to THIS card, and they were hidden
+   under a summary alongside explanation identical on every card. */
+.prov-line{font-family:var(--mono);font-size:11.5px;line-height:1.7;color:var(--ink);
+  margin:0 0 6px;border-left:3px solid var(--flag-fill);padding-left:11px;}
+.howto-link{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin:0 0 16px;}
+
+/* /guide/ glossary, moved off the card. */
+.gloss{margin:10px 0 0;max-width:70ch;}
+.gloss dt{font-family:var(--mono);font-size:11px;text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--gold-text);margin:12px 0 2px;}
+.gloss dd{font-family:var(--serif);font-size:15px;line-height:1.55;margin:0;}
+
 /* Sortable table headers. The affordance only appears once the script has run
    and added .sortable, so a reader with JS blocked is never shown a control
    that does nothing. */
