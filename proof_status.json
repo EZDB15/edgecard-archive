@@ -802,15 +802,20 @@
           "committed_digest": "81b42c1e625ff520710d55bedf86c51834ba447f189e0487dda1b3053c47d0c6",
           "current_downloadable_sha256": "81b42c1e625ff520710d55bedf86c51834ba447f189e0487dda1b3053c47d0c6",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960268,
+            960276,
+            960302,
+            960337
+          ],
+          "bitcoin_block_height": 960268,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -823,15 +828,20 @@
           "committed_digest": "833504d9e1be60fe79e03aaea432458f73b57ab9f0f51649c5e4e9f0dab0eaef",
           "current_downloadable_sha256": "833504d9e1be60fe79e03aaea432458f73b57ab9f0f51649c5e4e9f0dab0eaef",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960273,
+            960276,
+            960302,
+            960337
+          ],
+          "bitcoin_block_height": 960273,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -844,15 +854,20 @@
           "committed_digest": "38a2c1953e922294c5e5a9d18772c84313937c51254245be220725223f2b10d3",
           "current_downloadable_sha256": "38a2c1953e922294c5e5a9d18772c84313937c51254245be220725223f2b10d3",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960418,
+            960419,
+            960429,
+            960481
+          ],
+          "bitcoin_block_height": 960418,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -865,15 +880,20 @@
           "committed_digest": "6b6a065dc0051fd024a12925ba79848fd9dcc52753a49e2007144967b5552a06",
           "current_downloadable_sha256": "6b6a065dc0051fd024a12925ba79848fd9dcc52753a49e2007144967b5552a06",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960418,
+            960419,
+            960429,
+            960481
+          ],
+          "bitcoin_block_height": 960418,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -886,15 +906,20 @@
           "committed_digest": "e8e8657c2f9469d279e34dc2eaf4884c55f62905fda09d1a17ae005180e6f5ba",
           "current_downloadable_sha256": "e8e8657c2f9469d279e34dc2eaf4884c55f62905fda09d1a17ae005180e6f5ba",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960567,
+            960568,
+            960571,
+            960628
+          ],
+          "bitcoin_block_height": 960567,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -907,15 +932,20 @@
           "committed_digest": "e4a0b565b4004683629721deccd6706e9a0700957db9d6c9d1f6acb839779a3e",
           "current_downloadable_sha256": "e4a0b565b4004683629721deccd6706e9a0700957db9d6c9d1f6acb839779a3e",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960567,
+            960568,
+            960571,
+            960628
+          ],
+          "bitcoin_block_height": 960567,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -928,15 +958,20 @@
           "committed_digest": "0d4b92f30fa8b903554e235ffc39d9b63e9655969e650e8e76c1c91c0fdecc50",
           "current_downloadable_sha256": "0d4b92f30fa8b903554e235ffc39d9b63e9655969e650e8e76c1c91c0fdecc50",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960740,
+            960747,
+            960757,
+            960771
+          ],
+          "bitcoin_block_height": 960740,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -949,15 +984,20 @@
           "committed_digest": "750cbac128ab5ed9ee76791bfc99848eab0dfc4ab5cfef60034961243774089b",
           "current_downloadable_sha256": "750cbac128ab5ed9ee76791bfc99848eab0dfc4ab5cfef60034961243774089b",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            960740,
+            960747,
+            960757,
+            960771
+          ],
+          "bitcoin_block_height": 960740,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -970,15 +1010,20 @@
           "committed_digest": "b61e301215faf08d48fca74da3f86c01aa958ca6ade0f8bb85d6fe8420092c8c",
           "current_downloadable_sha256": "b61e301215faf08d48fca74da3f86c01aa958ca6ade0f8bb85d6fe8420092c8c",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961314,
+            961315,
+            961333,
+            961340
+          ],
+          "bitcoin_block_height": 961314,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -991,15 +1036,20 @@
           "committed_digest": "2a965c9da7b08cdf456d24c002f8e396f118cc18b7ed238a4f07b29709114842",
           "current_downloadable_sha256": "2a965c9da7b08cdf456d24c002f8e396f118cc18b7ed238a4f07b29709114842",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961314,
+            961315,
+            961333,
+            961340
+          ],
+          "bitcoin_block_height": 961314,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1012,15 +1062,19 @@
           "committed_digest": "25134c86e30291e6ee567e738c7ce65f5f05dde625e468414a325a757c0179ac",
           "current_downloadable_sha256": "25134c86e30291e6ee567e738c7ce65f5f05dde625e468414a325a757c0179ac",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961463,
+            961470,
+            961512
+          ],
+          "bitcoin_block_height": 961463,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1033,15 +1087,19 @@
           "committed_digest": "69a6d1abd18ee5f88d19db65f2cce85d2ba4032e4b47426cbadf349d3cc2a070",
           "current_downloadable_sha256": "69a6d1abd18ee5f88d19db65f2cce85d2ba4032e4b47426cbadf349d3cc2a070",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961463,
+            961470,
+            961512
+          ],
+          "bitcoin_block_height": 961463,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1054,15 +1112,18 @@
           "committed_digest": "41c5263e482e2b27302583aa21d250ae8561c207897bbcd530b46238c3e1d429",
           "current_downloadable_sha256": "41c5263e482e2b27302583aa21d250ae8561c207897bbcd530b46238c3e1d429",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961607,
+            961661
+          ],
+          "bitcoin_block_height": 961607,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1075,15 +1136,18 @@
           "committed_digest": "5d303a6f6a2793142b641935487ff26768f9d0c5c45304a3a0a26625db0a66c2",
           "current_downloadable_sha256": "5d303a6f6a2793142b641935487ff26768f9d0c5c45304a3a0a26625db0a66c2",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961607,
+            961661
+          ],
+          "bitcoin_block_height": 961607,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1096,15 +1160,19 @@
           "committed_digest": "32cd1b413d0e36343a4eb0b1978aac631eefc6d4dc5c16622bbefad6f556b2a4",
           "current_downloadable_sha256": "32cd1b413d0e36343a4eb0b1978aac631eefc6d4dc5c16622bbefad6f556b2a4",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961744,
+            961747,
+            961763
+          ],
+          "bitcoin_block_height": 961744,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1117,15 +1185,19 @@
           "committed_digest": "cef1963caf2744457f68bcfee35b06d2e0a3ec98235a26810aa01082d4f6cf2a",
           "current_downloadable_sha256": "cef1963caf2744457f68bcfee35b06d2e0a3ec98235a26810aa01082d4f6cf2a",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            961744,
+            961747,
+            961763
+          ],
+          "bitcoin_block_height": 961744,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1138,15 +1210,19 @@
           "committed_digest": "5ca2650e76e9cabfc6aecf444f7110eca45a4c112e50932ae848544e2dc4a8d3",
           "current_downloadable_sha256": "5ca2650e76e9cabfc6aecf444f7110eca45a4c112e50932ae848544e2dc4a8d3",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            962162,
+            962163,
+            962170
+          ],
+          "bitcoin_block_height": 962162,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1159,15 +1235,19 @@
           "committed_digest": "3340caa20c7b373e128a7fd8958adb3908e6b3010aefa5140a4e3349d9180a53",
           "current_downloadable_sha256": "3340caa20c7b373e128a7fd8958adb3908e6b3010aefa5140a4e3349d9180a53",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            962300,
+            962309,
+            962347
+          ],
+          "bitcoin_block_height": 962300,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1180,15 +1260,19 @@
           "committed_digest": "3f7a8c2026dc6e00194b98a2c528db182b4aecba3e46c2edb26cb657e7764683",
           "current_downloadable_sha256": "3f7a8c2026dc6e00194b98a2c528db182b4aecba3e46c2edb26cb657e7764683",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            962300,
+            962309,
+            962347
+          ],
+          "bitcoin_block_height": 962300,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1201,15 +1285,18 @@
           "committed_digest": "2faf53de0ee20de804ce86983b161ee97d206e6e9712ebb777a01c7f688064be",
           "current_downloadable_sha256": "2faf53de0ee20de804ce86983b161ee97d206e6e9712ebb777a01c7f688064be",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            962456,
+            962469
+          ],
+          "bitcoin_block_height": 962456,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     },
@@ -1222,15 +1309,18 @@
           "committed_digest": "82f43a1c410ca947dc5272181a321247f606798735b0c53720a41dc49d629a89",
           "current_downloadable_sha256": "82f43a1c410ca947dc5272181a321247f606798735b0c53720a41dc49d629a89",
           "proof_targets_current_bytes": true,
-          "bitcoin_attestations": [],
-          "bitcoin_block_height": null,
+          "bitcoin_attestations": [
+            962456,
+            962469
+          ],
+          "bitcoin_block_height": 962456,
           "pending_calendars": [
             "https://alice.btc.calendar.opentimestamps.org",
             "https://bob.btc.calendar.opentimestamps.org",
             "https://btc.calendar.catallaxy.com",
             "https://finney.calendar.eternitywall.com"
           ],
-          "status": "CALENDAR_PENDING"
+          "status": "BITCOIN_CONFIRMED"
         }
       }
     }
