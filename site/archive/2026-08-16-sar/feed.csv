@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-16,3,1,LIMES DON'T LIE,28,5/2,3/1,5.4,dirt,6 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 28% vs 23% morning-line implied (+5.4 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-16,7,5,INSTANTLY,36,9/5,2/1,13.4,dirt,7 furlongs,Ranks #1 in our power figure blend; model 36% vs 22% morning-line implied (+13.4 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-16,8,4,INSPEIGHTOFCHARLIE,22,7/2,4/1,5.1,turf,1 mile,Ranks #2 in our power figure blend; closer in a contested-pace setup; model 22% vs 17% morning-line implied (+5.1 pts),CHECKED_WITH_CHANGES,true
+SAR,2026-08-16,9,4,INTRICATE SPIRIT,17,5/1,11/2,5.8,turf,5 1/2 furlongs,Ranks #2 in our power figure blend; model 17% vs 11% morning-line implied (+5.8 pts),CHECKED_WITH_CHANGES,true

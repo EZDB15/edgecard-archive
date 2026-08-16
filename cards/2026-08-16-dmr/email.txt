@@ -1,0 +1,65 @@
+SUBJECT: DMR · Sun Aug 16 · 10 races, 4 flags, 6 passes
+
+EDGE CARD · DMR, Sun Aug 16, 2026
+Card hashed and public at 11:29 AM ET: https://edgecardhq.com/archive/2026-08-16-dmr/ · https://x.com/edgecardHQ
+Scratch status checked at 11:23 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-1 · flat-$2 +15.04 · drift +13.2% · meet to date 37-87 · flat-$2 +11.98 · drift +35.0% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 2:00 PM PT ·
+
+R1 · Md Sp Wt · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BULL SHOALS at 33%; the morning line already prices the race. Pass is a position.
+
+R2 · Clm 16000n3l · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PRETTY CECY at 19%; the morning line already prices the race. Pass is a position.
+
+R3 · Md Sp Wt · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ANGEL'S EMBER at 15%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 20000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: SCENE BY ME, p 22% · fair odds 7/2 · ML 4/1
+  Bet #5 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 22% vs 16% morning-line implied (+5.6 pts).
+
+R5 · RnchBrdo-G3 · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: SWEET AZTECA, p 51% · fair odds 1/1 · ML 4/5
+  Bet #5 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 51% vs 44% morning-line implied (+6.5 pts).
+
+R6 · Md 16000 · dirt, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops WHYNOTANOTHERONE at 19%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 50000n1x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: CIPRIANI, p 23% · fair odds 7/2 · ML 7/2
+  Bet #4 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 23% vs 18% morning-line implied (+5.5 pts).
+
+R8 · Clm 8000 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MONGOLIAN MAX at 17%; the morning line already prices the race. Pass is a position.
+
+R9 · OClm 50000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: GETTINBY, p 23% · fair odds 7/2 · ML 4/1
+  Bet #8 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.6 pts).
+
+R10 · Md 12500 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops STYLISHLY BIG at 17%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.ff76e834, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
