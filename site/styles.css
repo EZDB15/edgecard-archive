@@ -798,6 +798,24 @@ summary:hover{color:var(--ink);}
   letter-spacing:0.06em;color:var(--gold-text);margin:12px 0 2px;}
 .gloss dd{font-family:var(--serif);font-size:15px;line-height:1.55;margin:0;}
 
+/* Multi-race tickets. Promoted from a <details class="exotics"> that was
+   visually identical to the per-flag exotics footnotes, so the one whole-card
+   feature read as a per-race aside and nobody found it. It gets a section
+   header like Flags and The rest of the card, and a dashed edge to say
+   "reference" rather than "play" without shouting. */
+.mr-sec{margin:26px 0 22px;}
+.mr-research{border:1px dashed var(--rule);border-left:3px solid var(--muted);
+  background:var(--bg);padding:14px 16px;}
+.mr-lede{font-family:var(--serif);font-size:14px;line-height:1.55;color:var(--muted);
+  margin:0 0 10px;max-width:70ch;}
+.mr-lede b{color:var(--ink);}
+.mr-builds > summary{font-family:var(--mono);font-size:11px;text-transform:uppercase;
+  letter-spacing:0.07em;color:var(--gold-text);cursor:pointer;list-style:none;
+  border:1px solid var(--gold);border-radius:2px;padding:6px 12px;width:fit-content;}
+.mr-builds > summary::-webkit-details-marker{display:none;}
+.mr-builds > summary:hover{background:var(--flag-wash);}
+.mr-builds[open] > summary{margin-bottom:12px;}
+
 /* Sortable table headers. The affordance only appears once the script has run
    and added .sortable, so a reader with JS blocked is never shown a control
    that does nothing. */
