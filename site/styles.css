@@ -671,6 +671,22 @@ table.clv td.own{color:var(--ink);font-weight:700;}
 .fig-key .sw{display:inline-block;width:18px;height:3px;margin:0 6px 0 0;vertical-align:middle;}
 .fig-key .sw.eq-main{background:var(--accent);}
 .fig-key .sw.eq-cf{background:var(--muted);opacity:0.6;}
+/* ---- pace shape: the field on an early/finish plane ----
+   Render-time overlay (pace_shape.json); absent on every card published before
+   it existed, so every rule here has to be a no-op when the svg is not there. */
+/* Sized to its column, never wider. The block sits in the flag's right-hand
+   column (~258px at 1400px viewport), so the svg scales down via its viewBox
+   and every font size inside it is set large enough to survive that. */
+.ps-fig{display:block;width:100%;height:auto;margin:10px 0 0;}
+.ps-frame{fill:none;stroke:var(--line);stroke-width:1;}
+.ps-mid{stroke:var(--line);stroke-width:1;stroke-dasharray:2 4;}
+.ps-quad{font-family:var(--mono);font-size:12px;fill:var(--muted);letter-spacing:0.02em;}
+.ps-dot{fill:var(--accent);fill-opacity:0.42;stroke:var(--surface);stroke-width:1.5;}
+.ps-dot.ps-me{fill:var(--flag-fill);fill-opacity:1;stroke:var(--ink);stroke-width:1.5;}
+.ps-lab{font-family:var(--mono);font-size:13px;fill:var(--ink);}
+.ps-axis{font-family:var(--mono);font-size:11px;fill:var(--muted);letter-spacing:0.06em;}
+.ps-note{font-family:var(--mono);font-size:10.5px;line-height:1.5;color:var(--muted);
+  margin:6px 0 0;}
 .fig-data{margin:10px 0 0;}
 .fig-data > summary{font-family:var(--mono);font-size:11px;text-transform:uppercase;
   letter-spacing:0.07em;color:var(--muted);cursor:pointer;}

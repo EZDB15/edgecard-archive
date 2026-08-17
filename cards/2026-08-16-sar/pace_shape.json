@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "generated_ts_utc": "2026-08-16T22:15:00+00:00",
+  "method": "rank-normalised-vs-par-v1",
+  "note": "Render-time overlay. card.json is not read or modified by this file and its hash and timestamp proofs are unaffected. Coordinates are race-relative ranks in [0,1]; no vendor figure is published.",
+  "min_runners": 4,
+  "races": {
+    "1": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.0,
+          "late": 0.75
+        },
+        {
+          "program": "2",
+          "early": 0.25,
+          "late": 1.0
+        },
+        {
+          "program": "3",
+          "early": 0.75,
+          "late": 0.25
+        },
+        {
+          "program": "4",
+          "early": 0.5,
+          "late": 0.0
+        },
+        {
+          "program": "5",
+          "early": 1.0,
+          "late": 0.5
+        }
+      ]
+    },
+    "2": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.4,
+          "late": 0.5
+        },
+        {
+          "program": "2",
+          "early": 0.8,
+          "late": 0.5
+        },
+        {
+          "program": "3",
+          "early": 0.6,
+          "late": 0.0
+        },
+        {
+          "program": "4",
+          "early": 0.0,
+          "late": 0.8
+        },
+        {
+          "program": "5",
+          "early": 0.2,
+          "late": 1.0
+        },
+        {
+          "program": "6",
+          "early": 1.0,
+          "late": 0.2
+        }
+      ]
+    },
+    "3": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.38,
+          "late": 1.0
+        },
+        {
+          "program": "2",
+          "early": 1.0,
+          "late": 0.0
+        },
+        {
+          "program": "3",
+          "early": 0.75,
+          "late": 0.5
+        },
+        {
+          "program": "4",
+          "early": 0.38,
+          "late": 0.25
+        },
+        {
+          "program": "5",
+          "early": 0.0,
+          "late": 0.75
+        }
+      ]
+    },
+    "4": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.5,
+          "late": 0.25
+        },
+        {
+          "program": "2",
+          "early": 0.0,
+          "late": 0.75
+        },
+        {
+          "program": "4",
+          "early": 0.25,
+          "late": 0.5
+        },
+        {
+          "program": "9",
+          "early": 1.0,
+          "late": 1.0
+        },
+        {
+          "program": "11",
+          "early": 0.75,
+          "late": 0.0
+        }
+      ]
+    },
+    "5": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.43,
+          "late": 0.21
+        },
+        {
+          "program": "2",
+          "early": 0.0,
+          "late": 0.21
+        },
+        {
+          "program": "3",
+          "early": 0.71,
+          "late": 1.0
+        },
+        {
+          "program": "4",
+          "early": 1.0,
+          "late": 0.86
+        },
+        {
+          "program": "5",
+          "early": 0.57,
+          "late": 0.43
+        },
+        {
+          "program": "6",
+          "early": 0.29,
+          "late": 0.71
+        },
+        {
+          "program": "7",
+          "early": 0.14,
+          "late": 0.57
+        },
+        {
+          "program": "8",
+          "early": 0.86,
+          "late": 0.0
+        }
+      ]
+    },
+    "6": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "7",
+          "early": 0.0,
+          "late": 0.67
+        },
+        {
+          "program": "9",
+          "early": 0.33,
+          "late": 0.0
+        },
+        {
+          "program": "12",
+          "early": 0.67,
+          "late": 1.0
+        },
+        {
+          "program": "13",
+          "early": 1.0,
+          "late": 0.33
+        }
+      ]
+    },
+    "7": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.43,
+          "late": 0.71
+        },
+        {
+          "program": "2",
+          "early": 0.79,
+          "late": 0.29
+        },
+        {
+          "program": "3",
+          "early": 0.0,
+          "late": 0.14
+        },
+        {
+          "program": "4",
+          "early": 0.79,
+          "late": 0.86
+        },
+        {
+          "program": "5",
+          "early": 0.14,
+          "late": 1.0
+        },
+        {
+          "program": "6",
+          "early": 0.29,
+          "late": 0.43
+        },
+        {
+          "program": "7",
+          "early": 0.57,
+          "late": 0.0
+        },
+        {
+          "program": "8",
+          "early": 1.0,
+          "late": 0.57
+        }
+      ]
+    },
+    "9": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.5,
+          "late": 0.0
+        },
+        {
+          "program": "2",
+          "early": 0.83,
+          "late": 0.17
+        },
+        {
+          "program": "3",
+          "early": 0.25,
+          "late": 0.83
+        },
+        {
+          "program": "4",
+          "early": 1.0,
+          "late": 0.5
+        },
+        {
+          "program": "5",
+          "early": 0.0,
+          "late": 0.33
+        },
+        {
+          "program": "6",
+          "early": 0.25,
+          "late": 0.67
+        },
+        {
+          "program": "7",
+          "early": 0.67,
+          "late": 1.0
+        }
+      ]
+    },
+    "10": {
+      "basis": "rank-normalised vs class par, within race",
+      "runners": [
+        {
+          "program": "1",
+          "early": 0.0,
+          "late": 0.83
+        },
+        {
+          "program": "2",
+          "early": 0.22,
+          "late": 0.56
+        },
+        {
+          "program": "3",
+          "early": 0.11,
+          "late": 1.0
+        },
+        {
+          "program": "4",
+          "early": 0.44,
+          "late": 0.67
+        },
+        {
+          "program": "5",
+          "early": 0.33,
+          "late": 0.83
+        },
+        {
+          "program": "6",
+          "early": 1.0,
+          "late": 0.44
+        },
+        {
+          "program": "7",
+          "early": 0.83,
+          "late": 0.11
+        },
+        {
+          "program": "8",
+          "early": 0.83,
+          "late": 0.22
+        },
+        {
+          "program": "9",
+          "early": 0.56,
+          "late": 0.33
+        },
+        {
+          "program": "10",
+          "early": 0.67,
+          "late": 0.0
+        }
+      ]
+    }
+  }
+}
