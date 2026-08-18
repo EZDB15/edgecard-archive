@@ -219,6 +219,17 @@ h1.sec,h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;
 .durab.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
 .durab.d-gone .dtag{color:var(--muted);}
 .durab.d-watch .dtag{color:var(--ink);}
+/* Card-level durability note. Emitted once, in place of the identical
+   paragraph every flag used to carry when they all sat in the same price
+   band. Borrows the flag chip styling so the two read as the same signal. */
+.durab-all{font-size:12.5px;color:var(--muted);line-height:1.5;max-width:70ch;
+  margin:0 0 18px;padding:10px 14px;border:1px solid var(--line);background:var(--surface);}
+.durab-all .dtag{font-family:var(--mono);font-size:10px;font-weight:700;
+  text-transform:uppercase;letter-spacing:0.08em;border:1px solid var(--rule);
+  padding:2px 6px;margin-right:6px;white-space:nowrap;}
+.durab-all.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
+.durab-all.d-gone .dtag{color:var(--muted);}
+.durab-all.d-watch .dtag{color:var(--ink);}
 .clv .call{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
   letter-spacing:0.03em;white-space:nowrap;}
 .clv .call.c-hold{color:var(--flag);}
