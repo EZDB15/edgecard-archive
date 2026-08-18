@@ -230,6 +230,65 @@ h1.sec,h2.sec{font-family:var(--serif);font-weight:700;font-size:25px;margin:0;
 .durab-all.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
 .durab-all.d-gone .dtag{color:var(--muted);}
 .durab-all.d-watch .dtag{color:var(--ink);}
+
+/* ---- today's plays: the card index ----
+   A four-flag card runs ~4 viewport-heights before all four plays have been
+   seen. Same six fields the flag leads with, in the same order, so the strip
+   teaches the layout of the thing it links to. */
+.summary{border:1px solid var(--rule);background:var(--surface);margin:0 0 22px;}
+.sm-head{display:flex;justify-content:space-between;gap:12px;padding:9px 14px;
+  border-bottom:1px solid var(--rule);background:var(--bg);}
+.sm-head .k{font-family:var(--mono);font-size:10px;letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--muted);}
+.sm-cols,.sm-row{display:grid;grid-template-columns:44px minmax(0,1fr) 54px 62px 62px;
+  gap:10px;align-items:center;padding:7px 14px;}
+.sm-cols{font-family:var(--mono);font-size:9.5px;letter-spacing:0.1em;
+  text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);}
+.sm-cols span:nth-child(n+3),.sm-row .sm-m,.sm-row .sm-b,.sm-row .sm-e{text-align:right;}
+.sm-row{border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink);}
+.sm-row:last-child{border-bottom:0;}
+.sm-row:hover{background:var(--flag-wash);}
+.sm-row.voided{opacity:0.5;}
+.sm-r{font-family:var(--mono);font-size:12px;color:var(--muted);}
+.sm-h{display:flex;align-items:center;gap:7px;min-width:0;}
+.sm-n{font-family:var(--display);font-size:15px;font-weight:700;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap;}
+.sm-m,.sm-b{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;}
+.sm-e{font-family:var(--mono);font-size:12px;color:var(--gold-text);font-weight:700;
+  font-variant-numeric:tabular-nums;}
+@media (max-width:560px){
+  .sm-cols,.sm-row{grid-template-columns:36px minmax(0,1fr) 46px 52px;}
+  .sm-cols span:nth-child(5),.sm-row .sm-e{display:none;}
+}
+
+/* ---- the fair-odds ladder ----
+   Break-even and the board on one log axis, with the band that pays shaded. */
+.ladder-wrap{margin:0 0 12px;}
+.ladder{display:block;width:100%;height:auto;max-width:300px;}
+.lad-axis{stroke:var(--rule);stroke-width:1;}
+.lad-pays{fill:var(--flag-wash);}
+.lad-fair{stroke:var(--ink);stroke-width:1.6;}
+.lad-board{fill:var(--muted);stroke:var(--surface);stroke-width:1.5;}
+.lad-board.pays{fill:var(--flag-fill);stroke:var(--ink);}
+.lad-lab{font-family:var(--mono);font-size:9.5px;fill:var(--muted);}
+.lad-end{font-family:var(--mono);font-size:8.5px;fill:var(--muted);opacity:0.75;}
+.ladder-note{font-size:12px;line-height:1.5;color:var(--muted);margin:4px 0 0;max-width:56ch;}
+
+/* ---- the in-browser verifier ----
+   Injected by /verify.js; with JS off none of this renders and the block shows
+   the published hash and the sha256sum instruction, as it always has. */
+.vz{margin:12px 0 0;padding:12px 14px;border:1px dashed var(--rule);background:var(--bg);
+  font-size:12.5px;line-height:1.5;color:var(--muted);cursor:pointer;}
+.vz:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.vz:hover,.vz.vz-over{border-color:var(--accent);background:var(--surface);}
+.vz code{font-family:var(--mono);font-size:11.5px;}
+.vz-pick{color:var(--accent);text-decoration:underline;cursor:pointer;}
+.vz-pick input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;}
+.vz.vz-busy{border-style:solid;}
+.vz.vz-ok{border:1px solid var(--win);border-left:3px solid var(--win);color:var(--win);
+  background:var(--surface);font-weight:700;}
+.vz.vz-bad{border:1px solid var(--loss);border-left:3px solid var(--loss);color:var(--loss);
+  background:var(--surface);font-weight:700;}
 .clv .call{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;
   letter-spacing:0.03em;white-space:nowrap;}
 .clv .call.c-hold{color:var(--flag);}
