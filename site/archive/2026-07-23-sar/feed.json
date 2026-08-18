@@ -296,7 +296,7 @@
         "3"
       ],
       "edge_pts": 8.4,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #3 Bounding Along on that basis."
+      "shape": "Three of the 9 are entitled to the early lead, so the early fractions over seven furlongs on dirt in a $35,000 maiden claimer should be contested rather than soft. Our pace adjustment credits #3 Bounding Along on that basis."
     },
     {
       "race": 2,
@@ -315,7 +315,7 @@
         "5"
       ],
       "edge_pts": 2.1,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #3 Light Fantastic on that basis."
+      "shape": "One of the 9 looks alone on the lead, clear of the field on the early figures over a mile and a sixteenth on turf, with nothing else in here entitled to go with it. Our pace adjustment credits #3 Light Fantastic on that basis."
     },
     {
       "race": 3,
@@ -337,7 +337,7 @@
         "9"
       ],
       "edge_pts": -8.1,
-      "shape": "No one horse is entitled to the lead going seven furlongs on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied.",
+      "shape": "No one horse is entitled to the lead going over seven furlongs on dirt in a $12,500 claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "3",
         "name": "NORWICH",
@@ -363,7 +363,7 @@
         "5"
       ],
       "edge_pts": 6.5,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Britain's Kitten and #3 Bourbon Day on that basis."
+      "shape": "Three of the 7 are entitled to the early lead, so the early fractions over a mile and an eighth on turf in a $110,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #1 Britain's Kitten and #3 Bourbon Day on that basis."
     },
     {
       "race": 5,
@@ -382,7 +382,7 @@
         "9"
       ],
       "edge_pts": 5.6,
-      "shape": "Nobody in here is clearly entitled to the lead going five and a half furlongs on turf. Ten going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on turf in a maiden special weight. Ten going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -401,7 +401,7 @@
         "1"
       ],
       "edge_pts": -8.1,
-      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #6 Otto Nipoti and #10 Tapwrits Temper on that basis.",
+      "shape": "Three of the 10 are entitled to the early lead, so the opening quarter over six furlongs on dirt in a $20,000 claimer should be contested rather than soft. Our pace adjustment credits #6 Otto Nipoti and #10 Tapwrits Temper on that basis.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "ANCIENT WORLD",
@@ -427,7 +427,7 @@
         "5"
       ],
       "edge_pts": 9.6,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a starter allowance. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -449,7 +449,7 @@
         "6"
       ],
       "edge_pts": -4.2,
-      "shape": "No one horse is entitled to the lead going seven furlongs on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over seven furlongs on dirt in a $110,000 allowance optional claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -468,7 +468,7 @@
         "3"
       ],
       "edge_pts": 5.1,
-      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #6 You Know Better and #7 Garden Of Grace on that basis."
+      "shape": "Three of the 11 are entitled to the early lead, so the opening quarter over five and a half furlongs on turf in a $50,000 maiden claimer should be contested rather than soft. Our pace adjustment credits #6 You Know Better and #7 Garden Of Grace on that basis."
     }
   ],
   "multi_race": []

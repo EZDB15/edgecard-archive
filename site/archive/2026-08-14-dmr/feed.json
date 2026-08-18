@@ -246,7 +246,7 @@
         "1"
       ],
       "edge_pts": 2.8,
-      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Jalisco and #6 Chase N Ryan on that basis."
+      "shape": "Four of the 7 are entitled to the early lead, so the opening quarter over five and a half furlongs on dirt in a $12,500 claimer should be contested rather than soft. Our pace adjustment credits #1 Jalisco and #6 Chase N Ryan on that basis."
     },
     {
       "race": 2,
@@ -265,7 +265,7 @@
         "4"
       ],
       "edge_pts": 2.6,
-      "shape": "No one horse is entitled to the lead going a mile on turf. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile on turf in a maiden special weight. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -284,7 +284,7 @@
         "3"
       ],
       "edge_pts": -4.6,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #7 Straight Buzzin on that basis."
+      "shape": "One of the 7 looks alone on the lead, clear of the field on the early figures over a mile on dirt, with nothing else in here entitled to go with it. Our pace adjustment credits #7 Straight Buzzin on that basis."
     },
     {
       "race": 4,
@@ -303,7 +303,7 @@
         "10"
       ],
       "edge_pts": 6.5,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #3 Uncle Happy and #7 Lahaina Flavor on that basis."
+      "shape": "Three of the 10 are entitled to the early lead, so the early fractions over a mile on turf in a $32,000 claimer should be contested rather than soft. Our pace adjustment credits #3 Uncle Happy and #7 Lahaina Flavor on that basis."
     },
     {
       "race": 5,
@@ -322,7 +322,7 @@
         "6"
       ],
       "edge_pts": -3.1,
-      "shape": "Nobody in here is clearly entitled to the lead going six furlongs on dirt. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a $32,000 maiden claimer. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -341,7 +341,7 @@
         "2"
       ],
       "edge_pts": 14.6,
-      "shape": "Five horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Frank Bullitt and #4 Lucky N Smart on that basis."
+      "shape": "Five of the 9 are entitled to the early lead, so the opening quarter over five furlongs on turf in a $20,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #1 Frank Bullitt and #4 Lucky N Smart on that basis."
     },
     {
       "race": 7,
@@ -360,7 +360,7 @@
         "6"
       ],
       "edge_pts": -8.9,
-      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #3 King Stephen on that basis.",
+      "shape": "Four of the 7 are entitled to the early lead, so the opening quarter over six and a half furlongs on dirt in a $50,000 optional claimer should be contested rather than soft. Our pace adjustment credits #3 King Stephen on that basis.",
       "vulnerable_favourite": {
         "program": "6",
         "name": "HOWIE'S LAW",
@@ -386,7 +386,7 @@
         "4"
       ],
       "edge_pts": 17.7,
-      "shape": "No one horse is entitled to the lead going a mile on turf. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile on turf in a $50,000 maiden claimer. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     }
   ],
   "multi_race": []

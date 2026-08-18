@@ -327,7 +327,7 @@
         "5"
       ],
       "edge_pts": 4.8,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #5 Crescendo's Rein on that basis."
+      "shape": "One of the 5 looks alone on the lead, clear of the field on the early figures over a mile and an eighth on dirt, with nothing else in here entitled to go with it. Our pace adjustment credits #5 Crescendo's Rein on that basis."
     },
     {
       "race": 2,
@@ -346,7 +346,7 @@
         "5"
       ],
       "edge_pts": 4.5,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Oat Coutour and #2 Willpowered on that basis."
+      "shape": "Three of the 6 are entitled to the early lead, so the early fractions over a mile and an eighth on turf in an allowance should be contested rather than soft. Our pace adjustment credits #1 Oat Coutour and #2 Willpowered on that basis."
     },
     {
       "race": 3,
@@ -365,7 +365,7 @@
         "1"
       ],
       "edge_pts": 5.4,
-      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Limes Don't Lie and #3 Coaster on that basis."
+      "shape": "Three of the 5 are entitled to the early lead, so the opening quarter over six furlongs on dirt in a $80,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #1 Limes Don't Lie and #3 Coaster on that basis."
     },
     {
       "race": 4,
@@ -384,7 +384,7 @@
         "9"
       ],
       "edge_pts": -0.6,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a maiden special weight. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -403,7 +403,7 @@
         "4"
       ],
       "edge_pts": -4.6,
-      "shape": "Six horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Ducky Medwick and #7 Red Miller on that basis."
+      "shape": "Six of the 8 are entitled to the early lead, so the opening quarter over six furlongs on dirt in a $20,000 claimer should be contested rather than soft. Our pace adjustment credits #1 Ducky Medwick and #7 Red Miller on that basis."
     },
     {
       "race": 6,
@@ -425,7 +425,7 @@
         "11"
       ],
       "edge_pts": 0.7,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Eleven going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a maiden special weight. Eleven going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -444,7 +444,7 @@
         "5"
       ],
       "edge_pts": 13.4,
-      "shape": "No one horse is entitled to the lead going seven furlongs on dirt. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over seven furlongs on dirt in a $20,000 maiden claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -463,7 +463,7 @@
         "4"
       ],
       "edge_pts": 5.1,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #4 Inspeightofcharlie and #6 Smooth Breeze on that basis."
+      "shape": "Three of the 10 are entitled to the early lead, so the early fractions over a mile on turf in a $45,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #4 Inspeightofcharlie and #6 Smooth Breeze on that basis."
     },
     {
       "race": 9,
@@ -482,7 +482,7 @@
         "4"
       ],
       "edge_pts": 5.8,
-      "shape": "Three horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #3 Oscar's Hope and #7 Stradale on that basis."
+      "shape": "Three of the 7 are entitled to the early lead, so the opening quarter over five and a half furlongs on turf in a Grade 3 should be contested rather than soft. Our pace adjustment credits #3 Oscar's Hope and #7 Stradale on that basis."
     },
     {
       "race": 10,
@@ -504,7 +504,7 @@
         "5"
       ],
       "edge_pts": -4.8,
-      "shape": "Five horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #1 Lotsa Trouble and #3 Princip on that basis."
+      "shape": "Five of the 10 are entitled to the early lead, so the opening quarter over six and a half furlongs on dirt in a $16,000 claimer should be contested rather than soft. Our pace adjustment credits #1 Lotsa Trouble and #3 Princip on that basis."
     }
   ],
   "multi_race": []

@@ -305,7 +305,7 @@
         "3"
       ],
       "edge_pts": 0.2,
-      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over six and a half furlongs on dirt in a maiden special weight. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -327,7 +327,7 @@
         "2"
       ],
       "edge_pts": 0.1,
-      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over six and a half furlongs on dirt in a maiden special weight. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -346,7 +346,7 @@
         "6"
       ],
       "edge_pts": 10.0,
-      "shape": "Four horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #4 Vibe and #6 Yo Daddy on that basis."
+      "shape": "Four of the 7 are entitled to the early lead, so the early fractions over a mile and an eighth on dirt in a $110,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #4 Vibe and #6 Yo Daddy on that basis."
     },
     {
       "race": 4,
@@ -365,7 +365,7 @@
         "8"
       ],
       "edge_pts": 4.5,
-      "shape": "Four horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Consumer Sentiment and #6 Scratch It on that basis.",
+      "shape": "Four of the 9 are entitled to the early lead, so the early fractions over a mile and a sixteenth on turf in an allowance should be contested rather than soft. Our pace adjustment credits #1 Consumer Sentiment and #6 Scratch It on that basis.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "CONSUMER SENTIMENT",
@@ -391,7 +391,7 @@
         "8"
       ],
       "edge_pts": 8.3,
-      "shape": "Four horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #3 Agoo and #5 Princip on that basis."
+      "shape": "Four of the 8 are entitled to the early lead, so the early fractions over seven furlongs on dirt in an allowance should be contested rather than soft. Our pace adjustment credits #3 Agoo and #5 Princip on that basis."
     },
     {
       "race": 6,
@@ -410,7 +410,7 @@
         "3"
       ],
       "edge_pts": 0.4,
-      "shape": "Nobody in here is clearly entitled to the lead going six and a half furlongs on dirt. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Going over six and a half furlongs on dirt in a maiden special weight, nothing in here has a clear claim on the lead. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -429,7 +429,7 @@
         "4"
       ],
       "edge_pts": 10.0,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #7 Kravitz on that basis."
+      "shape": "One of the 10 looks alone on the lead, clear of the field on the early figures over a mile and three eighths on turf, with nothing else in here entitled to go with it. Our pace adjustment credits #7 Kravitz on that basis."
     },
     {
       "race": 8,
@@ -448,7 +448,7 @@
         "12"
       ],
       "edge_pts": 3.2,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Twelve going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a maiden special weight. Twelve going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -467,7 +467,7 @@
         "7"
       ],
       "edge_pts": -1.4,
-      "shape": "Five horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #1 Movie Night and #2 Percy's Bar on that basis."
+      "shape": "Five of the 8 are entitled to the early lead, so the early fractions over seven furlongs on dirt in a Grade 1 should be contested rather than soft. Our pace adjustment credits #1 Movie Night and #2 Percy's Bar on that basis."
     },
     {
       "race": 10,
@@ -486,7 +486,7 @@
         "1"
       ],
       "edge_pts": 7.8,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #3 Zulu Kingdom and #6 Capitol Hill on that basis."
+      "shape": "Three of the 7 are entitled to the early lead, so the early fractions over a mile on turf in a Grade 1 should be contested rather than soft. Our pace adjustment credits #3 Zulu Kingdom and #6 Capitol Hill on that basis."
     },
     {
       "race": 11,
@@ -505,7 +505,7 @@
         "3"
       ],
       "edge_pts": 6.0,
-      "shape": "No one horse is entitled to the lead going a mile and three sixteenths on turf. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and three sixteenths on turf in a Grade 1. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 12,
@@ -524,7 +524,7 @@
         "1"
       ],
       "edge_pts": -6.5,
-      "shape": "No one horse is entitled to the lead going a mile and an eighth on dirt. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied.",
+      "shape": "No one horse is entitled to the lead going over a mile and an eighth on dirt in a Grade 1. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied.",
       "vulnerable_favourite": {
         "program": "1",
         "name": "MAGNITUDE",
@@ -550,7 +550,7 @@
         "8"
       ],
       "edge_pts": 5.7,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #5 Will Not Be Swayed and #8 Battis Grove on that basis.",
+      "shape": "Three of the 9 are entitled to the early lead, so the early fractions over seven furlongs on dirt in a $55,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #5 Will Not Be Swayed and #8 Battis Grove on that basis.",
       "vulnerable_favourite": {
         "program": "2",
         "name": "FEMINISM",
@@ -576,7 +576,7 @@
         "4"
       ],
       "edge_pts": 4.9,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #4 Versailles Road and #6 Very Connected on that basis."
+      "shape": "Three of the 10 are entitled to the early lead, so the early fractions over a mile and three eighths on turf in a $55,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #4 Versailles Road and #6 Very Connected on that basis."
     }
   ],
   "multi_race": []

@@ -305,7 +305,7 @@
         "5"
       ],
       "edge_pts": 5.1,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a maiden special weight. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -327,7 +327,7 @@
         "8"
       ],
       "edge_pts": -0.1,
-      "shape": "Nobody in here is clearly entitled to the lead going six furlongs on dirt. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a maiden special weight. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -346,7 +346,7 @@
         "2"
       ],
       "edge_pts": 5.4,
-      "shape": "Three horses are entitled to the early lead, so the early fractions should be contested rather than soft. Our pace adjustment credits #2 Tuscan Sky and #3 Dreamlike on that basis."
+      "shape": "Three of the 7 are entitled to the early lead, so the early fractions over a mile on dirt in a $100,000 claimer should be contested rather than soft. Our pace adjustment credits #2 Tuscan Sky and #3 Dreamlike on that basis."
     },
     {
       "race": 4,
@@ -368,7 +368,7 @@
         "8"
       ],
       "edge_pts": -0.0,
-      "shape": "Nobody in here is clearly entitled to the lead going six furlongs on dirt. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a maiden special weight. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -390,7 +390,7 @@
         "7"
       ],
       "edge_pts": 0.4,
-      "shape": "Nobody in here is clearly entitled to the lead going six furlongs on dirt. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a maiden special weight. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -409,7 +409,7 @@
         "4"
       ],
       "edge_pts": 6.5,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #4 Booked on that basis."
+      "shape": "One of the 6 looks alone on the lead, clear of the field on the early figures over six and a half furlongs on dirt, with nothing else in here entitled to go with it. Our pace adjustment credits #4 Booked on that basis."
     },
     {
       "race": 7,
@@ -428,7 +428,7 @@
         "8"
       ],
       "edge_pts": 0.9,
-      "shape": "No one horse is entitled to the lead going a mile and an eighth on dirt. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and an eighth on dirt in an allowance. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -450,7 +450,7 @@
         "1"
       ],
       "edge_pts": -1.0,
-      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #3 Only For Now and #5 Silsbee on that basis.",
+      "shape": "Four of the 10 are entitled to the early lead, so the opening quarter over five and a half furlongs on turf in an allowance should be contested rather than soft. Our pace adjustment credits #3 Only For Now and #5 Silsbee on that basis.",
       "vulnerable_favourite": {
         "program": "5",
         "name": "SILSBEE",
@@ -476,7 +476,7 @@
         "9"
       ],
       "edge_pts": 2.6,
-      "shape": "No one horse is entitled to the lead going a mile and a sixteenth on turf. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a Grade 3. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 10,
@@ -495,7 +495,7 @@
         "5"
       ],
       "edge_pts": -0.3,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #1 Chip Honcho on that basis."
+      "shape": "One of the 5 looks alone on the lead, clear of the field on the early figures over a mile and an eighth on dirt, with nothing else in here entitled to go with it. Our pace adjustment credits #1 Chip Honcho on that basis."
     },
     {
       "race": 11,
@@ -514,7 +514,7 @@
         "1"
       ],
       "edge_pts": 7.7,
-      "shape": "Four horses are entitled to the early lead, so the opening quarter should be contested rather than soft. Our pace adjustment credits #3 Mozambique and #7 Rhyton on that basis."
+      "shape": "Four of the 9 are entitled to the early lead, so the opening quarter over five and a half furlongs on turf in an allowance should be contested rather than soft. Our pace adjustment credits #3 Mozambique and #7 Rhyton on that basis."
     },
     {
       "race": 12,
@@ -533,7 +533,7 @@
         "5"
       ],
       "edge_pts": 8.3,
-      "shape": "One horse looks alone on the lead, clear of the field on the early figures, with nothing else in here entitled to go with it. Our pace adjustment credits #2 Music Box on that basis."
+      "shape": "One of the 9 looks alone on the lead, clear of the field on the early figures over a mile and a sixteenth on turf, with nothing else in here entitled to go with it. Our pace adjustment credits #2 Music Box on that basis."
     }
   ],
   "multi_race": []
