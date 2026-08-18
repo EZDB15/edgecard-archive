@@ -976,3 +976,56 @@ th.sortable[aria-sort="descending"]::after{content:"\2193";opacity:1;color:var(-
 /* ---- footer brand: reverse-white lockup on a slim racing-navy band ---- */
 .footer-brand{background:var(--navy);padding:18px 0;text-align:center;}
 .footer-brand img{height:34px;width:auto;display:inline-block;}
+/* ---- Track bias -------------------------------------------------------
+   Charts are inline SVG with geometry in attributes; only paint lives here,
+   so the page renders under the CSP with no script and no library. */
+.bz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:18px 24px;margin:18px 0 26px}
+.bz-fig{margin:0}
+.bz-fig figcaption{font:600 12px/1.3 var(--mono);letter-spacing:.04em;
+  text-transform:uppercase;color:var(--muted);display:flex;
+  justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:4px;margin-bottom:2px}
+.bz-races{font-weight:400;text-transform:none;letter-spacing:0}
+.bz-svg{width:100%;height:auto;display:block}
+.bz-grid line.bz-grid,.bz-svg line.bz-grid{stroke:var(--line);stroke-width:1}
+.bz-svg line.bz-base{stroke:var(--rule);stroke-width:1.5}
+.bz-svg line.bz-ci{stroke:var(--muted);stroke-width:1;opacity:.55}
+.bz-svg line.bz-cap{stroke:var(--muted);stroke-width:1;opacity:.55}
+.bz-svg rect.bz-bar{fill:var(--navy)}
+.bz-svg rect.bz-bar.bz-quiet{fill:var(--line)}
+.bz-svg polygon.bz-mkt{fill:var(--gold-fill);stroke:var(--gold);stroke-width:.75}
+.bz-svg text{font:11px/1 var(--mono);fill:var(--ink)}
+.bz-svg text.bz-lab{font-size:11px;fill:var(--ink)}
+.bz-svg text.bz-num{font-weight:600}
+.bz-svg text.bz-num.bz-quiet-t{fill:var(--muted);font-weight:400}
+.bz-svg text.bz-n,.bz-svg text.bz-ax{fill:var(--muted);font-size:10px}
+.bz-found{background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--gold);padding:14px 18px;margin:18px 0}
+.bz-found h2{margin:0 0 6px;font-size:1.05rem}
+.bz-found ul{margin:8px 0 0;padding-left:18px}
+.bz-found li{margin:6px 0}
+.bz-scroll{overflow-x:auto;margin:22px 0}
+.bz-posts,.bz-drift-t{width:100%;border-collapse:collapse;margin:0}
+.bz-posts{table-layout:fixed}
+.bz-posts th[scope=row]{width:150px}
+.bz-posts caption,.bz-drift-t caption{text-align:left;color:var(--muted);
+  font-size:.9rem;padding-bottom:8px}
+.bz-posts th,.bz-drift-t th,.bz-drift-t td{text-align:left;padding:6px 10px 6px 0;
+  border-bottom:1px solid var(--line);font-size:.92rem;vertical-align:middle}
+.bz-strip{padding:6px 0;border-bottom:1px solid var(--line)}
+.bz-strip>div{display:flex;flex-wrap:wrap;gap:4px}
+.bz-strip>div>span{flex:0 0 auto}
+.bz-hot,.bz-cold{display:inline-flex;flex-direction:column;align-items:center;
+  min-width:52px;padding:4px 6px;border:1px solid var(--line);border-radius:2px;
+  font:11px/1.35 var(--mono)}
+.bz-hot{background:var(--flag-wash);border-color:var(--gold)}
+.bz-cold{color:var(--muted);opacity:.75}
+.bz-thin{color:var(--muted);opacity:.45;border-style:dashed}
+.bz-hot small,.bz-cold small,.bz-thin small{font-size:9px;opacity:.8}
+.bz-hot i,.bz-cold i,.bz-thin i{font-style:normal}
+.bz-drift{color:var(--muted)}
+.bz-how{border-top:1px solid var(--line);padding-top:14px;margin-top:26px;
+  color:var(--muted);font-size:.93rem}
+.bz-how h2{color:var(--ink);font-size:1.05rem;margin:0 0 8px}
+@media (max-width:640px){.bz-grid{grid-template-columns:1fr}}
