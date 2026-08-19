@@ -37,29 +37,7 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "38-94",
-    "wins": 38,
-    "losses": 94,
-    "graded": 132,
-    "units": -1.42,
-    "roi_pct": -0.5,
-    "roi_ci_low": -29.3,
-    "roi_ci_high": 29.8,
-    "roi_n": 132,
-    "closing_held_n": 43,
-    "closing_graded_n": 125,
-    "closing_held_pct": 34,
-    "last_miss": {
-      "date": "2026-08-16",
-      "track": "SAR",
-      "race": 9,
-      "name": "INTRICATE SPIRIT",
-      "board_decimal": 7.0,
-      "closing_decimal": 7.33
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 3,
