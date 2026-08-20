@@ -1,0 +1,32 @@
+{
+  "sha256": "a6bf8f5f14aad30343aca7204d60e57232cbce225b8c2459a541e8a4227568af",
+  "weather": {
+    "short": "Patchy Fog then Mostly Sunny",
+    "temp": 79,
+    "temp_unit": "F",
+    "wind": "0 to 10 mph",
+    "precip_pct": 5,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:04 AM ET",
+  "lock_ts_utc": "2026-08-20T15:04:06+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "11:02 AM ET",
+  "scratch_checked_at_utc": "2026-08-20T15:02:00+00:00",
+  "scratch_source": "Del Mar scratches relayed by Eli; PP already excluded all three",
+  "scratch_track": "DMR",
+  "scratch_date": "2026-08-20",
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-20-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Thu Aug 20 \u00b7 8 races, 3 flags, 5 passes"
+}
