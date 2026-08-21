@@ -1,0 +1,65 @@
+SUBJECT: SAR · Fri Aug 21 · 10 races, 4 flags, 6 passes
+
+EDGE CARD · SAR, Fri Aug 21, 2026
+Card hashed and public at 11:56 AM ET: https://edgecardhq.com/archive/2026-08-21-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 10:15 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-3 · flat-$2 -6.00 · drift +69.2% · meet to date 39-103 · flat-$2 -18.02 · drift +34.4% → full results: https://github.com/EZDB15/edgecard-archive
+
+· SAR · first post 1:10 PM ET ·
+
+R1 · OClm 110000b · turf, 9.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: CUGINO, p 44% · fair odds 6/5 · ML 8/5
+  Bet #3 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 44% vs 39% morning-line implied (+5.8 pts).
+
+R2 · OClm 45000b · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: QUICK TO ACCUSE, p 19% · fair odds 9/2 · ML 5/1
+  Bet #1 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 19% vs 13% morning-line implied (+5.9 pts).
+
+R3 · Md Sp Wt · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops JADORLINIJA at 28%; the morning line already prices the race. Pass is a position.
+
+R4 · Clm 35000n2l · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ISLAND TOWN at 28%; the morning line already prices the race. Pass is a position.
+
+R5 · Md Sp Wt · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops RAISE THE ROOF at 19%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GOLDEN SIREN at 26%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 80000n2x · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: GEORGIA MAGIC, p 27% · fair odds 5/2 · ML 4/1
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; projects as the lone early speed; model 27% vs 20% morning-line implied (+6.5 pts).
+
+R8 · OClm 55000n1x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: BOSTON'S PHINEST, p 43% · fair odds 7/5 · ML 7/5
+  Bet #3 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 43% vs 35% morning-line implied (+7.8 pts).
+
+R9 · FleetIndnB200k · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops VENETTA at 23%; the morning line already prices the race. Pass is a position.
+
+R10 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops AMAZING GRACER at 21%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.d22ad90a, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

@@ -1342,10 +1342,52 @@
     "2026-08-20-dmr": {
       "date": "2026-08-20",
       "track": "DMR",
-      "artifacts": {}
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "a6bf8f5f14aad30343aca7204d60e57232cbce225b8c2459a541e8a4227568af",
+          "current_downloadable_sha256": "a6bf8f5f14aad30343aca7204d60e57232cbce225b8c2459a541e8a4227568af",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      }
     },
     "2026-08-20-sar": {
       "date": "2026-08-20",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "caadf63dc0d61a6a69664a7df2865ae8fc204dfd0ebb17b75ee843b4f6d776bd",
+          "current_downloadable_sha256": "caadf63dc0d61a6a69664a7df2865ae8fc204dfd0ebb17b75ee843b4f6d776bd",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      }
+    },
+    "2026-08-21-dmr": {
+      "date": "2026-08-21",
+      "track": "DMR",
+      "artifacts": {}
+    },
+    "2026-08-21-sar": {
+      "date": "2026-08-21",
       "track": "SAR",
       "artifacts": {}
     }
