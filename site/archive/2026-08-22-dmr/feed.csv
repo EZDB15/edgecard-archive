@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-22,1,8,FLAMBOYANT,16,5/1,6/1,7.5,turf,1 mile,Ranks #1 in our power figure blend; model 16% vs 9% morning-line implied (+7.5 pts),STALE,true
+DMR,2026-08-22,3,10,VENTRY STRAND,22,7/2,4/1,9.2,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 22% vs 13% morning-line implied (+9.2 pts),STALE,true
+DMR,2026-08-22,7,6,CENTRODELANTERO,15,11/2,13/2,6.4,turf,1 mile,Ranks #1 in our power figure blend; model 15% vs 9% morning-line implied (+6.4 pts),STALE,true
+DMR,2026-08-22,9,9,KENSINGTON LANE,25,3/1,7/2,5.6,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 25% vs 20% morning-line implied (+5.6 pts),STALE,true

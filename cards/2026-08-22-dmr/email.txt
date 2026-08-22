@@ -1,0 +1,69 @@
+SUBJECT: DMR · Sat Aug 22 · 11 races, 4 flags, 7 passes
+
+EDGE CARD · DMR, Sat Aug 22, 2026
+Card hashed and public at 11:14 AM ET: https://edgecardhq.com/archive/2026-08-22-dmr/ · https://x.com/edgecardHQ
+Scratch status last checked at 6:05 AM ET, not re-confirmed since. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-2 · flat-$2 -0.88 · drift +81.1% · meet to date 42-106 · flat-$2 -19.50 · drift +36.3% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 5:00 PM ET ·
+
+R1 · Md 50000 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: FLAMBOYANT, p 16% · fair odds 5/1 · ML 8/1
+  Bet #8 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 16% vs 9% morning-line implied (+7.5 pts).
+
+R2 · Clm 12500n2l · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops SHADY STRIPES at 26%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 20000n1x · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: VENTRY STRAND, p 22% · fair odds 7/2 · ML 5/1
+  Bet #10 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 22% vs 13% morning-line implied (+9.2 pts).
+
+R4 · Md Sp Wt · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MOTGA at 27%; the morning line already prices the race. Pass is a position.
+
+R5 · GrnFlshH-G2 · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MOTORIOUS at 26%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops FURIOSITY at 18%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 100000n2x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: CENTRODELANTERO, p 15% · fair odds 11/2 · ML 8/1
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 15% vs 9% morning-line implied (+6.4 pts).
+
+R8 · OClm 50000n1x · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PURE MADNESS at 17%; the morning line already prices the race. Pass is a position.
+
+R9 · DMrOaks-G1 · turf, 9.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: KENSINGTON LANE, p 25% · fair odds 3/1 · ML 3/1
+  Bet #9 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 25% vs 20% morning-line implied (+5.6 pts).
+
+R10 · PacifcCl-G1 · dirt, 10.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops KNIGHTSBRIDGE at 26%; the morning line already prices the race. Pass is a position.
+
+R11 · DmrMile-G2 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops EL POTENTE at 20%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.d22ad90a, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

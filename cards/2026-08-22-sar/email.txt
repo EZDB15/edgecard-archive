@@ -1,0 +1,73 @@
+SUBJECT: SAR · Sat Aug 22 · 12 races, 4 flags, 8 passes
+
+EDGE CARD · SAR, Sat Aug 22, 2026
+Card hashed and public at 11:13 AM ET: https://edgecardhq.com/archive/2026-08-22-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 10:24 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+2-2 · flat-$2 -0.88 · drift +81.1% · meet to date 42-106 · flat-$2 -19.50 · drift +36.3% → full results: https://github.com/EZDB15/edgecard-archive
+
+· SAR · first post 1:10 PM ET ·
+
+R1 · Md Sp Wt · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: MODEST MACLEAN, p 42% · fair odds 7/5 · ML 8/5
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 42% vs 33% morning-line implied (+8.6 pts).
+
+R2 · OClm 80000n2x · turf, 11.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ASBURY PARK at 25%; the morning line already prices the race. Pass is a position.
+
+R3 · Md Sp Wt · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops POWERLINE at 29%; the morning line already prices the race. Pass is a position.
+
+R4 · Clm 40000n2l · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops HEADS IN BEDS at 22%; the morning line already prices the race. Pass is a position.
+
+R5 · Md 55000 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LOVEONTHELEFTBANK at 19%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops KEY COLONY BEACH at 17%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 110000b · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops NAKATOMI at 27%; the morning line already prices the race. Pass is a position.
+
+R8 · Alw 105000n1x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops MARIA CALLAS at 18%; the morning line already prices the race. Pass is a position.
+
+R9 · Alw 120000n1x · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: PLAYA DEL MAR, p 28% · fair odds 5/2 · ML 4/1
+  Bet #9 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 28% vs 19% morning-line implied (+9.2 pts).
+
+R10 · BlstSpa-G2 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: SEGESTA, p 48% · fair odds 6/5 · ML 7/5
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 48% vs 34% morning-line implied (+13.5 pts).
+
+R11 · Alabama-G1 · dirt, 10.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops COUNTING STARS at 49%; the morning line already prices the race. Pass is a position.
+
+R12 · Md Sp Wt · turf, 9.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: MARY LOIS, p 30% · fair odds 5/2 · ML 7/2
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 30% vs 18% morning-line implied (+12.6 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.d22ad90a, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
