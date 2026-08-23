@@ -1,0 +1,65 @@
+SUBJECT: SAR · Sun Aug 23 · 10 races, 4 flags, 6 passes
+
+EDGE CARD · SAR, Sun Aug 23, 2026
+Card hashed and public at 11:28 AM ET: https://edgecardhq.com/archive/2026-08-23-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 10:42 AM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-4 · flat-$2 -8.00 · drift +15.2% · meet to date 43-113 · flat-$2 -25.10 · drift +36.0% → full results: https://github.com/EZDB15/edgecard-archive
+
+· SAR · first post 1:10 PM ET ·
+
+R1 · Clm 50000 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: ICE CHOCOLAT, p 49% · fair odds 1/1 · ML 2/1
+  Bet #2 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 49% vs 26% morning-line implied (+22.7 pts).
+
+R2 · Md Sp Wt · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops AND THE RUNNER IS at 34%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 55000n1x · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: HOT CURRENCY, p 42% · fair odds 7/5 · ML 9/5
+  Bet #1 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 42% vs 28% morning-line implied (+14.6 pts).
+
+R4 · Md Sp Wt · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GADGET PLAY at 31%; the morning line already prices the race. Pass is a position.
+
+R5 · OClm 55000n1x · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: RUN CURTIS RUN, p 31% · fair odds 5/2 · ML 5/2
+  Bet #1 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 31% vs 22% morning-line implied (+8.4 pts).
+
+R6 · Clm 62500 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops EMIRATES ROAD at 19%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 45000n2x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BROKEALLTHERULES at 22%; the morning line already prices the race. Pass is a position.
+
+R8 · Clm 16000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: TOUGH STREET, p 27% · fair odds 5/2 · ML 7/2
+  Bet #4 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 27% vs 19% morning-line implied (+8.1 pts).
+
+R9 · AlbanyB200k · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops TALK TO ME JIMMY at 31%; the morning line already prices the race. Pass is a position.
+
+R10 · Md 55000 · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops FRANKLIN DELANO at 22%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.07cdb408, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

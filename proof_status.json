@@ -1464,6 +1464,16 @@
           "status": "CALENDAR_PENDING"
         }
       }
+    },
+    "2026-08-23-dmr": {
+      "date": "2026-08-23",
+      "track": "DMR",
+      "artifacts": {}
+    },
+    "2026-08-23-sar": {
+      "date": "2026-08-23",
+      "track": "SAR",
+      "artifacts": {}
     }
   }
 }

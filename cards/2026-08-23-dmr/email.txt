@@ -1,0 +1,57 @@
+SUBJECT: DMR · Sun Aug 23 · 9 races, 2 flags, 7 passes
+
+EDGE CARD · DMR, Sun Aug 23, 2026
+Card hashed and public at 11:28 AM ET: https://edgecardhq.com/archive/2026-08-23-dmr/ · https://x.com/edgecardHQ
+Scratch status last checked at 5:00 AM ET, not re-confirmed since. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-4 · flat-$2 -8.00 · drift +15.2% · meet to date 43-113 · flat-$2 -25.10 · drift +36.0% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 5:00 PM ET ·
+
+R1 · Clm 12500 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BABY NEEDS SHOES at 20%; the morning line already prices the race. Pass is a position.
+
+R2 · Clm 8000 · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BAYTOWN BUTTERFLY at 17%; the morning line already prices the race. Pass is a position.
+
+R3 · Clm 20000 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops HARD TO FIGURE at 23%; the morning line already prices the race. Pass is a position.
+
+R4 · Md 20000 · dirt, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops JOHNNY B at 23%; the morning line already prices the race. Pass is a position.
+
+R5 · Md Sp Wt · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: MAGGLES MCGEE, p 33% · fair odds 2/1 · ML 7/2
+  Bet #11 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 33% vs 17% morning-line implied (+15.2 pts).
+
+R6 · Clm 10000n2l · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CHE at 16%; the morning line already prices the race. Pass is a position.
+
+R7 · DMrDerby-G2 · turf, 9.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PROLETARIAT at 24%; the morning line already prices the race. Pass is a position.
+
+R8 · Md 16000 · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ANTI SLAPP at 22%; the morning line already prices the race. Pass is a position.
+
+R9 · OClm 20000n1x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: SYNTAX, p 21% · fair odds 7/2 · ML 4/1
+  Bet #9 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 21% vs 16% morning-line implied (+5.7 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.07cdb408, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

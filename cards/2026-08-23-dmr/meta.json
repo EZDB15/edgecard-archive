@@ -1,0 +1,32 @@
+{
+  "sha256": "9f6019a8bddda5c0bc3f38fc180a7db7423f081a6df13976ef90a3eb7607e9a8",
+  "weather": {
+    "short": "Sunny",
+    "temp": 81,
+    "temp_unit": "F",
+    "wind": "0 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:28 AM ET",
+  "lock_ts_utc": "2026-08-23T15:28:30+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "STALE",
+  "scratch_checked_at_et": "5:00 AM ET",
+  "scratch_checked_at_utc": "2026-08-23T09:00:00+00:00",
+  "scratch_source": "Equibase Today's Race Day Changes (Del Mar)",
+  "scratch_track": null,
+  "scratch_date": null,
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-23-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Sun Aug 23 \u00b7 9 races, 2 flags, 7 passes"
+}
