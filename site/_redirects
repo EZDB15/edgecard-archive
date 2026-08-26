@@ -6,6 +6,18 @@
 /record                /proof/                301
 /corrections/          /proof/#corrections    301
 /corrections           /proof/#corrections    301
-/archive/*/feed.json   /feed-not-found.json   404
-/*.json                /feed-not-found.json   404
-/*                     /404.html              404
+# A PLACEHOLDER, not a splat. Cloudflare Pages only honours `*` as a TRAILING
+# splat, so `/archive/*/feed.json` never matched anything and neither did
+# `/*.json`: both fell through to the HTML 404 below. The monitor found it the
+# first day it got far enough to look, and it means a partner asking for a feed
+# on an unpublished date has always been handed a web page where the contract
+# promises a JSON error body. `/feed-not-found.json` has been published and
+# unreachable this whole time.
+/archive/:slug/feed.json   /feed-not-found.json   404
+# `/*.json` has no working equivalent here: a splat before a literal suffix is
+# the exact form Pages does not support, and there is no content negotiation in
+# this file. The rule above covers the path a partner actually requests; every
+# other JSON route on the site is a real file. Rather than leave a rule that
+# looks like a safety net and is not one, the general case is stated as
+# unhandled.
+/*                         /404.html              404

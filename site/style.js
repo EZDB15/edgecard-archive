@@ -252,6 +252,15 @@
 
   // has fired forty times should not outvote one that has fired twelve hundred.
 
+  // Has the reader asked for anything at all? Every weight starts at zero and a
+  // persona sets some of them, so "nothing asked" and "asked for things we have
+  // no record of" are different states that used to look identical.
+  function anyWeight() {
+    var any = false;
+    allFactors().forEach(function (f) { if (weights[f]) { any = true; } });
+    return any;
+  }
+
   function mixRecord() {
 
     var num = 0, den = 0, n = 0, missing = 0;
@@ -1160,7 +1169,7 @@
 
       markChanged(head, "mix", mix.ratio.toFixed(2));
 
-    } else {
+    } else if (!anyWeight()) {
 
       head.appendChild(document.createTextNode(
 
@@ -1169,6 +1178,24 @@
       right.appendChild(head);
 
       return;
+
+    } else {
+
+      // Asked for something we have no measured record of. This used to take
+      // the same exit as "asked for nothing": the tool returned before drawing
+      // a single row, so every slider on a card whose factors have not been
+      // measured looked broken rather than unmeasured. The ranking is the
+      // reader's own weights applied to this card and does not need a record
+      // to exist; what needs the record is the CLAIM about how the mix has
+      // run, and that is the sentence being withheld here.
+
+      head.appendChild(document.createTextNode(
+
+        "No measured record yet for what you asked for, so we are not "
+
+        + "claiming anything about how it has run. The ranking below is your "
+
+        + "own weights applied to this card, and nothing more."));
 
     }
 
