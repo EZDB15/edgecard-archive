@@ -1,6 +1,6 @@
 {
   "source_repo": "Elde15/edge-card",
-  "source_commit": "af5e13301eb599385137d68210c67d856cb72828",
+  "source_commit": "12e0e5d37766a8fb122e66a22da756e1a0345547",
   "build_command": "scripts/build_deployable_site.py --archive <archive>",
   "ledger_sha256": "19bacfd9e8680f18c7afaf66aa63b75ba144a03eb65b7670b775114a420b77ed",
   "ledger_entries": 897,

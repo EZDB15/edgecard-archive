@@ -6,18 +6,21 @@
 /record                /proof/                301
 /corrections/          /proof/#corrections    301
 /corrections           /proof/#corrections    301
-# A PLACEHOLDER, not a splat. Cloudflare Pages only honours `*` as a TRAILING
-# splat, so `/archive/*/feed.json` never matched anything and neither did
-# `/*.json`: both fell through to the HTML 404 below. The monitor found it the
-# first day it got far enough to look, and it means a partner asking for a feed
-# on an unpublished date has always been handed a web page where the contract
-# promises a JSON error body. `/feed-not-found.json` has been published and
-# unreachable this whole time.
-/archive/:slug/feed.json   /feed-not-found.json   404
-# `/*.json` has no working equivalent here: a splat before a literal suffix is
-# the exact form Pages does not support, and there is no content negotiation in
-# this file. The rule above covers the path a partner actually requests; every
-# other JSON route on the site is a real file. Rather than leave a rule that
-# looks like a safety net and is not one, the general case is stated as
-# unhandled.
+# MEASURED, not assumed. Two shapes were tried against the live site and
+# neither matched, so `/feed-not-found.json` is published and unreachable and a
+# partner asking for a feed on an unpublished date gets the HTML 404 below,
+# where the contract promises a JSON error body:
+#
+#   /archive/*/feed.json      splat in the middle of a path. Never matched.
+#   /archive/:slug/feed.json  named placeholder. Also never matched.
+#
+# What DOES work here is a literal path with a 3xx (the four rules above are
+# live and verified) and the trailing `/*` catch-all below. So on Pages this
+# file cannot express "any feed path we did not publish".
+#
+# The remaining option is a Pages Function at functions/archive/[slug]/, which
+# would work, and which would also sit in front of EVERY published feed
+# including the ones partners actually read. That is a much larger surface to
+# put a new failure mode on than the defect justifies, so it is a decision to
+# take deliberately rather than a fix to slip in. Left broken and written down.
 /*                         /404.html              404
