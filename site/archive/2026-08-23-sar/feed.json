@@ -22,7 +22,8 @@
       "cls": "gone",
       "label": "Likely bet down",
       "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-      "version": "d0"
+      "version": "d0",
+      "track": "SAR"
     },
     "why": "The biggest edge on today's card."
   },
@@ -37,39 +38,17 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "43-113",
-    "wins": 43,
-    "losses": 113,
-    "graded": 156,
-    "units": -25.1,
-    "roi_pct": -8.0,
-    "roi_ci_low": -33.6,
-    "roi_ci_high": 19.0,
-    "roi_n": 156,
-    "closing_held_n": 50,
-    "closing_graded_n": 149,
-    "closing_held_pct": 34,
-    "last_miss": {
-      "date": "2026-08-22",
-      "track": "SAR",
-      "race": 12,
-      "name": "MARY LOIS",
-      "board_decimal": 4.5,
-      "closing_decimal": 4.48
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 1,
       "program": "2",
       "horse": "ICE CHOCOLAT",
       "status": "ACTIVE",
-      "lifecycle_status": "UPCOMING",
-      "result_status": "PENDING",
-      "bettable": true,
-      "lifecycle_reason": "before this race's scheduled post time",
+      "lifecycle_status": "SETTLED",
+      "result_status": "LOST",
+      "bettable": false,
+      "lifecycle_reason": "official result recorded (LOSS)",
       "scheduled_post_utc": "2026-08-23T17:10:00+00:00",
       "model_win_pct": 49,
       "fair_odds": "1/1",
@@ -85,7 +64,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "SAR"
       },
       "bet": {
         "pool": "WIN",
@@ -125,10 +105,10 @@
       "program": "1",
       "horse": "HOT CURRENCY",
       "status": "ACTIVE",
-      "lifecycle_status": "UPCOMING",
-      "result_status": "PENDING",
-      "bettable": true,
-      "lifecycle_reason": "before this race's scheduled post time",
+      "lifecycle_status": "SETTLED",
+      "result_status": "LOST",
+      "bettable": false,
+      "lifecycle_reason": "official result recorded (LOSS)",
       "scheduled_post_utc": "2026-08-23T18:23:00+00:00",
       "model_win_pct": 42,
       "fair_odds": "7/5",
@@ -144,7 +124,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "SAR"
       },
       "bet": {
         "pool": "WIN",
@@ -184,10 +165,10 @@
       "program": "1",
       "horse": "RUN CURTIS RUN",
       "status": "ACTIVE",
-      "lifecycle_status": "UPCOMING",
-      "result_status": "PENDING",
-      "bettable": true,
-      "lifecycle_reason": "before this race's scheduled post time",
+      "lifecycle_status": "SETTLED",
+      "result_status": "LOST",
+      "bettable": false,
+      "lifecycle_reason": "official result recorded (LOSS)",
       "scheduled_post_utc": "2026-08-23T19:35:00+00:00",
       "model_win_pct": 31,
       "fair_odds": "5/2",
@@ -203,7 +184,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "SAR"
       },
       "bet": {
         "pool": "WIN",
@@ -243,10 +225,10 @@
       "program": "4",
       "horse": "TOUGH STREET",
       "status": "ACTIVE",
-      "lifecycle_status": "UPCOMING",
-      "result_status": "PENDING",
-      "bettable": true,
-      "lifecycle_reason": "before this race's scheduled post time",
+      "lifecycle_status": "SETTLED",
+      "result_status": "LOST",
+      "bettable": false,
+      "lifecycle_reason": "official result recorded (LOSS)",
       "scheduled_post_utc": "2026-08-23T21:20:00+00:00",
       "model_win_pct": 27,
       "fair_odds": "5/2",
@@ -262,7 +244,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "SAR"
       },
       "bet": {
         "pool": "WIN",

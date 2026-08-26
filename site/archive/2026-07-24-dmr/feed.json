@@ -22,7 +22,8 @@
       "cls": "gone",
       "label": "Likely bet down",
       "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-      "version": "d0"
+      "version": "d0",
+      "track": "DMR"
     },
     "why": "The biggest edge on today's card."
   },
@@ -63,7 +64,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "DMR"
       },
       "bet": {
         "pool": "WIN",
@@ -122,7 +124,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "DMR"
       },
       "bet": {
         "pool": "WIN",
@@ -181,7 +184,8 @@
         "cls": "watch",
         "label": "Price may move",
         "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
-        "version": "d0"
+        "version": "d0",
+        "track": "DMR"
       },
       "bet": {
         "pool": "WIN",
@@ -240,7 +244,8 @@
         "cls": "gone",
         "label": "Likely bet down",
         "basis": "A short board price the late money bets down. Still a win play, but expect a shorter number by post, pari-mutuel pays the closing price, so the edge is thinner here. Size it smaller.",
-        "version": "d0"
+        "version": "d0",
+        "track": "DMR"
       },
       "bet": {
         "pool": "WIN",
