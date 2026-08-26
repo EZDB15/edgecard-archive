@@ -1,27 +1,28 @@
 {
   "source_repo": "Elde15/edge-card",
-  "source_commit": null,
+  "source_commit": "c41f866eb97d0e38db29962f2c74c0302cccebd2",
   "build_command": "scripts/build_deployable_site.py --archive <archive>",
   "ledger_sha256": "19bacfd9e8680f18c7afaf66aa63b75ba144a03eb65b7670b775114a420b77ed",
   "ledger_entries": 897,
   "cards": 50,
   "feeds": 50,
   "endpoint_hashes": {
-    "index.html": "89d214059edc8dfd3eea8aff25b5fc79bea4a2d69eed2ab7b537b8c4eb06b014",
-    "styles.css": "88c5f081946ce3249a442de54202857f969dc3508e4888727d856a2acaec289a",
-    "record/index.html": "e97836321c01600b2990562ff3854031fd2f7a535f9ec504e64824c76204b6db",
-    "methodology/index.html": "e56f2f454b11893b868fd5baefa68fcb4c8d3b894ca3bce46b33f728e95b9333",
-    "archive/index.html": "0d8927de3fb2eae13a3f1de1442fac0e5c8fdc5e8d431aa9e6f02d4f48d33d49",
+    "index.html": "813ce855a3536b50193de49280698369281f9b055339bc98bc56c6482ac4fd7a",
+    "styles.css": "bedd8165732ad6b9deb6a79671b6b7ae953b07dbaac7b90720f5bbbd3a3601f3",
+    "proof/index.html": "8bbd8731b902ed55c07b105bf27abaa74ebc8598d689681f2f408136fd366075",
+    "tools/index.html": "fc96e16949f80b9c2f766891340c6a3bc4484fefe9af1d5691d4b06826ac2f08",
+    "methodology/index.html": "195178e5641b15531a29ff514d39a6632e461d46b7fcfd76d428aad9a1d6fd0f",
+    "archive/index.html": "c3180fbdc65515c3c84fd58489b6ba0a63313320baf4d4147b8a4e9fee905085",
     "schemas/partner-feed-v1.json": "052e7a874b184cb521e596f21acbafd8a992e6b88481239a1d747c4be8ac7212",
     "record.json": "3fc7814b56038d67f19c7b9c0ab7c00174cecdd01ff4f9c952e5e3d56ae8f314",
-    "proof_status.json": "e128a8066d0d9c754dabceb958ba50ab70b09700305c3a93a138e29670a7e74d",
-    "proof_registry.json": "ca3944b03773d95759fe0986b89d594de312692db838687bc48ad4b7c4e3b66c",
+    "proof_status.json": "6f203ac07363b7fa2e687c07bd65491e9ace989c9660b68f12f1fddd26a16c9a",
+    "proof_registry.json": "2891276305dced540d3e08fdb12ca56abe8d9b451c08427ddb8dcd9f1dd82284",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   },
   "root_sourced": {
     "record.json": "3fc7814b56038d67f19c7b9c0ab7c00174cecdd01ff4f9c952e5e3d56ae8f314",
-    "proof_status.json": "e128a8066d0d9c754dabceb958ba50ab70b09700305c3a93a138e29670a7e74d",
-    "proof_registry.json": "ca3944b03773d95759fe0986b89d594de312692db838687bc48ad4b7c4e3b66c",
+    "proof_status.json": "6f203ac07363b7fa2e687c07bd65491e9ace989c9660b68f12f1fddd26a16c9a",
+    "proof_registry.json": "2891276305dced540d3e08fdb12ca56abe8d9b451c08427ddb8dcd9f1dd82284",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   }
 }

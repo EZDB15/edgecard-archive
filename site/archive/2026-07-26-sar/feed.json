@@ -310,7 +310,7 @@
         "6"
       ],
       "edge_pts": 0.9,
-      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a maiden special weight. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -329,7 +329,7 @@
         "5"
       ],
       "edge_pts": 2.6,
-      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on turf in a $50,000 optional claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -348,7 +348,7 @@
         "2"
       ],
       "edge_pts": 0.5,
-      "shape": "No one horse is entitled to the lead going over a mile and an eighth on dirt in a restricted stakes. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -427,7 +427,7 @@
         "3"
       ],
       "edge_pts": -1.0,
-      "shape": "No one horse is entitled to the lead going over seven furlongs on dirt in a restricted stakes. Eleven going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. A field this size means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -484,7 +484,7 @@
         "10"
       ],
       "edge_pts": 10.5,
-      "shape": "No one horse is entitled to the lead going over a mile and three eighths on turf in a maiden special weight. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. A field this size means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     }
   ],
   "multi_race": []

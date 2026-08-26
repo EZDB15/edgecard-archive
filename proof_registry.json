@@ -7,17 +7,17 @@
     "metadata_rule": "original-publication and current-revision metadata proofs are distinct identities because they commit to different digests"
   },
   "metrics": {
-    "physical_ots_file_paths": 69,
-    "unique_proof_byte_hashes": 68,
-    "unique_target_digests": 68,
-    "canonical_proof_identities": 68,
+    "physical_ots_file_paths": 70,
+    "unique_proof_byte_hashes": 69,
+    "unique_target_digests": 69,
+    "canonical_proof_identities": 69,
     "compatibility_aliases": 1,
     "bitcoin_confirmed_unique_commitments": 34,
-    "calendar_pending_unique_commitments": 34,
+    "calendar_pending_unique_commitments": 35,
     "unproven_targets": 0,
     "by_target_type": {
       "ledger_snapshot": 2,
-      "locked_card": 49,
+      "locked_card": 50,
       "metadata": 17
     },
     "superseded_metadata_proofs": 4,
@@ -25,7 +25,7 @@
     "ledger_snapshots_with_proof": 2,
     "ledger_snapshots_without_proof": 0,
     "total_bitcoin_attestation_objects": 121,
-    "total_calendar_attestation_objects": 257
+    "total_calendar_attestation_objects": 261
   },
   "unstamped_snapshots": [],
   "proofs": [
@@ -1470,6 +1470,26 @@
       "preserved_target_path": null,
       "target_revision": "original",
       "target_current_sha256": "4cf82544adf7bce646fc6c7b37b958e69d8f6171e69765bff4e8d69ac65626b1",
+      "proof_targets_current_bytes": true,
+      "status": "CALENDAR_PENDING",
+      "bitcoin_block_heights": [],
+      "bitcoin_attestation_count": 0,
+      "calendar_attestation_count": 4,
+      "superseded_target": false,
+      "compatibility_alias": false,
+      "counts_toward_public_total": true
+    },
+    {
+      "proof_id": "locked_card:552d58c7f0868dc1",
+      "canonical_path": "cards/2026-08-26-sar/card.json.ots",
+      "alias_paths": [],
+      "proof_sha256": "be11cefa08a23484fba5be51760d47e3439524c4b2c887d929b3636ef436c31b",
+      "target_digest": "552d58c7f0868dc186367c5d6a465ced4d9d2e8d5161eb834e1810711c656a4e",
+      "target_type": "locked_card",
+      "target_path": "cards/2026-08-26-sar/card.json",
+      "preserved_target_path": null,
+      "target_revision": "original",
+      "target_current_sha256": "552d58c7f0868dc186367c5d6a465ced4d9d2e8d5161eb834e1810711c656a4e",
       "proof_targets_current_bytes": true,
       "status": "CALENDAR_PENDING",
       "bitcoin_block_heights": [],

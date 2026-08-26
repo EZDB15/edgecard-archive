@@ -269,7 +269,7 @@
         "4"
       ],
       "edge_pts": 2.6,
-      "shape": "No one horse is entitled to the lead going over a mile on turf in a maiden special weight. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -326,7 +326,7 @@
         "6"
       ],
       "edge_pts": -3.1,
-      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a $32,000 maiden claimer. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -390,7 +390,7 @@
         "4"
       ],
       "edge_pts": 17.7,
-      "shape": "No one horse is entitled to the lead going over a mile on turf in a $50,000 maiden claimer. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. A field this size means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     }
   ],
   "multi_race": []

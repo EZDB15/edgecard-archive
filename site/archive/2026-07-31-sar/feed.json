@@ -250,7 +250,7 @@
         "2"
       ],
       "edge_pts": 1.2,
-      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on turf in a maiden special weight. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -272,7 +272,7 @@
         "5"
       ],
       "edge_pts": 0.1,
-      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on dirt in a $35,000 maiden claimer. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 3,
@@ -291,7 +291,7 @@
         "2"
       ],
       "edge_pts": 5.2,
-      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a $30,000 optional claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -329,7 +329,7 @@
         "10"
       ],
       "edge_pts": 2.6,
-      "shape": "No one horse is entitled to the lead going over a mile on turf in a $55,000 maiden claimer. Ten going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. A field this size means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -348,7 +348,7 @@
         "6"
       ],
       "edge_pts": 0.8,
-      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a maiden special weight. Twelve going means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. A field this size means traffic is the risk in here, not the pace. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 7,

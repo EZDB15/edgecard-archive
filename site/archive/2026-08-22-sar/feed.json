@@ -348,7 +348,7 @@
         "1"
       ],
       "edge_pts": -1.5,
-      "shape": "Nobody in here is clearly entitled to the lead going over six and a half furlongs on dirt in a maiden special weight. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -367,7 +367,7 @@
         "2"
       ],
       "edge_pts": 2.5,
-      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on turf in a $40,000 claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 5,
@@ -389,7 +389,7 @@
         "3"
       ],
       "edge_pts": 0.8,
-      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a $55,000 maiden claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 6,
@@ -430,7 +430,7 @@
         "6"
       ],
       "edge_pts": 2.7,
-      "shape": "Nobody in here is clearly entitled to the lead going over six furlongs on dirt in a $110,000 allowance optional claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nothing in here has a clear claim on the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 8,
@@ -449,7 +449,7 @@
         "9"
       ],
       "edge_pts": 3.9,
-      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on turf in an allowance. Eleven going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. A field this size means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 9,
@@ -506,7 +506,7 @@
         "6"
       ],
       "edge_pts": -3.5,
-      "shape": "No one horse is entitled to the lead going over a mile and a quarter on dirt in a Grade 1. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "No runner here is entitled to the lead on the early figures. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 12,

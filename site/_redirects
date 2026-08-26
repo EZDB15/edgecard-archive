@@ -1,5 +1,11 @@
 # Cloudflare Pages applies these only when no static asset matches, so a
 # PUBLISHED feed never reaches them. Most specific first.
+# Record and corrections became one page. Both old paths are published, linked
+# from a partner placement, and indexed, so they move rather than break.
+/record/               /proof/                301
+/record                /proof/                301
+/corrections/          /proof/#corrections    301
+/corrections           /proof/#corrections    301
 /archive/*/feed.json   /feed-not-found.json   404
 /*.json                /feed-not-found.json   404
 /*                     /404.html              404

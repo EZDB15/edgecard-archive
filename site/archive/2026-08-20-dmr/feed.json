@@ -250,7 +250,7 @@
         "3"
       ],
       "edge_pts": 5.1,
-      "shape": "Nobody in here is clearly entitled to the lead going over five furlongs on turf in a $80,000 allowance optional claimer. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 2,
@@ -288,7 +288,7 @@
         "9"
       ],
       "edge_pts": 15.7,
-      "shape": "No one horse is entitled to the lead going over a mile on turf in a maiden special weight. Ten going means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. A field this size means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     },
     {
       "race": 4,
@@ -351,7 +351,7 @@
         "2"
       ],
       "edge_pts": 2.1,
-      "shape": "Nobody in here is clearly entitled to the lead going over five and a half furlongs on dirt in a $50,000 maiden claimer. Ten going means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+      "shape": "Nobody in here is clearly entitled to the lead. A field this size means traffic is the risk in here, not the pace. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
     },
     {
       "race": 7,
@@ -389,7 +389,7 @@
         "11"
       ],
       "edge_pts": 7.6,
-      "shape": "No one horse is entitled to the lead going over a mile and a sixteenth on turf in a $25,000 claimer. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+      "shape": "No one horse is entitled to the lead. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
     }
   ],
   "multi_race": []
