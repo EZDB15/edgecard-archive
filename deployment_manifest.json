@@ -1,6 +1,6 @@
 {
   "source_repo": "Elde15/edge-card",
-  "source_commit": "41adcdebe72fe51c41cbfd57cc5e9c30c8f4cd20",
+  "source_commit": null,
   "build_command": "scripts/build_deployable_site.py --archive <archive>",
   "ledger_sha256": "19bacfd9e8680f18c7afaf66aa63b75ba144a03eb65b7670b775114a420b77ed",
   "ledger_entries": 897,
@@ -9,7 +9,7 @@
   "endpoint_hashes": {
     "index.html": "89d214059edc8dfd3eea8aff25b5fc79bea4a2d69eed2ab7b537b8c4eb06b014",
     "styles.css": "88c5f081946ce3249a442de54202857f969dc3508e4888727d856a2acaec289a",
-    "record/index.html": "c58bfd7019e0bb6919a6bd1b7e56d39eb4078b453c70fd5b14eb0954c911bb50",
+    "record/index.html": "e97836321c01600b2990562ff3854031fd2f7a535f9ec504e64824c76204b6db",
     "methodology/index.html": "e56f2f454b11893b868fd5baefa68fcb4c8d3b894ca3bce46b33f728e95b9333",
     "archive/index.html": "0d8927de3fb2eae13a3f1de1442fac0e5c8fdc5e8d431aa9e6f02d4f48d33d49",
     "schemas/partner-feed-v1.json": "052e7a874b184cb521e596f21acbafd8a992e6b88481239a1d747c4be8ac7212",
