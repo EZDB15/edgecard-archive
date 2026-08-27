@@ -671,23 +671,30 @@ table.cgrid th.sortable:focus-visible{outline:2px solid var(--ink);outline-offse
    The pattern is inline-flex plus a min-height, because min-height alone does
    nothing to an inline element. */
 @media (max-width:640px){
+  /* Inline things that have to BECOME boxes. min-height does nothing to an
+     inline element, so these need a display change. */
   .flag-share,
   .made .meta a,
   .statusbar a,
   .brandmark,
   .mastnav a,
-  button.ectab-all,
+  button.ectab-all{
+    min-height:44px;
+    display:inline-flex;
+    align-items:center;
+  }
+  /* Things that are ALREADY flex or grid. These take the height and the
+     centring and NOTHING else: .sm-row is a five-column grid and the first
+     version of this rule set display:flex on it, which threw its columns away
+     at exactly the width they matter most. .ectab is a flex column, and
+     align-items on it centres the label rather than aligning it. */
   .sm-row,
   button.ectab,
   .sub-row input,
   .sub-row button{
     min-height:44px;
-    display:inline-flex;
-    align-items:center;
   }
-  /* Rows are the full width of their column, so they lay out as flex rows
-     rather than shrink-wrapping to their text. */
-  .sm-row{display:flex;}
+  .sm-row,.sub-row input,.sub-row button{align-items:center;}
   /* 38x14 with 2px of padding was the worst on the page, four times over. */
   .flag-share{padding:0 8px;margin:8px 12px;}
   /* The escape control ran the width of the bar at 18px tall. */
@@ -1200,6 +1207,12 @@ a.an-src:hover{color:var(--ink);}
 ul.an-list{list-style:none;margin:0;padding:0;display:grid;
   grid-template-columns:auto max-content 1fr;gap:4px 12px;align-items:baseline;}
 ul.an-list li{display:contents;}
+/* One grid item carrying both marks. The list is a three-column grid with
+   li{display:contents}, so the count is load-bearing. */
+/* Visually hidden, still announced. */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;
+  clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;}
+.an-id{display:inline-flex;align-items:center;gap:4px;}
 .an-h{font-family:var(--serif);font-size:var(--t-4);color:var(--ink);}
 .an-t{font-size:var(--t-4);color:var(--dim,var(--muted));line-height:1.45;}
 @media(max-width:560px){
