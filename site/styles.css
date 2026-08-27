@@ -848,19 +848,13 @@ td.pgm .silk{margin:4px;}
 .ectabs{display:flex;flex-wrap:wrap;gap:2px;align-items:stretch;
   border-bottom:2px solid var(--rule);margin:20px 0 0;}
 .ectabs[hidden]{display:none;}
-button.ectab{display:flex;flex-direction:column;gap:2px;text-align:left;
-  background:none;border:0;border-bottom:3px solid transparent;
-  padding:8px 16px 8px;margin:-2px;cursor:pointer;font:inherit;
+/* One line, not two. Every tab carried a subtitle, which doubled the height of
+   the primary control and put four lines of prose into navigation. */
+button.ectab{background:none;border:0;border-bottom:3px solid transparent;
+  padding:8px 12px;margin-bottom:-2px;cursor:pointer;
+  font-family:var(--display);font-size:var(--t-5);letter-spacing:-0.01em;
   color:var(--muted);}
-button.ectab b{font-family:var(--display);font-size:var(--t-5);letter-spacing:-0.01em;}
-button.ectab span{font-size:var(--t-1);line-height:1.3;}
 button.ectab:hover{color:var(--ink);}
-/* GOLD, not the navy `--accent`. The masthead nav marks its current page
-   with a navy underline, and this bar sits eight lines below it carrying
-   two of the same words -- Today, Record. Navy in both places made them
-   look like one navigation with a duplicated entry. Gold is the card's
-   own accent, the one the flags already use, so the bar reads as
-   belonging to the card rather than to the site. */
 button.ectab-on{color:var(--ink);border-bottom-color:var(--gold-fill);}
 button.ectab:focus-visible{outline:2px solid var(--ink);outline-offset:-2px;}
 
@@ -1282,7 +1276,13 @@ table.cgrid tr.gflag td.pgm{box-shadow:inset 3px 0 0 var(--flag-fill);}
 
 /* Race header rows. The one place the type scale jumps, so the eye can find a
    race boundary while scrolling without reading anything. */
-table.cgrid tr.ghead th{background:var(--surface);text-align:left;
+table.cgrid tr/* th AND td. The banner became a <td> when it stopped claiming colgroup
+   scope over eight columns it does not govern, and that orphaned this rule:
+   the cell fell back to the table's numeric right-alignment, so the eight
+   race dividers -- the primary landmark in a 75-row table -- each started at
+   a different x, a 304px spread, and not one shared a left edge with
+   another. */
+.ghead th,.ghead td{background:var(--surface);text-align:left;
   padding:12px 12px 8px;border-bottom:1px solid var(--rule);
   border-top:1px solid var(--rule);font-weight:400;position:static;}
 .gh-r{font-family:var(--mono);font-size:var(--t-4);font-weight:700;color:var(--ink);
@@ -1325,7 +1325,7 @@ table.cgrid tr.ghead th{background:var(--surface);text-align:left;
   /* The header cell has to carry the block, not the row: a <th> keeps its
      own intrinsic width when the row goes display:block, which left the
      race header inset from the runner blocks under it. */
-  table.cgrid tbody tr.ghead th{display:block;width:auto;padding:16px 12px 8px;}
+  table.cgrid tbody tr.ghead th,.ghead td{display:block;width:auto;padding:16px 12px 8px;}
   table.cgrid tbody td{border:0;padding:0;white-space:nowrap;}
   table.cgrid td.pgm{grid-area:1/1;align-self:center;}
   table.cgrid td.hn{grid-area:1/2;font-size:var(--t-5);white-space:normal;}

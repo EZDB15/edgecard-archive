@@ -83,7 +83,19 @@
     }
     all.hidden = true;
   });
-  bar.appendChild(all);
+  // OUT of the bar. Three controls that all change what is displayed sat in
+  // one strip carrying the same weight, and this was the third. It goes at
+  // the foot of the panels: a reader reaches for it after scanning and
+  // failing to find something, which is the end of a read, not the start.
+  var foot = document.createElement('div');
+  foot.className = 'ectab-foot';
+  foot.appendChild(all);
+  var last = panes[panes.length - 1];
+  if (last && last.parentNode) {
+    last.parentNode.insertBefore(foot, last.nextSibling);
+  } else {
+    bar.appendChild(all);
+  }
 
   show((location.hash || "").replace("#", "") || "__first", false);
   bar.removeAttribute("hidden");
