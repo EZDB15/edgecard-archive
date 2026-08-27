@@ -70,7 +70,11 @@
   var all = document.createElement("button");
   all.type = "button";
   all.className = "ectab-all";
-  all.textContent = "Show everything on one page";
+  // Short on purpose. At the card column width the longer label did not
+  // fit beside four tabs, wrapped onto its own line and sat there looking
+  // like an accident. The tooltip carries the full sentence.
+  all.textContent = "Show everything";
+  all.title = "Show every screen on one page";
   all.addEventListener("click", function () {
     for (var i = 0; i < panes.length; i++) { panes[i].hidden = false; }
     for (var j = 0; j < buttons.length; j++) {
