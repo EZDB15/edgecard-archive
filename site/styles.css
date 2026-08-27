@@ -27,6 +27,15 @@
   --t-5:17px;   /* lead, subhead        was 15.5, 16, 17 */
   --t-6:22px;   /* section heads        was 18, 19, 20, 22 */
   --t-7:30px;   /* display              was 23, 24, 25, 26, 27, 30, 33 */
+  /* The evidence step. The largest thing on a card page was the dateline --
+     "Saratoga, Wed Aug 26, 2026" at 30px -- and the three numbers carrying the
+     entire argument sat 8px BELOW it at 22px. On a site whose thesis is a
+     price, the page peaked on the day.
+     The fix is not a bigger headline, which would only make the dateline peak
+     harder. It is a bigger NUMBER: the h1 holds at t-7 and the flag figures
+     come up here, which puts evidence-to-body at about 2.4 and the visual peak
+     on the thing being argued. */
+  --t-8:40px;   /* the numbers the argument rests on */
   /* Two radii and the circle. */
   --r:2px; --r-lg:6px;
   /* ---- TRACKS ---------------------------------------------------------
@@ -40,6 +49,12 @@
      use, so a table on the wide track lines up with the chrome above and below
      it instead of with nothing. */
   --track-page:640px; --track-wide:1180px; --gutter:18px;
+  /* The data track is the chrome's CONTENT box, not its border box. `.inner`
+     is 1180 wide with 28px of padding, so its text starts at 1124; a table
+     breaking out to 1180 lines up with the footer's EDGE and with none of the
+     words in it, and on the home page -- whose own column is already 1124 --
+     it simply overhung by 28px on each side and aligned with nothing. */
+  --track-data:1124px;
   /* Three measures, not twelve. The stylesheet declared prose widths at 44,
      56, 58, 60, 62, 64, 66, 70, 74, 88 and 96ch, which is not a scale, it is
      forty-four separate decisions. */
@@ -246,7 +261,7 @@ span.pgm.scr{--sc:#D8D5CC;--scink:#8a8578;text-decoration:line-through}
   justify-content:start;margin:2px 0 12px;}
 .triad .k{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.09em;
   text-transform:uppercase;color:var(--muted);}
-.triad .v{font-family:var(--mono);font-weight:700;font-size:var(--t-6);line-height:1.25;color:var(--ink);}
+.triad .v{font-family:var(--mono);font-weight:700;font-size:var(--t-8);line-height:1.25;color:var(--ink);}
 .triad .s{font-family:var(--serif);font-style:italic;font-size:var(--t-2);color:var(--muted);}
 .thesis{font-size:var(--t-4);color:var(--ink);margin:0 0 16px;max-width:var(--measure);}
 .thesis b{font-family:var(--mono);font-weight:700;}
@@ -392,9 +407,16 @@ span.pgm.scr{--sc:#D8D5CC;--scink:#8a8578;text-decoration:line-through}
   font-weight:700;color:var(--ink);line-height:1.05;}
 .eotd-loc{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.03em;color:var(--muted);
   text-transform:uppercase;margin:4px 0 12px;}
+/* FLAT at --t-8 with the ordinary flags, not above them. This card already
+   carries four emphasis signals -- the tint, the gold rule, the eyebrow and
+   first position -- so size would be a fifth. It was 22px against the
+   ordinary flags' 40px, which put the biggest numbers on the page on the
+   plays we rated LOWER. The defect was the inversion, not a shortage of
+   emphasis. It already wraps, so the four-up folds to two rows on a phone
+   rather than overflowing. */
 .eotd-nums{display:flex;flex-wrap:wrap;gap:8px 24px;margin:12px;}
 .eotd-nums .c{display:flex;flex-direction:column;line-height:1.15;}
-.eotd-nums .c b{font-family:var(--mono);font-weight:700;font-size:var(--t-6);color:var(--ink);}
+.eotd-nums .c b{font-family:var(--mono);font-weight:700;font-size:var(--t-8);color:var(--ink);}
 .eotd-nums .c i{font-family:var(--serif);font-style:italic;font-size:var(--t-1);color:var(--muted);}
 .eotd-nums .c.play b{color:var(--flag);}
 .eotd-why{font-size:var(--t-4);color:var(--ink);max-width:var(--measure);line-height:1.5;}
@@ -634,6 +656,44 @@ table.cgrid th[aria-sort="descending"]:after{content:"\2193";}
 table.cgrid th.sortable:focus-visible{outline:2px solid var(--ink);outline-offset:-2px;}
 @media print{table.cgrid th.sortable:after{content:"";}}
 
+/* ===== TOUCH TARGETS ======================================================
+   Measured on production at 390px, in an iframe, because a window resize does
+   not change the viewport in the harness we had: 20 of 34 interactive elements
+   under 44px and 8 under 24px.
+
+   SCOPED to the phone breakpoint and to the named offenders, not applied as a
+   blanket floor. A 44px minimum on every anchor would put a thumb-sized box
+   around every inline link in running prose and wreck the paragraph rhythm on
+   the one surface that is mostly prose. The nav does NOT appear here: measured
+   at 390px it already passes at exactly 44px, so the audit's 23px was a desktop
+   reading and is withdrawn.
+
+   The pattern is inline-flex plus a min-height, because min-height alone does
+   nothing to an inline element. */
+@media (max-width:640px){
+  .flag-share,
+  .made .meta a,
+  .statusbar a,
+  .brandmark,
+  .mastnav a,
+  button.ectab-all,
+  .sm-row,
+  button.ectab,
+  .sub-row input,
+  .sub-row button{
+    min-height:44px;
+    display:inline-flex;
+    align-items:center;
+  }
+  /* Rows are the full width of their column, so they lay out as flex rows
+     rather than shrink-wrapping to their text. */
+  .sm-row{display:flex;}
+  /* 38x14 with 2px of padding was the worst on the page, four times over. */
+  .flag-share{padding:0 8px;margin:8px 12px;}
+  /* The escape control ran the width of the bar at 18px tall. */
+  button.ectab-all{padding:0 4px;}
+}
+
 /* ===== THE WIDE TRACK =====================================================
    Escapes a centred column without knowing its width. Anything that is DATA
    rather than prose goes here: the whole-card grid, the full-field tables, the
@@ -642,7 +702,7 @@ table.cgrid th.sortable:focus-visible{outline:2px solid var(--ink);outline-offse
 /* The disclosure itself is the wide element, so its summary rule spans the
    data track too rather than stopping at the prose column edge. */
 .wide{position:relative;left:50%;transform:translateX(-50%);
-  width:min(var(--track-wide),calc(100vw - var(--gutter)*2));}
+  width:min(var(--track-data),calc(100vw - var(--gutter)*2));}
 /* Below the wide track there is nothing to break out of, so it stops. */
 @media(max-width:1216px){
   .wide{left:auto;transform:none;width:auto;}
