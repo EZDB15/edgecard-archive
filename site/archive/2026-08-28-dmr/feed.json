@@ -1,0 +1,472 @@
+{
+  "schema_version": "1.2",
+  "schema_url": "https://edgecardhq.com/schemas/partner-feed-v1-2.json",
+  "product": "Edge Card",
+  "track": "DMR",
+  "track_name": "Del Mar",
+  "date": "2026-08-28",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.82d07f70",
+  "generated_ts_utc": "2026-08-28T15:22:53+00:00",
+  "first_post_et": "5:00 PM ET",
+  "n_races": 8,
+  "n_flags": 4,
+  "n_passes": 4,
+  "edge_of_day": {
+    "race": 8,
+    "program": "4",
+    "horse": "JUST WORK IT OUT",
+    "model_win_pct": 42,
+    "play_at": "8/5",
+    "edge_pts": 12.2,
+    "durability": {
+      "cls": "gone",
+      "label": "Likely bet down",
+      "basis": "A short board price for this track, and prices this short more often shorten by post than not. Still a win play, but expect a smaller number than the board shows, because pari-mutuel pays the close. Size it smaller.",
+      "version": "d1",
+      "track": "DMR"
+    },
+    "why": "The biggest edge on today's card."
+  },
+  "url": "https://edgecardhq.com/archive/2026-08-28-dmr/",
+  "record_url": "https://edgecardhq.com/record",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "partner_links": {
+    "source": "twinspires",
+    "record_url": "https://edgecardhq.com/record?utm_source=twinspires",
+    "methodology_url": "https://edgecardhq.com/methodology?utm_source=twinspires",
+    "card_url": "https://edgecardhq.com/archive/2026-08-28-dmr/?utm_source=twinspires",
+    "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
+  },
+  "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
+  "record": {
+    "record": "47-125",
+    "wins": 47,
+    "losses": 125,
+    "graded": 172,
+    "units": -22.62,
+    "roi_pct": -6.6,
+    "roi_ci_low": -32.0,
+    "roi_ci_high": 21.3,
+    "roi_n": 172,
+    "closing_held_n": 57,
+    "closing_graded_n": 165,
+    "closing_held_pct": 35,
+    "last_miss": {
+      "date": "2026-08-27",
+      "track": "SAR",
+      "race": 8,
+      "name": "TITAN READY",
+      "board_decimal": 2.6,
+      "closing_decimal": 3.66
+    },
+    "has_data": true
+  },
+  "flags": [
+    {
+      "race": 2,
+      "program": "1",
+      "horse": "EMPRESS MATILDA",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "first post has passed and this card carries no per-race post time — failing closed rather than risk presenting a completed race as actionable",
+      "scheduled_post_utc": null,
+      "model_win_pct": 21,
+      "fair_odds": "4/1",
+      "fair_odds_decimal": 4.88,
+      "play_at": "9/2",
+      "play_at_decimal": 5.36,
+      "edge_pts": 7.1,
+      "reason": "Ranks #1 in our power figure blend; model 21% vs 13% morning-line implied (+7.1 pts)",
+      "surface": "turf",
+      "distance": "5 furlongs",
+      "race_type": "Clm 25000",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d1",
+        "track": "DMR"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-28",
+        "races": [
+          2
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 2,
+            "role": "win",
+            "programs": [
+              "1"
+            ]
+          }
+        ],
+        "min_odds_decimal": 5.36,
+        "minimum_acceptable_odds_decimal": 5.36,
+        "minimum_acceptable_odds_display": "9/2",
+        "play_at_odds_decimal": 5.36,
+        "play_at_odds_display": "9/2",
+        "fair_odds_decimal": 4.88,
+        "fair_odds_display": "4/1",
+        "morning_line_odds_decimal": 6.0,
+        "morning_line_odds_display": "5/1",
+        "fair_return_usd": null,
+        "instruction": "#1 to win. Our reference price is 9/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 4,
+      "program": "4",
+      "horse": "SAND BAGGER",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "first post has passed and this card carries no per-race post time — failing closed rather than risk presenting a completed race as actionable",
+      "scheduled_post_utc": null,
+      "model_win_pct": 31,
+      "fair_odds": "2/1",
+      "fair_odds_decimal": 3.24,
+      "play_at": "5/2",
+      "play_at_decimal": 3.56,
+      "edge_pts": 8.0,
+      "reason": "Ranks #1 in our power figure blend; model 31% vs 23% morning-line implied (+8.0 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "Clm 25000n2l",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d1",
+        "track": "DMR"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-28",
+        "races": [
+          4
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 4,
+            "role": "win",
+            "programs": [
+              "4"
+            ]
+          }
+        ],
+        "min_odds_decimal": 3.56,
+        "minimum_acceptable_odds_decimal": 3.56,
+        "minimum_acceptable_odds_display": "5/2",
+        "play_at_odds_decimal": 3.56,
+        "play_at_odds_display": "5/2",
+        "fair_odds_decimal": 3.24,
+        "fair_odds_display": "2/1",
+        "morning_line_odds_decimal": 3.5,
+        "morning_line_odds_display": "5/2",
+        "fair_return_usd": null,
+        "instruction": "#4 to win. Our reference price is 5/2.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 7,
+      "program": "1",
+      "horse": "SPEEDY WILSON",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "first post has passed and this card carries no per-race post time — failing closed rather than risk presenting a completed race as actionable",
+      "scheduled_post_utc": null,
+      "model_win_pct": 26,
+      "fair_odds": "3/1",
+      "fair_odds_decimal": 3.86,
+      "play_at": "3/1",
+      "play_at_decimal": 4.24,
+      "edge_pts": 5.7,
+      "reason": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 26% vs 20% morning-line implied (+5.7 pts)",
+      "surface": "dirt",
+      "distance": "6 1/2 furlongs",
+      "race_type": "OClm 100000b",
+      "durability": {
+        "cls": "watch",
+        "label": "Price may move",
+        "basis": "A mid board price, it can hold or shorten into post. You are paid the closing price either way, so bet the horse and take the number you get.",
+        "version": "d1",
+        "track": "DMR"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-28",
+        "races": [
+          7
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 7,
+            "role": "win",
+            "programs": [
+              "1"
+            ]
+          }
+        ],
+        "min_odds_decimal": 4.24,
+        "minimum_acceptable_odds_decimal": 4.24,
+        "minimum_acceptable_odds_display": "3/1",
+        "play_at_odds_decimal": 4.24,
+        "play_at_odds_display": "3/1",
+        "fair_odds_decimal": 3.86,
+        "fair_odds_display": "3/1",
+        "morning_line_odds_decimal": 4.0,
+        "morning_line_odds_display": "3/1",
+        "fair_return_usd": null,
+        "instruction": "#1 to win. Our reference price is 3/1.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    },
+    {
+      "race": 8,
+      "program": "4",
+      "horse": "JUST WORK IT OUT",
+      "status": "ACTIVE",
+      "lifecycle_status": "INDETERMINATE",
+      "result_status": "PENDING",
+      "bettable": false,
+      "lifecycle_reason": "first post has passed and this card carries no per-race post time — failing closed rather than risk presenting a completed race as actionable",
+      "scheduled_post_utc": null,
+      "model_win_pct": 42,
+      "fair_odds": "7/5",
+      "fair_odds_decimal": 2.37,
+      "play_at": "8/5",
+      "play_at_decimal": 2.61,
+      "edge_pts": 12.2,
+      "reason": "Ranks #1 in our power figure blend; model 42% vs 30% morning-line implied (+12.2 pts)",
+      "surface": "turf",
+      "distance": "1 mile",
+      "race_type": "Md Sp Wt",
+      "durability": {
+        "cls": "gone",
+        "label": "Likely bet down",
+        "basis": "A short board price for this track, and prices this short more often shorten by post than not. Still a win play, but expect a smaller number than the board shows, because pari-mutuel pays the close. Size it smaller.",
+        "version": "d1",
+        "track": "DMR"
+      },
+      "bet": {
+        "pool": "WIN",
+        "track": "DMR",
+        "date": "2026-08-28",
+        "races": [
+          8
+        ],
+        "base_usd": 2.0,
+        "cost_usd": 2.0,
+        "legs": [
+          {
+            "race": 8,
+            "role": "win",
+            "programs": [
+              "4"
+            ]
+          }
+        ],
+        "min_odds_decimal": 2.61,
+        "minimum_acceptable_odds_decimal": 2.61,
+        "minimum_acceptable_odds_display": "8/5",
+        "play_at_odds_decimal": 2.61,
+        "play_at_odds_display": "8/5",
+        "fair_odds_decimal": 2.37,
+        "fair_odds_display": "7/5",
+        "morning_line_odds_decimal": 2.6,
+        "morning_line_odds_display": "8/5",
+        "fair_return_usd": null,
+        "instruction": "#4 to win. Our reference price is 8/5.",
+        "odds_note": "Pari-mutuel: your payout is set by the FINAL odds, whatever price was showing when you bet, so this is a reference price and not a limit anyone can hold you to. It is the price at or above which we judged the bet worth making. Every flag is graded on the public record either way — one that closes shorter than this still counts, win or lose."
+      },
+      "exotics": null
+    }
+  ],
+  "errata": [],
+  "scratch_status": {
+    "state": "NOT_YET_CHECKED",
+    "confirmed": false,
+    "message": "Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited."
+  },
+  "parlays": [],
+  "card_reads": [
+    {
+      "race": 1,
+      "tier": "lean",
+      "top": {
+        "program": "3",
+        "name": "SMOKIN HOT STUFF",
+        "win_pct": 37,
+        "fair": "9/5",
+        "fair_decimal": 2.72,
+        "board": "7/5",
+        "board_decimal": 2.4
+      },
+      "read": "Our top-rated horse in a $40,000 maiden claimer. Three of them want the lead. The edge is real but sits under our bet line at 4 points.",
+      "coverage_set": [
+        "3"
+      ],
+      "edge_pts": 3.6,
+      "shape": "Three of the 5 are entitled to the early lead, so the opening quarter over six furlongs on dirt in a $40,000 maiden claimer should be contested rather than soft. Our pace adjustment credits #2 Sensational Dream and #3 Smokin Hot Stuff on that basis."
+    },
+    {
+      "race": 2,
+      "tier": "play",
+      "top": {
+        "program": "1",
+        "name": "EMPRESS MATILDA",
+        "win_pct": 21,
+        "fair": "4/1",
+        "fair_decimal": 4.88,
+        "board": "5/1",
+        "board_decimal": 6.0
+      },
+      "read": "Ranks #1 in our power figure blend; model 21% vs 13% morning-line implied (+7.1 pts)",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 7.1,
+      "shape": "Five of the 8 are entitled to the early lead, so the opening quarter over five furlongs on turf in a $25,000 claimer should be contested rather than soft. Our pace adjustment credits #1 Empress Matilda and #7 Invincible Molly on that basis."
+    },
+    {
+      "race": 3,
+      "tier": "lean",
+      "top": {
+        "program": "7",
+        "name": "PRO PAYNE",
+        "win_pct": 21,
+        "fair": "4/1",
+        "fair_decimal": 4.78,
+        "board": "7/2",
+        "board_decimal": 4.5
+      },
+      "read": "Our top-rated horse in a $65,000 maiden optional claimer. We make the top one 21% against the board's 18%. The edge is real but sits under our bet line at 3 points.",
+      "coverage_set": [
+        "7"
+      ],
+      "edge_pts": 3.3,
+      "shape": "Nobody in here is clearly entitled to the lead. Nothing in here has shown real early speed on the figures the model reads. No pace adjustment applied."
+    },
+    {
+      "race": 4,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "SAND BAGGER",
+        "win_pct": 31,
+        "fair": "2/1",
+        "fair_decimal": 3.24,
+        "board": "5/2",
+        "board_decimal": 3.5
+      },
+      "read": "Ranks #1 in our power figure blend; model 31% vs 23% morning-line implied (+8.0 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 8.0,
+      "shape": "No one horse is entitled to the lead. Two have shown early speed, under the count that would rate the race contested. No pace adjustment applied."
+    },
+    {
+      "race": 5,
+      "tier": "scramble",
+      "top": {
+        "program": "1",
+        "name": "I'M NO SWIFTY",
+        "win_pct": 19,
+        "fair": "9/2",
+        "fair_decimal": 5.26,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "An open heat. Nothing separates the top two by more than 1.4 points. Three of them want the lead.",
+      "coverage_set": [
+        "1",
+        "6",
+        "4",
+        "8"
+      ],
+      "edge_pts": -0.7,
+      "shape": "Three of the 9 are entitled to the early lead, so the opening quarter over five and a half furlongs on dirt in a $50,000 maiden claimer should be contested rather than soft. Our pace adjustment credits #2 Low La Bunny and #3 Glory'z Clubhouse on that basis."
+    },
+    {
+      "race": 6,
+      "tier": "chalk",
+      "top": {
+        "program": "8",
+        "name": "DELUGE",
+        "win_pct": 20,
+        "fair": "4/1",
+        "fair_decimal": 4.89,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "The board and our number agree in a maiden special weight. One horse looks alone on the lead, which our pace adjustment credits. The barn's angle in this exact spot is among the best in the field.",
+      "coverage_set": [
+        "8"
+      ],
+      "edge_pts": 0.7,
+      "shape": "One of the 9 looks alone on the lead, clear of the field on the early figures over five furlongs on turf, with nothing else in here entitled to go with it. Our pace adjustment credits #5 Make Me Money on that basis."
+    },
+    {
+      "race": 7,
+      "tier": "play",
+      "top": {
+        "program": "1",
+        "name": "SPEEDY WILSON",
+        "win_pct": 26,
+        "fair": "3/1",
+        "fair_decimal": 3.86,
+        "board": "3/1",
+        "board_decimal": 4.0
+      },
+      "read": "Ranks #1 in our power figure blend; closer in a contested-pace setup; model 26% vs 20% morning-line implied (+5.7 pts)",
+      "coverage_set": [
+        "1"
+      ],
+      "edge_pts": 5.7,
+      "shape": "Four of the 6 are entitled to the early lead, so the opening quarter over six and a half furlongs on dirt in a $100,000 allowance optional claimer should be contested rather than soft. Our pace adjustment credits #1 Speedy Wilson and #2 Mr. Disrespectful on that basis."
+    },
+    {
+      "race": 8,
+      "tier": "play",
+      "top": {
+        "program": "4",
+        "name": "JUST WORK IT OUT",
+        "win_pct": 42,
+        "fair": "7/5",
+        "fair_decimal": 2.37,
+        "board": "8/5",
+        "board_decimal": 2.6
+      },
+      "read": "Ranks #1 in our power figure blend; model 42% vs 30% morning-line implied (+12.2 pts)",
+      "coverage_set": [
+        "4"
+      ],
+      "edge_pts": 12.2,
+      "shape": "No one horse is entitled to the lead. A field this size means traffic is the risk in here, not the pace. Only one has shown genuine early speed, without enough company to rate the race contested. No pace adjustment applied."
+    }
+  ],
+  "multi_race": []
+}

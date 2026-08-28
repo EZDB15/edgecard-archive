@@ -1,0 +1,1263 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DMR · Fri Aug 28 · 8 races, 4 flags, 4 passes</title>
+<style>:root{
+  /* "The Form & The Terminal": warm racing-form paper + deep racing navy
+     structure + restrained metallic gold. Navy/gold sampled from the
+     EdgeCardHQ mark (#002040 / #e0c050). Signal red/green are semantic only. */
+  --bg:#F4EFE4; --surface:#FBF8F1; --ink:#161d24; --muted:#5c6570;
+  --line:#DAD3C4; --rule:#B9B09C;
+  --navy:#0b1a2d; --navy-ink:#04101d; --navy-logo:#002040;
+  /* ---- SCALES ---------------------------------------------------------
+     279 font sizes across 27 values, spacing across 28, and seven radii of
+     which four were 1, 2, 3 and 6px: values not distinguishable from each other
+     but inconsistent with each other. That is not a weak system, it is no
+     system, and it is why edges miss by one to three pixels in ways a reader
+     registers without being able to name.
+
+     The steps FIT the existing usage rather than being imported: each one is a
+     cluster the stylesheet was already reaching for. Ties round UP, because the
+     defect being fixed is eleven sizes clustered in the small print, not text
+     that is too large. */
+  --t-1:11px;   /* micro labels         was 8.5, 9.5, 10, 10.5 */
+  --t-2:12px;   /* small labels, chips  was 11, 11.5, 12 */
+  --t-3:13px;   /* captions, dense data was 12.5, 13 */
+  --t-4:15px;   /* body                 was 13.5, 14, 14.5, 15 */
+  --t-5:17px;   /* lead, subhead        was 15.5, 16, 17 */
+  --t-6:22px;   /* section heads        was 18, 19, 20, 22 */
+  --t-7:30px;   /* display              was 23, 24, 25, 26, 27, 30, 33 */
+  /* The evidence step. The largest thing on a card page was the dateline --
+     "Saratoga, Wed Aug 26, 2026" at 30px -- and the three numbers carrying the
+     entire argument sat 8px BELOW it at 22px. On a site whose thesis is a
+     price, the page peaked on the day.
+     The fix is not a bigger headline, which would only make the dateline peak
+     harder. It is a bigger NUMBER: the h1 holds at t-7 and the flag figures
+     come up here, which puts evidence-to-body at about 2.4 and the visual peak
+     on the thing being argued. */
+  --t-8:40px;   /* the numbers the argument rests on */
+  /* Two radii and the circle. */
+  --r:2px; --r-lg:6px;
+  /* ---- TRACKS ---------------------------------------------------------
+     Two widths, used on purpose. Prose sits on a reading measure; data breaks
+     out to the wide track. The site previously ran BOTH through the same 640px
+     column, which starved every table: the whole-card grid rendered at 1080px
+     inside a 664px column and its edge jutted 208px out, reading as a layout
+     error rather than a deliberate full bleed.
+
+     `--track-wide` is the same 1180px the masthead nav and the footer already
+     use, so a table on the wide track lines up with the chrome above and below
+     it instead of with nothing. */
+  --track-page:640px; --track-wide:1180px; --gutter:18px;
+  /* The data track is the chrome's CONTENT box, not its border box. `.inner`
+     is 1180 wide with 28px of padding, so its text starts at 1124; a table
+     breaking out to 1180 lines up with the footer's EDGE and with none of the
+     words in it, and on the home page -- whose own column is already 1124 --
+     it simply overhung by 28px on each side and aligned with nothing. */
+  --track-data:1124px;
+  /* Three measures, not twelve. The stylesheet declared prose widths at 44,
+     56, 58, 60, 62, 64, 66, 70, 74, 88 and 96ch, which is not a scale, it is
+     forty-four separate decisions. */
+  --measure:68ch; --measure-tight:56ch; --measure-wide:88ch;
+  /* Was a second copy of --navy. A token whose value duplicates another
+     token is a token that will drift: change one, and half the site moves
+     while the other half does not. --navy names the ink, --accent names
+     the job, and the job is what call sites should ask for. */
+  --accent:var(--navy);                      /* navy is the structural accent */
+  --gold:#a9822b; /* --flag-fill was the same value under a second name. */
+  --gold-fill:#cda23f;   /* restrained gold: ink vs. fill */
+  /* Gold for TEXT. #a9822b is 3.35:1 on --surface and 2.91:1 on the flag
+     wash -- below AA for the small uppercase labels it was being used on.
+     This one clears 4.5:1 on surface, paper AND flag-wash, so a gold word
+     is legible wherever it lands. --gold stays for rules and fills, where
+     contrast ratios do not apply. */
+  --gold-text:#806607;
+  --win:#2e6b4f; --loss:#a3271f;         /* verified-green / scratch-loss-red */
+  --flag:#8a6a12; --flag-fill:var(--gold-fill); --flag-wash:#F3E8C9;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --mono:"Plex",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+/* Committed to the printed-broadsheet look: bright paper only, no dark theme. */
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:var(--t-5);line-height:1.55;-webkit-font-smoothing:antialiased;}
+.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums;}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;}
+a:hover{border-bottom-color:currentColor;}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.inner{max-width:var(--track-wide);margin:0 auto;padding:0 32px;}
+
+/* ---- full-bleed newspaper nameplate ---- */
+.masthead{background:var(--surface);border-bottom:4px solid var(--accent);}
+.masthead .dateline{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.16em;
+  text-transform:uppercase;color:var(--muted);text-align:center;padding:8px 32px 8px;
+  border-bottom:1px solid var(--rule);}
+.dateline .anti{color:var(--gold-text);}
+.nameplate{text-align:center;padding:16px 0 8px;}
+/* Masthead rows share the content column. The bands stay full-bleed (the rules
+   and background still run edge to edge) but their CONTENT is constrained to the
+   same 1180px grid as .inner, so the nameplate cannot drift away from the
+   headline beneath it as the viewport widens. */
+.masthead .dateline,.nameplate,.mastnav-in{max-width:1180px;margin:auto;margin:auto;}
+.brandmark{display:inline-block;border:0;line-height:0;}
+.brandmark img{width:auto;height:58px;max-width:100%;display:block;}
+@media(max-width:640px){.brandmark img{height:40px;}}
+.nameplate .tag{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.11em;
+  text-transform:uppercase;color:var(--muted);margin:12px;}
+.mastnav{border-top:1px solid var(--rule);}
+.mastnav-in{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:var(--t-3);letter-spacing:0.13em;text-transform:uppercase;padding:12px 32px;}
+.mastnav a{color:var(--muted);border:0;}
+.mastnav a.on{color:var(--ink);border-bottom:2px solid var(--accent);padding:2px;}
+
+/* ---- generic full-bleed section ---- */
+.section{padding:40px 0;border-bottom:1px solid var(--line);}
+.eyebrow{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--muted);margin:12px;}
+h1,h2,h3{text-wrap:balance;}
+h1.thesis{font-family:var(--serif);font-weight:700;font-size:clamp(27px,1.4rem+2vw,40px);
+  line-height:1.12;margin:0 0 16px;}
+.lede{font-size:var(--t-5);color:var(--muted);margin:0 0 24px;max-width:var(--measure-tight);}
+.lede b{color:var(--ink);font-weight:700;}
+/* h1.sec and h2.sec share one look: /record/ and /archive/ had no h1 at all,
+   so the leading section heading became the page h1 without changing how the
+   page reads. */
+h1.sec,h2.sec{font-family:var(--serif);font-weight:700;font-size:var(--t-6);margin:0;
+  line-height:1.2;border:0;padding:0;}
+.sec-head{border-bottom:2px solid var(--rule);padding:8px;margin:20px;
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;}
+.sec-head .k{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.sec-note{font-size:var(--t-4);color:var(--muted);max-width:var(--measure);}
+.section > .inner > p{max-width:var(--measure);margin:0 0 12px;}
+
+/* ---- responsive grids ---- */
+.grid-hero{display:grid;grid-template-columns:1.1fr 0.9fr;gap:48px;align-items:start;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;}
+@media(max-width:820px){.grid-hero,.grid-2{grid-template-columns:1fr;gap:24px;}}
+
+/* ---- saddle-cloth program badge (NA Jockey Club / Thoroughbred colors) ---- */
+/* SPAN, not `.pgm`. The badge and the table cell that holds it share the class
+   name, so the bare selector was turning every `<td class="pgm">` into a 22px
+   inline-flex box as well. That was invisible while the cell held exactly one
+   badge and exactly fit it; the moment a silk went in beside the badge the two
+   overlapped, because the CELL was the thing that had been sized to one badge.
+   Scoping to the element the rule is actually about fixes the cell too. */
+span.pgm{--sc:#7E8288;--scink:#fff;--scbrd:transparent;
+  display:inline-flex;align-items:center;justify-content:center;
+  width:1.6em;height:1.6em;border-radius:var(--r);background:var(--sc);color:var(--scink);
+  border:1px solid var(--scbrd);box-shadow:inset 0 0 0 1px rgba(0,0,0,.14);
+  font-family:var(--mono);font-weight:700;line-height:1;font-variant-numeric:tabular-nums;
+  vertical-align:middle;flex:none;}
+span.pgm sup{font-size:0.62em;margin:2px;}
+/* Scoped to the span for the same reason the base rule is, and it has to
+   match its specificity exactly: `span.pgm` sets the fallback `--sc`, so a
+   bare `.p6` loses the cascade to it and every badge on the card goes
+   grey. Custom properties are inherited but they are still declarations. */
+span.p1{--sc:#C41320;--scink:#fff} span.p2{--sc:#FCFCFA;--scink:#17130C;--scbrd:#17130C}
+span.p3{--sc:#15468C;--scink:#fff} span.p4{--sc:#FFD400;--scink:#17130C}
+span.p5{--sc:#0F7A33;--scink:#fff} span.p6{--sc:#17130C;--scink:#fff}
+span.p7{--sc:#E4631C;--scink:#17130C} span.p8{--sc:#EE6FA8;--scink:#17130C}
+span.p9{--sc:#1FB3BD;--scink:#17130C} span.p10{--sc:#5A2D82;--scink:#fff}
+span.p11{--sc:#7E8288;--scink:#fff;box-shadow:inset 0 0 0 1px rgba(196,19,32,.5)}
+span.p12{--sc:#9CC63B;--scink:#17130C} span.p13{--sc:#6B4A2B;--scink:#fff}
+span.p14{--sc:#6E1F2E;--scink:#fff}
+span.pgm.scr{--sc:#D8D5CC;--scink:#8a8578;text-decoration:line-through}
+
+/* ---- flag block (one signal: the amber top rule; no internal hairlines) ---- */
+.flag{border:1px solid var(--rule);border-top:3px solid var(--flag-fill);
+  background:var(--surface);border-radius:0;padding:16px 20px 20px;margin:0 0 24px;}
+.flag .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--muted);margin:16px;flex-wrap:wrap;}
+.flag .top .rmeta{flex:1 1 auto;}
+.chip-flag{background:var(--flag-fill);color:#17130C;font-family:var(--mono);font-weight:700;
+  letter-spacing:0.09em;padding:4px 12px;border-radius:var(--r);flex:none;}
+.chip-sample{border:1px dashed var(--rule);color:var(--muted);font-family:var(--mono);
+  padding:2px 8px;border-radius:var(--r);}
+/* Surface chips. The texture is drawn entirely from gradients, so there is no
+   image request and the strict CSP is never in play. The WORD stays inside the
+   chip: colour and texture are reinforcement, never the only carrier, which is
+   the same rule the saddle-cloth badges follow. */
+.surf{display:inline-block;padding:2px 8px;border-radius:var(--r);vertical-align:baseline;
+  font-family:var(--mono);font-size:var(--t-1);font-weight:700;text-transform:uppercase;
+  letter-spacing:0.07em;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,0.5);
+  border:1px solid rgba(0,0,0,0.22);background-repeat:repeat;}
+/* Turf: two near-vertical strokes at opposing angles. Crossing them at 84 and
+   96 degrees stops the eye reading a regular stripe and gives blades instead. */
+.surf-t{background-color:#3f6b3a;
+  background-image:
+    repeating-linear-gradient(84deg, rgba(255,255,255,0.15) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(96deg, rgba(0,0,0,0.18) 0 1px, transparent 1px 4px),
+    linear-gradient(180deg, rgba(255,255,255,0.12), rgba(0,0,0,0.16));}
+/* Dirt: five speckle layers on deliberately co-prime tile sizes, so the grain
+   never lines up into a visible repeat at chip scale. */
+.surf-d{background-color:#7c5636;
+  background-image:
+    radial-gradient(circle at 12% 30%, rgba(255,255,255,0.20) 0 0.6px, transparent 0.7px),
+    radial-gradient(circle at 37% 68%, rgba(0,0,0,0.24) 0 0.7px, transparent 0.8px),
+    radial-gradient(circle at 61% 22%, rgba(255,255,255,0.15) 0 0.5px, transparent 0.6px),
+    radial-gradient(circle at 82% 74%, rgba(0,0,0,0.22) 0 0.6px, transparent 0.7px),
+    radial-gradient(circle at 27% 88%, rgba(255,255,255,0.11) 0 0.5px, transparent 0.6px),
+    linear-gradient(180deg, rgba(255,255,255,0.10), rgba(0,0,0,0.18));
+  background-size:9px 7px,11px 8px,7px 9px,13px 7px,8px 10px,100% 100%;}
+/* Flag block, two columns from 900px. display:contents below the breakpoint so
+   the wrapper vanishes entirely on mobile and the source order still governs:
+   no duplicated markup, no second rendering path to keep in step. */
+.flag-cols{display:contents;}
+@media (min-width:900px){
+  .flag-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);
+    gap:0 24px;align-items:start;}
+  .flag-c1,.flag-c2{min-width:0;}
+  /* A hairline between the columns, in the broadsheet register rather than a
+     card boundary: this is one block read in two passes, not two cards. */
+  .flag-c2{border-left:1px solid var(--line);padding:24px;}
+}
+
+/* BLOCK WASH. The same surface, laid under the whole race card at a few
+   percent so the block itself carries the going. Tiles are much larger than the
+   chip's: a blade scaled for a 10px label turns into noise across 700px, so
+   these are drawn for the block and the chip keeps its own finer set.
+   On a ::before at z-index 0 with pointer-events off, so it can never touch
+   text contrast or intercept a click. */
+.flag,.rd{position:relative;}
+.flag>*,.rd>*{position:relative;z-index:1;}
+.flag::before,.rd::before{content:"";position:absolute;inset:0;z-index:0;
+  pointer-events:none;opacity:0.06;}
+.sfc-t::before{background-image:
+  repeating-linear-gradient(87deg, rgba(24,74,22,0.9) 0 1px, transparent 1px 6px),
+  repeating-linear-gradient(93deg, rgba(10,44,12,0.7) 0 1px, transparent 1px 9px),
+  repeating-linear-gradient(90deg, rgba(40,96,36,0.5) 0 2px, transparent 2px 14px);}
+.sfc-d::before{background-image:
+  radial-gradient(circle at 18% 34%, rgba(72,44,20,0.9) 0 1.1px, transparent 1.3px),
+  radial-gradient(circle at 63% 71%, rgba(48,30,14,0.8) 0 1.3px, transparent 1.5px),
+  radial-gradient(circle at 41% 12%, rgba(96,64,32,0.7) 0 1px, transparent 1.2px),
+  radial-gradient(circle at 86% 47%, rgba(60,38,18,0.8) 0 1.2px, transparent 1.4px);
+  background-size:23px 19px,31px 26px,17px 29px,37px 21px;}
+.sfc-a::before{background-image:
+  radial-gradient(circle at 30% 45%, rgba(48,52,60,0.8) 0 1px, transparent 1.2px),
+  radial-gradient(circle at 75% 62%, rgba(30,34,42,0.7) 0 1px, transparent 1.2px);
+  background-size:13px 11px,17px 14px;}
+/* Voided flags are already struck through; a going wash under them would fight
+   the strike-through for attention. */
+.flag.voided::before{opacity:0;}
+
+/* All-weather: a finer, cooler, more uniform grain. It is waxed sand, and it
+   should not read as either of the other two. */
+.surf-a{background-color:#5a5f6b;
+  background-image:
+    radial-gradient(circle at 20% 40%, rgba(255,255,255,0.16) 0 0.5px, transparent 0.6px),
+    radial-gradient(circle at 70% 65%, rgba(0,0,0,0.20) 0 0.5px, transparent 0.6px),
+    linear-gradient(180deg, rgba(255,255,255,0.10), rgba(0,0,0,0.16));
+  background-size:6px 5px,7px 6px,100% 100%;}
+.flag .horse{font-family:var(--serif);font-weight:700;font-size:var(--t-6);margin:2px 0 12px;
+  display:flex;align-items:center;gap:12px;}
+.flag .horse .pgm{width:34px;height:34px;font-size:var(--t-5);}
+.triad{display:grid;grid-template-columns:repeat(3,minmax(0,max-content));gap:2px 32px;
+  justify-content:start;margin:2px 0 12px;}
+.triad .k{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.triad .v{font-family:var(--mono);font-weight:700;font-size:var(--t-8);line-height:1.25;color:var(--ink);}
+.triad .s{font-family:var(--serif);font-style:italic;font-size:var(--t-2);color:var(--muted);}
+.thesis{font-size:var(--t-4);color:var(--ink);margin:0 0 16px;max-width:var(--measure);}
+.thesis b{font-family:var(--mono);font-weight:700;}
+/* two-bar edge chart: gray = the market, amber overhang = our edge */
+.edge2{margin:2px 0 16px;max-width:430px;}
+.edge2 .row{display:flex;align-items:center;gap:12px;margin:4px 0;font-family:var(--mono);
+  font-size:var(--t-1);text-transform:uppercase;letter-spacing:0.04em;color:var(--muted);}
+.edge2 .lab{width:78px;flex:none;}
+.edge2 .track{position:relative;flex:1;height:12px;background:var(--bg);border:1px solid var(--line);}
+.edge2 .fill{position:absolute;left:0;top:0;bottom:0;background:var(--muted);}
+.edge2 .over{position:absolute;top:0;bottom:0;background:var(--flag-fill);}
+.edge2 .val{width:74px;flex:none;text-align:right;color:var(--ink);}
+.edge2 .val .pts{color:var(--flag);font-weight:700;}
+.playat{font-family:var(--mono);font-weight:700;font-size:var(--t-4);color:var(--flag);
+  letter-spacing:0.02em;margin:0 0 12px;}
+.durab{font-size:var(--t-3);color:var(--muted);margin:0 0 12px;max-width:var(--measure);line-height:1.5;}
+.durab .dtag{font-family:var(--mono);font-size:var(--t-1);font-weight:700;text-transform:uppercase;
+  letter-spacing:0.05em;padding:2px 8px;border:1px solid var(--line);border-radius:var(--r);
+  margin:8px;white-space:nowrap;}
+.durab.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
+.durab.d-gone .dtag{color:var(--muted);}
+.durab.d-watch .dtag{color:var(--ink);}
+/* Card-level durability note. Emitted once, in place of the identical
+   paragraph every flag used to carry when they all sat in the same price
+   band. Borrows the flag chip styling so the two read as the same signal. */
+.durab-all{font-size:var(--t-3);color:var(--muted);line-height:1.5;max-width:var(--measure);
+  margin:0 0 20px;padding:12px 16px;border:1px solid var(--line);background:var(--surface);}
+.durab-all .dtag{font-family:var(--mono);font-size:var(--t-1);font-weight:700;
+  text-transform:uppercase;letter-spacing:0.08em;border:1px solid var(--rule);
+  padding:2px 8px;margin:8px;white-space:nowrap;}
+.durab-all.d-hold .dtag{color:var(--flag);border-color:var(--flag);}
+.durab-all.d-gone .dtag{color:var(--muted);}
+.durab-all.d-watch .dtag{color:var(--ink);}
+
+/* ---- today's plays: the card index ----
+   A four-flag card runs ~4 viewport-heights before all four plays have been
+   seen. Same six fields the flag leads with, in the same order, so the strip
+   teaches the layout of the thing it links to. */
+.summary{border:1px solid var(--rule);background:var(--surface);margin:0 0 24px;}
+.sm-head{display:flex;justify-content:space-between;gap:12px;padding:8px 16px;
+  border-bottom:1px solid var(--rule);background:var(--bg);}
+.sm-head .k{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--muted);}
+.sm-cols,.sm-row{display:grid;grid-template-columns:44px minmax(0,1fr) 54px 62px 62px;
+  gap:12px;align-items:center;padding:8px 16px;}
+.sm-cols{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.1em;
+  text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);}
+.sm-cols span:nth-child(n+3),.sm-row .sm-m,.sm-row .sm-b,.sm-row .sm-e{text-align:right;}
+.sm-row{border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink);}
+.sm-row:last-child{border-bottom:0;}
+.sm-row:hover{background:var(--flag-wash);}
+.sm-row.voided{opacity:0.5;}
+.sm-r{font-family:var(--mono);font-size:var(--t-2);color:var(--muted);}
+.sm-h{display:flex;align-items:center;gap:8px;min-width:0;}
+.sm-n{font-family:var(--display);font-size:var(--t-4);font-weight:700;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap;}
+.sm-m,.sm-b{font-family:var(--mono);font-size:var(--t-3);font-variant-numeric:tabular-nums;}
+.sm-e{font-family:var(--mono);font-size:var(--t-2);color:var(--gold-text);font-weight:700;
+  font-variant-numeric:tabular-nums;}
+@media (max-width:560px){
+  .sm-cols,.sm-row{grid-template-columns:36px minmax(0,1fr) 46px 52px;}
+  .sm-cols span:nth-child(5),.sm-row .sm-e{display:none;}
+}
+
+/* ---- the fair-odds ladder ----
+   Break-even and the board on one log axis, with the band that pays shaded. */
+.ladder-wrap{margin:0 0 12px;}
+.ladder{display:block;width:100%;height:auto;max-width:300px;}
+.lad-axis{stroke:var(--rule);stroke-width:1;}
+.lad-pays{fill:var(--flag-wash);}
+.lad-fair{stroke:var(--ink);stroke-width:1.6;}
+.lad-board{fill:var(--muted);stroke:var(--surface);stroke-width:1.5;}
+.lad-board.pays{fill:var(--flag-fill);stroke:var(--ink);}
+.lad-lab{font-family:var(--mono);font-size:var(--t-1);fill:var(--muted);}
+.lad-end{font-family:var(--mono);font-size:var(--t-1);fill:var(--muted);opacity:0.75;}
+.ladder-note{font-size:var(--t-2);line-height:1.5;color:var(--muted);margin:4px 0 0;max-width:var(--measure-tight);}
+
+/* ---- the in-browser verifier ----
+   Injected by /verify.js; with JS off none of this renders and the block shows
+   the published hash and the sha256sum instruction, as it always has. */
+.vz{margin:12px 0 0;padding:12px 16px;border:1px dashed var(--rule);background:var(--bg);
+  font-size:var(--t-3);line-height:1.5;color:var(--muted);cursor:pointer;}
+.vz:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.vz:hover,.vz.vz-over{border-color:var(--accent);background:var(--surface);}
+.vz code{font-family:var(--mono);font-size:var(--t-2);}
+.vz-pick{color:var(--accent);text-decoration:underline;cursor:pointer;}
+.vz-pick input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;}
+.vz.vz-busy{border-style:solid;}
+.vz.vz-ok{border:1px solid var(--win);border-left:3px solid var(--win);color:var(--win);
+  background:var(--surface);font-weight:700;}
+.vz.vz-bad{border:1px solid var(--loss);border-left:3px solid var(--loss);color:var(--loss);
+  background:var(--surface);font-weight:700;}
+.clv .call{font-family:var(--mono);font-size:var(--t-1);font-weight:700;text-transform:uppercase;
+  letter-spacing:0.03em;white-space:nowrap;}
+.clv .call.c-hold{color:var(--flag);}
+.clv .call.c-gone{color:var(--muted);}
+.clv .call.c-watch{color:var(--ink);}
+.flag .why{font-size:var(--t-4);color:var(--muted);margin:0 0 12px;max-width:var(--measure);}
+.why .pchip{font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;letter-spacing:0.05em;
+  color:var(--muted);border:1px solid var(--line);border-radius:var(--r);padding:2px 8px;margin:4px;
+  white-space:nowrap;}
+/* Connections chip. Gold when the barn's angle here is among the best in the
+   field, dashed when it is among the worst; absent when unremarkable, which is
+   most of the time. */
+.why .tchip{color:var(--gold-text);border-color:var(--gold);}
+.why .tchip-dn{border-style:dashed;}
+.prov{font-family:var(--mono);font-size:var(--t-1);color:var(--muted);letter-spacing:0.03em;
+  text-transform:uppercase;}
+
+/* ---- record: promises + ledger + stat band ---- */
+.promises{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px;}
+@media(max-width:820px){.promises{grid-template-columns:1fr;gap:8px;}}
+.promise{font-family:var(--mono);font-size:var(--t-3);color:var(--ink);
+  border-left:3px solid var(--flag-fill);padding:2px 0 2px 12px;}
+.ledwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.ledger{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:var(--t-3);min-width:640px;}
+.ledger th{font-size:var(--t-1);letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);
+  text-align:left;padding:8px 12px;border-bottom:2px solid var(--rule);white-space:nowrap;}
+.ledger th.own{border-bottom:2px solid var(--flag);}
+.ledger td{padding:12px 12px;border-bottom:1px solid var(--line);color:var(--line);}
+.book-open{font-family:var(--mono);font-size:var(--t-2);color:var(--muted);margin:12px;letter-spacing:0.03em;}
+.statband{border:1px solid var(--rule);background:var(--surface);padding:20px 20px;margin:24px;}
+.statband .cap{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);}
+.stats{display:flex;gap:40px;flex-wrap:wrap;margin:16px 0 8px;}
+.stat .v{font-family:var(--mono);font-weight:700;font-size:var(--t-7);line-height:1;color:var(--ink);
+  font-variant-numeric:tabular-nums;}
+.stat .v .u{font-size:var(--t-5);color:var(--muted);}
+.stat .v.win{color:var(--win);} .stat .v.loss{color:var(--loss);}
+.stat .l{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.07em;
+  text-transform:uppercase;color:var(--muted);margin:8px;}
+
+/* ---- card layout + caption + how-to + credit ---- */
+.card-col{max-width:720px;margin:0 auto;}
+.cardcap{font-family:var(--serif);font-size:var(--t-5);color:var(--ink);margin:2px 0 8px;}
+.cardcap b{font-weight:700;}
+/* ---- Edge of the Day (the rule-chosen anchor play, top of card) ---- */
+.eotd{margin:12px 0 20px;padding:16px 20px 16px;background:var(--flag-wash);
+  border:1px solid var(--flag-fill);border-left:4px solid var(--flag-fill);}
+.eotd-lab{font-family:var(--mono);font-size:var(--t-1);font-weight:700;letter-spacing:0.13em;
+  text-transform:uppercase;color:var(--gold-text);margin:8px;}
+.eotd-horse{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-size:var(--t-6);
+  font-weight:700;color:var(--ink);line-height:1.05;}
+.eotd-loc{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.03em;color:var(--muted);
+  text-transform:uppercase;margin:4px 0 12px;}
+/* FLAT at --t-8 with the ordinary flags, not above them. This card already
+   carries four emphasis signals -- the tint, the gold rule, the eyebrow and
+   first position -- so size would be a fifth. It was 22px against the
+   ordinary flags' 40px, which put the biggest numbers on the page on the
+   plays we rated LOWER. The defect was the inversion, not a shortage of
+   emphasis. It already wraps, so the four-up folds to two rows on a phone
+   rather than overflowing. */
+.eotd-nums{display:flex;flex-wrap:wrap;gap:8px 24px;margin:12px;}
+.eotd-nums .c{display:flex;flex-direction:column;line-height:1.15;}
+.eotd-nums .c b{font-family:var(--mono);font-weight:700;font-size:var(--t-8);color:var(--ink);}
+.eotd-nums .c i{font-family:var(--serif);font-style:italic;font-size:var(--t-1);color:var(--muted);}
+.eotd-nums .c.play b{color:var(--flag);}
+.eotd-why{font-size:var(--t-4);color:var(--ink);max-width:var(--measure);line-height:1.5;}
+/* ---- view toggle: plays-only vs full card (mobile-first) ---- */
+/* SCOPED to the Today pane. Unscoped, this one rule emptied two of the four
+   primary tabs: the Races pane rendered a single closed disclosure line and the
+   Build pane rendered nothing but the partner note, while holding tens of
+   thousands of characters and every interactive control on the card. It also
+   blanked the whole of /tools/, whose panes sit in the same wrapper.
+   "Plays only" is good product thinking for the CARD -- four flags instead of
+   seventy runners, on a phone, at a track -- and destructive everywhere else.
+   The mode is what it always claimed to be now: a density control for today's
+   plays, not a switch that turns off the rest of the site. */
+html.ec-actionable [data-tabpane="today"] .adv{display:none!important;}
+.vtoggle{display:inline-block;margin:2px 0 16px;font-family:var(--mono);font-size:var(--t-1);
+  font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold-text);
+  background:transparent;border:1px solid var(--flag-fill);border-radius:var(--r);padding:8px 12px;
+  cursor:pointer;}
+.vtoggle:hover{background:var(--flag-wash);}
+.vtoggle .v-a{display:none;}
+html.ec-actionable .vtoggle .v-a{display:inline;}
+html.ec-actionable .vtoggle .v-f{display:none;}
+/* ---- public-record proof strip (top-of-card credibility) ---- */
+.proofstrip{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 24px;
+  margin:2px 0 16px;padding:12px 16px;background:var(--surface);
+  border:1px solid var(--line);border-left:3px solid var(--flag-fill);
+  color:var(--ink);text-decoration:none;}
+.proofstrip:hover{border-color:var(--rule);}
+.proofstrip .pf-lab{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.09em;
+  text-transform:uppercase;color:var(--muted);align-self:center;}
+.proofstrip .pf-cell{display:flex;flex-direction:column;line-height:1.15;}
+.proofstrip .pf-cell b{font-family:var(--mono);font-weight:700;font-size:var(--t-5);color:var(--ink);}
+.proofstrip .pf-cell i{font-family:var(--serif);font-style:italic;font-size:var(--t-1);color:var(--muted);}
+.proofstrip .pf-see{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.04em;
+  text-transform:uppercase;color:var(--flag);margin:auto;align-self:center;}
+@media(max-width:520px){.proofstrip{gap:12px 20px;}.proofstrip .pf-see{margin:0;}}
+/* ---- honesty panel (lose-most-flags + CLV translation + last miss) ---- */
+.honesty{margin:0 0 20px;padding:12px 16px;border:1px solid var(--line);
+  border-left:3px solid var(--rule);background:var(--surface);}
+.honesty .hn-item{font-size:var(--t-4);color:var(--ink);margin:0 0 8px;max-width:var(--measure);line-height:1.5;}
+.honesty .hn-item:last-child{margin:0;}
+.honesty .hn-item b{font-weight:700;}
+.honesty .hn-item.miss{font-family:var(--mono);font-size:var(--t-3);color:var(--muted);}
+.dateline-card{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.03em;color:var(--muted);
+  text-transform:uppercase;margin:0 0 12px;}
+details.howto,details.made{margin:0 0 16px;border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);padding:8px 0;}
+details.howto > summary,details.made > summary{font-family:var(--mono);font-size:var(--t-2);
+  letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.howto[open] > summary,details.made[open] > summary{margin:12px;}
+details.made p,details.made .meta{font-size:var(--t-3);color:var(--muted);max-width:var(--measure);margin:0 0 8px;}
+details.howto dl{margin:0;}
+details.howto dt{font-family:var(--mono);text-transform:uppercase;letter-spacing:0.04em;
+  font-size:var(--t-1);color:var(--ink);margin:8px;}
+details.howto dd{margin:2px 0 0;color:var(--muted);font-size:var(--t-3);max-width:var(--measure);}
+.credit{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--muted);margin:0;}
+.credit b{color:var(--ink);font-weight:700;}
+.sec-head-lite{border-bottom:2px solid var(--rule);padding:8px;margin:24px 0 16px;
+  font-family:var(--serif);font-weight:700;font-size:var(--t-6);display:flex;justify-content:space-between;
+  align-items:baseline;gap:12px;flex-wrap:wrap;}
+.sec-head-lite .k{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--muted);font-weight:400;}
+
+/* ---- passes ledger ---- */
+.passes{border:1px solid var(--line);}
+.passes .row{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:var(--t-3);
+  color:var(--muted);padding:8px 16px;border-bottom:1px solid var(--line);}
+.passes .row:last-child{border-bottom:0;}
+.passes .row .r{color:var(--ink);font-weight:700;flex:none;width:28px;}
+.passes .row .pgm{font-size:var(--t-2);}
+.passes .row .hn{font-family:var(--serif);color:var(--ink);flex:1 1 auto;}
+.passes .row .mp{color:var(--ink);flex:none;}
+.passes .row .bd{color:var(--muted);flex:none;}
+
+/* ---- whole-card reads (every race: analysis, not a play) ---- */
+.reads{border:1px solid var(--line);}
+.rd{border-bottom:1px solid var(--line);padding:12px 16px;}
+.rd:last-child{border-bottom:0;}
+.rd-top{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:var(--t-3);
+  flex-wrap:wrap;}
+.rd-top .r{color:var(--ink);font-weight:700;flex:none;width:26px;}
+.rd-top .hn{font-family:var(--serif);color:var(--ink);flex:1 1 auto;font-size:var(--t-4);}
+.rd-top .mp{color:var(--ink);flex:none;font-variant-numeric:tabular-nums;}
+.rd-top .fair{color:var(--muted);flex:none;}
+.rd-top .bd{color:var(--muted);flex:none;}
+.rtier{font-family:var(--mono);font-size:var(--t-1);font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;padding:2px 8px;border-radius:var(--r);border:1px solid var(--line);flex:none;}
+.rtier.t-lean{color:var(--gold-text);border-color:var(--flag-fill);}
+.rtier.t-chalk{color:var(--muted);}
+.rtier.t-scramble{color:var(--muted);border-style:dashed;}
+.rtier.t-off{color:var(--muted);border:0;padding:0;}
+/* /guide/ : long-form prose, set for reading rather than scanning. */
+.checks{padding:0;list-style:none;max-width:var(--measure);margin:12px 0 0;}
+.checks li{font-family:var(--serif);font-size:var(--t-4);line-height:1.55;margin:0 0 12px;
+  padding:16px;border-left:2px solid var(--line);}
+.checks li b{font-family:var(--sans);font-size:var(--t-4);}
+
+/* The TwinSpires placement call-to-action. Deliberately reads as a sibling
+   publication note rather than an ad unit: the page states plainly that Edge
+   Card is not a TwinSpires product, and a banner-shaped block would undercut
+   the sentence sitting inside it. */
+.ts-cta{display:flex;flex-wrap:wrap;align-items:center;gap:16px;justify-content:space-between;
+  border:1px solid var(--line);border-left:3px solid var(--accent);
+  background:var(--surface);padding:16px 20px;}
+.ts-cta p{font-family:var(--serif);font-size:var(--t-4);color:var(--muted);margin:4px 0 0;max-width:var(--measure);}
+/* BORDERED, not filled. This was the only solid dark button on the page, which
+   made the loudest element on a site whose masthead reads "the anti-tout" an
+   outbound link to a sportsbook. Every other action here is a text link or a
+   hairline control, so a filled button did not read as emphasis, it read as the
+   one thing we actually wanted you to press.
+   The LABEL and the DESTINATION are deliberately untouched: those describe an
+   agreed placement and are not ours to edit unilaterally. This is styling. */
+.btn-ts{flex:none;font-family:var(--mono);font-size:var(--t-2);font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;background:transparent;color:var(--accent);padding:12px 16px;
+  border:1px solid var(--accent);border-radius:var(--r);white-space:nowrap;}
+.btn-ts:hover{background:var(--accent);color:#fff;}
+@media (max-width:560px){.btn-ts{width:100%;text-align:center;}}
+
+.rd-read{font-family:var(--serif);font-size:var(--t-4);color:var(--muted);margin:8px 0 0;max-width:var(--measure);}
+/* "How it sets up": the pace projection. Given a tinted ground rather than a
+   rule so it reads as a different KIND of statement from the horse-by-horse
+   lines around it, which is exactly what it is. */
+.rd-shape{margin:8px 0 0;padding:8px 12px;background:var(--flag-wash);
+  border-radius:var(--r);max-width:var(--measure);}
+.rd-shape .k{display:block;font-family:var(--mono);font-size:var(--t-1);font-weight:700;
+  text-transform:uppercase;letter-spacing:0.06em;color:var(--gold-text);margin:4px;}
+.rd-shape p{font-family:var(--serif);font-size:var(--t-3);line-height:1.45;color:var(--ink);margin:0;}
+/* The pace picture. Real program numbers in their saddle-cloth colours, not
+   abstract markers: the number is what a bettor reads on the board and the
+   colour is the one they will see load into the gate, so the diagram maps
+   straight onto the race in front of them. Roles are derived from the pace
+   adjustment's direction, never from a republished vendor field. */
+.pacebar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 8px;}
+.pb-tag{font-family:var(--mono);font-size:var(--t-1);font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--gold-text);border:1px solid var(--gold);
+  border-radius:var(--r);padding:2px 8px;flex:none;}
+.pb-tag.t-lone_speed{background:var(--gold-fill);color:var(--ink);border-color:var(--gold-fill);}
+.pb-tag.t-contested{background:var(--flag-wash);}
+.pb-label{font-family:var(--mono);font-size:var(--t-1);color:var(--muted);
+  font-variant-numeric:tabular-nums;}
+.pb-row{display:flex;align-items:center;gap:8px;margin:0 0 4px;flex-wrap:wrap;}
+.pb-k{font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--muted);flex:none;min-width:82px;}
+.pb-set{display:flex;gap:4px;flex-wrap:wrap;}
+.pb-set .pgm{width:22px;height:22px;font-size:var(--t-2);}
+/* Our own selection inside the pace picture. */
+.pb-set .pgm.pb-me{box-shadow:0 0 0 2px var(--gold-fill);}
+@media (max-width:560px){.pb-k{min-width:0;width:100%;}}
+
+/* The operator's own read, set apart from the model's line above it: a rule and
+   a label, so a reader can tell derived output from a person's opinion. */
+.rd-note{margin:8px 0 0;padding:12px;border-left:2px solid var(--line);max-width:var(--measure);}
+.rd-note .k{display:block;font-family:var(--mono);font-size:var(--t-1);font-weight:700;
+  text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin:4px;}
+.rd-note p{font-family:var(--serif);font-size:var(--t-4);color:var(--ink);margin:0 0 8px;}
+.rd-note p:last-child{margin:0;}
+.rd.off .hn{color:var(--muted);font-style:italic;}
+.rd .field{margin:8px;}
+
+/* ---- runner field table (inside a flag) ---- */
+.scroll,.rtwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+/* Stale/superseded markers. A frozen figure that is correctly labelled in prose
+   is still quotable out of context once someone crops the screenshot, so the
+   label has to be visible at a glance, not read for. */
+.stale-note{border-left:3px solid var(--gold);background:rgba(169,130,43,.08);
+  padding:.7rem .9rem;margin:.9rem 0;font-size:.92rem;}
+.stale-block{opacity:.85;}
+
+@media print{
+  /* Horseplayers print cards. Without this the printout is nav, subscribe form
+     and disclaimer stack. Keep the card and the numbers; drop the furniture. */
+  .masthead,.mastnav,.subscribe,.agegate,.skip-link,.tracktabs,.proofstrip,
+  .footer-brand{display:none !important;}
+  body{background:#fff;color:#000;font-size:10.5pt;}
+  .section,.inner{padding:0 !important;margin:0 !important;max-width:none;}
+  a{text-decoration:none;color:#000;}
+  /* A printed card is evidence, so the URL it came from has to survive. */
+  a[href^="/"]::after{content:" (edgecardhq.com" attr(href) ")";font-size:8pt;color:#444;}
+  .scroll,.rtwrap{overflow:visible !important;}
+  table{page-break-inside:auto;} tr{page-break-inside:avoid;}
+  .disc{font-size:8pt;border-top:1px solid #999;margin:.6rem;}
+}
+
+/* Skip link: off-screen until focused, then a real, visible target. Never
+   display:none -- that removes it from the tab order, which defeats it. */
+.skip-link{position:absolute;left:-9999px;top:0;z-index:100;
+  background:var(--navy);color:#fff;padding:.6rem 1rem;
+  text-decoration:none;border-radius:0 0 4px 0;}
+.skip-link:focus{left:0;}
+main:focus{outline:none;}
+/* Table captions carry the header association a screen reader needs; sighted
+   readers already have the section heading, so keep them quiet but present.
+   Not .sr-only -- a caption that explains a 89-row table is useful to everyone. */
+table caption{caption-side:top;text-align:left;font-size:.82rem;
+  color:var(--muted);padding:0 0 .5rem;max-width:var(--measure);}
+table.rt{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:var(--t-4);min-width:470px;}
+table.rt th{font-size:var(--t-1);letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);
+  text-align:right;padding:8px 12px;border-bottom:2px solid var(--rule);white-space:nowrap;
+  vertical-align:middle;}
+table.rt th.l{text-align:left;}
+table.rt th.own{border-bottom:2px solid var(--flag);}
+table.rt td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;
+  vertical-align:middle;}
+table.rt td.l{text-align:left;font-family:var(--serif);font-size:var(--t-4);white-space:normal;
+  width:100%;}
+table.rt th.own,table.rt td.model,table.rt td.dim,table.rt td.fair{width:1%;}
+table.rt td.pgm{padding:12px;width:1%;}
+table.rt td.model{color:var(--ink);font-weight:700;}
+table.rt td.dim{color:var(--muted);}
+/* Works: the horse's best recent breeze as a RANK within its own morning.
+   A rank and a count, never a time and never a distance -- see ADR 0005 and
+   hre.v0.workout_angle. `sharp` is green because it is a positive read; `quiet`
+   is grey rather than red, because a light morning is not a failure and the
+   loss colour would overstate what the label claims. */
+table.rt th.wk,table.rt td.wk{width:1%;color:var(--muted);}
+table.rt td.wk.sharp{color:var(--win);font-weight:700;}
+table.rt td.wk.quiet{color:var(--muted);}
+.bul{color:var(--gold-fill);margin:4px;font-size:var(--t-2);}
+.wd{color:var(--muted);font-size:var(--t-1);margin:4px;}
+table.rt tr.flagged{background:var(--flag-wash);}
+.flagmark{color:var(--flag);font-size:var(--t-1);}
+@media(max-width:439px){table.rt th.fair,table.rt td.fair{display:none;}}
+/* The race column, and the sorted state. The grid runs in race order by
+   default and the banners carry distance, surface and class; the moment a
+   reader sorts by edge across the whole card those banners describe nothing,
+   so they step aside and this column carries the race instead. */
+table.cgrid td.gr{font-family:var(--mono);font-size:var(--t-2);color:var(--muted);
+  padding:12px;padding:2px;width:1%;white-space:nowrap;}
+table.cgrid.is-sorted tr.ghead{display:none;}
+table.cgrid th.sortable{cursor:pointer;position:relative;padding:16px;}
+table.cgrid th.sortable:after{content:"\2195";position:absolute;right:5px;
+  opacity:.3;font-size:var(--t-1);}
+table.cgrid th[aria-sort]:after{opacity:.95;}
+table.cgrid th[aria-sort="ascending"]:after{content:"\2191";}
+table.cgrid th[aria-sort="descending"]:after{content:"\2193";}
+table.cgrid th.sortable:focus-visible{outline:2px solid var(--ink);outline-offset:-2px;}
+@media print{table.cgrid th.sortable:after{content:"";}}
+
+/* ===== THE CARD GRID =========================================================
+   The page's spine. One decision carried through: this is a racing form, so it
+   is dense, ruled, and monospaced, and it earns attention by being the real
+   thing rather than by decoration. No shadows, no radius, no fills. Hierarchy
+   comes from rules and weight, which is how a printed form has always done it.
+   ========================================================================== */
+.gridsec{margin:24px 0 8px;}
+/* The grid breaks OUT of the 640px reading column on wide screens.
+   Everything else on this site is prose and belongs at reading width; a data
+   table does not. Squeezed into 604px the eight columns overflow by ~32px and
+   the works column clips, which is how the first build shipped to a screenshot.
+   Widening the whole site to suit one table would be the wrong fix: the reading
+   measure is correct for the reading.
+   Negative margin rather than `transform: translateX(-50%)`, because a
+   transformed ancestor becomes the containing block for position:sticky and
+   would silently kill the sticky header inside. */
+@media(min-width:900px){
+  .gridsec{width:min(1080px, calc(100vw - 48px));
+    margin-left:calc((min(1080px, 100vw - 48px) - 100%) / -2);}
+}
+.gwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-top:2px solid var(--rule);}
+table.cgrid{width:100%;border-collapse:collapse;font-family:var(--mono);
+  font-size:var(--t-3);font-variant-numeric:tabular-nums;min-width:560px;}
+table.cgrid thead th{font-size:var(--t-1);letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--muted);text-align:right;padding:8px 12px;white-space:nowrap;
+  border-bottom:1px solid var(--rule);background:var(--bg);position:sticky;top:0;z-index:2;}
+table.cgrid thead th.l{text-align:left;}
+table.cgrid thead th.own{border-bottom:2px solid var(--flag);}
+table.cgrid td{padding:8px 12px;text-align:right;white-space:nowrap;
+  border-bottom:1px solid var(--line);vertical-align:middle;}
+table.cgrid td.l{text-align:left;}
+table.cgrid td.hn{font-family:var(--serif);font-size:var(--t-4);white-space:normal;width:100%;
+  letter-spacing:0.01em;}
+table.cgrid td.pgm{width:1%;padding:8px;}
+table.cgrid td.model{color:var(--ink);font-weight:700;}
+table.cgrid td.dim{color:var(--muted);}
+table.cgrid td.ge{color:var(--muted);}
+table.cgrid td.ge.up{color:var(--win);font-weight:700;}
+table.cgrid td.ge.dn{color:var(--loss);}
+/* The flagged runner: a left rule, not a fill. A fill on a dense table competes
+   with the numbers; a 3px rule marks the row and leaves the data alone. */
+table.cgrid tr.gflag td{background:var(--flag-wash);}
+table.cgrid tr.gflag td.pgm{box-shadow:inset 3px 0 0 var(--flag-fill);}
+
+/* Race header rows. The one place the type scale jumps, so the eye can find a
+   race boundary while scrolling without reading anything. */
+table.cgrid tr/* th AND td. The banner became a <td> when it stopped claiming colgroup
+   scope over eight columns it does not govern, and that orphaned this rule:
+   the cell fell back to the table's numeric right-alignment, so the eight
+   race dividers -- the primary landmark in a 75-row table -- each started at
+   a different x, a 304px spread, and not one shared a left edge with
+   another. */
+.ghead th,.ghead td{background:var(--surface);text-align:left;
+  padding:12px 12px 8px;border-bottom:1px solid var(--rule);
+  border-top:1px solid var(--rule);font-weight:400;position:static;}
+.gh-r{font-family:var(--mono);font-size:var(--t-4);font-weight:700;color:var(--ink);
+  letter-spacing:0.02em;margin:12px;}
+.gh-d{font-family:var(--serif);font-size:var(--t-4);color:var(--ink);margin:8px;}
+.gh-t{font-size:var(--t-1);color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;
+  margin:8px;}
+.gh-s{font-size:var(--t-1);color:var(--muted);}
+.gh-flag{font-size:var(--t-1);letter-spacing:0.08em;text-transform:uppercase;color:var(--flag);
+  border:1px solid var(--flag);padding:2px 4px;margin:8px;white-space:nowrap;}
+.gh-pass{font-size:var(--t-1);letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);
+  margin:8px;}
+
+/* The four component glyphs. Fixed slots, so position carries meaning.
+   Named .gwhy, NOT .why: `.flag .why` is an existing paragraph on the flag
+   panels and does not set `display`, so a global `.why{display:inline-flex}`
+   here would silently reflow it. Two classes with the same name in one
+   stylesheet is how a cascade collision ships unnoticed. */
+.gwhy{display:inline-flex;gap:4px;align-items:center;}
+.gw{display:inline-block;min-width:13px;text-align:center;font-size:var(--t-1);
+  font-family:var(--mono);color:var(--muted);}
+.gw.top{color:var(--ink);font-weight:700;}
+.gw.up{color:var(--win);font-weight:700;}
+.gw.dn{color:var(--loss);font-weight:700;}
+.gw.pc{color:var(--muted);}
+.gw.off{color:var(--rule);}
+.glegend{font-size:var(--t-2);line-height:1.5;color:var(--muted);margin:12px 0 0;max-width:var(--measure);}
+
+/* ---- phones: every row becomes a three-line block ------------------------
+   Not a horizontally scrolling table. Eight columns on a 360px screen is a
+   table nobody reads, and the sideways swipe is the single most disliked
+   pattern on a data page. The same cells are re-laid as a card with explicit
+   grid areas, so no markup is duplicated and the desktop table is untouched. */
+@media(max-width:640px){
+  table.cgrid{min-width:0;font-size:var(--t-4);}
+  table.cgrid thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+  table.cgrid tbody tr{display:grid;grid-template-columns:auto 1fr auto;
+    column-gap:8px;padding:12px 12px 12px;border-bottom:1px solid var(--line);}
+  table.cgrid tbody tr.ghead{display:block;padding:0;}
+  /* The header cell has to carry the block, not the row: a <th> keeps its
+     own intrinsic width when the row goes display:block, which left the
+     race header inset from the runner blocks under it. */
+  table.cgrid tbody tr.ghead th,.ghead td{display:block;width:auto;padding:16px 12px 8px;}
+  table.cgrid tbody td{border:0;padding:0;white-space:nowrap;}
+  table.cgrid td.pgm{grid-area:1/1;align-self:center;}
+  table.cgrid td.hn{grid-area:1/2;font-size:var(--t-5);white-space:normal;}
+  table.cgrid td.model{grid-area:1/3;font-size:var(--t-5);align-self:center;}
+  table.cgrid td.fair{grid-area:2/1/2/3;text-align:left;padding:4px;color:var(--muted);}
+  table.cgrid td.dim{grid-area:2/3;padding:4px;}
+  table.cgrid td.ge{grid-area:3/1;text-align:left;padding:4px;}
+  table.cgrid td.whyc{grid-area:3/2;text-align:left;padding:4px;}
+  table.cgrid td.wk{grid-area:3/3;padding:4px;}
+  /* Labels only on the small screen, where the header row is gone. */
+  table.cgrid td.fair::before{content:"fair ";color:var(--rule);}
+  table.cgrid td.dim::before{content:"board ";color:var(--rule);}
+  table.cgrid tr.gflag td.pgm{box-shadow:none;}
+  table.cgrid tr.gflag{border-left:3px solid var(--flag-fill);}
+}
+
+details.field{margin:12px;}
+details.field > summary{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.field[open] > summary{margin:8px;}
+details.exotics{margin:12px;}
+/* Multi-race tickets are reference constructions, not graded bets. Collapsed
+   behind the same disclosure affordance as the per-flag exotics so they cannot
+   read as a second column of plays beside the WIN flags. */
+details.mr-research{margin:20px;border-top:1px solid var(--rule);padding:12px;}
+details.mr-research > summary{color:var(--muted);}
+details.mr-research .meta b{color:var(--ink);}
+details.exotics > summary{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--muted);cursor:pointer;}
+details.exotics[open] > summary{margin:8px;}
+details.exotics .meta{max-width:var(--measure-tight);margin:0 0 8px;}
+table.rt.ex{min-width:320px;}
+table.rt.ex td{text-align:right;}
+table.rt.ex td.l,table.rt.ex th.l{text-align:left;}
+.extag{display:inline-block;font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;
+  letter-spacing:0.05em;padding:0 4px;border:1px solid var(--line);border-radius:var(--r);
+  margin:4px;vertical-align:middle;color:var(--muted);}
+.extag.t-anchor{color:var(--flag);border-color:var(--flag-fill);}
+.extag.t-value{color:var(--ink);}
+.extag.t-longshot{color:var(--muted);border-style:dashed;}
+/* ---- whole-card multi-race tickets (Pick 4 / Pick 5) ---- */
+.mseq{margin:0 0 20px;}
+.mseq-h{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--ink);font-weight:700;margin:0 0 8px;}
+table.rt.mr{min-width:360px;}
+table.rt.mr td{text-align:right;}
+table.rt.mr td.l,table.rt.mr th.l{text-align:left;}
+table.rt.mr tr.mlegs td{text-align:left;font-family:var(--mono);font-size:var(--t-2);color:var(--muted);
+  padding:2px;padding:12px;white-space:normal;}
+.mr-note{max-width:var(--measure);margin:4px;}
+/* ---- the model's read (deep per-pick explanation) ---- */
+details.deep{margin:8px 0 2px;border-top:1px solid var(--line);padding:12px;}
+details.deep > summary{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--flag);font-weight:700;cursor:pointer;}
+details.deep[open] > summary{margin:12px;}
+details.deep p{font-size:var(--t-4);color:var(--ink);max-width:var(--measure);margin:0 0 8px;line-height:1.55;}
+details.deep p b{font-family:var(--serif);}
+details.deep .deep-caveat{font-size:var(--t-3);color:var(--muted);border-top:1px solid var(--line);
+  padding:8px;margin:2px;}
+/* ---- race-day weather strip (NWS forecast) ---- */
+.wx{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;font-family:var(--mono);font-size:var(--t-3);
+  color:var(--muted);background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--flag-fill);padding:8px 12px;margin:0 0 16px;}
+.wx .wx-lbl{color:var(--ink);font-weight:700;text-transform:uppercase;letter-spacing:0.05em;font-size:var(--t-1);}
+.wx .wx-body{flex:1 1 auto;}
+.wx .wx-src{opacity:0.7;font-size:var(--t-1);text-transform:uppercase;letter-spacing:0.06em;}
+
+/* ---- meta / methodology / notices ---- */
+.meta{font-family:var(--mono);color:var(--muted);font-size:var(--t-3);letter-spacing:0.02em;margin:2px 0;}
+.meta code{color:var(--flag);}
+blockquote.method{background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--flag-fill);margin:16px 0;padding:12px 16px;font-size:var(--t-4);color:var(--ink);}
+.notice{color:var(--muted);font-size:var(--t-4);margin:8px 0;max-width:var(--measure);}
+/* ---- Mobile launch audit 2026-07-25: measured fixes ------------------- */
+/* P1: an unbreakable inline span pushed the document 11px past a 320px
+   viewport (docScroll 331). Nothing on a card should ever scroll sideways. */
+html,body{max-width:100%;overflow-x:hidden;}
+.dateline-card,.cardcap,.rmeta,.prov,.esrc{overflow-wrap:anywhere;word-break:break-word;}
+/* P1: 16 of 17 tap targets measured under the 44px minimum at 320-430px ,
+   almost all of them nav and inline links. Give them a real touch box without
+   changing the visual rhythm (padding, not font-size). */
+@media (max-width:640px){
+  .mastnav a{display:inline-block;padding:12px 12px;min-height:44px;line-height:18px;}
+  .disc nav a{display:inline-block;padding:12px 8px;min-height:44px;line-height:20px;}
+  .vtoggle{min-height:44px;padding:12px 16px;}
+  .rec a,.notice a,.efoot a{display:inline-block;padding:8px 0;min-height:32px;}
+  /* the record chip's link is the route to the full ledger , make it real */
+  .rec .recmore{display:inline-block;padding:12px 0;min-height:44px;}
+}
+/* ---- Archived-card disclosure ------------------------------------------ */
+/* Distinct from .errata on purpose. Red says "something changed, act now";
+   this says "this is a record, do not act". Neutral slate, quieter than the
+   errata band but unmistakably not part of the live card. */
+/* On the navy/paper palette rather than the old slate: a cool blue-grey next
+   to warm paper read as "a different site" instead of "a quieter part of this
+   one". The left rule is navy at reduced weight , same family as the live
+   card's structure, deliberately lower contrast, so the band is subordinate
+   without being decorative. No gold anywhere: gold marks things to act on. */
+.histband{border:1px solid var(--rule);border-left:4px solid var(--navy);
+  background:var(--surface);border-radius:var(--r-lg);padding:12px 16px;margin:16px 0;
+  opacity:.92;}
+.histband .hhead{font-weight:700;color:var(--navy);font-size:var(--t-4);
+  letter-spacing:.04em;text-transform:uppercase;margin:8px;}
+.histband .hbody{font-size:var(--t-4);line-height:1.55;margin:0;max-width:var(--measure);}
+.histband .hfoot{color:var(--muted);font-size:var(--t-3);margin:8px 0 0;max-width:var(--measure);}
+/* NO DARK OVERRIDE HERE, deliberately. `:root` declares `color-scheme:light`
+   and this file states the site is "bright paper only, no dark theme". Two
+   orphan `prefers-color-scheme:dark` blocks survived that decision and were the
+   only dark rules in the stylesheet -- so a reader on a dark OS got a dark band
+   dropped into an otherwise light page, with its body text still inheriting
+   --ink (#161d24) on #161c24: a contrast ratio of 1.01:1, i.e. invisible.
+   This band is the archived-card disclosure -- the sentence telling a reader
+   the card has already run and is not something to act on. A disclosure nobody
+   can read is not a disclosure. Patching the text colours would have preserved
+   a half-theme the design explicitly rejected, so the block is gone and dark-OS
+   readers now get the same legible light page as everyone else. */
+
+/* ---- Post-publication errata band (late scratches / off-turf) ---------- */
+/* Deliberately loud: it must out-rank every betting action on the page. */
+.errata{border:2px solid var(--loss);background:#fdf3f2;border-radius:var(--r-lg);
+  padding:12px 16px;margin:16px 0;}
+.errata .ehead{font-weight:700;color:var(--loss);font-size:var(--t-4);
+  letter-spacing:.01em;margin:8px;}
+.errata .elist{margin:0;padding:20px;}
+.errata .elist li{font-size:var(--t-4);line-height:1.5;margin:4px 0;}
+.errata .esrc{color:var(--muted);font-size:var(--t-3);white-space:nowrap;}
+.errata .efoot{color:var(--muted);font-size:var(--t-3);margin:8px;max-width:var(--measure);}
+.flag.voided{opacity:.62;position:relative;}
+.flag.voided .horse,.flag.voided .triad .v,.flag.voided .playat{
+  text-decoration:line-through;}
+.flag.voided .playat{background:var(--bg);color:var(--muted);border-color:var(--rule);}
+.chip-void{background:var(--loss);color:#fff;border-radius:var(--r);padding:2px 8px;
+  font-size:var(--t-2);font-weight:700;letter-spacing:.02em;}
+/* Removed for the same reason as the .histband dark block above, and this one
+   mattered more: the errata band carries LATE SCRATCHES and off-turf changes,
+   and the comment above says it must out-rank every betting action on the page.
+   Its list items inherited --ink on #2a1614 -- also 1.01:1. A dark-OS reader
+   could have acted on a scratched runner because the notice was invisible. */
+.flag.voided .playat{background:var(--bg);color:var(--muted);border-color:var(--rule);}
+/* The daily write-up block (email + card). */
+.read{border-top:2px solid var(--rule);border-bottom:1px solid var(--line);padding:16px 0 8px;margin:20px 0;}
+.read h2{margin:0 0 8px;border:0;padding:0;}
+.read p{max-width:var(--measure);margin:0 0 12px;}
+h1{font-family:var(--serif);font-weight:700;font-size:var(--t-7);line-height:1.12;margin:0.1em 0 0.2em;}
+h2{font-family:var(--serif);font-weight:700;font-size:var(--t-6);margin:1.3em 0 0.4em;
+  border-bottom:1px solid var(--rule);padding:4px;}
+h3{font-family:var(--serif);font-weight:700;font-size:var(--t-5);margin:1.1em 0 0.3em;}
+table{border-collapse:collapse;}
+.section table.data,table.record{width:100%;border-collapse:collapse;font-family:var(--mono);
+  font-size:var(--t-3);min-width:460px;}
+table.record th,table.record td,.section table.data th,.section table.data td{
+  text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);white-space:nowrap;}
+table.record th,.section table.data th{color:var(--muted);font-size:var(--t-1);
+  letter-spacing:0.05em;text-transform:uppercase;border-bottom:2px solid var(--rule);}
+td.num{text-align:right;}
+.win{color:var(--win);} .loss{color:var(--loss);}
+.tiles{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0;}
+.tile{background:var(--surface);border:1px solid var(--rule);padding:12px 16px;flex:1 1 130px;}
+.tile .k{font-family:var(--mono);color:var(--muted);font-size:var(--t-1);
+  letter-spacing:0.06em;text-transform:uppercase;}
+.tile .v{font-family:var(--mono);font-weight:700;font-size:var(--t-7);font-variant-numeric:tabular-nums;}
+
+/* ---- proof surfaces: closing-line scoreboard + calibration + provenance ---- */
+table.clv{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:var(--t-3);min-width:520px;}
+table.clv th,table.clv td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);white-space:nowrap;}
+table.clv th{color:var(--muted);font-size:var(--t-1);letter-spacing:0.05em;text-transform:uppercase;border-bottom:2px solid var(--rule);}
+table.clv th.own{border-bottom:2px solid var(--flag);}
+table.clv td.own{color:var(--ink);font-weight:700;}
+.hold-yes{color:var(--win);font-weight:700;}
+.hold-no{color:var(--accent);font-weight:700;}
+.passes .row code{font-family:var(--mono);font-size:var(--t-2);color:var(--muted);}
+
+/* ---- figures (inline SVG) ----
+   Geometry lives in ATTRIBUTES, never inline style=, so these are safe under a
+   CSP. The ten .calib-row bars these replaced were the last of the four inline
+   style="width:N%" blockers noted at the foot of site.py.
+
+   The palette is the site's, unchanged: navy for our own line, muted ink for
+   the counterfactual, gold for where the number stands now. Nothing here
+   introduces a colour, a font or a radius that was not already in use. */
+.fig{margin:20px 0 24px;padding:0;border:1px solid var(--line);background:var(--surface);
+  padding:16px 20px 16px;}
+.fig svg{display:block;width:100%;height:auto;max-width:920px;}
+/* A 392px square in a 1124px column leaves two thirds of the paper empty, which
+   is the exact fault this figure was added to fix elsewhere on the page. The
+   reading of the chart goes beside it, not under it. */
+.fig-split{display:grid;grid-template-columns:minmax(300px,392px) minmax(0,1fr);
+  gap:8px 32px;align-items:start;}
+.fig-split .fig-plot svg{max-width:392px;}
+.fig-split .fig-aside .notice:first-child{margin:0;}
+@media (max-width:760px){.fig-split{grid-template-columns:1fr;}}
+.fig-grid{stroke:var(--line);stroke-width:1;stroke-dasharray:2 4;}
+.fig-zero{stroke:var(--rule);stroke-width:1.4;}
+.fig-diag{stroke:var(--muted);stroke-width:1.4;stroke-dasharray:5 4;opacity:0.7;}
+.fig-mark{stroke:var(--muted);stroke-width:1;stroke-dasharray:2 3;opacity:0.5;}
+.fig-tick{font-family:var(--mono);font-size:var(--t-1);fill:var(--muted);}
+.fig-note{font-family:var(--mono);font-size:var(--t-1);fill:var(--muted);}
+.fig-axis{font-family:var(--mono);font-size:var(--t-1);fill:var(--muted);letter-spacing:0.08em;}
+.fig-line{fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.fig-eq-main{stroke:var(--accent);stroke-width:2.6;}
+.fig-cf{stroke:var(--muted);stroke-width:2;stroke-dasharray:5 4;opacity:0.85;}
+.fig-dot{fill:var(--accent);}
+.fig-end{stroke:var(--surface);stroke-width:2;}
+.fig-end.main{fill:var(--gold-fill);} .fig-end.cf{fill:var(--muted);}
+.fig-end-v{font-family:var(--mono);font-size:var(--t-3);font-weight:700;}
+.fig-end-v.main{fill:var(--gold-text);} .fig-end-v.cf{fill:var(--muted);}
+.fig-end-k{font-family:var(--mono);font-size:var(--t-1);fill:var(--muted);}
+.fig-bin{fill:var(--accent);fill-opacity:0.72;stroke:var(--surface);stroke-width:2;}
+.fig-bin.sparse{fill:var(--muted);fill-opacity:0.22;}
+.fig-call{font-family:var(--mono);font-size:var(--t-1);fill:var(--gold-text);letter-spacing:0.02em;}
+.fig-key{font-family:var(--mono);font-size:var(--t-1);color:var(--muted);text-transform:uppercase;
+  letter-spacing:0.05em;margin:8px 0 0;display:flex;flex-wrap:wrap;gap:4px 20px;}
+.fig-key .sw{display:inline-block;width:18px;height:3px;margin:0 8px 0 0;vertical-align:middle;}
+.fig-key .sw.eq-main{background:var(--accent);}
+.fig-key .sw.eq-cf{background:var(--muted);opacity:0.6;}
+.fig-data{margin:12px 0 0;}
+.fig-data > summary{font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;
+  letter-spacing:0.07em;color:var(--muted);cursor:pointer;}
+.fig-data > summary:hover{color:var(--ink);}
+.fig .notice{margin:12px 0 0;}
+@media (max-width:640px){.fig{padding:12px 12px 12px;}.fig-tick,.fig-note{font-size:var(--t-3);}}
+
+/* ---- track tabs (Today: flip between the day's meets) ---- */
+/* Track switcher as a SEGMENTED CONTROL rather than underlined text links.
+   It is a choice between two views of the same day, and underline tabs read as
+   navigation you might be leaving the page for. A bordered group with a filled
+   active segment says "pick one" at a glance and is the documented pattern for
+   this job. */
+.tracktabs{display:inline-flex;gap:0;flex-wrap:wrap;margin:0 0 20px;
+  border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;background:var(--surface);}
+.tracktabs .tt{font-family:var(--mono);font-size:var(--t-3);letter-spacing:0.07em;
+  text-transform:uppercase;padding:8px 20px;color:var(--muted);border:0;
+  border-right:1px solid var(--line);text-decoration:none;}
+.tracktabs .tt:last-child{border-right:0;}
+.tracktabs a.tt:hover{color:var(--ink);background:var(--bg);}
+.tracktabs .tt.on{color:#fff;background:var(--accent);font-weight:700;}
+
+/* ---- legal pages ---- */
+.legal h1{margin:0.1em;}
+.legal h2{font-size:var(--t-5);}
+.legal p,.legal li{max-width:var(--measure-wide);font-size:var(--t-4);}
+.legal ul{padding:20px;} .legal li{margin:4px 0;}
+
+/* ---- subscribe block (common.SUBSCRIBE_BLOCK) ---- */
+.subscribe{background:var(--surface);border:1px solid var(--rule);
+  border-left:4px solid var(--flag-fill);padding:16px 20px;margin:20px 0;}
+.subscribe .sub-h{font-family:var(--serif);font-weight:700;font-size:var(--t-5);margin:12px;}
+.subscribe .sub-row{display:flex;gap:8px;flex-wrap:wrap;max-width:440px;}
+.subscribe input[type=email]{flex:1 1 200px;background:var(--bg);color:var(--ink);
+  border:1px solid var(--rule);border-radius:var(--r);padding:12px 12px;font-family:var(--mono);font-size:var(--t-4);}
+.subscribe button{background:var(--ink);color:var(--bg);border:0;border-radius:var(--r);
+  padding:12px 20px;font-family:var(--serif);font-weight:700;font-size:var(--t-4);cursor:pointer;}
+.subscribe .sub-fine{font-family:var(--mono);color:var(--muted);font-size:var(--t-1);
+  letter-spacing:0.04em;text-transform:uppercase;margin:12px;}
+
+/* ---- footer ---- */
+footer.disc{background:var(--surface);border-top:4px solid var(--accent);
+  margin:40px;padding:24px 0 32px;color:var(--muted);}
+footer.disc .inner{padding:0;}
+footer.disc nav{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.07em;
+  text-transform:uppercase;display:flex;gap:16px;flex-wrap:wrap;margin:12px;}
+footer.disc nav a{color:var(--muted);border:0;}
+footer.disc nav a:hover{color:var(--ink);}
+footer.disc p{font-family:var(--mono);font-size:var(--t-1);line-height:1.7;color:var(--muted);
+  max-width:var(--measure-wide);margin:8px 0;}
+
+/* ---- age gate ---- */
+.agegate{position:fixed;inset:0;z-index:999;background:rgba(20,18,11,0.55);
+  display:flex;align-items:center;justify-content:center;padding:20px;
+  -webkit-backdrop-filter:none;}
+.agegate[hidden]{display:none;}
+.agegate-box{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--accent);
+  max-width:420px;padding:24px;text-align:center;}
+.agegate-box strong{font-family:var(--display);font-weight:700;font-size:var(--t-7);letter-spacing:0.01em;}
+.agegate-box p{font-size:var(--t-4);color:var(--ink);}
+.agegate-actions{display:flex;gap:12px;justify-content:center;align-items:center;
+  margin:16px 0 8px;flex-wrap:wrap;}
+.agegate-actions button{background:var(--ink);color:var(--bg);border:0;border-radius:var(--r);
+  padding:12px 20px;font-family:var(--serif);font-weight:700;font-size:var(--t-4);cursor:pointer;}
+.agegate-actions .leave{color:var(--muted);}
+.agegate-fine{font-family:var(--mono);color:var(--muted);font-size:var(--t-1);
+  letter-spacing:0.03em;text-transform:uppercase;margin:12px 0 0;}
+
+/* ---- email-only narrow wrapper (self-contained card + email inherit tokens) ---- */
+.wrap{max-width:var(--track-page);margin:0 auto;padding:16px 20px 48px;}
+header.site{border-bottom:1px solid var(--rule);margin:16px;}
+header.site nav a{font-family:var(--mono);font-size:var(--t-2);letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--muted);margin:16px;}
+.pick{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--flag-fill);
+  padding:12px 16px;margin:12px 0;}
+.pick .hd{font-family:var(--serif);font-weight:700;font-size:var(--t-5);}
+.pick .play{font-family:var(--mono);color:var(--flag);font-weight:700;}
+.tag{display:inline-block;font-family:var(--mono);font-size:var(--t-1);font-weight:700;
+  letter-spacing:0.06em;padding:2px 8px;border-radius:var(--r);vertical-align:middle;}
+.tag.bet{background:var(--flag-fill);color:#17130C;}
+.tag.pass{background:transparent;color:var(--muted);border:1px solid var(--rule);}
+.race{margin:16px 0;}
+.race .rl{font-family:var(--mono);color:var(--muted);font-size:var(--t-2);text-transform:uppercase;letter-spacing:0.05em;}
+.pace{font-family:var(--mono);font-size:var(--t-3);color:var(--muted);margin:4px 0 8px;text-transform:uppercase;letter-spacing:0.04em;}
+tr.flagged td{background:var(--flag-wash);}
+
+@media(max-width:520px){.inner{padding:0 20px;}.triad{gap:20px;}.stats{gap:24px;}}
+
+/* ---- six-facts status strip: status | first post | plays | scratch | record.
+   Ruled terminal row, tabular mono, semantic colour reinforced by text (never
+   colour alone). Two-up on mobile so nothing scrolls horizontally. ---- */
+.statusstrip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));
+  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  background:var(--surface);margin:16px 0 8px;}
+.statusstrip .fact{padding:8px 16px 12px;border-left:1px solid var(--line);
+  display:flex;flex-direction:column;gap:4px;min-width:0;}
+.statusstrip .fact:first-child{border-left:0;}
+.fact .fk{font-family:var(--mono);font-size:var(--t-1);letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--muted);}
+.fact .fv{font-family:var(--mono);font-weight:700;font-size:var(--t-3);color:var(--ink);
+  font-variant-numeric:tabular-nums;line-height:1.3;}
+.fact .fv a{color:var(--accent);border-bottom:1px solid transparent;}
+.fact .fv a:hover{border-bottom-color:currentColor;}
+.fact.s-cx .fv{color:var(--loss);} .fact.s-done .fv,.fact.s-pass .fv{color:var(--muted);}
+.fact.sc-ok .fv{color:var(--win);} .fact.sc-warn .fv,.fact.sc-stale .fv{color:var(--loss);}
+.fact.sc-pending .fv{color:var(--gold);}
+@media(max-width:640px){
+  .statusstrip{grid-template-columns:1fr 1fr;}
+  .statusstrip .fact{border-left:0;border-top:1px solid var(--line);}
+  .statusstrip .fact:nth-child(-n+2){border-top:0;}
+  .statusstrip .fact:nth-child(odd){border-right:1px solid var(--line);}
+  .statusstrip .fact:last-child{grid-column:1 / -1;}
+}
+
+/* ---- one coordinated entrance: masthead, then status strip, then first flags.
+   Subtle, once, and fully disabled under reduced-motion. ---- */
+@media(prefers-reduced-motion:no-preference){
+  .masthead,.statusstrip,.card-col .flag:nth-of-type(-n+2),.eotd{
+    animation:ec-rise .5s cubic-bezier(.2,.7,.2,1) both;}
+  .statusstrip{animation-delay:.06s;}
+  .card-col .flag:nth-of-type(1){animation-delay:.12s;}
+  .card-col .flag:nth-of-type(2){animation-delay:.18s;}
+  @keyframes ec-rise{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+
+  /* TIMING ONLY lives in here, plus anything that moves. The hover STATES sit
+     outside this query, so a reader who asks for reduced motion still gets the
+     feedback, it just arrives instantly instead of easing in. */
+  a,summary,button,.btn-ts,span.pgm,.surf,.mastnav a,.sub-row button{
+    transition:color .16s ease, background-color .16s ease, border-color .16s ease,
+      box-shadow .16s ease, transform .16s cubic-bezier(.2,.7,.2,1);}
+  .flag,.rd,.tile,table.rt tbody tr,.archive-row{
+    transition:background-color .16s ease, box-shadow .18s ease, transform .18s cubic-bezier(.2,.7,.2,1);}
+  summary::marker,summary::-webkit-details-marker{transition:transform .18s ease;}
+  /* Lifts. Small on purpose: this is a broadsheet, not a dashboard. */
+  .flag:hover,.tile:hover{transform:translateY(-2px);}
+  .btn-ts:hover,.sub-row button:hover{transform:translateY(-1px);}
+  span.pgm:hover{transform:scale(1.06);}
+}
+
+/* ---- interaction states (no motion required to be useful) ---- */
+.flag:hover,.tile:hover{box-shadow:0 2px 0 var(--rule);}
+.rd:hover{background:var(--surface);}
+table.rt tbody tr:hover{background:var(--surface);}
+summary{cursor:pointer;}
+summary:hover{color:var(--ink);}
+.surf:hover{filter:brightness(1.08);}
+.mastnav a:hover{color:var(--ink);}
+/* A focus ring that is visible ON the textured chips and coloured badges,
+   where the default outline colour disappears into the fill. */
+span.pgm:focus-visible,.surf:focus-visible{outline:2px solid var(--ink);outline-offset:2px;}
+
+/* The provenance line, out from behind a disclosure. Model, takeout, card hash
+   and scratch status are the facts unique to THIS card, and they were hidden
+   under a summary alongside explanation identical on every card. */
+.prov-line{font-family:var(--mono);font-size:var(--t-2);line-height:1.7;color:var(--ink);
+  margin:0 0 8px;border-left:3px solid var(--flag-fill);padding:12px;}
+.howto-link{font-family:var(--mono);font-size:var(--t-2);color:var(--muted);margin:0 0 16px;}
+
+/* /guide/ glossary, moved off the card. */
+.gloss{margin:12px 0 0;max-width:var(--measure);}
+.gloss dt{font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;
+  letter-spacing:0.06em;color:var(--gold-text);margin:12px 0 2px;}
+.gloss dd{font-family:var(--serif);font-size:var(--t-4);line-height:1.55;margin:0;}
+
+/* Multi-race tickets. Promoted from a <details class="exotics"> that was
+   visually identical to the per-flag exotics footnotes, so the one whole-card
+   feature read as a per-race aside and nobody found it. It gets a section
+   header like Flags and The rest of the card, and a dashed edge to say
+   "reference" rather than "play" without shouting. */
+.mr-sec{margin:24px 0 24px;}
+.mr-research{border:1px dashed var(--rule);border-left:3px solid var(--muted);
+  background:var(--bg);padding:16px 16px;}
+.mr-lede{font-family:var(--serif);font-size:var(--t-4);line-height:1.55;color:var(--muted);
+  margin:0 0 12px;max-width:var(--measure);}
+.mr-lede b{color:var(--ink);}
+.mr-builds > summary{font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;
+  letter-spacing:0.07em;color:var(--gold-text);cursor:pointer;list-style:none;
+  border:1px solid var(--gold);border-radius:var(--r);padding:8px 12px;width:fit-content;}
+.mr-builds > summary::-webkit-details-marker{display:none;}
+.mr-builds > summary:hover{background:var(--flag-wash);}
+.mr-builds[open] > summary{margin:12px;}
+
+/* Sortable table headers. The affordance only appears once the script has run
+   and added .sortable, so a reader with JS blocked is never shown a control
+   that does nothing.
+
+   THE BACKSLASHES ARE DOUBLED ON PURPOSE. SITE_CSS is a normal (non-raw)
+   triple-quoted string, so Python reads a lone backslash-2-1-9-5 as the octal
+   escape \21 (U+0011) followed by the literal characters 95 -- and every
+   archive column header rendered the word 95 in production from launch until
+   2026-08-16. The ascending and descending arrows printed 91 and 93 the same
+   way. Doubling the backslash is what puts a real CSS escape in the
+   stylesheet. If you ever convert this literal to a raw string, take these
+   back to single. */
+th.sortable{cursor:pointer;user-select:none;position:relative;padding:20px;}
+th.sortable::after{content:"\2195";position:absolute;right:6px;opacity:0.3;
+  font-size:var(--t-1);font-weight:400;}
+th.sortable:hover{color:var(--ink);}
+th.sortable:hover::after{opacity:0.6;}
+th.sortable[aria-sort="ascending"]::after{content:"\2191";opacity:1;color:var(--accent);}
+th.sortable[aria-sort="descending"]::after{content:"\2193";opacity:1;color:var(--accent);}
+
+/* ---- compliance panel ----
+   The legal block was three lines of 11px muted mono, which is what a site
+   looks like when it is discharging an obligation. This is the same locked
+   wording given a frame: an age badge, the text at a readable size, and the
+   helpline as a real target rather than a phrase inside a paragraph. The
+   number is deliberately repeated from the disclaimer, because somebody who
+   needs it should not have to finish reading a compliance notice first. */
+.compliance{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px 16px;
+  align-items:start;border:1px solid var(--rule);border-left:4px solid var(--accent);
+  background:var(--bg);padding:16px 20px;margin:16px 0 0;}
+.comp-badge{grid-row:span 2;display:flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:50%;border:2px solid var(--accent);
+  font-family:var(--mono);font-size:var(--t-4);font-weight:700;color:var(--accent);
+  letter-spacing:0.02em;flex:none;}
+.comp-text{font-family:var(--mono);font-size:var(--t-2);line-height:1.75;color:var(--muted);
+  margin:0;max-width:var(--measure-wide);}
+.comp-help{grid-column:2;display:inline-flex;align-items:baseline;gap:8px;
+  align-self:start;border:1px solid var(--loss);border-radius:var(--r);padding:8px 12px;
+  text-decoration:none;width:fit-content;}
+.comp-help .comp-k{font-family:var(--mono);font-size:var(--t-1);text-transform:uppercase;
+  letter-spacing:0.07em;color:var(--muted);}
+.comp-help .comp-v{font-family:var(--mono);font-size:var(--t-3);font-weight:700;color:var(--loss);
+  letter-spacing:0.03em;}
+.comp-help:hover{background:var(--surface);border-bottom-color:var(--loss);}
+@media (max-width:560px){
+  .compliance{grid-template-columns:1fr;}
+  .comp-badge{grid-row:auto;}
+  .comp-help{grid-column:1;}
+}
+
+/* ---- footer brand: reverse-white lockup on a slim racing-navy band ---- */
+.footer-brand{background:var(--navy);padding:20px 0;text-align:center;}
+.footer-brand img{height:34px;width:auto;display:inline-block;}
+</style></head><body><div class='wrap'>
+<h1>EDGE CARD · DMR, Fri Aug 28, 2026</h1>
+<p class="meta">Card hashed and public at 11:22 AM ET: <a href="https://edgecardhq.com/archive/2026-08-28-dmr/">card</a> · <a href="https://x.com/edgecardHQ">X post</a> · SHA-256 <code>e0bdbe1af7a7…</code></p>
+<p class="notice">Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.</p>
+<h2>Yesterday in one line</h2>
+<p class="notice">1-3 · flat-$2 -4.10 · drift +44.9% · meet to date 47-125 · flat-$2 -22.62 · drift +35.3% → full results: https://github.com/EZDB15/edgecard-archive</p>
+<h2>DMR · first post 5:00 PM ET</h2>
+<div class="race">
+<h3>R1 · Md 40000 · dirt, 6.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Contested pace likely (3 early-speed types)</div>
+<div>WHY: Model tops SMOKIN HOT STUFF at 37%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R2 · Clm 25000 · turf, 5.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Contested pace likely (5 early-speed types)</div>
+<div>Flag: <strong>EMPRESS MATILDA</strong>, p 21% · fair odds 4/1 · ML 5/1</div>
+<div class="play">Bet #1 to win, you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 21% vs 13% morning-line implied (+7.1 pts).</div>
+</div>
+<div class="race">
+<h3>R3 · Moc 65000 · dirt, 6.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Even pace</div>
+<div>WHY: Model tops PRO PAYNE at 21%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R4 · Clm 25000n2l · turf, 8.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Even pace</div>
+<div>Flag: <strong>SAND BAGGER</strong>, p 31% · fair odds 2/1 · ML 5/2</div>
+<div class="play">Bet #4 to win, you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 31% vs 23% morning-line implied (+8.0 pts).</div>
+</div>
+<div class="race">
+<h3>R5 · Md 50000 · dirt, 5.5f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Contested pace likely (3 early-speed types)</div>
+<div>WHY: Model tops I&#x27;M NO SWIFTY at 19%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R6 · Md Sp Wt · turf, 5.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag pass">PASS</span> Lone speed</div>
+<div>WHY: Model tops DELUGE at 20%; the morning line already prices the race. Pass is a position.</div>
+</div>
+<div class="race">
+<h3>R7 · OClm 100000b · dirt, 6.5f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Contested pace likely (4 early-speed types)</div>
+<div>Flag: <strong>SPEEDY WILSON</strong>, p 26% · fair odds 3/1 · ML 3/1</div>
+<div class="play">Bet #1 to win, you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 26% vs 20% morning-line implied (+5.7 pts).</div>
+</div>
+<div class="race">
+<h3>R8 · Md Sp Wt · turf, 8.0f</h3><div class="rl">takeout: win 15.43% / exacta 22.68%</div>
+<div class="pace"><span class="tag bet">WIN BET</span> Even pace</div>
+<div>Flag: <strong>JUST WORK IT OUT</strong>, p 42% · fair odds 7/5 · ML 8/5</div>
+<div class="play">Bet #4 to win, you&rsquo;re paid the closing price, not a fixed number.</div>
+<div>WHY: Ranks #1 in our power figure blend; model 42% vs 30% morning-line implied (+12.2 pts).</div>
+</div>
+<p class="meta">Today's numbers are <code>v0-heuristic-1.4+cfg.aab788cb@code.82d07f70</code>, <a href="https://edgecardhq.com/methodology">methodology</a>. Full archive, every card, losses included: <a href="https://github.com/EZDB15/edgecard-archive">archive</a>.</p>
+<footer class="disc"><p>Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.</p><p>Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.</p>
+<p><a href="https://buttondown.com/della_bitta/unsubscribe">Unsubscribe</a></p></footer>
+</div></body></html>

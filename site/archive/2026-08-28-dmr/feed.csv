@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-08-28,2,1,EMPRESS MATILDA,21,4/1,9/2,7.1,turf,5 furlongs,Ranks #1 in our power figure blend; model 21% vs 13% morning-line implied (+7.1 pts),NOT_YET_CHECKED,false
+DMR,2026-08-28,4,4,SAND BAGGER,31,2/1,5/2,8.0,turf,1 mile,Ranks #1 in our power figure blend; model 31% vs 23% morning-line implied (+8.0 pts),NOT_YET_CHECKED,false
+DMR,2026-08-28,7,1,SPEEDY WILSON,26,3/1,3/1,5.7,dirt,6 1/2 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 26% vs 20% morning-line implied (+5.7 pts),NOT_YET_CHECKED,false
+DMR,2026-08-28,8,4,JUST WORK IT OUT,42,7/5,8/5,12.2,turf,1 mile,Ranks #1 in our power figure blend; model 42% vs 30% morning-line implied (+12.2 pts),NOT_YET_CHECKED,false

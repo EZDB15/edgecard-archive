@@ -1,0 +1,32 @@
+{
+  "sha256": "e0bdbe1af7a733c8610fe426992645d3b82d046daa929ca616e8f846296a7dd3",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 86,
+    "temp_unit": "F",
+    "wind": "0 to 10 mph",
+    "precip_pct": 2,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:22 AM ET",
+  "lock_ts_utc": "2026-08-28T15:22:54+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "NOT_YET_CHECKED",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": null,
+  "scratch_track": null,
+  "scratch_date": null,
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-28-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Fri Aug 28 \u00b7 8 races, 4 flags, 4 passes"
+}
