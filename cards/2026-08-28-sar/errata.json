@@ -1,0 +1,29 @@
+{
+  "schema": 2,
+  "entries": [
+    {
+      "id": "e001",
+      "schema": 2,
+      "type": "SCRATCH",
+      "track": "SAR",
+      "date": "2026-08-28",
+      "race": 8,
+      "program": "5",
+      "horse": "VENENCIA (FR)",
+      "status": "active",
+      "source": "NYRA official scratches and program changes sheet, last updated 10:19:26 AM ET",
+      "source_ref": "",
+      "verified_by": "paddock",
+      "verified_at": "2026-08-28T16:39:13+00:00",
+      "issued_at": "2026-08-28T16:39:13+00:00",
+      "notice": "Listed as Early--Stake. Caught pre-lock in the flag cross-check; the card was published with the field as entered and this erratum voids the selection.",
+      "action": "VOID_SELECTION",
+      "bettable": false,
+      "grade_disposition": "void",
+      "race_level": false,
+      "supersedes": null
+    }
+  ],
+  "track": "SAR",
+  "date": "2026-08-28"
+}
