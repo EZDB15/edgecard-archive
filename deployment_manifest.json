@@ -1,6 +1,6 @@
 {
   "source_repo": "Elde15/edge-card",
-  "source_commit": "e29d65e96933f369c410bb8c30ae8e72b10756c9",
+  "source_commit": "e29d65e96933f369c410bb8c30ae8e72b10756c9+dirty",
   "build_command": "scripts/build_deployable_site.py --archive <archive>",
   "ledger_sha256": "8ab37753add5b9410fef91cbc7d17d9815b92e41ac8b022c83dbd5670de85604",
   "ledger_entries": 981,
@@ -15,14 +15,14 @@
     "archive/index.html": "1a557b032a5ed7912216535490f64dee5cc324338809da8bd76b9389606ca58a",
     "schemas/partner-feed-v1.json": "052e7a874b184cb521e596f21acbafd8a992e6b88481239a1d747c4be8ac7212",
     "record.json": "878af5f830475eeb4a7e5222dab41569b99e34961967cc69f1d36905742c8e6c",
-    "proof_status.json": "a78ce5faf51166dc00159e9c1a5c8a441b2d418cc6effcca3df01391e133da75",
-    "proof_registry.json": "f6790adeeebc2f5c7bcecf1b0b6e8033add8394f095ff94d7d9448a1fd7425cb",
+    "proof_status.json": "fe552b9e7691121aebb8ee7d670bcdb09634cf46a6987efd6c6aacf95ff2c1f5",
+    "proof_registry.json": "e39cc3ce947480a6b7c95612d59b9993f4a3a4ffe64a79c34b31efeed70c7cfa",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   },
   "root_sourced": {
     "record.json": "878af5f830475eeb4a7e5222dab41569b99e34961967cc69f1d36905742c8e6c",
-    "proof_status.json": "a78ce5faf51166dc00159e9c1a5c8a441b2d418cc6effcca3df01391e133da75",
-    "proof_registry.json": "f6790adeeebc2f5c7bcecf1b0b6e8033add8394f095ff94d7d9448a1fd7425cb",
+    "proof_status.json": "fe552b9e7691121aebb8ee7d670bcdb09634cf46a6987efd6c6aacf95ff2c1f5",
+    "proof_registry.json": "e39cc3ce947480a6b7c95612d59b9993f4a3a4ffe64a79c34b31efeed70c7cfa",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   }
 }

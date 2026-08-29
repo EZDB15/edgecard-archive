@@ -245,10 +245,13 @@
   ],
   "errata": [],
   "scratch_status": {
-    "state": "NOT_YET_CHECKED",
-    "confirmed": false,
-    "message": "Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.",
-    "late_scratch_rule": "Late scratches void at scoring; the card is never edited."
+    "state": "CHECKED_NO_CHANGES",
+    "confirmed": true,
+    "message": "Scratch status checked at 11:29 AM ET. Late scratches void at scoring; the card is never edited.",
+    "late_scratch_rule": "Late scratches void at scoring; the card is never edited.",
+    "checked_at_utc": "2026-08-29T15:29:24+00:00",
+    "checked_at_et": "11:29 AM ET",
+    "source": "NYRA official scratches and program changes sheet, last updated 11:01:58 AM ET"
   },
   "parlays": [],
   "card_reads": [

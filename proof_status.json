@@ -1594,7 +1594,23 @@
     "2026-08-28-sar": {
       "date": "2026-08-28",
       "track": "SAR",
-      "artifacts": {}
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "842f3091d513bdb0aee3fe787f776c7de7b20094d4e2640216e3ab6304e17387",
+          "current_downloadable_sha256": "842f3091d513bdb0aee3fe787f776c7de7b20094d4e2640216e3ab6304e17387",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      }
     },
     "2026-08-29-dmr": {
       "date": "2026-08-29",
