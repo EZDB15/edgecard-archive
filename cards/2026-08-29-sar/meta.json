@@ -1,0 +1,32 @@
+{
+  "sha256": "0bf10a72f646c5f138996e23253df405592fa211a16d2dfb74e003976953525b",
+  "weather": {
+    "short": "Sunny",
+    "temp": 77,
+    "temp_unit": "F",
+    "wind": "7 mph",
+    "precip_pct": 0,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:19 AM ET",
+  "lock_ts_utc": "2026-08-29T15:19:51+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "NOT_YET_CHECKED",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": null,
+  "scratch_track": null,
+  "scratch_date": null,
+  "first_post_et": "1:10 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-29-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Sat Aug 29 \u00b7 14 races, 3 flags, 11 passes"
+}

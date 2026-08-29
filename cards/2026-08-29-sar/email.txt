@@ -1,0 +1,79 @@
+SUBJECT: SAR · Sat Aug 29 · 14 races, 3 flags, 11 passes
+
+EDGE CARD · SAR, Sat Aug 29, 2026
+Card hashed and public at 11:19 AM ET: https://edgecardhq.com/archive/2026-08-29-sar/ · https://x.com/edgecardHQ
+Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-2 · flat-$2 -4.00 · drift -3.9% · meet to date 48-130 · flat-$2 -31.42 · drift +34.8% → full results: https://github.com/EZDB15/edgecard-archive
+
+· SAR · first post 1:10 PM ET ·
+
+R1 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops UP TO THE TASK at 23%; the morning line already prices the race. Pass is a position.
+
+R2 · Alw 120000n1x · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SCULCOS FOLLY at 31%; the morning line already prices the race. Pass is a position.
+
+R3 · Alw 105000n1x · dirt, 6.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops LIGHTNING STRIKE at 20%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 100000n1x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: NOBLE DYNASTY, p 20% · fair odds 4/1 · ML 8/1
+  Bet #1 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 20% vs 9% morning-line implied (+11.6 pts).
+
+R5 · Alw 105000n1x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops CAROLINE ST. BEAT at 25%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops FOXIEST at 26%; the morning line already prices the race. Pass is a position.
+
+R7 · OClm 100000n1x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BELLA KNOWS at 24%; the morning line already prices the race. Pass is a position.
+
+R8 · HAJrknsM-G1 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: DEEP FLAME, p 25% · fair odds 3/1 · ML 3/1
+  Bet #2 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 25% vs 19% morning-line implied (+5.3 pts).
+
+R9 · PrsnlEns-G1 · dirt, 9.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SCOTTISH LASSIE at 32%; the morning line already prices the race. Pass is a position.
+
+R10 · LakePlcd-G2 · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops QUEEN OF HAWAII at 24%; the morning line already prices the race. Pass is a position.
+
+R11 · Forego-G1 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BOOK'EM DANNO at 32%; the morning line already prices the race. Pass is a position.
+
+R12 · Balrina-G1 · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops WAYS AND MEANS at 20%; the morning line already prices the race. Pass is a position.
+
+R13 · Travers-G1 · dirt, 10.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GOLDEN TEMPO at 16%; the morning line already prices the race. Pass is a position.
+
+R14 · OClm 100000n1x · turf, 8.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: NEW ROSE, p 11% · fair odds 8/1 · ML 12/1
+  Bet #3 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #2 in our power figure blend; model 11% vs 6% morning-line implied (+5.4 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

@@ -7,17 +7,17 @@
     "metadata_rule": "original-publication and current-revision metadata proofs are distinct identities because they commit to different digests"
   },
   "metrics": {
-    "physical_ots_file_paths": 72,
-    "unique_proof_byte_hashes": 71,
-    "unique_target_digests": 71,
-    "canonical_proof_identities": 71,
+    "physical_ots_file_paths": 73,
+    "unique_proof_byte_hashes": 72,
+    "unique_target_digests": 72,
+    "canonical_proof_identities": 72,
     "compatibility_aliases": 1,
     "bitcoin_confirmed_unique_commitments": 34,
-    "calendar_pending_unique_commitments": 37,
+    "calendar_pending_unique_commitments": 38,
     "unproven_targets": 0,
     "by_target_type": {
       "ledger_snapshot": 2,
-      "locked_card": 52,
+      "locked_card": 53,
       "metadata": 17
     },
     "superseded_metadata_proofs": 4,
@@ -25,7 +25,7 @@
     "ledger_snapshots_with_proof": 2,
     "ledger_snapshots_without_proof": 0,
     "total_bitcoin_attestation_objects": 121,
-    "total_calendar_attestation_objects": 269
+    "total_calendar_attestation_objects": 273
   },
   "unstamped_snapshots": [],
   "proofs": [
@@ -1530,6 +1530,26 @@
       "preserved_target_path": null,
       "target_revision": "original",
       "target_current_sha256": "4655d20cf706c2a82a22bd4d587853295f08cecf41f6816fe7e053391359803a",
+      "proof_targets_current_bytes": true,
+      "status": "CALENDAR_PENDING",
+      "bitcoin_block_heights": [],
+      "bitcoin_attestation_count": 0,
+      "calendar_attestation_count": 4,
+      "superseded_target": false,
+      "compatibility_alias": false,
+      "counts_toward_public_total": true
+    },
+    {
+      "proof_id": "locked_card:e0bdbe1af7a733c8",
+      "canonical_path": "cards/2026-08-28-dmr/card.json.ots",
+      "alias_paths": [],
+      "proof_sha256": "11aa06c9b5ba93d958e1fd9ce944dc13f908e88fb0fe1d51fa1e41965be61b6b",
+      "target_digest": "e0bdbe1af7a733c8610fe426992645d3b82d046daa929ca616e8f846296a7dd3",
+      "target_type": "locked_card",
+      "target_path": "cards/2026-08-28-dmr/card.json",
+      "preserved_target_path": null,
+      "target_revision": "original",
+      "target_current_sha256": "e0bdbe1af7a733c8610fe426992645d3b82d046daa929ca616e8f846296a7dd3",
       "proof_targets_current_bytes": true,
       "status": "CALENDAR_PENDING",
       "bitcoin_block_heights": [],

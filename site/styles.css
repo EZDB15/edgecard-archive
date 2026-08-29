@@ -55,6 +55,15 @@
      words in it, and on the home page -- whose own column is already 1124 --
      it simply overhung by 28px on each side and aligned with nothing. */
   --track-data:1124px;
+  /* The card column. This was a hardcoded 720px that survived the token sweep,
+     and it was the single number governing the card's width while --track-data
+     sat beside it at 1124 and 600px of margin sat dead on each side.
+     A layout value that is not a token cannot be reasoned about from the token
+     file, which is exactly how you end up confident about a container you
+     cannot see. That has now cost four regressions in a week, all of them
+     correct in the file being edited and wrong in the container receiving it,
+     so the last page-level literals are tokens. */
+  --track-card:1080px;
   /* Three measures, not twelve. The stylesheet declared prose widths at 44,
      56, 58, 60, 62, 64, 66, 70, 74, 88 and 96ch, which is not a scale, it is
      forty-four separate decisions. */
@@ -97,12 +106,15 @@ a:hover{border-bottom-color:currentColor;}
   text-transform:uppercase;color:var(--muted);text-align:center;padding:8px 32px 8px;
   border-bottom:1px solid var(--rule);}
 .dateline .anti{color:var(--gold-text);}
-.nameplate{text-align:center;padding:16px 0 8px;}
+/* Tighter now the tagline has gone into the strip above. */
+.nameplate{text-align:center;padding:8px 0 4px;}
 /* Masthead rows share the content column. The bands stay full-bleed (the rules
    and background still run edge to edge) but their CONTENT is constrained to the
    same 1180px grid as .inner, so the nameplate cannot drift away from the
    headline beneath it as the viewport widens. */
-.masthead .dateline,.nameplate,.mastnav-in{max-width:1180px;margin:auto;margin:auto;}
+/* The positioning copy is one strip now. */
+.dl-tag{color:var(--muted);}
+.masthead .dateline,.nameplate,.mastnav-in{max-width:var(--track-wide);margin:auto;margin:auto;}
 .brandmark{display:inline-block;border:0;line-height:0;}
 .brandmark img{width:auto;height:58px;max-width:100%;display:block;}
 @media(max-width:640px){.brandmark img{height:40px;}}
@@ -395,7 +407,7 @@ span.pgm.scr{--sc:#D8D5CC;--scink:#8a8578;text-decoration:line-through}
   text-transform:uppercase;color:var(--muted);margin:8px;}
 
 /* ---- card layout + caption + how-to + credit ---- */
-.card-col{max-width:720px;margin:0 auto;}
+.card-col{max-width:var(--track-card);margin:0 auto;}
 .cardcap{font-family:var(--serif);font-size:var(--t-5);color:var(--ink);margin:2px 0 8px;}
 .cardcap b{font-weight:700;}
 /* ---- Edge of the Day (the rule-chosen anchor play, top of card) ---- */
@@ -636,7 +648,10 @@ table.rt th.wk,table.rt td.wk{width:1%;color:var(--muted);}
 table.rt td.wk.sharp{color:var(--win);font-weight:700;}
 table.rt td.wk.quiet{color:var(--muted);}
 .bul{color:var(--gold-fill);margin:4px;font-size:var(--t-2);}
-.wd{color:var(--muted);font-size:var(--t-1);margin:4px;}
+.wd{color:var(--muted);font-size:var(--t-1);}
+/* Real ink between two different facts. Four pixels of gap and one step of
+   size was not a separator. */
+.wdot{font-style:normal;color:var(--rule);padding:4px;}
 table.rt tr.flagged{background:var(--flag-wash);}
 .flagmark{color:var(--flag);font-size:var(--t-1);}
 @media(max-width:439px){table.rt th.fair,table.rt td.fair{display:none;}}
@@ -645,7 +660,9 @@ table.rt tr.flagged{background:var(--flag-wash);}
    reader sorts by edge across the whole card those banners describe nothing,
    so they step aside and this column carries the race instead. */
 table.cgrid td.gr{font-family:var(--mono);font-size:var(--t-2);color:var(--muted);
-  padding:12px;padding:2px;width:1%;white-space:nowrap;}
+  /* Left, like its own <th class="l">R</th>. It inherited the table's numeric
+     right-alignment and sat under a left-aligned header. */
+  text-align:left;padding:12px;padding:2px;width:1%;white-space:nowrap;}
 table.cgrid.is-sorted tr.ghead{display:none;}
 table.cgrid th.sortable{cursor:pointer;position:relative;padding:16px;}
 table.cgrid th.sortable:after{content:"\2195";position:absolute;right:5px;
@@ -1276,13 +1293,23 @@ table.cgrid tr.gflag td.pgm{box-shadow:inset 3px 0 0 var(--flag-fill);}
 
 /* Race header rows. The one place the type scale jumps, so the eye can find a
    race boundary while scrolling without reading anything. */
-table.cgrid tr/* th AND td. The banner became a <td> when it stopped claiming colgroup
-   scope over eight columns it does not govern, and that orphaned this rule:
-   the cell fell back to the table's numeric right-alignment, so the eight
-   race dividers -- the primary landmark in a 75-row table -- each started at
-   a different x, a 304px spread, and not one shared a left edge with
-   another. */
-.ghead th,.ghead td{background:var(--surface);text-align:left;
+/* th AND td, and both qualified by the table. The banner became a <td> when it
+   stopped claiming colgroup scope over eight columns it does not govern, which
+   orphaned this rule twice over. First the <th> half stopped matching. Then the
+   fix was written as a bare `.ghead td`, specificity (0,1,1), which loses to
+   `table.cgrid td`, (0,1,2), so the cell still fell back to the table's numeric
+   right-alignment and the eight race dividers -- the primary landmark in a
+   75-row table -- each started at a different x, a 304px spread, with not one
+   sharing a left edge with another.
+
+   THE COMMENT ITSELF WAS THE THIRD FAILURE. It used to sit between
+   `table.cgrid tr` and `.ghead th`. A CSS comment does not terminate a
+   selector, so the two halves concatenated into `table.cgrid tr .ghead th`: a
+   DESCENDANT selector matching nothing, with the prose sitting inside the
+   thing it was explaining. Comments go above a rule, never inside its
+   selector. tests/test_css_escapes.py now fails the build if one does. */
+table.cgrid tr.ghead th,table.cgrid tr.ghead td{
+  background:var(--surface);text-align:left;
   padding:12px 12px 8px;border-bottom:1px solid var(--rule);
   border-top:1px solid var(--rule);font-weight:400;position:static;}
 .gh-r{font-family:var(--mono);font-size:var(--t-4);font-weight:700;color:var(--ink);
@@ -1308,7 +1335,17 @@ table.cgrid tr/* th AND td. The banner became a <td> when it stopped claiming co
 .gw.up{color:var(--win);font-weight:700;}
 .gw.dn{color:var(--loss);font-weight:700;}
 .gw.pc{color:var(--muted);}
-.gw.off{color:var(--rule);}
+/* ABSENCE IS BLANK, not a dot. The dots were 246 of the column's 433
+   characters and nine rows were nothing else: a few hundred marks that asked a
+   reader to decode emptiness. The cell still exists so the slots stay fixed. */
+.gw.off{color:transparent;}
+
+/* Rank, on its own. Right aligned and tabular because it is a number a reader
+   compares down the column, which is the whole reason it left the glyphs. */
+table.cgrid td.grk{font-family:var(--mono);font-size:var(--t-2);
+  font-variant-numeric:tabular-nums;text-align:right;color:var(--muted);
+  width:1%;white-space:nowrap;}
+table.cgrid td.grk.top{color:var(--ink);font-weight:700;}
 .glegend{font-size:var(--t-2);line-height:1.5;color:var(--muted);margin:12px 0 0;max-width:var(--measure);}
 
 /* ---- phones: every row becomes a three-line block ------------------------
@@ -1325,7 +1362,8 @@ table.cgrid tr/* th AND td. The banner became a <td> when it stopped claiming co
   /* The header cell has to carry the block, not the row: a <th> keeps its
      own intrinsic width when the row goes display:block, which left the
      race header inset from the runner blocks under it. */
-  table.cgrid tbody tr.ghead th,.ghead td{display:block;width:auto;padding:16px 12px 8px;}
+  table.cgrid tbody tr.ghead th,table.cgrid tbody tr.ghead td{
+    display:block;width:auto;padding:16px 12px 8px;}
   table.cgrid tbody td{border:0;padding:0;white-space:nowrap;}
   table.cgrid td.pgm{grid-area:1/1;align-self:center;}
   table.cgrid td.hn{grid-area:1/2;font-size:var(--t-5);white-space:normal;}
@@ -1333,7 +1371,10 @@ table.cgrid tr/* th AND td. The banner became a <td> when it stopped claiming co
   table.cgrid td.fair{grid-area:2/1/2/3;text-align:left;padding:4px;color:var(--muted);}
   table.cgrid td.dim{grid-area:2/3;padding:4px;}
   table.cgrid td.ge{grid-area:3/1;text-align:left;padding:4px;}
-  table.cgrid td.whyc{grid-area:3/2;text-align:left;padding:4px;}
+  table.cgrid td.grk{grid-area:3/2;text-align:left;padding:4px;}
+  table.cgrid td.grk:not(:empty)::before{content:"rank ";color:var(--rule);
+    font-family:var(--sans);}
+  table.cgrid td.whyc{grid-area:4/1/4/4;text-align:left;padding:4px;}
   table.cgrid td.wk{grid-area:3/3;padding:4px;}
   /* Labels only on the small screen, where the header row is gone. */
   table.cgrid td.fair::before{content:"fair ";color:var(--rule);}
@@ -1409,6 +1450,21 @@ html,body{max-width:100%;overflow-x:hidden;}
    changing the visual rhythm (padding, not font-size). */
 @media (max-width:640px){
   .mastnav a{display:inline-block;padding:12px 12px;min-height:44px;line-height:18px;}
+  /* ONE ROW, not three. Six items with a 44px touch box each wrapped onto
+     three rows and the nav alone was 197px on a 390px phone: more chrome than
+     the masthead it sits under, on a page a reader opens daily. Nowrap with a
+     horizontal scroll keeps every item reachable with no script and no
+     hamburger, and the container scrolls, not the page. Left aligned, because
+     centred content in a scroller starts mid-item and looks broken. */
+  .mastnav-in{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;
+    gap:16px;padding:0 16px;scrollbar-width:none;-webkit-overflow-scrolling:touch;}
+  .mastnav-in::-webkit-scrollbar{display:none;}
+  .mastnav a{white-space:nowrap;}
+  /* The strip carries the meets, the year and the model on a phone. The
+     promise line is the one thing here a returning reader has already read,
+     and it was costing two of the strip's three lines. It is still on every
+     desktop view and still in the guide. */
+  .dl-tag{display:none;}
   .disc nav a{display:inline-block;padding:12px 8px;min-height:44px;line-height:20px;}
   .vtoggle{min-height:44px;padding:12px 16px;}
   .rec a,.notice a,.efoot a{display:inline-block;padding:8px 0;min-height:32px;}

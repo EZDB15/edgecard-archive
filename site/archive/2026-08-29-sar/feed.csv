@@ -1,0 +1,4 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-08-29,4,1,NOBLE DYNASTY,20,4/1,9/2,11.6,turf,1 1/16 miles,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 20% vs 9% morning-line implied (+11.6 pts),NOT_YET_CHECKED,false
+SAR,2026-08-29,8,2,DEEP FLAME,25,3/1,7/2,5.3,dirt,7 furlongs,Ranks #2 in our power figure blend; model 25% vs 19% morning-line implied (+5.3 pts),NOT_YET_CHECKED,false
+SAR,2026-08-29,14,3,NEW ROSE,11,8/1,9/1,5.4,turf,1 1/16 miles,Ranks #2 in our power figure blend; model 11% vs 6% morning-line implied (+5.4 pts),NOT_YET_CHECKED,false
