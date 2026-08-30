@@ -1,25 +1,25 @@
 {
   "computation_version": "canonical-record-1.0.0",
-  "source_ledger_head_hash": "0c8eb5342194fb8629c881aee6358697726e8b6ae74ee428d6bc50b1e20818ee",
-  "source_ledger_lines": 981,
-  "through_date": "2026-08-28",
+  "source_ledger_head_hash": "9860cb42cad548769c98f5b47245134c83bfa235b6dc8572c53e02793ee09da8",
+  "source_ledger_lines": 1010,
+  "through_date": "2026-08-29",
   "counts": {
-    "raw_ledger_result_entries": 199,
-    "effective_unique_results": 191,
+    "raw_ledger_result_entries": 204,
+    "effective_unique_results": 196,
     "declared_supersessions": 8,
     "unique_picks": 196,
-    "pending_selections": 5,
+    "pending_selections": 0,
     "conflicts": 0
   },
   "totals": {
-    "wins": 48,
-    "losses": 130,
+    "wins": 49,
+    "losses": 134,
     "voids": 13,
-    "record": "48-130",
-    "effective_scored_selections": 191,
-    "flat_2_dollar_pl": -31.42,
-    "roi": -0.088258,
-    "roi_pct": -8.8
+    "record": "49-134",
+    "effective_scored_selections": 196,
+    "flat_2_dollar_pl": -34.22,
+    "roi": -0.093497,
+    "roi_pct": -9.3
   },
   "selections": [
     {
@@ -3855,12 +3855,12 @@
       "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9",
       "locked_ts_utc": "2026-08-29T15:20:18+00:00",
       "card_sha256": "b478e7d51d6e9568f96b35f03e403f85e93c05023d5839d770f32636b48ff69c",
-      "status": "PENDING",
-      "finish_pos": null,
-      "closing_decimal_odds": null,
-      "drift_vs_ml": null,
-      "flat_pl_units": null,
-      "graded_ts_utc": null
+      "status": "LOSS",
+      "finish_pos": 4,
+      "closing_decimal_odds": 1.3,
+      "drift_vs_ml": 1.1538,
+      "flat_pl_units": -2.0,
+      "graded_ts_utc": "2026-08-30T15:18:53+00:00"
     },
     {
       "date": "2026-08-29",
@@ -3875,12 +3875,12 @@
       "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9",
       "locked_ts_utc": "2026-08-29T15:20:18+00:00",
       "card_sha256": "b478e7d51d6e9568f96b35f03e403f85e93c05023d5839d770f32636b48ff69c",
-      "status": "PENDING",
-      "finish_pos": null,
-      "closing_decimal_odds": null,
-      "drift_vs_ml": null,
-      "flat_pl_units": null,
-      "graded_ts_utc": null
+      "status": "WIN",
+      "finish_pos": 1,
+      "closing_decimal_odds": 3.6,
+      "drift_vs_ml": 0.1111,
+      "flat_pl_units": 5.2,
+      "graded_ts_utc": "2026-08-30T15:18:53+00:00"
     },
     {
       "date": "2026-08-29",
@@ -3895,12 +3895,12 @@
       "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9",
       "locked_ts_utc": "2026-08-29T15:19:53+00:00",
       "card_sha256": "0bf10a72f646c5f138996e23253df405592fa211a16d2dfb74e003976953525b",
-      "status": "PENDING",
-      "finish_pos": null,
-      "closing_decimal_odds": null,
-      "drift_vs_ml": null,
-      "flat_pl_units": null,
-      "graded_ts_utc": null
+      "status": "LOSS",
+      "finish_pos": 4,
+      "closing_decimal_odds": 4.95,
+      "drift_vs_ml": 0.8182,
+      "flat_pl_units": -2.0,
+      "graded_ts_utc": "2026-08-30T15:18:51+00:00"
     },
     {
       "date": "2026-08-29",
@@ -3915,12 +3915,12 @@
       "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9",
       "locked_ts_utc": "2026-08-29T15:19:53+00:00",
       "card_sha256": "0bf10a72f646c5f138996e23253df405592fa211a16d2dfb74e003976953525b",
-      "status": "PENDING",
-      "finish_pos": null,
-      "closing_decimal_odds": null,
-      "drift_vs_ml": null,
-      "flat_pl_units": null,
-      "graded_ts_utc": null
+      "status": "LOSS",
+      "finish_pos": 2,
+      "closing_decimal_odds": 4.63,
+      "drift_vs_ml": -0.1361,
+      "flat_pl_units": -2.0,
+      "graded_ts_utc": "2026-08-30T15:18:51+00:00"
     },
     {
       "date": "2026-08-29",
@@ -3935,12 +3935,12 @@
       "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9",
       "locked_ts_utc": "2026-08-29T15:19:53+00:00",
       "card_sha256": "0bf10a72f646c5f138996e23253df405592fa211a16d2dfb74e003976953525b",
-      "status": "PENDING",
-      "finish_pos": null,
-      "closing_decimal_odds": null,
-      "drift_vs_ml": null,
-      "flat_pl_units": null,
-      "graded_ts_utc": null
+      "status": "LOSS",
+      "finish_pos": 6,
+      "closing_decimal_odds": 12.34,
+      "drift_vs_ml": 0.0535,
+      "flat_pl_units": -2.0,
+      "graded_ts_utc": "2026-08-30T15:18:51+00:00"
     }
   ],
   "supersession_declarations": [
