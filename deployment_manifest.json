@@ -1,13 +1,13 @@
 {
   "source_repo": "Elde15/edge-card",
-  "source_commit": "e29d65e96933f369c410bb8c30ae8e72b10756c9",
+  "source_commit": "c731e875bd11499278bd97c6c1fec8e000d17bbe",
   "build_command": "scripts/build_deployable_site.py --archive <archive>",
   "ledger_sha256": "f0e58042b69b9a6797c7763cd30934140c6b554d6c644b27bdcde7aa0af12b22",
   "ledger_entries": 1019,
   "cards": 58,
   "feeds": 58,
   "endpoint_hashes": {
-    "index.html": "b0aed4e6c88ea4677bb670ca63f5303b7444507bd7f5fe19df800ba38bd8fcc6",
+    "index.html": "5d83a4abc00091689b8f2ff38c3492c3ad1290bfa4985a7551a090dfa310200a",
     "styles.css": "01af72db96acfd2775406098e260d56be1be9a09119cd3282b2c2ebf0c7471d9",
     "proof/index.html": "3500cc39f5d21e980202d168af52d9bfdc308dc8e12645df5a648497f42c488f",
     "tools/index.html": "8b5e82eeb9482329e6a6731b8d953ebde7a741a75852e44dc72285fc77d288f6",
