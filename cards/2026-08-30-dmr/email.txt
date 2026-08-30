@@ -1,0 +1,63 @@
+SUBJECT: DMR · Sun Aug 30 · 10 races, 3 flags, 7 passes
+
+EDGE CARD · DMR, Sun Aug 30, 2026
+Card hashed and public at 11:22 AM ET: https://edgecardhq.com/archive/2026-08-30-dmr/ · https://x.com/edgecardHQ
+Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-3 · flat-$2 -6.00 · drift +24.5% · meet to date 49-134 · flat-$2 -34.22 · drift +34.9% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 5:00 PM ET ·
+
+R1 · OClm 50000 · dirt, 7.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops HOWIE'S LAW at 36%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: CHISELED IN STONE, p 36% · fair odds 9/5 · ML 5/2
+  Bet #3 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; projects as the lone early speed; model 36% vs 23% morning-line implied (+13.8 pts).
+
+R3 · Clm 12500 · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MIZ CLUBCALI at 17%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 80000n1x · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CORTINA D'AMPREZZO at 24%; the morning line already prices the race. Pass is a position.
+
+R5 · Md Sp Wt · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops SONO VELOCE at 15%; the morning line already prices the race. Pass is a position.
+
+R6 · Clm 32000 · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CODE DUELLO at 24%; the morning line already prices the race. Pass is a position.
+
+R7 · TrryPine-G3 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: MOHAVEN, p 26% · fair odds 3/1 · ML 7/2
+  Bet #5 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 26% vs 18% morning-line implied (+8.4 pts).
+
+R8 · Md Sp Wt · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ZUZU'S CLASSIC GAL at 18%; the morning line already prices the race. Pass is a position.
+
+R9 · OClm 100000b · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops PRIVMAN at 19%; the morning line already prices the race. Pass is a position.
+
+R10 · OClm 50000 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: CALL ME SIR, p 18% · fair odds 9/2 · ML 5/1
+  Bet #9 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 18% vs 13% morning-line implied (+5.0 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.e29d65e9, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

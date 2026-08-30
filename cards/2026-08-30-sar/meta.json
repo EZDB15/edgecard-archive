@@ -1,0 +1,32 @@
+{
+  "sha256": "6a3942fb25f8b9f8a99646361f20b64753a66c1b15b5276cc25145bcf64a91c8",
+  "weather": {
+    "short": "Mostly Cloudy then Slight Chance Rain Showers",
+    "temp": 77,
+    "temp_unit": "F",
+    "wind": "6 mph",
+    "precip_pct": 20,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "11:22 AM ET",
+  "lock_ts_utc": "2026-08-30T15:22:21+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "CHECKED_NO_CHANGES",
+  "scratch_checked_at_et": "11:20 AM ET",
+  "scratch_checked_at_utc": "2026-08-30T15:20:19+00:00",
+  "scratch_source": "NYRA official scratches and program changes sheet, last updated 10:24:39 AM ET",
+  "scratch_track": null,
+  "scratch_date": null,
+  "first_post_et": "1:10 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-08-30-sar/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "SAR \u00b7 Sun Aug 30 \u00b7 10 races, 4 flags, 6 passes"
+}
