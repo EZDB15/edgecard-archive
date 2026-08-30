@@ -1,13 +1,13 @@
 {
   "source_repo": "Elde15/edge-card",
-  "source_commit": "c731e875bd11499278bd97c6c1fec8e000d17bbe",
+  "source_commit": "70a95150648200a95a1a40c439c1e6bad6eab125+dirty",
   "build_command": "scripts/build_deployable_site.py --archive <archive>",
   "ledger_sha256": "f0e58042b69b9a6797c7763cd30934140c6b554d6c644b27bdcde7aa0af12b22",
   "ledger_entries": 1019,
   "cards": 58,
   "feeds": 58,
   "endpoint_hashes": {
-    "index.html": "5d83a4abc00091689b8f2ff38c3492c3ad1290bfa4985a7551a090dfa310200a",
+    "index.html": "9fe5fce292dbf10efea0e67f956b099cd8b2dd019352fd2ac96d02eb4da74939",
     "styles.css": "01af72db96acfd2775406098e260d56be1be9a09119cd3282b2c2ebf0c7471d9",
     "proof/index.html": "3500cc39f5d21e980202d168af52d9bfdc308dc8e12645df5a648497f42c488f",
     "tools/index.html": "8b5e82eeb9482329e6a6731b8d953ebde7a741a75852e44dc72285fc77d288f6",
@@ -15,14 +15,14 @@
     "archive/index.html": "994c84fe211e8f8c42534075d89cacc169a70984fcc9f18a6fdf309a6a071858",
     "schemas/partner-feed-v1.json": "052e7a874b184cb521e596f21acbafd8a992e6b88481239a1d747c4be8ac7212",
     "record.json": "7c3af02b7165b21d4662b47357da557d92769b8a183854b4936ad07597ba2390",
-    "proof_status.json": "05d6b2aabedc52598c809e22c45a66b3c799e616e9d21eaeca5eeb864906fe7e",
-    "proof_registry.json": "7ebe68587068284d63fe1909b5f59d368f1ddc88ef9d80bc96869e5f88f19c1e",
+    "proof_status.json": "954a99d302e8060b966c0194b8b40f9a5215eff2e544b84cf4be857ede13ecc8",
+    "proof_registry.json": "2104b9845a4fecb987816557dbc026e31918d7c11eb873588e99f29e217679e4",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   },
   "root_sourced": {
     "record.json": "7c3af02b7165b21d4662b47357da557d92769b8a183854b4936ad07597ba2390",
-    "proof_status.json": "05d6b2aabedc52598c809e22c45a66b3c799e616e9d21eaeca5eeb864906fe7e",
-    "proof_registry.json": "7ebe68587068284d63fe1909b5f59d368f1ddc88ef9d80bc96869e5f88f19c1e",
+    "proof_status.json": "954a99d302e8060b966c0194b8b40f9a5215eff2e544b84cf4be857ede13ecc8",
+    "proof_registry.json": "2104b9845a4fecb987816557dbc026e31918d7c11eb873588e99f29e217679e4",
     "card_hash_corrections.jsonl": "95c2ffb90a5e371224d606f186f1cd4bf2b4dd0ed25ab798fc75df27692307fe"
   }
 }
