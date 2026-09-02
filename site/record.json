@@ -1,14 +1,14 @@
 {
   "computation_version": "canonical-record-1.0.0",
-  "source_ledger_head_hash": "800484893ebc0b34657ae2978514292bb4e5a6f21f136eea1170d4fe775b5f01",
-  "source_ledger_lines": 1046,
+  "source_ledger_head_hash": "ccfeb673012f6c988892c1cc8165afb18c6e4873f5063ee276c0b9ca55332d73",
+  "source_ledger_lines": 1048,
   "through_date": "2026-08-30",
   "counts": {
     "raw_ledger_result_entries": 211,
     "effective_unique_results": 203,
     "declared_supersessions": 8,
-    "unique_picks": 203,
-    "pending_selections": 0,
+    "unique_picks": 204,
+    "pending_selections": 1,
     "conflicts": 0
   },
   "totals": {
@@ -4081,6 +4081,26 @@
       "drift_vs_ml": 0.4409,
       "flat_pl_units": 4.94,
       "graded_ts_utc": "2026-09-02T15:17:52+00:00"
+    },
+    {
+      "date": "2026-09-02",
+      "track": "SAR",
+      "race": 3,
+      "program": "7",
+      "horse": "PAUILLAC",
+      "model_win_prob": 0.181,
+      "fair_odds_decimal": 6.08,
+      "board_ml_decimal": 6.0,
+      "edge_points": 0.0517,
+      "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.70a95150",
+      "locked_ts_utc": "2026-09-02T17:00:23+00:00",
+      "card_sha256": "cc6160eeb0059aae17e5b0b2b30ca3f80a463513d7b6b1b66b88e19ee733bc6d",
+      "status": "PENDING",
+      "finish_pos": null,
+      "closing_decimal_odds": null,
+      "drift_vs_ml": null,
+      "flat_pl_units": null,
+      "graded_ts_utc": null
     }
   ],
   "supersession_declarations": [

@@ -1695,6 +1695,11 @@
           "status": "CALENDAR_PENDING"
         }
       }
+    },
+    "2026-09-02-sar": {
+      "date": "2026-09-02",
+      "track": "SAR",
+      "artifacts": {}
     }
   }
 }
