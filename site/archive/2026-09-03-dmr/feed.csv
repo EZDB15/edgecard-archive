@@ -1,0 +1,4 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-09-03,1,5,CERTITUDE,34,2/1,2/1,14.1,turf,5 furlongs,Ranks #1 in our power figure blend; model 34% vs 20% morning-line implied (+14.0 pts),NOT_YET_CHECKED,false
+DMR,2026-09-03,4,4,NOT A SINNER,27,5/2,3/1,7.2,turf,5 furlongs,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 20% morning-line implied (+7.2 pts),NOT_YET_CHECKED,false
+DMR,2026-09-03,6,7,THE WHITE LADY,38,8/5,2/1,15.2,turf,1 mile,Ranks #1 in our power figure blend; model 38% vs 22% morning-line implied (+15.3 pts),NOT_YET_CHECKED,false

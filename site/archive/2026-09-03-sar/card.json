@@ -1,0 +1,3884 @@
+{
+  "track": "SAR",
+  "date": "2026-09-03",
+  "generated_ts_utc": "2026-09-03T17:36:44+00:00",
+  "model_version": "v0-heuristic-1.4+cfg.aab788cb@code.70a95150",
+  "methodology": "Edge Card runs a proprietary pre-race probability process: market expectations combined with licensed past-performance, pace, field-composition and connections information, evaluated within each race. Exact implementation details are not published. Structured analysis, not a proven edge; tracked publicly either way.",
+  "n_races": 10,
+  "races": [
+    {
+      "race_no": 1,
+      "race_id": "SAR-2026-09-03-R01",
+      "distance_yards": 1760,
+      "surface": "D",
+      "race_type_code": "CO",
+      "race_type": "OClm 20000",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "TOUGH STREET",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0597,
+          "p_v0": 0.0888,
+          "fair_odds_decimal": 11.26,
+          "pp_rank": 4,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 27,
+            "bullet": false,
+            "rank": 23,
+            "rank_of": 52,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "claimed_last",
+              "text": "claimed last time out"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "blocks",
+            "pattern_color": "#1F4FA8",
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "2",
+          "name": "DESPO'S DREAM",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1411,
+          "p_v0": 0.1227,
+          "fair_odds_decimal": 8.15,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 7,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 55,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on breeding for the trip"
+            },
+            {
+              "code": "rider_returns",
+              "text": "Flavien Prat back aboard, a winner on this horse four starts back"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#7B1F2B",
+            "cap_name": "maroon"
+          }
+        },
+        {
+          "program": "3",
+          "name": "ADRIAN",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1109,
+          "p_v0": 0.0919,
+          "fair_odds_decimal": 10.88,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 4,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 5,
+            "rank_of": 10,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F07514",
+            "body_name": "orange",
+            "pattern": "ball",
+            "pattern_color": "#16181C",
+            "sleeves": "#F07514",
+            "sleeves_name": "orange",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F07514",
+            "cap": "#F07514",
+            "cap_name": "orange"
+          }
+        },
+        {
+          "program": "4",
+          "name": "LIKA ROLLING STONE",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1109,
+          "p_v0": 0.1083,
+          "fair_odds_decimal": 9.23,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 2,
+            "days_since": 12,
+            "bullet": false,
+            "rank": 6,
+            "rank_of": 107,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F19CC0",
+            "body_name": "pink",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#8CD022",
+            "sleeves_name": "lime",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F19CC0",
+            "cap_name": "pink"
+          }
+        },
+        {
+          "program": "5",
+          "name": "PRINCESS BECCA",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0745,
+          "fair_odds_decimal": 13.43,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 2,
+            "days_since": 25,
+            "bullet": false,
+            "rank": 82,
+            "rank_of": 138,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "class_drop",
+              "text": "drops from $45,000 to $25,000 off a 5th"
+            }
+          ],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "diamond",
+            "pattern_color": "#16181C",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "6",
+          "name": "PINK ROSE",
+          "ml_decimal": 3.5,
+          "p_ml": 0.2217,
+          "p_v0": 0.261,
+          "fair_odds_decimal": 3.83,
+          "pp_rank": 1,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 2,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 8,
+            "rank_of": 52,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "new_barn",
+              "text": "new barn since the last start, now with Steven I Schauer"
+            }
+          ],
+          "silks": {
+            "body": "#16306E",
+            "body_name": "dark blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "7",
+          "name": "BABY SASSICAIA",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0491,
+          "fair_odds_decimal": 20.39,
+          "pp_rank": 8,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 2,
+            "days_since": 12,
+            "bullet": false,
+            "rank": 43,
+            "rank_of": 52,
+            "label": "quiet"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "ball",
+            "pattern_color": "#16181C",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F5D310",
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "8",
+          "name": "MURSAL",
+          "ml_decimal": 3.0,
+          "p_ml": 0.2587,
+          "p_v0": 0.2037,
+          "fair_odds_decimal": 4.91,
+          "pp_rank": 2,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 3,
+            "days_since": 11,
+            "bullet": false,
+            "rank": 17,
+            "rank_of": 126,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#6B2FA0",
+            "body_name": "purple",
+            "pattern": "braces",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#6B2FA0",
+            "sleeves_name": "purple",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#FFFFFF",
+            "cap": "#FFFFFF",
+            "cap_name": "white"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 1,
+        "post_time_raw": "1010",
+        "post_time_raw_by_region": "(1:10)/12:10/11:10/10:10",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T13:10:00-04:00",
+        "scheduled_post_utc": "2026-09-03T17:10:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "1:10",
+          "derived_track_local_clock": "1:10",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 2,
+      "race_id": "SAR-2026-09-03-R02",
+      "distance_yards": 1210,
+      "surface": "T",
+      "race_type_code": "S",
+      "race_type": "Md Sp Wt",
+      "n_interests": 10,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "RUFUS THE RED",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1411,
+          "p_v0": 0.126,
+          "fair_odds_decimal": 7.94,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 13,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 39,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "breeding",
+              "text": "bottom third of this field on turf breeding"
+            }
+          ],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "hoops",
+            "pattern_color": "#C3C7CC",
+            "sleeves": "#C3C7CC",
+            "sleeves_name": "silver",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#C3C7CC",
+            "cap_name": "silver"
+          }
+        },
+        {
+          "program": "2",
+          "name": "HYPERBOREAN SPIRIT",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0597,
+          "p_v0": 0.0589,
+          "fair_odds_decimal": 16.98,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 10,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 5,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#2FC4C4",
+            "body_name": "turquoise",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#2FC4C4",
+            "sleeves_name": "turquoise",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#2FC4C4",
+            "cap_name": "turquoise"
+          }
+        },
+        {
+          "program": "3",
+          "name": "BLACKJACK",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.1463,
+          "fair_odds_decimal": 6.84,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 12,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 75,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "breeding",
+              "text": "bottom third of this field on turf breeding"
+            },
+            {
+              "code": "new_barn",
+              "text": "new barn since the last start, now with Ilkay Kantarmaci"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "ball",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#1E7A3C",
+            "sleeves_name": "green",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1E7A3C",
+            "cap_name": "green"
+          }
+        },
+        {
+          "program": "4",
+          "name": "TROCA",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1725,
+          "p_v0": 0.1791,
+          "fair_odds_decimal": 5.58,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 9,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 30,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "hoops",
+            "pattern_color": "#1F4FA8",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "5",
+          "name": "BARDEN",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0732,
+          "fair_odds_decimal": 13.67,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 8,
+            "days_since": 5,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 107,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "blinkers_off",
+              "text": "blinkers off"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#1F4FA8",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "6",
+          "name": "BE IN MONTY'S MIND",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0862,
+          "p_v0": 0.0855,
+          "fair_odds_decimal": 11.69,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 8,
+            "days_since": 5,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 12,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#0E8B8B",
+            "body_name": "teal",
+            "pattern": "diamond",
+            "pattern_color": "#F5D310",
+            "sleeves": "#0E8B8B",
+            "sleeves_name": "teal",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F5D310",
+            "cap": "#0E8B8B",
+            "cap_name": "teal"
+          }
+        },
+        {
+          "program": "7",
+          "name": "BORAGO",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0696,
+          "fair_odds_decimal": 14.37,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 10,
+            "rank_of": 21,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "stripes",
+            "pattern_color": "#1F4FA8",
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "8",
+          "name": "CRYPTO KING",
+          "ml_decimal": 4.0,
+          "p_ml": 0.194,
+          "p_v0": 0.108,
+          "fair_odds_decimal": 9.26,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 4,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 16,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            }
+          ],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "hoops",
+            "pattern_color": "#F07514",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#FFFFFF",
+            "cap_name": "white"
+          }
+        },
+        {
+          "program": "9",
+          "name": "SLICKBACK",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0862,
+          "p_v0": 0.0874,
+          "fair_odds_decimal": 11.45,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 10,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 5,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "chevrons",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#FFFFFF",
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "10",
+          "name": "KNEE HIGH",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0661,
+          "fair_odds_decimal": 15.13,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 51,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on turf breeding"
+            }
+          ],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "diamond",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 2,
+        "post_time_raw": "1044",
+        "post_time_raw_by_region": "(1:44)/12:44/11:44/10:44",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T13:44:00-04:00",
+        "scheduled_post_utc": "2026-09-03T17:44:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "1:44",
+          "derived_track_local_clock": "1:44",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 3,
+      "race_id": "SAR-2026-09-03-R03",
+      "distance_yards": 1760,
+      "surface": "D",
+      "race_type_code": "R",
+      "race_type": "Alw 55000s",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 2,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "GET A JOB",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1296,
+          "p_v0": 0.107,
+          "fair_odds_decimal": 9.35,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 12,
+            "bullet": false,
+            "rank": 10,
+            "rank_of": 10,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#0E8B8B",
+            "body_name": "teal",
+            "pattern": "ball",
+            "pattern_color": "#16181C",
+            "sleeves": "#0E8B8B",
+            "sleeves_name": "teal",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#16181C",
+            "cap": "#0E8B8B",
+            "cap_name": "teal"
+          }
+        },
+        {
+          "program": "2",
+          "name": "EZ ROLL",
+          "ml_decimal": 4.0,
+          "p_ml": 0.1945,
+          "p_v0": 0.2308,
+          "fair_odds_decimal": 4.33,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 8,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": "chevrons",
+            "sleeve_pattern_color": "#F5D310",
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "3",
+          "name": "FIDDLING FELIX",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0598,
+          "p_v0": 0.0941,
+          "fair_odds_decimal": 10.63,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 27,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "rider_returns",
+              "text": "Ricardo Santana Jr back aboard, a winner on this horse three starts back"
+            }
+          ],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#16181C",
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "4",
+          "name": "FATEFUL LIGHTNING",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0707,
+          "p_v0": 0.0707,
+          "fair_odds_decimal": 14.14,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 4,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 5,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "blinkers_on",
+              "text": "blinkers on"
+            }
+          ],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "hoops",
+            "pattern_color": "#F5D310",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "5",
+          "name": "LUZ DE GUIA",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0486,
+          "p_v0": 0.0615,
+          "fair_odds_decimal": 16.26,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": null,
+          "angles": [],
+          "silks": {
+            "body": "#6E1B32",
+            "body_name": "burgundy",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#6E1B32",
+            "sleeves_name": "burgundy",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#7FB6E8",
+            "cap": "#7FB6E8",
+            "cap_name": "light blue"
+          }
+        },
+        {
+          "program": "6",
+          "name": "FREAKY",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0864,
+          "p_v0": 0.0948,
+          "fair_odds_decimal": 10.54,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 5,
+            "rank_of": 16,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#FFFFFF",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "7",
+          "name": "BARKER",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1111,
+          "p_v0": 0.1097,
+          "fair_odds_decimal": 9.11,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 14,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 9,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "claimed_last",
+              "text": "claimed last time out"
+            }
+          ],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "braces",
+            "pattern_color": "#1F4FA8",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#1F4FA8",
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "8",
+          "name": "NUANCED",
+          "ml_decimal": 2.6,
+          "p_ml": 0.2992,
+          "p_v0": 0.2313,
+          "fair_odds_decimal": 4.32,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 7,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 13,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in 9 months"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#D0202A",
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 3,
+        "post_time_raw": "1118",
+        "post_time_raw_by_region": "(2:18)/1:18/12:18/11:18",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T14:18:00-04:00",
+        "scheduled_post_utc": "2026-09-03T18:18:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "2:18",
+          "derived_track_local_clock": "2:18",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 4,
+      "race_id": "SAR-2026-09-03-R04",
+      "distance_yards": 1870,
+      "surface": "t",
+      "race_type_code": "MO",
+      "race_type": "Moc 75000",
+      "n_interests": 12,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 1,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "CADILLAC MARY",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1305,
+          "p_v0": 0.1541,
+          "fair_odds_decimal": 6.49,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 33,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on breeding for the trip"
+            },
+            {
+              "code": "blinkers_on",
+              "text": "blinkers on"
+            }
+          ],
+          "silks": {
+            "body": "#EE3E8E",
+            "body_name": "hot pink",
+            "pattern": "diamond",
+            "pattern_color": "#F07514",
+            "sleeves": "#EE3E8E",
+            "sleeves_name": "hot pink",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F19CC0",
+            "cap": "#EE3E8E",
+            "cap_name": "hot pink"
+          }
+        },
+        {
+          "program": "2",
+          "name": "MATZO BREI",
+          "ml_decimal": 21.0,
+          "p_ml": 0.0373,
+          "p_v0": 0.0362,
+          "fair_odds_decimal": 27.65,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 10,
+            "rank_of": 24,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "panel",
+            "pattern_color": "#6B4423",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": "stripes",
+            "sleeve_pattern_color": "#6B4423",
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "3",
+          "name": "OMI MARIA",
+          "ml_decimal": 9.0,
+          "p_ml": 0.087,
+          "p_v0": 0.0946,
+          "fair_odds_decimal": 10.57,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 9,
+            "bullet": false,
+            "rank": 5,
+            "rank_of": 16,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "breeding",
+              "text": "bottom third of this field on breeding for the trip"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "diamond",
+            "pattern_color": "#D0202A",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "4",
+          "name": "SPLIT THE BLANKET",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0602,
+          "p_v0": 0.0475,
+          "fair_odds_decimal": 21.03,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 3,
+            "days_since": 29,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 15,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on breeding for the trip"
+            }
+          ],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "hoops",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1E7A3C",
+            "cap_name": "green"
+          }
+        },
+        {
+          "program": "5",
+          "name": "FIRE ANGEL",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0489,
+          "p_v0": 0.0418,
+          "fair_odds_decimal": 23.92,
+          "pp_rank": 9,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 10,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 8,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#2FC4C4",
+            "body_name": "turquoise",
+            "pattern": "diamond",
+            "pattern_color": "#D8A828",
+            "sleeves": "#2FC4C4",
+            "sleeves_name": "turquoise",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#D8A828",
+            "cap": "#D8A828",
+            "cap_name": "gold"
+          }
+        },
+        {
+          "program": "6",
+          "name": "JUANA MARGARITA",
+          "ml_decimal": 9.0,
+          "p_ml": 0.087,
+          "p_v0": 0.0821,
+          "fair_odds_decimal": 12.18,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 39,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            }
+          ],
+          "silks": {
+            "body": "#2FC4C4",
+            "body_name": "turquoise",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#2FC4C4",
+            "sleeves_name": "turquoise",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "7",
+          "name": "NEVER GONNA STOP",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0602,
+          "p_v0": 0.0638,
+          "fair_odds_decimal": 15.69,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 10,
+            "bullet": false,
+            "rank": 33,
+            "rank_of": 49,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "blinkers_on",
+              "text": "blinkers on"
+            }
+          ],
+          "silks": {
+            "body": "#6B2FA0",
+            "body_name": "purple",
+            "pattern": "diamond",
+            "pattern_color": "#F5D310",
+            "sleeves": "#6B2FA0",
+            "sleeves_name": "purple",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#6B2FA0",
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "8",
+          "name": "BUZZER BEATER",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0489,
+          "p_v0": 0.0493,
+          "fair_odds_decimal": 20.27,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 14,
+            "bullet": false,
+            "rank": 7,
+            "rank_of": 23,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "hoops",
+            "pattern_color": "#C3C7CC",
+            "sleeves": "#C3C7CC",
+            "sleeves_name": "silver",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#C3C7CC",
+            "cap_name": "silver"
+          }
+        },
+        {
+          "program": "9",
+          "name": "HAMMERS NICKEL",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0602,
+          "p_v0": 0.0733,
+          "fair_odds_decimal": 13.64,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 5,
+            "rank_of": 33,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "breeding",
+              "text": "bottom third of this field on turf breeding"
+            }
+          ],
+          "silks": {
+            "body": "#16306E",
+            "body_name": "dark blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#1F4FA8",
+            "sleeves_name": "blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "10",
+          "name": "SUNNY BIRD",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0489,
+          "p_v0": 0.0473,
+          "fair_odds_decimal": 21.12,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 15,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "chevrons",
+            "pattern_color": "#16181C",
+            "sleeves": "#8CD022",
+            "sleeves_name": "lime green",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#8CD022",
+            "cap_name": "lime"
+          }
+        },
+        {
+          "program": "11",
+          "name": "QUOTED",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1566,
+          "p_v0": 0.1629,
+          "fair_odds_decimal": 6.14,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 18,
+            "rank_of": 47,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            }
+          ],
+          "silks": {
+            "body": "#1E7A3C",
+            "body_name": "green",
+            "pattern": "hoops",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1E7A3C",
+            "cap_name": "green"
+          }
+        },
+        {
+          "program": "12",
+          "name": "ALL SHOW",
+          "ml_decimal": 4.5,
+          "p_ml": 0.174,
+          "p_v0": 0.147,
+          "fair_odds_decimal": 6.8,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 5,
+            "rank_of": 33,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_distance",
+              "text": "first start at a mile or longer"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on breeding for the trip"
+            }
+          ],
+          "silks": {
+            "body": "#6B2FA0",
+            "body_name": "purple",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#6B2FA0",
+            "sleeves_name": "purple",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#D8A828",
+            "cap": "#6B2FA0",
+            "cap_name": "purple"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 4,
+        "post_time_raw": "1152",
+        "post_time_raw_by_region": "(2:52)/1:52/12:52/11:52",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T14:52:00-04:00",
+        "scheduled_post_utc": "2026-09-03T18:52:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "2:52",
+          "derived_track_local_clock": "2:52",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 5,
+      "race_id": "SAR-2026-09-03-R05",
+      "distance_yards": 1320,
+      "surface": "D",
+      "race_type_code": "M",
+      "race_type": "Md 150000",
+      "n_interests": 9,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 0,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "SEASIDE STARTUP",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1309,
+          "p_v0": 0.1314,
+          "fair_odds_decimal": 7.61,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 9,
+            "days_since": 5,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 38,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#FFFFFF",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "2",
+          "name": "CHEYENNE'S SASS",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0604,
+          "p_v0": 0.0614,
+          "fair_odds_decimal": 16.29,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 11,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 13,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#7B1F2B",
+            "body_name": "maroon",
+            "pattern": "diamond",
+            "pattern_color": "#C3C7CC",
+            "sleeves": "#7B1F2B",
+            "sleeves_name": "maroon",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#C3C7CC",
+            "cap": "#7B1F2B",
+            "cap_name": "maroon"
+          }
+        },
+        {
+          "program": "3",
+          "name": "CLOCK",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1745,
+          "p_v0": 0.1748,
+          "fair_odds_decimal": 5.72,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 14,
+            "bullet": false,
+            "rank": 10,
+            "rank_of": 138,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "sash",
+            "pattern_color": "#7FB6E8",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "4",
+          "name": "OH COME ON",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0604,
+          "p_v0": 0.0591,
+          "fair_odds_decimal": 16.93,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 13,
+            "bullet": false,
+            "rank": 8,
+            "rank_of": 10,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on dirt"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on dirt breeding"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "ball",
+            "pattern_color": "#1B45C4",
+            "sleeves": "#1F4FA8",
+            "sleeves_name": "blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "5",
+          "name": "MAGNUM'S MONSOON",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0714,
+          "p_v0": 0.0684,
+          "fair_odds_decimal": 14.61,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 8,
+            "days_since": 8,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 28,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "dots",
+            "pattern_color": "#16181C",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F19CC0",
+            "cap": "#F19CC0",
+            "cap_name": "pink"
+          }
+        },
+        {
+          "program": "6",
+          "name": "FUNNY WORDS",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0604,
+          "p_v0": 0.0577,
+          "fair_odds_decimal": 17.33,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 8,
+            "days_since": 4,
+            "bullet": false,
+            "rank": 9,
+            "rank_of": 68,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": "hoops",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#D0202A",
+            "sleeves_name": "red",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F5D310",
+            "cap_name": "yellow"
+          }
+        },
+        {
+          "program": "7",
+          "name": "ANGIE'S CAFFE",
+          "ml_decimal": 21.0,
+          "p_ml": 0.0374,
+          "p_v0": 0.0369,
+          "fair_odds_decimal": 27.12,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 1,
+            "rank_of": 2,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1E7A3C",
+            "body_name": "green",
+            "pattern": "chevrons",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1E7A3C",
+            "cap_name": "green"
+          }
+        },
+        {
+          "program": "8",
+          "name": "WHATDOESITALLMEAN",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1428,
+          "p_v0": 0.1435,
+          "fair_odds_decimal": 6.97,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 16,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F2E7C9",
+            "body_name": "cream",
+            "pattern": "cross",
+            "pattern_color": "#16306E",
+            "sleeves": "#1F4FA8",
+            "sleeves_name": "blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "9",
+          "name": "FAIR PRACTICE",
+          "ml_decimal": 3.0,
+          "p_ml": 0.2618,
+          "p_v0": 0.2668,
+          "fair_odds_decimal": 3.75,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 5,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 11,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#D0202A",
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 5,
+        "post_time_raw": "1226",
+        "post_time_raw_by_region": "(3:26)/2:26/1:26/12:26",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T15:26:00-04:00",
+        "scheduled_post_utc": "2026-09-03T19:26:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "3:26",
+          "derived_track_local_clock": "3:26",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 6,
+      "race_id": "SAR-2026-09-03-R06",
+      "distance_yards": 1210,
+      "surface": "T",
+      "race_type_code": "A",
+      "race_type": "Alw 120000n1x",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "AMANGANI",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1419,
+          "p_v0": 0.1452,
+          "fair_odds_decimal": 6.89,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 1,
+            "rank_of": 1,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in over a year"
+            },
+            {
+              "code": "new_barn",
+              "text": "new barn since the last start, now with Philip Antonacci"
+            },
+            {
+              "code": "first_lasix",
+              "text": "first-time Lasix"
+            }
+          ],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "hoops",
+            "pattern_color": "#1F4FA8",
+            "sleeves": "#1F4FA8",
+            "sleeves_name": "blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "2",
+          "name": "RATU JAWA",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0601,
+          "p_v0": 0.0637,
+          "fair_odds_decimal": 15.7,
+          "pp_rank": 6,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 4,
+            "days_since": 25,
+            "bullet": false,
+            "rank": 1,
+            "rank_of": 1,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F19CC0",
+            "body_name": "pink",
+            "pattern": "dots",
+            "pattern_color": "#1E7A3C",
+            "sleeves": "#1E7A3C",
+            "sleeves_name": "green",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F19CC0",
+            "cap_name": "pink"
+          }
+        },
+        {
+          "program": "3",
+          "name": "SILSBEE",
+          "ml_decimal": 2.6,
+          "p_ml": 0.3003,
+          "p_v0": 0.2643,
+          "fair_odds_decimal": 3.78,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 19,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "bet_and_failed",
+              "text": "went off at 2/1 last time and finished 4th"
+            },
+            {
+              "code": "rider_returns",
+              "text": "Manuel Franco back aboard, a winner on this horse three starts back"
+            }
+          ],
+          "silks": {
+            "body": "#7B1F2B",
+            "body_name": "maroon",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#7B1F2B",
+            "sleeves_name": "maroon",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#7B1F2B",
+            "cap": "#FFFFFF",
+            "cap_name": "white"
+          }
+        },
+        {
+          "program": "4",
+          "name": "FROM SCRATCH",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1115,
+          "p_v0": 0.1004,
+          "fair_odds_decimal": 9.96,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 19,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 11,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1F4FA8",
+            "body_name": "blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#1F4FA8",
+            "sleeves_name": "blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "5",
+          "name": "APORIA",
+          "ml_decimal": 11.0,
+          "p_ml": 0.071,
+          "p_v0": 0.088,
+          "fair_odds_decimal": 11.36,
+          "pp_rank": 4,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 19,
+            "bullet": false,
+            "rank": 8,
+            "rank_of": 52,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F07514",
+            "body_name": "orange",
+            "pattern": "chevrons",
+            "pattern_color": "#F5D310",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F07514",
+            "cap_name": "orange"
+          }
+        },
+        {
+          "program": "6",
+          "name": "ANNASCAUL",
+          "ml_decimal": 4.0,
+          "p_ml": 0.1952,
+          "p_v0": 0.2326,
+          "fair_odds_decimal": 4.3,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 7,
+            "rank_of": 36,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in 11 months"
+            }
+          ],
+          "silks": {
+            "body": "#229147",
+            "body_name": "kelly green",
+            "pattern": "sash",
+            "pattern_color": "#F07514",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F07514",
+            "cap_name": "orange"
+          }
+        },
+        {
+          "program": "7",
+          "name": "ONE MORE GUITAR",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0601,
+          "p_v0": 0.0693,
+          "fair_odds_decimal": 14.44,
+          "pp_rank": 5,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 4,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 50,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F07514",
+            "body_name": "orange",
+            "pattern": "hoops",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#F07514",
+            "sleeves_name": "orange",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "8",
+          "name": "GOLDEN BEACH",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0601,
+          "p_v0": 0.0366,
+          "fair_odds_decimal": 27.31,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 9,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in 7 months"
+            }
+          ],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "hoops",
+            "pattern_color": "#16181C",
+            "sleeves": "#8CD022",
+            "sleeves_name": "lime",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 6,
+        "post_time_raw": "1300",
+        "post_time_raw_by_region": "(4:00)/3:00/2:00/1:00",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T16:00:00-04:00",
+        "scheduled_post_utc": "2026-09-03T20:00:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "4:00",
+          "derived_track_local_clock": "4:00",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 7,
+      "race_id": "SAR-2026-09-03-R07",
+      "distance_yards": 1980,
+      "surface": "t",
+      "race_type_code": "A",
+      "race_type": "Alw 105000n1x",
+      "n_interests": 11,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 3,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "BOOMINGTON",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0712,
+          "p_v0": 0.0393,
+          "fair_odds_decimal": 25.46,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 25,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 22,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#4FD5D5",
+            "sleeves_name": "aqua",
+            "sleeve_pattern": "chevrons",
+            "sleeve_pattern_color": "#1B45C4",
+            "cap": "#1B45C4",
+            "cap_name": "royal blue"
+          }
+        },
+        {
+          "program": "2",
+          "name": "SERENA FLY",
+          "ml_decimal": 51.0,
+          "p_ml": 0.0154,
+          "p_v0": 0.0056,
+          "fair_odds_decimal": 178.23,
+          "pp_rank": 11,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 1,
+            "days_since": 14,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 4,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "breeding",
+              "text": "bottom third of this field on turf breeding"
+            }
+          ],
+          "silks": {
+            "body": "#1E7A3C",
+            "body_name": "green",
+            "pattern": "ball",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#EE3E8E",
+            "sleeves_name": "hot pink",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1E7A3C",
+            "cap_name": "green"
+          }
+        },
+        {
+          "program": "3",
+          "name": "BRITAIN",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0602,
+          "p_v0": 0.0448,
+          "fair_odds_decimal": 22.32,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 3,
+            "days_since": 28,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 6,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            }
+          ],
+          "silks": {
+            "body": "#6B2FA0",
+            "body_name": "purple",
+            "pattern": "ball",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#6B2FA0",
+            "sleeves_name": "purple",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#6B2FA0",
+            "cap_name": "purple"
+          }
+        },
+        {
+          "program": "4",
+          "name": "CONSIDERATE CITY",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1424,
+          "p_v0": 0.1489,
+          "fair_odds_decimal": 6.72,
+          "pp_rank": 4,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 5,
+            "days_since": 4,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 6,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "panel",
+            "pattern_color": "#F5D310",
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F5D310",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "5",
+          "name": "DIPTIQUE",
+          "ml_decimal": 51.0,
+          "p_ml": 0.0154,
+          "p_v0": 0.0074,
+          "fair_odds_decimal": 134.45,
+          "pp_rank": 10,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 1,
+            "days_since": 27,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 6,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "breeding",
+              "text": "bottom third of this field on turf breeding"
+            }
+          ],
+          "silks": {
+            "body": "#8E9298",
+            "body_name": "grey",
+            "pattern": "diamond",
+            "pattern_color": "#F5D310",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#8E9298",
+            "cap_name": "grey"
+          }
+        },
+        {
+          "program": "6",
+          "name": "TONGUE TWISTER",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0712,
+          "p_v0": 0.0338,
+          "fair_odds_decimal": 29.6,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 1,
+            "days_since": 44,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 6,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "chevrons",
+            "pattern_color": "#16181C",
+            "sleeves": "#8CD022",
+            "sleeves_name": "lime green",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#8CD022",
+            "cap_name": "lime"
+          }
+        },
+        {
+          "program": "7",
+          "name": "LIVIN THE BREEZE",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1119,
+          "p_v0": 0.1073,
+          "fair_odds_decimal": 9.32,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 11,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 5,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "dots",
+            "pattern_color": "#1B45C4",
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F19CC0",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "8",
+          "name": "FACTORY SETTING",
+          "ml_decimal": 4.5,
+          "p_ml": 0.174,
+          "p_v0": 0.2263,
+          "fair_odds_decimal": 4.42,
+          "pp_rank": 1,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 20,
+            "rank_of": 64,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#D0202A",
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "9",
+          "name": "SILLY SEASON",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1566,
+          "p_v0": 0.2189,
+          "fair_odds_decimal": 4.57,
+          "pp_rank": 2,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 35,
+            "rank_of": 66,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#D0202A",
+            "body_name": "red",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#D0202A",
+            "sleeves_name": "red",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "10",
+          "name": "ROSEBERNS DREAM",
+          "ml_decimal": 31.0,
+          "p_ml": 0.0253,
+          "p_v0": 0.0099,
+          "fair_odds_decimal": 101.28,
+          "pp_rank": 9,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 11,
+            "bullet": false,
+            "rank": 8,
+            "rank_of": 16,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "rider_returns",
+              "text": "Edgard J Zayas back aboard, a winner on this horse two starts back"
+            }
+          ],
+          "silks": {
+            "body": "#F19CC0",
+            "body_name": "pink",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#F19CC0",
+            "sleeves_name": "pink",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F19CC0",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "11",
+          "name": "CHARLOTTESUNIVERSE",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1566,
+          "p_v0": 0.1578,
+          "fair_odds_decimal": 6.34,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 12,
+            "bullet": false,
+            "rank": 6,
+            "rank_of": 99,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "rider_returns",
+              "text": "J J Castellano back aboard, a winner on this horse three starts back"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "dots",
+            "pattern_color": "#D0202A",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 7,
+        "post_time_raw": "1334",
+        "post_time_raw_by_region": "(4:34)/3:34/2:34/1:34",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T16:34:00-04:00",
+        "scheduled_post_utc": "2026-09-03T20:34:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "4:34",
+          "derived_track_local_clock": "4:34",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 8,
+      "race_id": "SAR-2026-09-03-R08",
+      "distance_yards": 1430,
+      "surface": "D",
+      "race_type_code": "S",
+      "race_type": "Md Sp Wt",
+      "n_interests": 9,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 2,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "ENTICED MASTER",
+          "ml_decimal": 51.0,
+          "p_ml": 0.0154,
+          "p_v0": 0.0145,
+          "fair_odds_decimal": 69.04,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 3,
+            "days_since": 20,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 25,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#6B2FA0",
+            "body_name": "purple",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#6B2FA0",
+            "cap_name": "purple"
+          }
+        },
+        {
+          "program": "2",
+          "name": "ZATOPEK",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1572,
+          "p_v0": 0.1598,
+          "fair_odds_decimal": 6.26,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 9,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 17,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "hoops",
+            "pattern_color": "#1F4FA8",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "3",
+          "name": "DREAM MACHINE",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0715,
+          "p_v0": 0.0429,
+          "fair_odds_decimal": 23.28,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 8,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 8,
+            "rank_of": 24,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in 12 months"
+            },
+            {
+              "code": "first_lasix",
+              "text": "first-time Lasix"
+            }
+          ],
+          "silks": {
+            "body": "#6B4423",
+            "body_name": "brown",
+            "pattern": "yoke",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#6B4423",
+            "sleeves_name": "brown",
+            "sleeve_pattern": "hoops",
+            "sleeve_pattern_color": "#FFFFFF",
+            "cap": "#FFFFFF",
+            "cap_name": "white"
+          }
+        },
+        {
+          "program": "4",
+          "name": "ORIGINALITY",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1123,
+          "p_v0": 0.1137,
+          "fair_odds_decimal": 8.79,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 7,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 11,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "sash",
+            "pattern_color": "#7FB6E8",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "5",
+          "name": "SUMMER OF GEORGE",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0605,
+          "p_v0": 0.0599,
+          "fair_odds_decimal": 16.7,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 5,
+            "rank_of": 114,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "blocks",
+            "pattern_color": "#D8A828",
+            "sleeves": "#D8A828",
+            "sleeves_name": "gold",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D8A828",
+            "cap_name": "gold"
+          }
+        },
+        {
+          "program": "6",
+          "name": "COMPLEX CHARLIE",
+          "ml_decimal": 4.5,
+          "p_ml": 0.1747,
+          "p_v0": 0.1693,
+          "fair_odds_decimal": 5.91,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 6,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 84,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#D0202A",
+            "body_name": "red",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#D0202A",
+            "sleeves_name": "red",
+            "sleeve_pattern": "chevrons",
+            "sleeve_pattern_color": "#FFFFFF",
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "7",
+          "name": "BOGUS OPERANDI",
+          "ml_decimal": 3.5,
+          "p_ml": 0.2246,
+          "p_v0": 0.2226,
+          "fair_odds_decimal": 4.49,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 4,
+            "bullet": false,
+            "rank": 11,
+            "rank_of": 22,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "hoops",
+            "pattern_color": "#16181C",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "8",
+          "name": "SPHERICAL",
+          "ml_decimal": 7.0,
+          "p_ml": 0.1123,
+          "p_v0": 0.147,
+          "fair_odds_decimal": 6.8,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 13,
+            "rank_of": 52,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "diamond",
+            "pattern_color": "#EE3E8E",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#F19CC0",
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "9",
+          "name": "ACE IN HAND",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0715,
+          "p_v0": 0.0702,
+          "fair_odds_decimal": 14.25,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 66,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "star",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#D0202A",
+            "sleeves_name": "red",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 8,
+        "post_time_raw": "1409",
+        "post_time_raw_by_region": "(5:09)/4:09/3:09/2:09",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T17:09:00-04:00",
+        "scheduled_post_utc": "2026-09-03T21:09:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "5:09",
+          "derived_track_local_clock": "5:09",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 9,
+      "race_id": "SAR-2026-09-03-R09",
+      "distance_yards": 1870,
+      "surface": "T",
+      "race_type_code": "N",
+      "race_type": "BBaruchL200k",
+      "n_interests": 8,
+      "scope": "scored",
+      "pace": {
+        "scenario": "even",
+        "front_runner_count": 2,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "FORT WASHINGTON",
+          "ml_decimal": 11.0,
+          "p_ml": 0.071,
+          "p_v0": 0.1385,
+          "fair_odds_decimal": 7.22,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 4,
+            "bullet": false,
+            "rank": 4,
+            "rank_of": 57,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "rider_returns",
+              "text": "Junior Alvarado back aboard, a winner on this horse three starts back"
+            }
+          ],
+          "silks": {
+            "body": "#1F4FA8",
+            "body_name": "blue",
+            "pattern": "ball",
+            "pattern_color": "#8E9298",
+            "sleeves": "#1F4FA8",
+            "sleeves_name": "blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#1F4FA8",
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "2",
+          "name": "KUPUNA",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1302,
+          "p_v0": 0.0966,
+          "fair_odds_decimal": 10.36,
+          "pp_rank": 8,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 62,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in 7 months"
+            }
+          ],
+          "silks": {
+            "body": "#EE3E8E",
+            "body_name": "hot pink",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#EE3E8E",
+            "sleeves_name": "hot pink",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#16181C",
+            "cap": "#F19CC0",
+            "cap_name": "pink"
+          }
+        },
+        {
+          "program": "3",
+          "name": "PASS THE HAT",
+          "ml_decimal": 3.5,
+          "p_ml": 0.2232,
+          "p_v0": 0.145,
+          "fair_odds_decimal": 6.9,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 6,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 39,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1F4FA8",
+            "body_name": "blue",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#8E9298",
+            "sleeves_name": "gray",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1F4FA8",
+            "cap_name": "blue"
+          }
+        },
+        {
+          "program": "4",
+          "name": "SALAMIS",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1563,
+          "p_v0": 0.1787,
+          "fair_odds_decimal": 5.6,
+          "pp_rank": 1,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 7,
+            "rank_of": 16,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#1E7A3C",
+            "body_name": "green",
+            "pattern": "sash",
+            "pattern_color": "#F19CC0",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#F19CC0",
+            "cap_name": "pink"
+          }
+        },
+        {
+          "program": "5",
+          "name": "RUNNING BEE",
+          "ml_decimal": 5.5,
+          "p_ml": 0.1421,
+          "p_v0": 0.1234,
+          "fair_odds_decimal": 8.1,
+          "pp_rank": 4,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 5,
+            "bullet": false,
+            "rank": 9,
+            "rank_of": 70,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "rider_returns",
+              "text": "Dylan Davis back aboard, a winner on this horse four starts back"
+            }
+          ],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "chevrons",
+            "pattern_color": "#D8A828",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "6",
+          "name": "UNCLE'S GOLD",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0601,
+          "p_v0": 0.0876,
+          "fair_odds_decimal": 11.42,
+          "pp_rank": 6,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 4,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 6,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "dots",
+            "pattern_color": "#D0202A",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "7",
+          "name": "RISK TOLERANCE",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0868,
+          "p_v0": 0.1268,
+          "fair_odds_decimal": 7.89,
+          "pp_rank": 3,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 3,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#D0202A",
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "8",
+          "name": "TAKING CANDY",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1302,
+          "p_v0": 0.1035,
+          "fair_odds_decimal": 9.66,
+          "pp_rank": 7,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 6,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 15,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in 10 months"
+            }
+          ],
+          "silks": {
+            "body": "#1B45C4",
+            "body_name": "royal blue",
+            "pattern": "cross",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#1B45C4",
+            "sleeves_name": "royal blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#1E7A3C",
+            "cap_name": "green"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 9,
+        "post_time_raw": "1444",
+        "post_time_raw_by_region": "(5:44)/4:44/3:44/2:44",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T17:44:00-04:00",
+        "scheduled_post_utc": "2026-09-03T21:44:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "5:44",
+          "derived_track_local_clock": "5:44",
+          "agrees": true
+        },
+        "note": null
+      }
+    },
+    {
+      "race_no": 10,
+      "race_id": "SAR-2026-09-03-R10",
+      "distance_yards": 1870,
+      "surface": "t",
+      "race_type_code": "M",
+      "race_type": "Md 50000",
+      "n_interests": 12,
+      "scope": "scored",
+      "pace": {
+        "scenario": "contested",
+        "front_runner_count": 5,
+        "lone_speed_gap_ge_threshold": false
+      },
+      "runners": [
+        {
+          "program": "1",
+          "name": "MO CURLS",
+          "ml_decimal": 11.0,
+          "p_ml": 0.0706,
+          "p_v0": 0.0571,
+          "fair_odds_decimal": 17.5,
+          "pp_rank": 4,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 6,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 9,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "ball",
+            "pattern_color": "#F5D310",
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": "chevrons",
+            "sleeve_pattern_color": "#F5D310",
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "2",
+          "name": "SURFSIDE DAN",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0455,
+          "fair_odds_decimal": 21.98,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 15,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 5,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#8E9298",
+            "body_name": "gray",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#8E9298",
+            "sleeves_name": "gray",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#16181C",
+            "cap": "#8E9298",
+            "cap_name": "gray"
+          }
+        },
+        {
+          "program": "3",
+          "name": "FRESH START",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0597,
+          "p_v0": 0.0296,
+          "fair_odds_decimal": 33.73,
+          "pp_rank": 8,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 8,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 6,
+            "rank_of": 62,
+            "label": "sharp"
+          },
+          "angles": [
+            {
+              "code": "layoff",
+              "text": "first start in over a year"
+            }
+          ],
+          "silks": {
+            "body": "#FFFFFF",
+            "body_name": "white",
+            "pattern": "ball",
+            "pattern_color": "#16181C",
+            "sleeves": "#FFFFFF",
+            "sleeves_name": "white",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#FFFFFF",
+            "cap_name": "white"
+          }
+        },
+        {
+          "program": "4",
+          "name": "FIVEDOLLARSFORSOX",
+          "ml_decimal": 6.0,
+          "p_ml": 0.1293,
+          "p_v0": 0.1312,
+          "fair_odds_decimal": 7.62,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 7,
+            "days_since": 10,
+            "bullet": false,
+            "rank": 3,
+            "rank_of": 4,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#D8A828",
+            "body_name": "gold",
+            "pattern": "star",
+            "pattern_color": "#16181C",
+            "sleeves": "#16181C",
+            "sleeves_name": "black",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "5",
+          "name": "BERMAN",
+          "ml_decimal": 16.0,
+          "p_ml": 0.0485,
+          "p_v0": 0.0422,
+          "fair_odds_decimal": 23.69,
+          "pp_rank": 6,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 4,
+            "days_since": 9,
+            "bullet": false,
+            "rank": 1,
+            "rank_of": 1,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#D0202A",
+            "body_name": "red",
+            "pattern": "diamond",
+            "pattern_color": "#D8A828",
+            "sleeves": "#D0202A",
+            "sleeves_name": "red",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": "#D0202A",
+            "cap": "#D0202A",
+            "cap_name": "red"
+          }
+        },
+        {
+          "program": "6",
+          "name": "THE GREAT EIGHT",
+          "ml_decimal": 13.0,
+          "p_ml": 0.0597,
+          "p_v0": 0.057,
+          "fair_odds_decimal": 17.55,
+          "pp_rank": null,
+          "pace_adj_applied": null,
+          "first_timer_fallback": true,
+          "trainer_angle": null,
+          "workout": {
+            "works": 7,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 3,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#6B2FA0",
+            "body_name": "purple",
+            "pattern": "dots",
+            "pattern_color": "#16181C",
+            "sleeves": "#6B2FA0",
+            "sleeves_name": "purple",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#16181C",
+            "cap_name": "black"
+          }
+        },
+        {
+          "program": "7",
+          "name": "FOLLOWILL",
+          "ml_decimal": 31.0,
+          "p_ml": 0.025,
+          "p_v0": 0.0172,
+          "fair_odds_decimal": 57.99,
+          "pp_rank": 9,
+          "pace_adj_applied": 0.9,
+          "first_timer_fallback": false,
+          "trainer_angle": "weak",
+          "workout": {
+            "works": 3,
+            "days_since": 8,
+            "bullet": true,
+            "rank": 1,
+            "rank_of": 30,
+            "label": "sharp"
+          },
+          "angles": [],
+          "silks": {
+            "body": "#7B1F2B",
+            "body_name": "maroon",
+            "pattern": "chevrons",
+            "pattern_color": "#D8A828",
+            "sleeves": "#7B1F2B",
+            "sleeves_name": "maroon",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D8A828",
+            "cap_name": "gold"
+          }
+        },
+        {
+          "program": "8",
+          "name": "BEAU CHEVAL",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0862,
+          "p_v0": 0.1406,
+          "fair_odds_decimal": 7.11,
+          "pp_rank": 2,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 5,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 1,
+            "rank_of": 2,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "claimed_last",
+              "text": "claimed last time out"
+            }
+          ],
+          "silks": {
+            "body": "#16181C",
+            "body_name": "black",
+            "pattern": "chevrons",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#0E8B8B",
+            "sleeves_name": "teal",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#0E8B8B",
+            "cap_name": "teal"
+          }
+        },
+        {
+          "program": "9",
+          "name": "BEFORE THE WIND",
+          "ml_decimal": 5.0,
+          "p_ml": 0.1552,
+          "p_v0": 0.1544,
+          "fair_odds_decimal": 6.48,
+          "pp_rank": 3,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 3,
+            "days_since": 6,
+            "bullet": false,
+            "rank": 6,
+            "rank_of": 6,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#F5D310",
+            "body_name": "yellow",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#F5D310",
+            "sleeves_name": "yellow",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#6B2FA0",
+            "cap_name": "purple"
+          }
+        },
+        {
+          "program": "10",
+          "name": "GILBANE",
+          "ml_decimal": 4.0,
+          "p_ml": 0.194,
+          "p_v0": 0.2148,
+          "fair_odds_decimal": 4.66,
+          "pp_rank": 1,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": null,
+          "workout": {
+            "works": 5,
+            "days_since": 7,
+            "bullet": false,
+            "rank": 10,
+            "rank_of": 16,
+            "label": null
+          },
+          "angles": [],
+          "silks": {
+            "body": "#7FB6E8",
+            "body_name": "light blue",
+            "pattern": "chevrons",
+            "pattern_color": "#F19CC0",
+            "sleeves": "#7FB6E8",
+            "sleeves_name": "light blue",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#7FB6E8",
+            "cap_name": "light blue"
+          }
+        },
+        {
+          "program": "11",
+          "name": "FOTO",
+          "ml_decimal": 21.0,
+          "p_ml": 0.037,
+          "p_v0": 0.0388,
+          "fair_odds_decimal": 25.79,
+          "pp_rank": 7,
+          "pace_adj_applied": 1.1,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 4,
+            "days_since": 5,
+            "bullet": false,
+            "rank": 2,
+            "rank_of": 12,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "blinkers_off",
+              "text": "blinkers off"
+            }
+          ],
+          "silks": {
+            "body": "#7FB6E8",
+            "body_name": "light blue",
+            "pattern": "ball",
+            "pattern_color": "#FFFFFF",
+            "sleeves": "#8E9298",
+            "sleeves_name": "gray",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#7FB6E8",
+            "cap_name": "light blue"
+          }
+        },
+        {
+          "program": "12",
+          "name": "OSIRIS LAW",
+          "ml_decimal": 9.0,
+          "p_ml": 0.0862,
+          "p_v0": 0.0715,
+          "fair_odds_decimal": 13.99,
+          "pp_rank": 5,
+          "pace_adj_applied": null,
+          "first_timer_fallback": false,
+          "trainer_angle": "strong",
+          "workout": {
+            "works": 3,
+            "days_since": 8,
+            "bullet": false,
+            "rank": 25,
+            "rank_of": 36,
+            "label": null
+          },
+          "angles": [
+            {
+              "code": "first_time_surface",
+              "text": "first start on turf"
+            },
+            {
+              "code": "breeding",
+              "text": "top third of this field on turf breeding"
+            }
+          ],
+          "silks": {
+            "body": "#7B1F2B",
+            "body_name": "maroon",
+            "pattern": null,
+            "pattern_color": null,
+            "sleeves": "#7B1F2B",
+            "sleeves_name": "maroon",
+            "sleeve_pattern": null,
+            "sleeve_pattern_color": null,
+            "cap": "#D8A828",
+            "cap_name": "gold"
+          }
+        }
+      ],
+      "post_time": {
+        "race_no": 10,
+        "post_time_raw": "1519",
+        "post_time_raw_by_region": "(6:19)/5:19/4:19/3:19",
+        "post_time_source": "brisnet_single_file_pp:1418",
+        "post_time_crosscheck_source": "brisnet_single_file_pp:1374",
+        "track_timezone": "America/New_York",
+        "scheduled_post_local": "2026-09-03T18:19:00-04:00",
+        "scheduled_post_utc": "2026-09-03T22:19:00+00:00",
+        "parse_status": "OK",
+        "crosscheck": {
+          "field_1374_track_local_clock": "6:19",
+          "derived_track_local_clock": "6:19",
+          "agrees": true
+        },
+        "note": null
+      }
+    }
+  ],
+  "picks": [
+    {
+      "race_no": 2,
+      "race_id": "SAR-2026-09-03-R02",
+      "program": "3",
+      "interest_no": "3",
+      "name": "BLACKJACK",
+      "ml_decimal": 11.0,
+      "p_ml": 0.0706,
+      "p_v0": 0.1463,
+      "edge_points": 0.0757,
+      "fair_odds_decimal": 6.84,
+      "min_odds_decimal": 7.52,
+      "min_odds_to1": 6.5,
+      "reason": "Ranks #1 in our power figure blend; model 15% vs 7% morning-line implied (+7.6 pts)",
+      "silks": {
+        "body": "#FFFFFF",
+        "body_name": "white",
+        "pattern": "ball",
+        "pattern_color": "#1E7A3C",
+        "sleeves": "#1E7A3C",
+        "sleeves_name": "green",
+        "sleeve_pattern": null,
+        "sleeve_pattern_color": null,
+        "cap": "#1E7A3C",
+        "cap_name": "green"
+      }
+    },
+    {
+      "race_no": 7,
+      "race_id": "SAR-2026-09-03-R07",
+      "program": "9",
+      "interest_no": "9",
+      "name": "SILLY SEASON",
+      "ml_decimal": 5.0,
+      "p_ml": 0.1566,
+      "p_v0": 0.2189,
+      "edge_points": 0.0623,
+      "fair_odds_decimal": 4.57,
+      "min_odds_decimal": 5.02,
+      "min_odds_to1": 4.0,
+      "reason": "Ranks #2 in our power figure blend; model 22% vs 16% morning-line implied (+6.2 pts)",
+      "silks": {
+        "body": "#D0202A",
+        "body_name": "red",
+        "pattern": null,
+        "pattern_color": null,
+        "sleeves": "#D0202A",
+        "sleeves_name": "red",
+        "sleeve_pattern": null,
+        "sleeve_pattern_color": null,
+        "cap": "#D0202A",
+        "cap_name": "red"
+      }
+    },
+    {
+      "race_no": 9,
+      "race_id": "SAR-2026-09-03-R09",
+      "program": "1",
+      "interest_no": "1",
+      "name": "FORT WASHINGTON",
+      "ml_decimal": 11.0,
+      "p_ml": 0.071,
+      "p_v0": 0.1385,
+      "edge_points": 0.0674,
+      "fair_odds_decimal": 7.22,
+      "min_odds_decimal": 7.94,
+      "min_odds_to1": 6.9,
+      "reason": "Ranks #2 in our power figure blend; model 14% vs 7% morning-line implied (+6.7 pts)",
+      "silks": {
+        "body": "#1F4FA8",
+        "body_name": "blue",
+        "pattern": "ball",
+        "pattern_color": "#8E9298",
+        "sleeves": "#1F4FA8",
+        "sleeves_name": "blue",
+        "sleeve_pattern": null,
+        "sleeve_pattern_color": "#1F4FA8",
+        "cap": "#1F4FA8",
+        "cap_name": "blue"
+      }
+    },
+    {
+      "race_no": 10,
+      "race_id": "SAR-2026-09-03-R10",
+      "program": "8",
+      "interest_no": "8",
+      "name": "BEAU CHEVAL",
+      "ml_decimal": 9.0,
+      "p_ml": 0.0862,
+      "p_v0": 0.1406,
+      "edge_points": 0.0544,
+      "fair_odds_decimal": 7.11,
+      "min_odds_decimal": 7.82,
+      "min_odds_to1": 6.8,
+      "reason": "Ranks #2 in our power figure blend; closer in a contested-pace setup; model 14% vs 9% morning-line implied (+5.4 pts)",
+      "silks": {
+        "body": "#16181C",
+        "body_name": "black",
+        "pattern": "chevrons",
+        "pattern_color": "#FFFFFF",
+        "sleeves": "#0E8B8B",
+        "sleeves_name": "teal",
+        "sleeve_pattern": null,
+        "sleeve_pattern_color": null,
+        "cap": "#0E8B8B",
+        "cap_name": "teal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sha256": "53262e76cc42b965bba8265ffee52c85cfd808cf9777f49a1e9085f20ca4da09",
+  "weather": {
+    "short": "Sunny",
+    "temp": 77,
+    "temp_unit": "F",
+    "wind": "5 to 10 mph",
+    "precip_pct": 1,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "1:39 PM ET",
+  "lock_ts_utc": "2026-09-03T17:39:02+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "NOT_YET_CHECKED",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": null,
+  "scratch_track": "DMR",
+  "scratch_date": "2026-09-03",
+  "first_post_et": "17:00",
+  "site_card_url": "https://edgecardhq.com/archive/2026-09-03-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Thu Sep 3 \u00b7 8 races, 3 flags, 5 passes"
+}

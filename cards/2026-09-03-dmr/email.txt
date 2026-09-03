@@ -1,0 +1,55 @@
+SUBJECT: DMR · Thu Sep 3 · 8 races, 3 flags, 5 passes
+
+EDGE CARD · DMR, Thu Sep 3, 2026
+Card hashed and public at 1:39 PM ET: https://edgecardhq.com/archive/2026-09-03-dmr/ · https://x.com/edgecardHQ
+Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-1 · flat-$2 -2.00 · drift -40.0% · meet to date 51-140 · flat-$2 -37.30 · drift +34.1% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 17:00 ·
+
+R1 · OClm 100000b · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: CERTITUDE, p 34% · fair odds 2/1 · ML 3/1
+  Bet #5 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 34% vs 20% morning-line implied (+14.0 pts).
+
+R2 · Clm 12500n2l · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops SUGAR REIGN at 20%; the morning line already prices the race. Pass is a position.
+
+R3 · Md 12500 · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops DAZZLE COMM at 18%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 50000 · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: NOT A SINNER, p 27% · fair odds 5/2 · ML 3/1
+  Bet #4 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 27% vs 20% morning-line implied (+7.2 pts).
+
+R5 · Md Sp Wt · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops COLLMUS at 19%; the morning line already prices the race. Pass is a position.
+
+R6 · Clm 32000 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: THE WHITE LADY, p 38% · fair odds 8/5 · ML 5/2
+  Bet #7 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 38% vs 22% morning-line implied (+15.3 pts).
+
+R7 · OClm 20000n1x · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CHRISTEL CLEAN at 21%; the morning line already prices the race. Pass is a position.
+
+R8 · Md 50000 · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops HIGH KING at 26%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.70a95150, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

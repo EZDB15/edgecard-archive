@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-09-03,2,3,BLACKJACK,15,6/1,13/2,7.6,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 15% vs 7% morning-line implied (+7.6 pts),CHECKED_NO_CHANGES,true
+SAR,2026-09-03,7,9,SILLY SEASON,22,7/2,4/1,6.2,turf,1 1/8 miles,Ranks #2 in our power figure blend; model 22% vs 16% morning-line implied (+6.2 pts),CHECKED_NO_CHANGES,true
+SAR,2026-09-03,9,1,FORT WASHINGTON,14,6/1,7/1,6.7,turf,1 1/16 miles,Ranks #2 in our power figure blend; model 14% vs 7% morning-line implied (+6.7 pts),CHECKED_NO_CHANGES,true
+SAR,2026-09-03,10,8,BEAU CHEVAL,14,6/1,7/1,5.4,turf,1 1/16 miles,Ranks #2 in our power figure blend; closer in a contested-pace setup; model 14% vs 9% morning-line implied (+5.4 pts),CHECKED_NO_CHANGES,true
