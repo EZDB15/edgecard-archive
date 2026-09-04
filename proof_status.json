@@ -1699,15 +1699,73 @@
     "2026-09-02-sar": {
       "date": "2026-09-02",
       "track": "SAR",
-      "artifacts": {}
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "cc6160eeb0059aae17e5b0b2b30ca3f80a463513d7b6b1b66b88e19ee733bc6d",
+          "current_downloadable_sha256": "cc6160eeb0059aae17e5b0b2b30ca3f80a463513d7b6b1b66b88e19ee733bc6d",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      }
     },
     "2026-09-03-dmr": {
       "date": "2026-09-03",
       "track": "DMR",
-      "artifacts": {}
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "53262e76cc42b965bba8265ffee52c85cfd808cf9777f49a1e9085f20ca4da09",
+          "current_downloadable_sha256": "53262e76cc42b965bba8265ffee52c85cfd808cf9777f49a1e9085f20ca4da09",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      }
     },
     "2026-09-03-sar": {
       "date": "2026-09-03",
+      "track": "SAR",
+      "artifacts": {
+        "card.json": {
+          "proof_file": "card.json.ots",
+          "committed_digest": "cd186c16b26f2ab2d3a8e2eb65a6336ba9f024b1a2331718700e4445fe3a1b35",
+          "current_downloadable_sha256": "cd186c16b26f2ab2d3a8e2eb65a6336ba9f024b1a2331718700e4445fe3a1b35",
+          "proof_targets_current_bytes": true,
+          "bitcoin_attestations": [],
+          "bitcoin_block_height": null,
+          "pending_calendars": [
+            "https://alice.btc.calendar.opentimestamps.org",
+            "https://bob.btc.calendar.opentimestamps.org",
+            "https://btc.calendar.catallaxy.com",
+            "https://finney.calendar.eternitywall.com"
+          ],
+          "status": "CALENDAR_PENDING"
+        }
+      }
+    },
+    "2026-09-04-dmr": {
+      "date": "2026-09-04",
+      "track": "DMR",
+      "artifacts": {}
+    },
+    "2026-09-04-sar": {
+      "date": "2026-09-04",
       "track": "SAR",
       "artifacts": {}
     }

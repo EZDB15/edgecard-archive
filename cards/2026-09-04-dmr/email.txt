@@ -1,0 +1,53 @@
+SUBJECT: DMR · Fri Sep 4 · 8 races, 2 flags, 6 passes
+
+EDGE CARD · DMR, Fri Sep 4, 2026
+Card hashed and public at 12:01 PM ET: https://edgecardhq.com/archive/2026-09-04-dmr/ · https://x.com/edgecardHQ
+Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-4 · flat-$2 -8.00 · drift +8.3% · meet to date 52-145 · flat-$2 -39.30 · drift +33.5% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 17:00 ·
+
+R1 · Alw 84000nc · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: YOURS SINCERELY, p 42% · fair odds 7/5 · ML 8/5
+  Bet #4 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 42% vs 31% morning-line implied (+10.7 pts).
+
+R2 · Md Sp Wt · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ACCLAIM PERFECTION at 23%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 50000n1x · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops TOASTER at 20%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 50000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: LONG MAYSHE REIGN, p 20% · fair odds 4/1 · ML 5/1
+  Bet #4 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 20% vs 13% morning-line implied (+7.0 pts).
+
+R5 · Md 20000 · dirt, 5.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BIG BROADCAST at 20%; the morning line already prices the race. Pass is a position.
+
+R6 · GenPortinB100k · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops DAYTONA DIAMOND at 18%; the morning line already prices the race. Pass is a position.
+
+R7 · Md Sp Wt · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops DREAM SEEKER at 20%; the morning line already prices the race. Pass is a position.
+
+R8 · OClm 20000n1x · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops SPECIAL CLUB at 17%; the morning line already prices the race. Pass is a position.
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.70a95150, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
