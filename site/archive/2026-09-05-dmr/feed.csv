@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-09-05,4,7,ON THE WHIM,34,2/1,2/1,10.9,turf,1 1/16 miles,Ranks #1 in our power figure blend; model 34% vs 23% morning-line implied (+10.9 pts),NOT_YET_CHECKED,false
+DMR,2026-09-05,7,4,GOLDEN SENTRY,28,5/2,3/1,14.6,turf,1 mile,Ranks #1 in our power figure blend; model 28% vs 13% morning-line implied (+14.6 pts),NOT_YET_CHECKED,false
+DMR,2026-09-05,10,8,HOLMBY,23,7/2,4/1,7.5,dirt,7 furlongs,Ranks #1 in our power figure blend; model 23% vs 15% morning-line implied (+7.5 pts),NOT_YET_CHECKED,false
+DMR,2026-09-05,11,6,KING'S RIDE,17,9/2,11/2,6.2,turf,5 furlongs,Ranks #1 in our power figure blend; model 17% vs 11% morning-line implied (+6.2 pts),NOT_YET_CHECKED,false

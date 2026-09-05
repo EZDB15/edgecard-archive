@@ -1,0 +1,69 @@
+SUBJECT: DMR · Sat Sep 5 · 11 races, 4 flags, 7 passes
+
+EDGE CARD · DMR, Sat Sep 5, 2026
+Card hashed and public at 12:57 PM ET: https://edgecardhq.com/archive/2026-09-05-dmr/ · https://x.com/edgecardHQ
+Scratch status has not yet been confirmed. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+0-4 · flat-$2 -8.00 · drift +8.3% · meet to date 52-145 · flat-$2 -39.30 · drift +33.5% → full results: https://github.com/EZDB15/edgecard-archive
+
+· DMR · first post 16:30 ·
+
+R1 · Md Sp Wt · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CHEEVER at 23%; the morning line already prices the race. Pass is a position.
+
+R2 · OClm 50000n1x · turf, 11.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops BALNIKHOV at 26%; the morning line already prices the race. Pass is a position.
+
+R3 · Md Sp Wt · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops FIRST OR LAST at 21%; the morning line already prices the race. Pass is a position.
+
+R4 · OClm 50000n1x · turf, 8.5f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: ON THE WHIM, p 34% · fair odds 2/1 · ML 5/2
+  Bet #7 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 34% vs 23% morning-line implied (+10.9 pts).
+
+R5 · Moc 150000 · dirt, 6.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops CHARACTER at 19%; the morning line already prices the race. Pass is a position.
+
+R6 · Md Sp Wt · dirt, 6.5f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops ZAKIEL at 20%; the morning line already prices the race. Pass is a position.
+
+R7 · DMRJvTrf-G3 · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: GOLDEN SENTRY, p 28% · fair odds 5/2 · ML 5/1
+  Bet #4 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 28% vs 13% morning-line implied (+14.6 pts).
+
+R8 · TranqLakeL100k · dirt, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops MAGNIFICAT at 21%; the morning line already prices the race. Pass is a position.
+
+R9 · Md Sp Wt · turf, 8.0f · takeout: win 15.43% / exacta 22.68%
+  PASS
+  WHY: Model tops DASH at 24%; the morning line already prices the race. Pass is a position.
+
+R10 · DMrDeb-G1 · dirt, 7.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: HOLMBY, p 23% · fair odds 7/2 · ML 4/1
+  Bet #8 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 23% vs 15% morning-line implied (+7.5 pts).
+
+R11 · OClm 20000n1x · turf, 5.0f · takeout: win 15.43% / exacta 22.68%
+  WIN BET
+  Flag: KING'S RIDE, p 17% · fair odds 9/2 · ML 6/1
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 17% vs 11% morning-line implied (+6.2 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.70a95150, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe
