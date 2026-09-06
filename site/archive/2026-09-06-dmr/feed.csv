@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-09-06,3,3,LIVING LIFE,17,5/1,11/2,6.3,turf,1 1/8 miles,Ranks #2 in our power figure blend; model 17% vs 11% morning-line implied (+6.3 pts),NOT_YET_CHECKED,false
+DMR,2026-09-06,4,1,PHONE BOOTH,16,5/1,6/1,7.2,dirt,7 furlongs,Ranks #2 in our power figure blend; model 16% vs 9% morning-line implied (+7.2 pts),NOT_YET_CHECKED,false
+DMR,2026-09-06,7,1,LADY RIDER,12,15/2,8/1,5.8,turf,1 1/16 miles,Ranks #2 in our power figure blend; model 12% vs 6% morning-line implied (+5.8 pts),NOT_YET_CHECKED,false
+DMR,2026-09-06,9,6,LESS PLEASE,20,4/1,9/2,7.2,turf,1 mile,Ranks #2 in our power figure blend; model 20% vs 13% morning-line implied (+7.2 pts),NOT_YET_CHECKED,false

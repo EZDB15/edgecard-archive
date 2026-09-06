@@ -1,0 +1,32 @@
+{
+  "sha256": "b427b5c7654874b70c8e025e947da0d563b4825d7cbda4994f8246f33b3326de",
+  "weather": {
+    "short": "Slight Chance Rain Showers",
+    "temp": 81,
+    "temp_unit": "F",
+    "wind": "5 to 10 mph",
+    "precip_pct": 20,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "12:24 PM ET",
+  "lock_ts_utc": "2026-09-06T16:24:54+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "NOT_YET_CHECKED",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": null,
+  "scratch_track": "DMR",
+  "scratch_date": "2026-09-06",
+  "first_post_et": "16:30",
+  "site_card_url": "https://edgecardhq.com/archive/2026-09-06-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Sun Sep 6 \u00b7 11 races, 4 flags, 7 passes"
+}
