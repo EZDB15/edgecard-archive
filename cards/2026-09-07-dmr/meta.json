@@ -1,0 +1,32 @@
+{
+  "sha256": "98f0855a64577ba11419cd1051014a178d7cd58d3a90c32e2ac0cf1c14d26757",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 82,
+    "temp_unit": "F",
+    "wind": "10 mph",
+    "precip_pct": 5,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "2:26 PM ET",
+  "lock_ts_utc": "2026-09-07T18:26:21+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "NOT_YET_CHECKED",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": null,
+  "scratch_track": "DMR",
+  "scratch_date": "2026-09-07",
+  "first_post_et": "16:30",
+  "site_card_url": "https://edgecardhq.com/archive/2026-09-07-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Mon Sep 7 \u00b7 11 races, 4 flags, 7 passes"
+}

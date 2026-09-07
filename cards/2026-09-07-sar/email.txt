@@ -1,0 +1,73 @@
+SUBJECT: SAR · Mon Sep 7 · 12 races, 4 flags, 8 passes
+
+EDGE CARD · SAR, Mon Sep 7, 2026
+Card hashed and public at 2:25 PM ET: https://edgecardhq.com/archive/2026-09-07-sar/ · https://x.com/edgecardHQ
+Scratch status checked at 2:25 PM ET. Late scratches void at scoring; the card is never edited.
+
+YESTERDAY IN ONE LINE
+1-3 · flat-$2 -4.02 · drift +34.2% · meet to date 53-157 · flat-$2 -61.32 · drift +32.6% → full results: https://github.com/EZDB15/edgecard-archive
+
+· SAR · first post 11:30 ·
+
+R1 · Alw 120000n1x · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops ACCENT at 30%; the morning line already prices the race. Pass is a position.
+
+R2 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops READY SET ROLL at 20%; the morning line already prices the race. Pass is a position.
+
+R3 · OClm 80000n2x · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SHOW TIME at 18%; the morning line already prices the race. Pass is a position.
+
+R4 · Md 35000 · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops BAKUTO at 18%; the morning line already prices the race. Pass is a position.
+
+R5 · Md Sp Wt · dirt, 7.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops GLOW OF A ROSE at 17%; the morning line already prices the race. Pass is a position.
+
+R6 · Clm 30000 · dirt, 8.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SECURED LANDING at 22%; the morning line already prices the race. Pass is a position.
+
+R7 · Md Sp Wt · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops DAMAVAND at 20%; the morning line already prices the race. Pass is a position.
+
+R8 · OClm 45000 · turf, 9.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: HARD CIRCLE, p 14% · fair odds 6/1 · ML 8/1
+  Bet #11 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 14% vs 9% morning-line implied (+5.3 pts).
+
+R9 · OClm 45000 · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: SEA VISTA, p 27% · fair odds 5/2 · ML 6/1
+  Bet #5 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 27% vs 11% morning-line implied (+15.7 pts).
+
+R10 · FunnyCideB200k · dirt, 6.0f · takeout: win 16% / exacta 18.5%
+  PASS
+  WHY: Model tops SCRAMJET at 27%; the morning line already prices the race. Pass is a position.
+
+R11 · GioPontiB200k · turf, 8.0f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: DOUBTING THOMAS, p 19% · fair odds 9/2 · ML 8/1
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; closer in a contested-pace setup; model 19% vs 9% morning-line implied (+10.2 pts).
+
+R12 · Md 50000 · turf, 5.5f · takeout: win 16% / exacta 18.5%
+  WIN BET
+  Flag: MIDTOWN MISCHIEF, p 19% · fair odds 4/1 · ML 6/1
+  Bet #6 to win, pari-mutuel pays the closing price, so you're backing the horse, not a fixed price.
+  WHY: Ranks #1 in our power figure blend; model 19% vs 11% morning-line implied (+8.5 pts).
+
+TODAY'S NUMBERS ARE v0-heuristic-1.4+cfg.aab788cb@code.70a95150, methodology: https://edgecardhq.com/methodology
+Full archive, every card, losses included: https://github.com/EZDB15/edgecard-archive
+
+Computed from licensed Brisnet data. Derived figures only; raw vendor ratings are never republished.
+Analysis and opinion, not wagering advice. No outcome is guaranteed. Past results do not predict future results. 18+ only (21+ where required by your state). Wagering may be unlawful in your jurisdiction. You are responsible for compliance with your local laws. Void where prohibited. Gambling problem? Call or text 1-800-GAMBLER. Edge Card is an independent publication, not affiliated with or endorsed by NYRA, Del Mar Thoroughbred Club, Equibase, or Brisnet.
+Unsubscribe: https://buttondown.com/della_bitta/unsubscribe

@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+SAR,2026-09-07,8,11,HARD CIRCLE,14,6/1,7/1,5.3,turf,1 1/8 miles,Ranks #1 in our power figure blend; model 14% vs 9% morning-line implied (+5.3 pts),CHECKED_NO_CHANGES,true
+SAR,2026-09-07,9,5,SEA VISTA,27,5/2,3/1,15.7,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 27% vs 11% morning-line implied (+15.7 pts),CHECKED_NO_CHANGES,true
+SAR,2026-09-07,11,6,DOUBTING THOMAS,19,9/2,5/1,10.2,turf,1 mile,Ranks #1 in our power figure blend; closer in a contested-pace setup; model 19% vs 9% morning-line implied (+10.2 pts),CHECKED_NO_CHANGES,true
+SAR,2026-09-07,12,6,MIDTOWN MISCHIEF,19,4/1,9/2,8.5,turf,5 1/2 furlongs,Ranks #1 in our power figure blend; model 19% vs 11% morning-line implied (+8.5 pts),CHECKED_NO_CHANGES,true
