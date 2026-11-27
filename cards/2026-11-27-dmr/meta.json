@@ -1,0 +1,32 @@
+{
+  "sha256": "ee7df7854aca7a8e0fa40090ba1b2fa897669964f0f1248e2e5e73949fb6198a",
+  "weather": {
+    "short": "Mostly Sunny",
+    "temp": 80,
+    "temp_unit": "F",
+    "wind": "0 to 5 mph",
+    "precip_pct": 0,
+    "wet": false
+  },
+  "pick_notes": null,
+  "publish_time_et": "2:55 PM ET",
+  "lock_ts_utc": "2026-11-27T19:55:35+00:00",
+  "scratches_as_of_et": null,
+  "scratch_state": "NOT_YET_CHECKED",
+  "scratch_checked_at_et": null,
+  "scratch_checked_at_utc": null,
+  "scratch_source": null,
+  "scratch_track": null,
+  "scratch_date": null,
+  "first_post_et": "5:00 PM ET",
+  "site_card_url": "https://edgecardhq.com/archive/2026-11-27-dmr/",
+  "archive_url": "https://github.com/EZDB15/edgecard-archive",
+  "commit_url": "https://github.com/EZDB15/edgecard-archive",
+  "x_post_url": "https://x.com/edgecardHQ",
+  "methodology_url": "https://edgecardhq.com/methodology",
+  "record_url": "https://edgecardhq.com/record",
+  "subscribe_url": "https://buttondown.com/della_bitta",
+  "unsubscribe_url": "https://buttondown.com/della_bitta/unsubscribe",
+  "x_handle": "@edgecardHQ",
+  "subject": "DMR \u00b7 Fri Nov 27 \u00b7 9 races, 4 flags, 5 passes"
+}

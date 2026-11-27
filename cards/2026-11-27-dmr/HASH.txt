@@ -1,0 +1,1 @@
+DMR card 2026-11-27 locked 2:55 PM ET. SHA-256: ee7df7854aca7a8e0fa40090ba1b2fa897669964f0f1248e2e5e73949fb6198a. Card: https://edgecardhq.com/archive/2026-11-27-dmr/ Archive: https://github.com/EZDB15/edgecard-archive

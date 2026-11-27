@@ -1926,6 +1926,11 @@
           "status": "CALENDAR_PENDING"
         }
       }
+    },
+    "2026-11-27-dmr": {
+      "date": "2026-11-27",
+      "track": "DMR",
+      "artifacts": {}
     }
   }
 }

@@ -38,29 +38,7 @@
     "note": "Use these in place of the untagged URLs above. The single utm_source parameter lets us count traffic from this placement in our own analytics; we add no other parameters, set no cookies, and do not attempt to identify individual readers."
   },
   "attribution": "Powered by Brisnet data. Analysis, not wagering advice. 18+/21+ (where required). 1-800-GAMBLER.",
-  "record": {
-    "record": "54-164",
-    "wins": 54,
-    "losses": 164,
-    "graded": 218,
-    "units": -73.38,
-    "roi_pct": -16.8,
-    "roi_ci_low": -38.4,
-    "roi_ci_high": 6.3,
-    "roi_n": 218,
-    "closing_held_n": 81,
-    "closing_graded_n": 211,
-    "closing_held_pct": 38,
-    "last_miss": {
-      "date": "2026-09-06",
-      "track": "SAR",
-      "race": 12,
-      "name": "IRISH GOODBYE",
-      "board_decimal": 5.5,
-      "closing_decimal": 3.57
-    },
-    "has_data": true
-  },
+  "record": null,
   "flags": [
     {
       "race": 3,

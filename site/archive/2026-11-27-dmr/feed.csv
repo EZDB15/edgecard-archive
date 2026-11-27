@@ -1,0 +1,5 @@
+track,date,race,program,horse,model_win_pct,fair_odds,play_at,edge_pts,surface,distance,reason,scratch_state,scratch_confirmed
+DMR,2026-11-27,1,8,VALLENDAR,25,3/1,7/2,7.9,turf,5 furlongs,Ranks #1 in our power figure blend; model 25% vs 18% morning-line implied (+7.9 pts),NOT_YET_CHECKED,false
+DMR,2026-11-27,2,5,MISCHIEVOUS BEV,23,7/2,7/2,7.1,dirt,1 mile,Ranks #1 in our power figure blend; model 23% vs 16% morning-line implied (+7.1 pts),NOT_YET_CHECKED,false
+DMR,2026-11-27,3,5,NYCE SHOT,22,7/2,4/1,9.4,turf,1 mile,Ranks #1 in our power figure blend; model 22% vs 13% morning-line implied (+9.4 pts),NOT_YET_CHECKED,false
+DMR,2026-11-27,7,5,MONDEGO,20,4/1,9/2,8.9,turf,1 1/2 miles,Ranks #2 in our power figure blend; model 20% vs 11% morning-line implied (+8.9 pts),NOT_YET_CHECKED,false
